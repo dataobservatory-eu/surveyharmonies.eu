@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>robin_nagy | Eviota</title>
+    <link>https://eviota.eu/authors/robin_nagy/</link>
+      <atom:link href="https://eviota.eu/authors/robin_nagy/index.xml" rel="self" type="application/rss+xml" />
+    <description>robin_nagy</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <title>robin_nagy</title>
+      <link>https://eviota.eu/authors/robin_nagy/</link>
+    </image>
+    
+    <item>
+      <title>Robin Nagy</title>
+      <link>https://eviota.eu/authors/robin_nagy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://eviota.eu/authors/robin_nagy/</guid>
+      <description>&lt;p&gt;Robin is a freelancer working on projects using emerging technologies. Main areas of experties are Business Development, Project Management, Innovation, Governance and Corporate culture. Recent interest: Exponential technologies, Exponential business.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

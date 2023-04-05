@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Make coal history | Green Deal Data Observatory</title>
+    <link>https://greendeal.dataobservatory.eu/tag/make-coal-history/</link>
+      <atom:link href="https://greendeal.dataobservatory.eu/tag/make-coal-history/index.xml" rel="self" type="application/rss+xml" />
+    <description>Make coal history</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://greendeal.dataobservatory.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <title>Make coal history</title>
+      <link>https://greendeal.dataobservatory.eu/tag/make-coal-history/</link>
+    </image>
+    
+    <item>
+      <title>Make Coal History</title>
+      <link>https://greendeal.dataobservatory.eu/project/coal-mining/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://greendeal.dataobservatory.eu/project/coal-mining/</guid>
+      <description>&lt;p&gt;We find it difficult to imagine a path to net zero emissions that includes the use coal as a fuel. We would like to map communities in the world that still depend on coal mining.&lt;/p&gt;
+&lt;p&gt;Data curated by Milos&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;What?&lt;/code&gt;:  We put coal mining areas on the global map?
+&lt;code&gt;Why?&lt;/code&gt;:  It allows us to connect coal mining to opinions about climate change and socio-economic indicators of communities.
+&lt;code&gt;Use cases&lt;/code&gt;:  Understanding how many people need an alternative to living from coal mining.  Political dynamics of accepting climate change policies and individual climate action.
+&lt;code&gt;Skills needed&lt;/code&gt;: Knowing where coal is mined in your country.
+&lt;code&gt;How can you contribute&lt;/code&gt;: &lt;Milos write this up&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

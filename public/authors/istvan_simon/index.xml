@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Istvan Simon | Eviota</title>
+    <link>https://eviota.eu/authors/istvan_simon/</link>
+      <atom:link href="https://eviota.eu/authors/istvan_simon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Istvan Simon</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://eviota.eu/authors/istvan_simon/avatar_hu426d17e9ab086df11d7424dccbe7d9e5_50366_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Istvan Simon</title>
+      <link>https://eviota.eu/authors/istvan_simon/</link>
+    </image>
+    
+  </channel>
+</rss>
