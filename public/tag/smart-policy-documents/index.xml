@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Smart Policy Documents | Eviota</title>
-    <link>https://eviota.eu/tag/smart-policy-documents/</link>
-      <atom:link href="https://eviota.eu/tag/smart-policy-documents/index.xml" rel="self" type="application/rss+xml" />
+    <title>Smart Policy Documents | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/smart-policy-documents/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/smart-policy-documents/index.xml" rel="self" type="application/rss+xml" />
     <description>Smart Policy Documents</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Smart Policy Documents</title>
-      <link>https://eviota.eu/tag/smart-policy-documents/</link>
+      <link>https://surveyharmonies.eu/tag/smart-policy-documents/</link>
     </image>
     
     <item>
       <title>Smart Policy Documents</title>
-      <link>https://eviota.eu/apps/smart-policy-documents/</link>
+      <link>https://surveyharmonies.eu/apps/smart-policy-documents/</link>
       <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/apps/smart-policy-documents/</guid>
+      <guid>https://surveyharmonies.eu/apps/smart-policy-documents/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Stop uploading your work onto the web 2.0 in a pdf, epub, or word file. Build a self-refreshing resource that re-refreshes the statistics, legal texts, tables, visualizations, footnotes and bibliography instead.  This way you’ll have a greater impact: you’ll connect to global knowledge graphs, and your work can be reused much better.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Our “smart document” is always live: it contains code that searches for data updates or changes in the law.  It is a document that includes reproducible research code and makes sure that your document contains the latest information.  It is a resource that, when uploaded to the web 3.0, cannot only be downloaded, but finds itself its audience, places itself into global libraries, data exchanges, automated websites.&lt;/p&gt;
 &lt;p&gt;📊  Downloads or updates reliable statistical data, utilizing the SDMX standard, for example, Eurostat datasets, which is placed into your text as a table, a data visualization, and its source as a footnote and bibliographic citation.&lt;/p&gt;

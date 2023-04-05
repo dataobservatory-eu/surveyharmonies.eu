@@ -1,15 +1,15 @@
 {
-  "name": "Eviota",
-  "short_name": "Eviota",
+  "name": "SurveyHarmonies",
+  "short_name": "SurveyHarmonies",
   "lang": "en-us",
   "theme_color": "#1565c0",
   "background_color": "#1565c0",
   "icons": [{
-    "src": "/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_192x192_fill_lanczos_center_3.png",
+    "src": "/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {
-    "src": "/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png",
+    "src": "/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png",
     "sizes": "512x512",
     "type": "image/png"
      }],

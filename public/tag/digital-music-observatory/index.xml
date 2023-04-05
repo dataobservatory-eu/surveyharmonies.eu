@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Digital Music Observatory | Eviota</title>
-    <link>https://eviota.eu/tag/digital-music-observatory/</link>
-      <atom:link href="https://eviota.eu/tag/digital-music-observatory/index.xml" rel="self" type="application/rss+xml" />
+    <title>Digital Music Observatory | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/digital-music-observatory/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/digital-music-observatory/index.xml" rel="self" type="application/rss+xml" />
     <description>Digital Music Observatory</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 03 Nov 2022 17:30:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Digital Music Observatory</title>
-      <link>https://eviota.eu/tag/digital-music-observatory/</link>
+      <link>https://surveyharmonies.eu/tag/digital-music-observatory/</link>
     </image>
     
     <item>
       <title>Big Data for All: Building Collaborative Data Observatories</title>
-      <link>https://eviota.eu/talk/big-data-for-all-building-collaborative-data-observatories/</link>
+      <link>https://surveyharmonies.eu/talk/big-data-for-all-building-collaborative-data-observatories/</link>
       <pubDate>Thu, 03 Nov 2022 17:30:00 +0000</pubDate>
-      <guid>https://eviota.eu/talk/big-data-for-all-building-collaborative-data-observatories/</guid>
-      <description>&lt;p&gt;Reprex&amp;rsquo;s co-founder, &lt;a href=&#34;https://eviota.eu/authors/daniel_antal&#34;&gt;Daniel Antal&lt;/a&gt; talked in the &lt;a href=&#34;https://www.ehvinnovationcafe.org/past-events/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eindhoven Innovation Café&lt;/a&gt; about these issues. You can watch the recorded version of the the livestream that starts at 5 minutes and 22 seconds:&lt;/p&gt;
+      <guid>https://surveyharmonies.eu/talk/big-data-for-all-building-collaborative-data-observatories/</guid>
+      <description>&lt;p&gt;Reprex&amp;rsquo;s co-founder, &lt;a href=&#34;https://surveyharmonies.eu/authors/daniel_antal&#34;&gt;Daniel Antal&lt;/a&gt; talked in the &lt;a href=&#34;https://www.ehvinnovationcafe.org/past-events/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eindhoven Innovation Café&lt;/a&gt; about these issues. You can watch the recorded version of the the livestream that starts at 5 minutes and 22 seconds:&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/kM54gAAbHY0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;em&gt;This is a past event&lt;/em&gt;. Check out our forthcoming &lt;a href=&#34;https://eviota.eu/#talks&#34;&gt;events&lt;/a&gt; or write to &lt;a href=&#34;https://www.linkedin.com/in/antaldaniel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;p&gt;&lt;em&gt;This is a past event&lt;/em&gt;. Check out our forthcoming &lt;a href=&#34;https://surveyharmonies.eu/#talks&#34;&gt;events&lt;/a&gt; or write to &lt;a href=&#34;https://www.linkedin.com/in/antaldaniel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
   &lt;i class=&#34;fab fa-linkedin  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Daniel Antal&lt;/a&gt;  or to &lt;a href=&#34;https://keybase.io/antaldaniel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  &lt;i class=&#34;fab fa-keybase  pr-1 fa-fw&#34;&gt;&lt;/i&gt; antaldaniel&lt;/a&gt;. Or send an &lt;a href=&#34;https://eviota.eu/contact/&#34;&gt;
+  &lt;i class=&#34;fab fa-keybase  pr-1 fa-fw&#34;&gt;&lt;/i&gt; antaldaniel&lt;/a&gt;. Or send an &lt;a href=&#34;https://surveyharmonies.eu/contact/&#34;&gt;
   &lt;i class=&#34;fas fa-envelope  pr-1 fa-fw&#34;&gt;&lt;/i&gt; email&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;the-event-invitation-text-and-links&#34;&gt;The event invitation text and links&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Big data and AI creates inequalities&lt;/code&gt;. It puts historically marginalized people, like ethnic minorities, and womxn, at a disadvantage. Because AI and checking on AI require plenty of data, usually only giant corporations, the wealthiest governments, and university entities can make it work for them. Reprex is a Hague-based, international startup that wants to impact various sustainable development goals by enabling smaller organizations to join their smaller datasets, use open data, create linked available data, and collaboratively make a change.&lt;/p&gt;
@@ -51,40 +51,407 @@
     </item>
     
     <item>
-      <title>Big Data for All: Building Collaborative Data Observatories</title>
-      <link>https://eviota.eu/post/2022-11-03_ehv_innovation_cafe/</link>
-      <pubDate>Thu, 03 Nov 2022 17:30:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2022-11-03_ehv_innovation_cafe/</guid>
-      <description>&lt;p&gt;Reprex&amp;rsquo;s co-founder, &lt;a href=&#34;https://eviota.eu/authors/daniel_antal&#34;&gt;Daniel Antal&lt;/a&gt; talked in the &lt;a href=&#34;https://www.ehvinnovationcafe.org/past-events/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eindhoven Innovation Café&lt;/a&gt; about these issues. You can watch the recorded version of the the livestream that starts at 5 minutes and 22 seconds:&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/kM54gAAbHY0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+      <title>Pan-European Creator Survey</title>
+      <link>https://surveyharmonies.eu/post/2022-03-20-pan-european-creator-survey/</link>
+      <pubDate>Sun, 20 Mar 2022 14:10:00 +0100</pubDate>
+      <guid>https://surveyharmonies.eu/post/2022-03-20-pan-european-creator-survey/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Engage with us on &lt;a href=&#34;https://www.linkedin.com/company/79286750/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fab fa-linkedin  pr-1 fa-fw&#34;&gt;&lt;/i&gt;LinkedIn&lt;/a&gt; &lt;a href=&#34;https://twitter.com/DigitalMusicObs/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fab fa-twitter  pr-1 fa-fw&#34;&gt;&lt;/i&gt;@DigitalMusicObs&lt;/a&gt; or check out our &lt;a href=&#34;https://zenodo.org/communities/music_observatory/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fas fa-database  pr-1 fa-fw&#34;&gt;&lt;/i&gt;open data&lt;/a&gt; and &lt;a href=&#34;https://github.com/dataobservatory-eu/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fas fa-code  pr-1 fa-fw&#34;&gt;&lt;/i&gt; open repositories, code, tutorials&lt;/a&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
 
-&lt;p&gt;&lt;em&gt;This is a past event&lt;/em&gt;. Check out our forthcoming &lt;a href=&#34;https://eviota.eu/#talks&#34;&gt;events&lt;/a&gt; or write to &lt;a href=&#34;https://www.linkedin.com/in/antaldaniel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  &lt;i class=&#34;fab fa-linkedin  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Daniel Antal&lt;/a&gt;  or to &lt;a href=&#34;https://keybase.io/antaldaniel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  &lt;i class=&#34;fab fa-keybase  pr-1 fa-fw&#34;&gt;&lt;/i&gt; antaldaniel&lt;/a&gt;. Or send an &lt;a href=&#34;https://eviota.eu/contact/&#34;&gt;
-  &lt;i class=&#34;fas fa-envelope  pr-1 fa-fw&#34;&gt;&lt;/i&gt; email&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;the-event-invitation-text-and-links&#34;&gt;The event invitation text and links&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Big data and AI creates inequalities&lt;/code&gt;. It puts historically marginalized people, like ethnic minorities, and womxn, at a disadvantage. Because AI and checking on AI require plenty of data, usually only giant corporations, the wealthiest governments, and university entities can make it work for them. Reprex is a Hague-based, international startup that wants to impact various sustainable development goals by enabling smaller organizations to join their smaller datasets, use open data, create linked available data, and collaboratively make a change.&lt;/p&gt;
-&lt;p&gt;Reprex is a finalist for the &lt;code&gt;Hague Innovation Award&lt;/code&gt; for impact startup (please 🙏, &lt;a href=&#34;https://reprex.nl/post/2022-10-29_reprex-talk-to-all/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vote for us&lt;/a&gt;!). Daniel Antal, one of the co-founders, will talk about their approach to building an international coalition of music organizations to pool data and challenge data monopolies using organizational techniques, a collaboration ethos, and data from the open-source developer world.&lt;/p&gt;
-&lt;p&gt;Using the example of independent music creators, who often find themselves in a position where it is more expensive to claim their money from global platforms, he will talk about how to reduce inequalities in the world of big data and AI with collaboration on web 3.0. In the Q&amp;amp;A he will take questions on how to apply their know-how, and generally linked open data to other art+tech or creative segments or problems for which everybody is too small, like meeting the Paris Accord greenhouse gas targets bit by bit, small company by small company.&lt;/p&gt;
-&lt;h2 id=&#34;in-the-qa-we-can-discuss-many-things&#34;&gt;In the Q&amp;amp;A, we can discuss many things&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-if-you-are-a-creator-yourself-please-fill-outhttpsuvafra1qualtricscomjfeformsv_23khcb7e2xqqfnq-the-survey-of-2022-in-any-eu-language-if-you-represent-an-artist-organization-please-make-sure-that-the-survey-finds-its-way-to-your-newsletter-and-get-in-touchhttpsreprexnlcontact-with-us-to-get-the-results---and-any-further-data-you-need-for-your-work&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2022/CCSID_reCreating_Survey_16x9.png&#34; alt=&#34;If you are a creator yourself, please, [fill out](https://uva.fra1.qualtrics.com/jfe/form/SV_23KHcb7E2xqQFNQ) the survey of 2022 in any EU language. If you represent an artist organization, please, make sure that the survey finds its way to your newsletter and [get in touch](https://reprex.nl/#/contact) with us to get the results---and any further data you need for your work.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      If you are a creator yourself, please, &lt;a href=&#34;https://uva.fra1.qualtrics.com/jfe/form/SV_23KHcb7E2xqQFNQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fill out&lt;/a&gt; the survey of 2022 in any EU language. If you represent an artist organization, please, make sure that the survey finds its way to your newsletter and &lt;a href=&#34;https://reprex.nl/#/contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;get in touch&lt;/a&gt; with us to get the results&amp;mdash;and any further data you need for your work.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;The &lt;strong&gt;Digital Music Observatory&lt;/strong&gt; has harmonized and collected surveys in all European countries about how musicians work and earn their living, and how audiences differ in various countries, metropolitan regions in terms of typical age, visiting probability, spending capacity, and other important factors. We helped music organizations to significantly increase the royalty pay-outs of artists in two countries, and we contributed for the advocacy of fairer compensation and fairer taxation in others.&lt;/p&gt;
+&lt;p&gt;This year we teamed up with the &lt;a href=&#34;https://www.recreating.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ReCreating Europe&lt;/a&gt; research consortium of renowned experts in the field of copyright, geography and economics of creativity, sociology of innovation, communication and media studies, cultural policies, Open Knowledge and access to culture, cultural policies, minority rights and disability rights.   We are carrying out a truly pan-European survey in all EU languages about important topics for music and other creators:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; How can Reprex help an individual creator in music, or in fashion and design, or any other area?&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; What sort of help it can give to researchers, research institutes, specialist consultancies, law firms, and other knowledge-based actors?&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Understanding how much creators are aware of the legal and financial terms that online platforms use that distribute their work&lt;/li&gt;
+&lt;li&gt;Understanding and interest in how AI Algorithms contribute to the successful or not successful dissemination of their work, or can support their creative processes&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Understanding and evaluation of fairness in the way internet platforms distribute earnings to creators&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Attitudes to plagiarism, piracy, and copyright protection&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Access to Covid-19 relief funds&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; No personal data is involved.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;What sort of partners is &lt;a href=&#34;https://reprex.nl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reprex&lt;/a&gt; looking for in &lt;code&gt;Eindhoven&lt;/code&gt;?&lt;/p&gt;
-&lt;h2 id=&#34;check-out-our-projects&#34;&gt;Check out our projects&lt;/h2&gt;
+&lt;h2 id=&#34;what-do-we-ask-from-individual-creators-bands-collectives&#34;&gt;What do we ask from individual creators, bands, collectives?&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; and &lt;a href=&#34;https://music.dataobservatory.eu/project/listen-local/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Listen Local&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://ccsi.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cultural &amp;amp; Creative Sectors and Industries Observatory&lt;/a&gt; and short call for potential partners.&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; G&lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reen Deal Data Observatory&lt;/a&gt; and simple, connected, financial and sustainability reporting for creative enterprises and others&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The researchers of the reCreating Europe Consortium would like to carry out an interview with you in English.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; If you are not able to carry out an interview in English, or do not want to, we would be grateful if you would still fill out the survey form (about 10 minutes) in any of the EU official languages,&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; And invite a colleague/friend confident in English to do the same and volunteer for the interview at the end of the survey.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;reprex-the-impact-startup&#34;&gt;Reprex: the impact startup&lt;/h2&gt;
+&lt;h2 id=&#34;music-organizations&#34;&gt;Music organizations&lt;/h2&gt;
+&lt;p&gt;We would like to ask you to ask your members to do the same above, in your newsletter, Facebook page, or other means of communication. The research with free datasets, visualizations, infographics will be placed for free in the &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; and the &lt;a href=&#34;https://ccsi.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cultural and Creative Sectors Industries Data Observatory&lt;/a&gt; and can help your own HR, advocacy, education work.  (We have many other similar data assets that are already there, or we can give to you.) Therefore, it is fully compliant with GDPR&amp;mdash;we do not want to know who fills out our survey, the interviews are voluntary, and sharing the survey can contribute to your core business.&lt;/p&gt;
+&lt;h2 id=&#34;bloggers&#34;&gt;Bloggers&lt;/h2&gt;
+&lt;p&gt;We would be very happy if you would write about this survey or invite creators to participate in our research. We can give you infographics, data visualizations prior to academic publication to write about the results.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-in-our--central--eastern-european-music-industry-report-2020httpsmusicdataobservatoryeupublicationceereport_2020-as-a-case-study-on-evidence-based-policymakinghttpsmusicdataobservatoryeupost2020-01-30-ceereport-we-compared-how-musicians-and-their-audiences-live-in-several-countries&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2021/difficulty_bills_levels.jpg&#34; alt=&#34;In our  [Central &amp;amp; Eastern European Music Industry Report 2020](https://music.dataobservatory.eu/publication/ceereport_2020/) as a case-study on [evidence-based policymaking](https://music.dataobservatory.eu/post/2020-01-30-ceereport/) we compared how musicians and their audiences live in several countries.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      In our  &lt;a href=&#34;https://music.dataobservatory.eu/publication/ceereport_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Central &amp;amp; Eastern European Music Industry Report 2020&lt;/a&gt; as a case-study on &lt;a href=&#34;https://music.dataobservatory.eu/post/2020-01-30-ceereport/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;evidence-based policymaking&lt;/a&gt; we compared how musicians and their audiences live in several countries.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;h2 id=&#34;our-research-principles&#34;&gt;Our research principles&lt;/h2&gt;
+&lt;p&gt;We believe in transparency, openness, and high-quality work.  We carry out an open collaboration with representatives of music professionals, NGOs, and universities. Because in the European music ecosystem, most professional and artists are freelancers or micro-entrepreneurs, we also try to form collaborations with individuals. All our data is open, interoperable, reusable data that comes with the highest quality of documentation and help for reuse.&lt;/p&gt;
+&lt;p&gt;We would appreciate it immensely if you would support this important research by disseminating the call to participate in this study.&lt;/p&gt;
+&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Before you start a new questionnaire-based research, get in touch with us!  Maybe we have history for your questionnaires.  We can make your survey cheaper, better, and more informative.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The &lt;em&gt;Digital Music Observatory&lt;/em&gt; and its predecessor, &lt;a href=&#34;https://reprex.nl/project/ceemid/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CEEMID&lt;/a&gt;, has been working with harmonized surveys for 8 years.  We have compiled the biggest database of interview transcripts with concert audiences (more than 70,000 interviews in all European countries, soon to be extended to more than 100k) and the world&amp;rsquo;s biggest harmonized survey dataset about music creators (4000 responses from 12 European countries.) We use the Open Data Directive, originally for government-funded research data, recently extended to taxpayer funded scientific research, to access datasets that are invisible for the music industry.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-using-survey-harmonization-and-data-integration-techniques-to-join-hundreds-of-questionnaire-based-research-in-europe-on-music-audiences-we-are-now-improving-our-capacities-to-bring-analysis-to-sub-national-level-like-in-the-example-of-wales&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2021/CAP_with_Wales_concerts.jpg&#34; alt=&#34;We using survey harmonization and data integration techniques to join hundreds of questionnaire-based research in Europe on music audiences. We are now improving our capacities to bring analysis to sub-national level, like in the example of Wales.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We using survey harmonization and data integration techniques to join hundreds of questionnaire-based research in Europe on music audiences. We are now improving our capacities to bring analysis to sub-national level, like in the example of Wales.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How We Design Better Indicators?</title>
+      <link>https://surveyharmonies.eu/post/2022-02-17-better-indicator-design/</link>
+      <pubDate>Thu, 17 Feb 2022 09:24:00 +0100</pubDate>
+      <guid>https://surveyharmonies.eu/post/2022-02-17-better-indicator-design/</guid>
+      <description>&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-follow-the-eurostat-indicator-design-guidelines-to-make-sure-that-our-users--cultural-ministries-representative-organizations-of-music-large-music-organization-and-companies-researcher-get-the-information-that-they-need-in-usable-and-precise-indicators&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2022/Eurostat_using_indicators_way_communicating_captioned.jpg&#34; alt=&#34;We follow the Eurostat indicator design guidelines to make sure that our users – cultural ministries, representative organizations of music, large music organization and companies, researcher get the information that they need in usable and precise indicators.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We follow the Eurostat indicator design guidelines to make sure that our users – cultural ministries, representative organizations of music, large music organization and companies, researcher get the information that they need in usable and precise indicators.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;Many people only trust statistics from the Eurostat service, a U.S. federal service, or from their national statistical offices. Our data provided by market research firms with a premium price.  Our aim is to create open key business performance indicators, evidence-based policy indicators and other statistical indicators for academic research that has a similar or higher level of usability, reliability, and quality. We want to fill the data gaps for the &lt;a href=&#34;https://music.dataobservatory.eu/pillars/music-economy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Music Economy&lt;/a&gt;, the &lt;a href=&#34;https://music.dataobservatory.eu/pillars/diversity-circulation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diversity of Circulation of European Music&lt;/a&gt;, &lt;a href=&#34;https://music.dataobservatory.eu/pillars/music-and-society/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Music &amp;amp; Society&lt;/a&gt; and &lt;a href=&#34;https://music.dataobservatory.eu/pillars/innovation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Music Innovation&lt;/a&gt; data left by public authorities and international organization with timely, easy-to-import, easy to use indicators and visualizations.&lt;/p&gt;
+&lt;p&gt;We work using the agile open collaboration method that allows music organizations, companies, universities, think-tanks, and individual researchers to share data, efforts, and results.  We are asking our users to nominate a knowledgeable &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data curator&lt;/a&gt; who communicates the data needs to us. The curators are not data experts: they tell us what their organization or project needs, and they evaluate if our technically sound datasets and visualizations truly meet your needs, or they must be redesigned. We make sure that whatever the data curators approved will be refreshed, if needed, monthly or quarterly, and placed into our data services for free.&lt;/p&gt;
+&lt;p&gt;Our quality assurance program is sometimes the same as in national statistical offices, and sometimes it is different.  We use only open-source statistical software, and we follow the &lt;a href=&#34;https://music.dataobservatory.eu/pillars/opa/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Policy Analysis Guidelines&lt;/a&gt; for full transparency in our data handling.  We send both our software code and our results to scientific peer review, which is often more rigorous than other internal quality controls.  We use so-called computerized &lt;em&gt;unit-tests&lt;/em&gt;, often almost 100 of them, that search for signs of any data corruption.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-see-our-previous-blogpost-how-we-add-value-to-public-data-with-imputation-and-forecastinghttpsmusicdataobservatoryeupost2021-11-06-indicator_value_added-with-an-example-on-radio-market-data&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2021/jack-sloop-eYwn81sPkJ8-unsplash.jpg&#34; alt=&#34;See our previous blogpost: [How We Add Value to Public Data With Imputation and Forecasting?](https://music.dataobservatory.eu/post/2021-11-06-indicator_value_added/) with an example on radio market data.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      See our previous blogpost: &lt;a href=&#34;https://music.dataobservatory.eu/post/2021-11-06-indicator_value_added/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How We Add Value to Public Data With Imputation and Forecasting?&lt;/a&gt; with an example on radio market data.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Check out our accomplishments since the foundation in 2020&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; We involve business, policy and academic users in the entire cycle of indicator design to make sure that they receive the information they need in their decision making process or resaerch, and that the information is correct and well documented.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; We place the data, the codebook in the EU &lt;a href=&#34;https://explore.openaire.eu/search/dataset?pid=10.5281%2Fzenodo.5917742&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenAire&lt;/a&gt; and &lt;a href=&#34;https://zenodo.org/communities/music_observatory?page=1&amp;amp;size=20&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt; repositories with a DOI and versioning for data integrity, and into the Figshare repository for free, resuable, Creative Commons visualizations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; We have a similar &lt;a href=&#34;https://api.music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rest API&lt;/a&gt; to the Eurostat data warehouse for automatic database connections.  But we always make sure that the data is available in the easiest to use form for SPSS, STATA, Excel, Numbers, or OpenOffice.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Currently we have only ad hoc funding, and we could not process all the data we have. In fact, we have more than 1000 indicators in our treasure trove &amp;mdash; if you need something, just &lt;a href=&#34;%28https://reprex.nl/#contact%29&#34;&gt;contact us&lt;/a&gt; and ask, we are more than likely to be able to give you something. If you need more data, consider joining or &lt;a href=&#34;https://reprex.nl/project/horizon/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&amp;amp;D Consortium&lt;/a&gt; as a music sector affiliated partner to seek EU funds to provide you with free and high quality data.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What is Survey Harmonization?</title>
+      <link>https://surveyharmonies.eu/post/2022-02-16-survey-harmonization/</link>
+      <pubDate>Wed, 16 Feb 2022 17:00:00 +0100</pubDate>
+      <guid>https://surveyharmonies.eu/post/2022-02-16-survey-harmonization/</guid>
+      <description>&lt;p&gt;Survey harmonization is a powerful research tool to increase the usability of questionnaire-based empirical research.  When the same questions are asked from similarly selected German and French people, music audiences and musicians, then we can make meaningful comparisons between the public opinions of the two countries, or the different perceptions of fans and makers of music.  And if we repeat this procedure time after time, we can see if opinion is shifting more in Germany or France, or the living conditions of musicians are catching up with the rest of the country population.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-in-our--central--eastern-european-music-industry-report-2020httpsmusicdataobservatoryeupublicationceereport_2020-as-a-case-study-on-evidence-based-policymakinghttpsmusicdataobservatoryeupost2020-01-30-ceereport-we-compared-how-musicians-and-their-audiences-live-in-several-countries&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2021/difficulty_bills_levels.jpg&#34; alt=&#34;In our  [Central &amp;amp; Eastern European Music Industry Report 2020](https://music.dataobservatory.eu/publication/ceereport_2020/) as a case-study on [evidence-based policymaking](https://music.dataobservatory.eu/post/2020-01-30-ceereport/) we compared how musicians and their audiences live in several countries.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      In our  &lt;a href=&#34;https://music.dataobservatory.eu/publication/ceereport_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Central &amp;amp; Eastern European Music Industry Report 2020&lt;/a&gt; as a case-study on &lt;a href=&#34;https://music.dataobservatory.eu/post/2020-01-30-ceereport/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;evidence-based policymaking&lt;/a&gt; we compared how musicians and their audiences live in several countries.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;The &lt;em&gt;Digital Music Observatory&lt;/em&gt; and its predecessor, &lt;a href=&#34;https://reprex.nl/project/ceemid/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CEEMID&lt;/a&gt;, has been working with harmonized surveys for 8 years.  We have compiled the biggest database of interview transcripts with concert audiences (more than 70,000 interviews in all European countries, soon to be extended to more than 100k) and the world’s biggest harmonized survey dataset about music creators (4000 responses from 12 European countries.) We use the Open Data Directive, originally for government-funded research data, recently extended to taxpayer funded scientific research, to access datasets that are invisible for the music industry.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-using-survey-harmonization-and-data-integration-techniques-to-join-hundreds-of-questionnaire-based-research-in-europe-on-music-audiences-we-are-now-improving-our-capacities-to-bring-analysis-to-sub-national-level-like-in-the-example-of-wales&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2021/CAP_with_Wales_concerts.jpg&#34; alt=&#34;We using survey harmonization and data integration techniques to join hundreds of questionnaire-based research in Europe on music audiences. We are now improving our capacities to bring analysis to sub-national level, like in the example of Wales.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We using survey harmonization and data integration techniques to join hundreds of questionnaire-based research in Europe on music audiences. We are now improving our capacities to bring analysis to sub-national level, like in the example of Wales.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; You can create better surveys with less cost:  you only need to ask the information, or change of information, that is not included in our harmonized datasets. Shorter, better questionnaires, smaller samples sizes, huge cost savings.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; When you make questionnaire-based research, you immediately get a history (the same question asked years ago) and an international comparison (the same question asked in other countries.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Often you do not even have to pay for the survey, because somebody else has already made a similar taxpayer funded research and we can just get the data for you.
+Harmonizing surveys requires advanced data science and statistics knowledge, which is what we provide with the scientific partners of the Digital Music Observatory.  We have developed an open-source software, free to use, for this purpose.  It is not for the faint heart – but users of our observatory can just leave their data for us and let us run the code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Before you start a new questionnaire-based research, get in touch with us!  Maybe we have history for your questionnaires.  We can make your survey cheaper, better, and more informative. See our &lt;a href=&#34;https://music.dataobservatory.eu/post/2022-11-22-surveyharmonies/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;use case for gender diversity&lt;/a&gt; in music.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Music Value Chain</title>
+      <link>https://surveyharmonies.eu/post/2022-02-15-music-value-chain/</link>
+      <pubDate>Tue, 15 Feb 2022 17:00:00 +0100</pubDate>
+      <guid>https://surveyharmonies.eu/post/2022-02-15-music-value-chain/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Our ambition is to build a comprehensive data source and online data
+analysis tools for the European music industry. This requires a map of
+the music ecosystem — we need to understand where value is created and
+money is exchanged, and we need to observe how much is this value and
+how much is being paid for it.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The value chain is a concept describing the full chain of a businesses&#39;
+activities in the creation of a product or service – from the initial
+reception of materials all the way through its delivery to market, and
+everything in between. Some services, like car manufacturing and banking
+services, are offered by a large corporation that creates the service
+alone. The music industry is different. In Europe it comprises of
+hundreds of thousands of freelancers, microenterprises, and a few
+small-and medium sized or large enterprises that form a creative network
+to deliver projects.&lt;/p&gt;
+&lt;p&gt;Our initial view of the European music value chain is depicted in the
+chart.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-if-you-think-we-put-something-in-the-wrong-place-or-you-do-not-find-an-activity-important-to-you--let-us-knowhttpsreprexnlcontact&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2022/Music_value_chain.png&#34; alt=&#34;If you think we put something in the wrong place, or you do not find an activity important to you:  [let us know!](https://reprex.nl/#contact).&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      If you think we put something in the wrong place, or you do not find an activity important to you:  &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;let us know!&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;Our value chain model was perfected in various research and development
+projects that aimed to understand the problems and increase the revenues
+of the
+&lt;a href=&#34;https://music.dataobservatory.eu/publication/made_in_hungary/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hungarian&lt;/a&gt;,
+&lt;a href=&#34;https://music.dataobservatory.eu/publication/slovak_music_industry_2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slovak&lt;/a&gt;,
+&lt;a href=&#34;https://music.dataobservatory.eu/publication/private_copying_croatia_2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Croatian&lt;/a&gt;,
+and
+&lt;a href=&#34;https://music.dataobservatory.eu/publication/mce_empirical_streaming_2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UK&lt;/a&gt;
+music industries. We have asked over 8 years more than 4000 music
+professionals in 12 countries about how they work and how they get paid
+(See our &lt;a href=&#34;https://ceereport2020.ceemid.eu/supply.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Central European Music Industry
+Report&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;It is based on the standard, accepted description of the music industry
+with the “three revenue stream model” in the United States (Hull et al.
+2011) and the European Union (Leurdijk et al. 2012; Leurdijk and Ottilie
+2012). It is built upon the actual application of competition law in EU
+jurisdictions (Antal 2017, 2019), and it is intended for further
+research and publication.&lt;/p&gt;
+&lt;p&gt;The value chain is a good tool to localize information sources and plan
+to collect data in a systematic way. For example, in the case of our
+music value chain we must focus on some challenges:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Unlike in other industries, most hours of music are listened to
+without paying consumers (radio, YouTube, ad-supported streams, home
+copying, torrenting). Understanding the advertising revenue streams
+is important.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The music industry is both very local and global. Small labels sell
+all over the world on digital platforms. But they should focus on
+markets where there is an interest for their music or where the
+prices are high, where they have a real chance to get playlisted.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; We must understand why some languages, or women are disadvantaged in
+this value chain, and what intervention can help this situation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The aim of our mapping is to help the industry solve real problems: keep
+its revenues in line with the growth of uses in more and more electronic
+gadgets where people use music, compensate home copying, or close the
+value gap, or find out where women get underpaid or underrepresented.
+Our value chain helps us designing data collection plans for complex
+analysis of music uses, prices and revenues that we will introduce in a
+subsequent blogpost.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2022/full_market_example.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    You can read more about it in our dynamic &lt;a href=&#34;https://music-competition.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Relevant Market for Music Streaming: Market Definition and Measurement Challenges&lt;/a&gt; document is a versioned work-in-progress publication, available from the Zenodo open
+science repository and our opinion on the UK competition authorities
+music streaming market inquiry (Competition &amp;amp; Markets Authority 2022).
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;Antal, Daniel. 2017. “The Competition of Unlicensed, Licensed and
+Illegal Uses on the Markets of Music and Audiovisual Works [&lt;span
+class=&#34;nocase&#34;&gt;A szabad felhasználások, a jogosított tartalmak és az
+illegális felhasználások versenye a zenék és audiovizuális alkotások
+hazai piacán&lt;/span&gt;].” Artisjus - not public.&lt;/p&gt;
+&lt;p&gt;———. 2019. “The Competition of Unlicensed, Licensed and Illegal Uses on
+the Markets of Music and Audiovisual Works [&lt;span class=&#34;nocase&#34;&gt;A
+szabad felhasználások, a jogosított tartalmak és az illegális
+felhasználások versenye a zenék és audiovizuális alkotások hazai
+piacán&lt;/span&gt;].” Artisjus - not public.&lt;/p&gt;
+&lt;p&gt;Competition &amp;amp; Markets Authority. 2022. “Music and Streaming Market
+Study. Statement of Scope.” Competition &amp;amp; Markets Authority.
+&lt;a href=&#34;https://assets.publishing.service.gov.uk/media/61f17285d3bf7f0546a99df2/Music_and_streaming_Statement_of_Scope_final.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://assets.publishing.service.gov.uk/media/61f17285d3bf7f0546a99df2/Music_and_streaming_Statement_of_Scope_final.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hull, Geoffrey P., Thomas W. Hutchison, Richard Strasser, and Geoffrey
+P. Hull. 2011. &lt;em&gt;The Music Business and Recording Industry Delivering
+Music in the 21st Century&lt;/em&gt;. New York: Routledge.
+&lt;a href=&#34;http://search.ebscohost.com/login.aspx?direct=true&amp;amp;scope=site&amp;amp;db=nlebk&amp;amp;db=nlabk&amp;amp;AN=345262&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;db=nlebk&amp;db=nlabk&amp;AN=345262&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Leurdijk, Adnra, Sivlian de Munck, Tijs van den Broek, Arjana van der
+Plas, Walter Manshanden, and Elmer Rietveld. 2012. “Statistical,
+Ecosystems and Competitiveness Analysis of the Media and Content
+Industries: A Quantiative Overview.” EUR 25277 EN. Edited by Jean Paul
+Simon. Seville:Spain: Joint Research Centre of the European Commission -
+Institute for Prospective Technological Studies.
+&lt;a href=&#34;http://ftp.jrc.es/EURdoc/JRC69435.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ftp.jrc.es/EURdoc/JRC69435.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Leurdijk, Adnra, and Nieuwenhuis Ottilie. 2012. “Statistical, Ecosystems
+and Competitiveness Analysis of the Media and Content Industries. The
+Music Industry.” 25277 EN. Edited by Jean Paul Simon. Luxembourg:
+Publications Office of the European Union, 2012: Joint Research Centre
+Institute for Prospective Technological Studies (IPTS).
+&lt;a href=&#34;http://ftp.jrc.es/EURdoc/JRC69816.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ftp.jrc.es/EURdoc/JRC69816.pdf&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

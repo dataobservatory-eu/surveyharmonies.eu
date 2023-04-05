@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Arab Barometer | Eviota</title>
-    <link>https://eviota.eu/tag/arab-barometer/</link>
-      <atom:link href="https://eviota.eu/tag/arab-barometer/index.xml" rel="self" type="application/rss+xml" />
+    <title>Arab Barometer | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/arab-barometer/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/arab-barometer/index.xml" rel="self" type="application/rss+xml" />
     <description>Arab Barometer</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Jun 2021 09:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Arab Barometer</title>
-      <link>https://eviota.eu/tag/arab-barometer/</link>
+      <link>https://surveyharmonies.eu/tag/arab-barometer/</link>
     </image>
     
     <item>
       <title>Including Indicators from Arab Barometer in Our Observatory</title>
-      <link>https://eviota.eu/post/2021-06-28-arabbarometer/</link>
+      <link>https://surveyharmonies.eu/post/2021-06-28-arabbarometer/</link>
       <pubDate>Mon, 28 Jun 2021 09:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-06-28-arabbarometer/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-06-28-arabbarometer/</guid>
       <description>&lt;p&gt;&lt;em&gt;A new version of the retroharmonize R package – which is working with retrospective, ex post harmonization of survey data – was released yesterday after peer-review on CRAN. It allows us to compare opinion polling data from the Arab Barometer with the Eurobarometer and Afrorbarometer. This is the first version that is released in the rOpenGov community, a community of R package developers on open government data analytics and related topics.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Surveys are the most important data sources in social and economic
 statistics – they ask people about their lives, their attitudes and
@@ -78,7 +78,7 @@ are treated the same way.&lt;/li&gt;
                /media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1bab40489e5820c07250b277ffe362e0.webp 400w,
                /media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_fd825f05348e751021206419bd01c763.webp 760w,
                /media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1bab40489e5820c07250b277ffe362e0.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1bab40489e5820c07250b277ffe362e0.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -161,7 +161,7 @@ code them consistently &lt;code&gt;1:  free_and_fair&lt;/code&gt;, &lt;code&gt;2
                /media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_30b9d9bccbe8f347c912dbe10ef5159c.webp 400w,
                /media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_f7e62366b8310160e9cdd16714a5ac44.webp 760w,
                /media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_30b9d9bccbe8f347c912dbe10ef5159c.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_30b9d9bccbe8f347c912dbe10ef5159c.webp&#34;
                width=&#34;506&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -204,7 +204,7 @@ contributors, see the
 use it for your work, please kindly cite it as:&lt;/p&gt;
 &lt;p&gt;Daniel Antal (2021). retroharmonize: Ex Post Survey Data Harmonization.
 R package version 0.1.17. &lt;a href=&#34;https://doi.org/10.5281/zenodo.5034752&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.5034752&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Download the &lt;a href=&#34;https://eviota.eu/media/bibliography/cite-retroharmonize.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Download the &lt;a href=&#34;https://surveyharmonies.eu/media/bibliography/cite-retroharmonize.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;tutorial-to-work-with-the-arab-barometer-survey-data&#34;&gt;Tutorial to work with the Arab Barometer survey data&lt;/h3&gt;
 &lt;p&gt;Daniel Antal, &amp;amp; Ahmed Shaibani. (2021, June 26). Case Study: Working
 With Arab Barometer Surveys for the retroharmonize R package (Version
@@ -233,10 +233,10 @@ manipulating or data, or for easy import into your database.&lt;/p&gt;
 offering? Join the rOpenGov community of R package developers, an our
 open collaboration to create the automated data observatories. We are
 not only looking for
-&lt;a href=&#34;https://eviota.eu/authors/developer/&#34;&gt;developers&lt;/a&gt;,
-but &lt;a href=&#34;https://eviota.eu/authors/curator/&#34;&gt;data
+&lt;a href=&#34;https://surveyharmonies.eu/authors/developer/&#34;&gt;developers&lt;/a&gt;,
+but &lt;a href=&#34;https://surveyharmonies.eu/authors/curator/&#34;&gt;data
 curators&lt;/a&gt; and
-&lt;a href=&#34;https://eviota.eu/authors/team/&#34;&gt;service design
+&lt;a href=&#34;https://surveyharmonies.eu/authors/team/&#34;&gt;service design
 associates&lt;/a&gt;, too.&lt;/p&gt;
 </description>
     </item>

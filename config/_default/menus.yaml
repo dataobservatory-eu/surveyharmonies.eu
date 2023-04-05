@@ -55,10 +55,6 @@ main:
     url: '#sectors'
     weight: 40
     identifier: Sector
-  - name: Sector Agnostic
-    url: ../sector/sector-agnostic
-    weight: 41
-    parent: Sector
   - name: Banking
     url: ../sector/banking
     weight: 42
@@ -71,7 +67,7 @@ main:
     url: ../sector/film
     weight: 44
     parent: Sector
-  - name: "Micro-, Small- and Medium Enterprises"
+  - name: "Cultural Access & Participation"
     url:  ../sector/sme
     weight: 45
     parent: Sector

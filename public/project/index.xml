@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Eviota</title>
-    <link>https://eviota.eu/project/</link>
-      <atom:link href="https://eviota.eu/project/index.xml" rel="self" type="application/rss+xml" />
+    <title>Projects | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/project/</link>
+      <atom:link href="https://surveyharmonies.eu/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Mar 2023 13:40:00 +0100</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>https://eviota.eu/project/</link>
+      <link>https://surveyharmonies.eu/project/</link>
     </image>
     
     <item>
       <title>Data Observatory Labs</title>
-      <link>https://eviota.eu/project/crea-innovlab-2023/</link>
+      <link>https://surveyharmonies.eu/project/crea-innovlab-2023/</link>
       <pubDate>Thu, 02 Mar 2023 13:40:00 +0100</pubDate>
-      <guid>https://eviota.eu/project/crea-innovlab-2023/</guid>
+      <guid>https://surveyharmonies.eu/project/crea-innovlab-2023/</guid>
       <description>&lt;td style=&#34;text-align: center;&#34;&gt;
 
 
@@ -39,12 +39,12 @@
                /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_7bd71fd8e70a273b3810f176737a6cba.webp 400w,
                /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_1a4a4035938d7ffa013802bbb41a78c2.webp 760w,
                /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_1200x1200_fit_q75_h2_lanczos_2.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_7bd71fd8e70a273b3810f176737a6cba.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_7bd71fd8e70a273b3810f176737a6cba.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      Check out our &lt;a href=&#34;https://eviota.eu/slides/crea-innovlab-2023/&#34;&gt;slides&lt;/a&gt;. We are still looking for certain &lt;a href=&#34;https://eviota.eu/project/crea-innovlab-2023/#potential-partners&#34;&gt;partners&lt;/a&gt;.
+      Check out our &lt;a href=&#34;https://surveyharmonies.eu/slides/crea-innovlab-2023/&#34;&gt;slides&lt;/a&gt;. We are still looking for certain &lt;a href=&#34;https://surveyharmonies.eu/project/crea-innovlab-2023/#potential-partners&#34;&gt;partners&lt;/a&gt;.
     &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
 &lt;p&gt;We want to build a network of Innovation Labs, connecting labs and businesses that bring these novel scientific and innovation results nearer to civil society actors, individual creators, and microenterprises in services. We bring data-, sustainability-, rights management innovation, and novel distribution models nearer to the grassroots level of creation. We want to transform scientific and technical development into business development available for small creative organizations without a data engineering/science function.&lt;/p&gt;
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
@@ -134,9 +134,9 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
     
     <item>
       <title>Greenwashing</title>
-      <link>https://eviota.eu/project/greenwashing/</link>
+      <link>https://surveyharmonies.eu/project/greenwashing/</link>
       <pubDate>Mon, 29 Aug 2022 04:32:00 +0200</pubDate>
-      <guid>https://eviota.eu/project/greenwashing/</guid>
+      <guid>https://surveyharmonies.eu/project/greenwashing/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -147,9 +147,9 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
     
     <item>
       <title>Music Eviota</title>
-      <link>https://eviota.eu/project/music/</link>
+      <link>https://surveyharmonies.eu/project/music/</link>
       <pubDate>Thu, 09 Jun 2022 09:40:00 +0100</pubDate>
-      <guid>https://eviota.eu/project/music/</guid>
+      <guid>https://surveyharmonies.eu/project/music/</guid>
       <description>&lt;td style=&#34;text-align: center;&#34;&gt;
 
 
@@ -172,7 +172,7 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
                /media/img/eviota/Scope3_chart_16x9_hu81c1fe0b93fa6721ab158b4e6fbc6f21_139223_43b52122e0051695682d67c8269be519.webp 400w,
                /media/img/eviota/Scope3_chart_16x9_hu81c1fe0b93fa6721ab158b4e6fbc6f21_139223_524ddda7e3e6b2c781616a7a29cb6296.webp 760w,
                /media/img/eviota/Scope3_chart_16x9_hu81c1fe0b93fa6721ab158b4e6fbc6f21_139223_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/Scope3_chart_16x9_hu81c1fe0b93fa6721ab158b4e6fbc6f21_139223_43b52122e0051695682d67c8269be519.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/Scope3_chart_16x9_hu81c1fe0b93fa6721ab158b4e6fbc6f21_139223_43b52122e0051695682d67c8269be519.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -233,7 +233,7 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
                /media/img/eviota/supply_chain_comparison_barplot_roboto_16x9_hu529f8257992be06883d7728875742c7a_133627_7e13a202707e96b49000935d269f3cc4.webp 400w,
                /media/img/eviota/supply_chain_comparison_barplot_roboto_16x9_hu529f8257992be06883d7728875742c7a_133627_3cf6eced44053966c9a3e4a7ede77a5e.webp 760w,
                /media/img/eviota/supply_chain_comparison_barplot_roboto_16x9_hu529f8257992be06883d7728875742c7a_133627_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/supply_chain_comparison_barplot_roboto_16x9_hu529f8257992be06883d7728875742c7a_133627_7e13a202707e96b49000935d269f3cc4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/supply_chain_comparison_barplot_roboto_16x9_hu529f8257992be06883d7728875742c7a_133627_7e13a202707e96b49000935d269f3cc4.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -263,7 +263,7 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
                /media/img/eviota/trial_balance_example_it_en_16x9_blurred_hud6566c400ca1cee29eb3b293f30b1ca8_553601_ec15d0001442fcb0a10ee85b10ca4ba5.webp 400w,
                /media/img/eviota/trial_balance_example_it_en_16x9_blurred_hud6566c400ca1cee29eb3b293f30b1ca8_553601_02b1640235f78877de5b80b2dadc6992.webp 760w,
                /media/img/eviota/trial_balance_example_it_en_16x9_blurred_hud6566c400ca1cee29eb3b293f30b1ca8_553601_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/trial_balance_example_it_en_16x9_blurred_hud6566c400ca1cee29eb3b293f30b1ca8_553601_ec15d0001442fcb0a10ee85b10ca4ba5.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/trial_balance_example_it_en_16x9_blurred_hud6566c400ca1cee29eb3b293f30b1ca8_553601_ec15d0001442fcb0a10ee85b10ca4ba5.webp&#34;
                width=&#34;760&#34;
                height=&#34;427&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -308,7 +308,7 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
                /media/img/eviota/j58_comparison_treemap_alt_16x9_hud0acc021e5bd6ff2c719f053f0a7c33e_320506_a76409d95d724551e9f577b346432283.webp 400w,
                /media/img/eviota/j58_comparison_treemap_alt_16x9_hud0acc021e5bd6ff2c719f053f0a7c33e_320506_96824c325c2aecfb1fef02ef57a69c90.webp 760w,
                /media/img/eviota/j58_comparison_treemap_alt_16x9_hud0acc021e5bd6ff2c719f053f0a7c33e_320506_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/j58_comparison_treemap_alt_16x9_hud0acc021e5bd6ff2c719f053f0a7c33e_320506_a76409d95d724551e9f577b346432283.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/j58_comparison_treemap_alt_16x9_hud0acc021e5bd6ff2c719f053f0a7c33e_320506_a76409d95d724551e9f577b346432283.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -388,7 +388,7 @@ governance path set out in the Paris Agreement and other UN, OECD, and EU agreem
                /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_ba07bcb2cab6a041c8fa07a66f44c402.webp 400w,
                /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_4a745162ba521fe0933b7f1e31de6032.webp 760w,
                /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_ba07bcb2cab6a041c8fa07a66f44c402.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_ba07bcb2cab6a041c8fa07a66f44c402.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -425,7 +425,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
                /media/img/eviota/ESG_Google_Trends_16x9_huc3bd75ffb5daec299206cbea1c4b49e6_542409_0a59bfe887466112faad4bfbc9443a02.webp 400w,
                /media/img/eviota/ESG_Google_Trends_16x9_huc3bd75ffb5daec299206cbea1c4b49e6_542409_a1272dfbaa30da4a4a48191780a56d5b.webp 760w,
                /media/img/eviota/ESG_Google_Trends_16x9_huc3bd75ffb5daec299206cbea1c4b49e6_542409_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/ESG_Google_Trends_16x9_huc3bd75ffb5daec299206cbea1c4b49e6_542409_0a59bfe887466112faad4bfbc9443a02.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/ESG_Google_Trends_16x9_huc3bd75ffb5daec299206cbea1c4b49e6_542409_0a59bfe887466112faad4bfbc9443a02.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -455,7 +455,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
                /media/img/eviota/eviota_regulatory_goals_huf2c88a034fbdb3c27cdf4a926903e9a8_602307_3a642a98fbd2be0a0349afc305c9aec2.webp 400w,
                /media/img/eviota/eviota_regulatory_goals_huf2c88a034fbdb3c27cdf4a926903e9a8_602307_5ca2d3180b5a02091753c79bc835578b.webp 760w,
                /media/img/eviota/eviota_regulatory_goals_huf2c88a034fbdb3c27cdf4a926903e9a8_602307_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/eviota_regulatory_goals_huf2c88a034fbdb3c27cdf4a926903e9a8_602307_3a642a98fbd2be0a0349afc305c9aec2.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/eviota_regulatory_goals_huf2c88a034fbdb3c27cdf4a926903e9a8_602307_3a642a98fbd2be0a0349afc305c9aec2.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -481,7 +481,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
 
 &lt;figure  id=&#34;figure-co-funded-by-the-european-union&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eviota.eu/img/logos/MusicAIRE_logo_black.png&#34; alt=&#34;Co-funded by the European Union&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/img/logos/MusicAIRE_logo_black.png&#34; alt=&#34;Co-funded by the European Union&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Co-funded by the European Union
     &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
@@ -504,7 +504,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
 
 &lt;figure  id=&#34;figure-co-funded-by-the-european-union&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eviota.eu/img/logos/EN_Co-Funded_by_the_EU_POS.png&#34; alt=&#34;Co-funded by the European Union&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/img/logos/EN_Co-Funded_by_the_EU_POS.png&#34; alt=&#34;Co-funded by the European Union&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Co-funded by the European Union
     &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
@@ -513,9 +513,9 @@ reports and non-financial disclosures of the financial reports (which are not ma
     
     <item>
       <title>Eviota</title>
-      <link>https://eviota.eu/project/eviota/</link>
+      <link>https://surveyharmonies.eu/project/eviota/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/project/eviota/</guid>
+      <guid>https://surveyharmonies.eu/project/eviota/</guid>
       <description>&lt;p&gt;The European Union is introducing a ground-breaking accounting standard which will call on about 49,000 enterprises to assess their ‘double materiality’, i.e. both the financial and sustainability impacts of their own activities, as well as those of their buyers and suppliers. Does your company buy cattle or sheep products to produce meat? You must consider the methane emissions of your suppliers. Do you manufacture cars? You must account for the fuel emissions of the buyers and users of your product.&lt;/p&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
   &lt;summary&gt;Why Eviota?&lt;/summary&gt;
@@ -526,7 +526,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
                /media/img/eviota/eviota-bifasciata_huf65bd069468cdc9e02053f8266206e69_943705_c512492d51a6689bf405a38b31b96d20.webp 400w,
                /media/img/eviota/eviota-bifasciata_huf65bd069468cdc9e02053f8266206e69_943705_c8d9c3903a93fd2d375c05504107d834.webp 760w,
                /media/img/eviota/eviota-bifasciata_huf65bd069468cdc9e02053f8266206e69_943705_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/eviota-bifasciata_huf65bd069468cdc9e02053f8266206e69_943705_c512492d51a6689bf405a38b31b96d20.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/eviota-bifasciata_huf65bd069468cdc9e02053f8266206e69_943705_c512492d51a6689bf405a38b31b96d20.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -588,7 +588,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
                /media/img/eviota/supply_chain_comparison_barplot_roboto_16x9_hu529f8257992be06883d7728875742c7a_133627_7e13a202707e96b49000935d269f3cc4.webp 400w,
                /media/img/eviota/supply_chain_comparison_barplot_roboto_16x9_hu529f8257992be06883d7728875742c7a_133627_3cf6eced44053966c9a3e4a7ede77a5e.webp 760w,
                /media/img/eviota/supply_chain_comparison_barplot_roboto_16x9_hu529f8257992be06883d7728875742c7a_133627_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/supply_chain_comparison_barplot_roboto_16x9_hu529f8257992be06883d7728875742c7a_133627_7e13a202707e96b49000935d269f3cc4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/supply_chain_comparison_barplot_roboto_16x9_hu529f8257992be06883d7728875742c7a_133627_7e13a202707e96b49000935d269f3cc4.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -618,7 +618,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
                /media/img/eviota/trial_balance_example_it_en_16x9_blurred_hud6566c400ca1cee29eb3b293f30b1ca8_553601_ec15d0001442fcb0a10ee85b10ca4ba5.webp 400w,
                /media/img/eviota/trial_balance_example_it_en_16x9_blurred_hud6566c400ca1cee29eb3b293f30b1ca8_553601_02b1640235f78877de5b80b2dadc6992.webp 760w,
                /media/img/eviota/trial_balance_example_it_en_16x9_blurred_hud6566c400ca1cee29eb3b293f30b1ca8_553601_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/trial_balance_example_it_en_16x9_blurred_hud6566c400ca1cee29eb3b293f30b1ca8_553601_ec15d0001442fcb0a10ee85b10ca4ba5.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/trial_balance_example_it_en_16x9_blurred_hud6566c400ca1cee29eb3b293f30b1ca8_553601_ec15d0001442fcb0a10ee85b10ca4ba5.webp&#34;
                width=&#34;760&#34;
                height=&#34;427&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -663,7 +663,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
                /media/img/eviota/j58_comparison_treemap_alt_16x9_hud0acc021e5bd6ff2c719f053f0a7c33e_320506_a76409d95d724551e9f577b346432283.webp 400w,
                /media/img/eviota/j58_comparison_treemap_alt_16x9_hud0acc021e5bd6ff2c719f053f0a7c33e_320506_96824c325c2aecfb1fef02ef57a69c90.webp 760w,
                /media/img/eviota/j58_comparison_treemap_alt_16x9_hud0acc021e5bd6ff2c719f053f0a7c33e_320506_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/j58_comparison_treemap_alt_16x9_hud0acc021e5bd6ff2c719f053f0a7c33e_320506_a76409d95d724551e9f577b346432283.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/j58_comparison_treemap_alt_16x9_hud0acc021e5bd6ff2c719f053f0a7c33e_320506_a76409d95d724551e9f577b346432283.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -743,7 +743,7 @@ governance path set out in the Paris Agreement and other UN, OECD, and EU agreem
                /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_ba07bcb2cab6a041c8fa07a66f44c402.webp 400w,
                /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_4a745162ba521fe0933b7f1e31de6032.webp 760w,
                /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_ba07bcb2cab6a041c8fa07a66f44c402.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_ba07bcb2cab6a041c8fa07a66f44c402.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -780,7 +780,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
                /media/img/eviota/ESG_Google_Trends_16x9_huc3bd75ffb5daec299206cbea1c4b49e6_542409_0a59bfe887466112faad4bfbc9443a02.webp 400w,
                /media/img/eviota/ESG_Google_Trends_16x9_huc3bd75ffb5daec299206cbea1c4b49e6_542409_a1272dfbaa30da4a4a48191780a56d5b.webp 760w,
                /media/img/eviota/ESG_Google_Trends_16x9_huc3bd75ffb5daec299206cbea1c4b49e6_542409_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/ESG_Google_Trends_16x9_huc3bd75ffb5daec299206cbea1c4b49e6_542409_0a59bfe887466112faad4bfbc9443a02.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/ESG_Google_Trends_16x9_huc3bd75ffb5daec299206cbea1c4b49e6_542409_0a59bfe887466112faad4bfbc9443a02.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -810,7 +810,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
                /media/img/eviota/eviota_regulatory_goals_huf2c88a034fbdb3c27cdf4a926903e9a8_602307_3a642a98fbd2be0a0349afc305c9aec2.webp 400w,
                /media/img/eviota/eviota_regulatory_goals_huf2c88a034fbdb3c27cdf4a926903e9a8_602307_5ca2d3180b5a02091753c79bc835578b.webp 760w,
                /media/img/eviota/eviota_regulatory_goals_huf2c88a034fbdb3c27cdf4a926903e9a8_602307_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/eviota/eviota_regulatory_goals_huf2c88a034fbdb3c27cdf4a926903e9a8_602307_3a642a98fbd2be0a0349afc305c9aec2.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/eviota_regulatory_goals_huf2c88a034fbdb3c27cdf4a926903e9a8_602307_3a642a98fbd2be0a0349afc305c9aec2.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -836,7 +836,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
 
 &lt;figure  id=&#34;figure-co-funded-by-the-european-union&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eviota.eu/img/logos/MusicAIRE_logo_black.png&#34; alt=&#34;Co-funded by the European Union&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/img/logos/MusicAIRE_logo_black.png&#34; alt=&#34;Co-funded by the European Union&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Co-funded by the European Union
     &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
@@ -859,7 +859,7 @@ reports and non-financial disclosures of the financial reports (which are not ma
 
 &lt;figure  id=&#34;figure-co-funded-by-the-european-union&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eviota.eu/img/logos/EN_Co-Funded_by_the_EU_POS.png&#34; alt=&#34;Co-funded by the European Union&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/img/logos/EN_Co-Funded_by_the_EU_POS.png&#34; alt=&#34;Co-funded by the European Union&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Co-funded by the European Union
     &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;

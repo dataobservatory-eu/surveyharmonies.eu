@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eurobarometer | Eviota</title>
-    <link>https://eviota.eu/tag/eurobarometer/</link>
-      <atom:link href="https://eviota.eu/tag/eurobarometer/index.xml" rel="self" type="application/rss+xml" />
+    <title>Eurobarometer | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/eurobarometer/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/eurobarometer/index.xml" rel="self" type="application/rss+xml" />
     <description>Eurobarometer</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Eurobarometer</title>
-      <link>https://eviota.eu/tag/eurobarometer/</link>
+      <link>https://surveyharmonies.eu/tag/eurobarometer/</link>
     </image>
     
     <item>
       <title>Eurobarometer Surveys Used In Our Project</title>
-      <link>https://eviota.eu/post/2021-03-04-eurobarometer_data/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-04-eurobarometer_data/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-04-eurobarometer_data/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-04-eurobarometer_data/</guid>
       <description>&lt;p&gt;In our &lt;a href=&#34;http://netzero.dataobservatory.eu/post/2021-03-04_retroharmonize_intro/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial
 series&lt;/a&gt;,
 we are going to harmonize the following questionnaire items from five

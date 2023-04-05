@@ -1,11 +1,11 @@
 ---
 # Project title.
-title: "Music Eviota"
-subtitle: "Sustainability reporting for music organizations" 
+title: "Cultural Access & Participation" 
+subtitle: "Survey harmonisation for music industry stakeholders."  
 
 # Date this page was created.
-date: 2022-06-09T09:40:00+01:00
-lastmod: 2022-11-20T09:40:00+01:00
+date: 2023-04-05T09:40:00+01:00
+lastmod: 2023-04-05T09:40:00+01:00
 
 # Project summary to display on homepage.
 summary: "We will help small music organizations in their sustainability reporting, where detail data and reporting standards are only available for greenhouse gas emissions."

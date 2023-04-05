@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>trees | Eviota</title>
-    <link>https://eviota.eu/tag/trees/</link>
-      <atom:link href="https://eviota.eu/tag/trees/index.xml" rel="self" type="application/rss+xml" />
+    <title>trees | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/trees/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/trees/index.xml" rel="self" type="application/rss+xml" />
     <description>trees</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>trees</title>
-      <link>https://eviota.eu/tag/trees/</link>
+      <link>https://surveyharmonies.eu/tag/trees/</link>
     </image>
     
     <item>
       <title>Connecting the Dots to Environmental Degradation Open Data</title>
-      <link>https://eviota.eu/post/2021-03-11-environmental_data/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-11-environmental_data/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-11-environmental_data/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-11-environmental_data/</guid>
       <description>&lt;p&gt;If you live in a polluted area, does it mean that you take climate
 change seriously? Following the &lt;a href=&#34;https://reprex.nl/talk/reprex-open-data-day-2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reprex Open Data Day
 2021&lt;/a&gt;, we embarked on
@@ -67,7 +67,7 @@ reliable data sources from all continents.&lt;/p&gt;
 
 &lt;figure  id=&#34;figure-our-joined-dataset-allows-hypothesis-testing-on-how-much-peoples-perception-and-attitudes-to-environmental-degradation-depends-on-the-quality-of-the-environment-that-surrounds-them&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eviota.eu/img/belgium-flood-risk/blogpost_pm10_pm25_eur.png&#34; alt=&#34;Our joined dataset allows hypothesis testing on how much people&amp;#39;s perception and attitudes to environmental degradation depends on the quality of the environment that surrounds them.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/img/belgium-flood-risk/blogpost_pm10_pm25_eur.png&#34; alt=&#34;Our joined dataset allows hypothesis testing on how much people&amp;#39;s perception and attitudes to environmental degradation depends on the quality of the environment that surrounds them.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
       Our joined dataset allows hypothesis testing on how much people&amp;rsquo;s perception and attitudes to environmental degradation depends on the quality of the environment that surrounds them.
     &lt;/figcaption&gt;&lt;/figure&gt;

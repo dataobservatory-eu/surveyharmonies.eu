@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Balazs Bodó | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/authors/balazs-bodo/</link>
+      <atom:link href="https://surveyharmonies.eu/authors/balazs-bodo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Balazs Bodó</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Apr 2022 08:36:00 +0000</lastBuildDate>
+    <image>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Balazs Bodó</title>
+      <link>https://surveyharmonies.eu/authors/balazs-bodo/</link>
+    </image>
+    
+    <item>
+      <title>Ensuring the Visibility and Accessibility of European Creative Content on the World Market</title>
+      <link>https://surveyharmonies.eu/post/2022-04-19-european-visibility/</link>
+      <pubDate>Tue, 19 Apr 2022 08:36:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/post/2022-04-19-european-visibility/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Engage with us on &lt;a href=&#34;https://www.linkedin.com/company/79286750/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fab fa-linkedin  pr-1 fa-fw&#34;&gt;&lt;/i&gt;LinkedIn&lt;/a&gt; &lt;a href=&#34;https://twitter.com/DigitalMusicObs/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fab fa-twitter  pr-1 fa-fw&#34;&gt;&lt;/i&gt;@DigitalMusicObs&lt;/a&gt; or check out our &lt;a href=&#34;https://zenodo.org/communities/music_observatory/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fas fa-database  pr-1 fa-fw&#34;&gt;&lt;/i&gt;open data&lt;/a&gt; and &lt;a href=&#34;https://github.com/dataobservatory-eu/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fas fa-code  pr-1 fa-fw&#34;&gt;&lt;/i&gt; open repositories, code, tutorials&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Our article on the trade-offs between data harmonisation and interoperability on the one hand, and transparency and accountability of content recommender systems, and the necessity to take metadata problems in Europe more seriously has been published in the Journal of Intellectual Property, Information Technology and Electronic Commerce Law. The problems we see in this area threaten the market position and visibility of European music, books, films in autonomous, AI-driven platfomrs like YouTube, Apple, Amazon.&lt;/p&gt;
+&lt;p&gt;Our &lt;a href=&#34;https://surveyharmonies.eu/publication/listen_local_2020/&#34;&gt;Listen Local project in Slovaki&lt;/a&gt; a has identified metadata problems&amp;mdash;in fact, the correct description of the biographies of artists, adding their composer, producer, and performer data correctly, filling out correct genre and other musicological information&amp;mdash;as a main culprit for independent and small country artists to not get recommended or paid on global platforms.&lt;/p&gt;
+&lt;p&gt;The article of Martin Senfleben, Thomas Margoni, Daniel Antal, Balazs Bodó,  Stef van Gompel, Christian Handke, Martin Kretschmer, Joost Poort, João Quintais, Sebastian Felix Schwemer was published in JIPITEC, vol. 13, iss. 1, pp. 67-86, 2022. We hope to carry on this important project in our planed Horizon Europe project.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;In the creative industries, this need for enhanced data quality and interoperability is particularly strong. Without data improvement, unprecedented opportunities for monetising the wide variety of EU creative and making this content available for new technologies, such as artificial intelligence training systems, will most probably be lost. […] While the US have already taken steps to provide an integrated data space for music as of 1 January 2021, the EU is facing major obstacles not only in the field of music but also in other creative industry sectors. […] A trade-off between data harmonisation and interoperability on the one hand, and transparency and accountability of content recommender systems on the other, could pave the way for successful new initiatives.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://surveyharmonies.eu/publication/european_visibilitiy_2022/&#34;&gt;JIPITEC published version&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3785272&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SSRN Preprint version&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

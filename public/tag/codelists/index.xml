@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Codelists | Eviota</title>
-    <link>https://eviota.eu/tag/codelists/</link>
-      <atom:link href="https://eviota.eu/tag/codelists/index.xml" rel="self" type="application/rss+xml" />
+    <title>Codelists | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/codelists/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/codelists/index.xml" rel="self" type="application/rss+xml" />
     <description>Codelists</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Jun 2022 08:12:00 +0100</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Codelists</title>
-      <link>https://eviota.eu/tag/codelists/</link>
+      <link>https://surveyharmonies.eu/tag/codelists/</link>
     </image>
     
     <item>
       <title>stacodelists: use standard, language-independent variable codes to help international data interoperability and machine reuse in R</title>
-      <link>https://eviota.eu/post/2022-06-29-statcodelists/</link>
+      <link>https://surveyharmonies.eu/post/2022-06-29-statcodelists/</link>
       <pubDate>Wed, 29 Jun 2022 08:12:00 +0100</pubDate>
-      <guid>https://eviota.eu/post/2022-06-29-statcodelists/</guid>
+      <guid>https://surveyharmonies.eu/post/2022-06-29-statcodelists/</guid>
       <description>&lt;td style=&#34;text-align: center;&#34;&gt;
 
 
@@ -39,7 +39,7 @@
                /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_0b514d80337ede30bff4c26cee6a6f11.webp 400w,
                /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_1416f7a0950b1cecac8097850d995432.webp 760w,
                /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_0b514d80337ede30bff4c26cee6a6f11.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_0b514d80337ede30bff4c26cee6a6f11.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

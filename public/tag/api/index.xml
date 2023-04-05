@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>api | Eviota</title>
-    <link>https://eviota.eu/tag/api/</link>
-      <atom:link href="https://eviota.eu/tag/api/index.xml" rel="self" type="application/rss+xml" />
+    <title>api | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/api/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/api/index.xml" rel="self" type="application/rss+xml" />
     <description>api</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Nov 2021 10:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>api</title>
-      <link>https://eviota.eu/tag/api/</link>
+      <link>https://surveyharmonies.eu/tag/api/</link>
     </image>
     
     <item>
       <title>How We Add Value to Public Data With Imputation and Forecasting?</title>
-      <link>https://eviota.eu/post/2021-11-08-indicator_value_added/</link>
+      <link>https://surveyharmonies.eu/post/2021-11-08-indicator_value_added/</link>
       <pubDate>Mon, 08 Nov 2021 10:00:00 +0100</pubDate>
-      <guid>https://eviota.eu/post/2021-11-08-indicator_value_added/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-11-08-indicator_value_added/</guid>
       <description>&lt;p&gt;Public data sources are often plagued by missng values. Naively you may think that you can ignore them, but think twice: in most cases, missing data in a table is not missing information, but rather malformatted information. This approach of ignoring or dropping missing values will not be feasible or robust when you want to make a beautiful visualization, or use data in a business forecasting model, a machine learning (AI) applicaton, or a more complex scientific model. All of the above require complete datasets, and naively discarding missing data points amounts to an excessive waste of information. In this example we are continuing the example a not-so-easy to find public dataset.&lt;/p&gt;
 &lt;td style=&#34;text-align: center;&#34;&gt;
 
@@ -40,7 +40,7 @@
                /media/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited_huc1de598e48bcf2ca9302064c36ee3048_2297404_13a19cc7308f7f90fb71ae2c524e8fe6.webp 400w,
                /media/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited_huc1de598e48bcf2ca9302064c36ee3048_2297404_4c70859ff3bfdb7160714dc07c4d5305.webp 760w,
                /media/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited_huc1de598e48bcf2ca9302064c36ee3048_2297404_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited_huc1de598e48bcf2ca9302064c36ee3048_2297404_13a19cc7308f7f90fb71ae2c524e8fe6.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited_huc1de598e48bcf2ca9302064c36ee3048_2297404_13a19cc7308f7f90fb71ae2c524e8fe6.webp&#34;
                width=&#34;760&#34;
                height=&#34;504&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -73,7 +73,7 @@
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp 400w,
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_99b295653ecf8ec6dbf89153a188c1fa.webp 760w,
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -122,7 +122,7 @@ This example highlights another important aspect of data trustworthiness. If you
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp 400w,
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_a6eb1b13ff33a5c73aba34550964ff52.webp 760w,
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -157,9 +157,9 @@ This example highlights another important aspect of data trustworthiness. If you
     
     <item>
       <title>How We Add Value to Public Data With Better Curation And Documentation?</title>
-      <link>https://eviota.eu/post/2021-11-08-indicator_findable/</link>
+      <link>https://surveyharmonies.eu/post/2021-11-08-indicator_findable/</link>
       <pubDate>Mon, 08 Nov 2021 09:00:00 +0100</pubDate>
-      <guid>https://eviota.eu/post/2021-11-08-indicator_findable/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-11-08-indicator_findable/</guid>
       <description>&lt;p&gt;In this example, we show a simple indicator: the &lt;em&gt;Government Budget Allocations for R&amp;amp;D in Environment&lt;/em&gt; in many European countries. (In our &lt;em&gt;Digital Music Observatory&lt;/em&gt; we give a more relevant &lt;a href=&#34;https://music.dataobservatory.eu/post/2021-11-08-indicator_findable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;example&lt;/a&gt; about the turnover of the radio industry in Europe.)&lt;/p&gt;
 &lt;p&gt;This dataset comes from a public datasource, the data warehouse of the
 European statistical agency, Eurostat. Yet it is not trivial to use:
@@ -186,7 +186,7 @@ unless you are familiar with the &lt;em&gt;nomenclature for the analysis and com
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp 400w,
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_99b295653ecf8ec6dbf89153a188c1fa.webp 760w,
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -197,7 +197,7 @@ unless you are familiar with the &lt;em&gt;nomenclature for the analysis and com
 are findable, accessible, interoperable, and reusable. While the
 Eurostat data warehouse partly fulfills these important data quality
 expectations, we can improve them significantly. And we can also
-improve the dataset, too, as we will show in the &lt;a href=&#34;https://eviota.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
+improve the dataset, too, as we will show in the &lt;a href=&#34;https://surveyharmonies.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;findable-data&#34;&gt;Findable Data&lt;/h2&gt;
 &lt;p&gt;Our data observatories add value by curating the data&amp;ndash;we bring this
 indicator to light with a more descriptive name, and we place it in
@@ -226,7 +226,7 @@ available data around important domains. Our &lt;em&gt;Green Deal Data Observato
                /media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_94393f82400c1139d76477a52a1af13a.webp 400w,
                /media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_2b0d6d8f077aaaeca31f7fc768a35e03.webp 760w,
                /media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_94393f82400c1139d76477a52a1af13a.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_94393f82400c1139d76477a52a1af13a.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -280,7 +280,7 @@ chances are that the process of tidying will overwrite, delete, or omit a data o
                /media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_840d5597bab1e4d7c2b314453bf83608.webp 400w,
                /media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_f01845e0e6967cc9a3a2b53cf12edd0a.webp 760w,
                /media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_840d5597bab1e4d7c2b314453bf83608.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_840d5597bab1e4d7c2b314453bf83608.webp&#34;
                width=&#34;760&#34;
                height=&#34;355&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -317,7 +317,7 @@ plotting in Excel, OpenOffice or Numbers.&lt;/p&gt;
                /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp 400w,
                /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_5807feecbd17bee02fd8c68fad87b1d7.webp 760w,
                /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -352,7 +352,7 @@ connect the data with other data sources, e.g. turnover with the number of radio
                /media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_25232c9bd0c86814e3e3337261110ea4.webp 400w,
                /media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_93fa43b83c3a299d78a1afed7bc4f820.webp 760w,
                /media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_25232c9bd0c86814e3e3337261110ea4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_25232c9bd0c86814e3e3337261110ea4.webp&#34;
                width=&#34;760&#34;
                height=&#34;506&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -366,7 +366,7 @@ datasets can be used without commercial restriction after acknowledging
 the source, but we sometimes work with less permissible data licenses.&lt;/p&gt;
 &lt;p&gt;In the case presented here, we added further value to encourage re-use. In addition to tidying, we
 significantly increased the usability of public data by handling
-missing cases. This is the subject of our &lt;a href=&#34;https://eviota.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
+missing cases. This is the subject of our &lt;a href=&#34;https://surveyharmonies.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Are you a data user? Give us some feedback! Shall we do some further
 automatic data enhancements with our datasets? Document with different
 metadata? Link more information for business, policy, or academic use? Please
@@ -376,9 +376,9 @@ give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#
     
     <item>
       <title>The Data Sisyphus</title>
-      <link>https://eviota.eu/post/2021-07-08-data-sisyphus/</link>
+      <link>https://surveyharmonies.eu/post/2021-07-08-data-sisyphus/</link>
       <pubDate>Thu, 08 Jul 2021 09:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-07-08-data-sisyphus/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-07-08-data-sisyphus/</guid>
       <description>&lt;td style=&#34;text-align: center;&#34;&gt;
 
 
@@ -401,7 +401,7 @@ give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp 400w,
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_a6eb1b13ff33a5c73aba34550964ff52.webp 760w,
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -440,7 +440,7 @@ give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#
                /media/img/gems/Uncut-diamond_Edit_hu4573f19f53e1306ad88770fc5e491871_409761_0317c281e0aba727eb8e1a81805de459.webp 400w,
                /media/img/gems/Uncut-diamond_Edit_hu4573f19f53e1306ad88770fc5e491871_409761_1470967ea871e5c3f6f247c839f6d52a.webp 760w,
                /media/img/gems/Uncut-diamond_Edit_hu4573f19f53e1306ad88770fc5e491871_409761_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/gems/Uncut-diamond_Edit_hu4573f19f53e1306ad88770fc5e491871_409761_0317c281e0aba727eb8e1a81805de459.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/gems/Uncut-diamond_Edit_hu4573f19f53e1306ad88770fc5e491871_409761_0317c281e0aba727eb8e1a81805de459.webp&#34;
                width=&#34;760&#34;
                height=&#34;506&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -486,7 +486,7 @@ give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#
                /media/img/gems/Diamond_Polisher_hu2b5ca0e8d1290dc6b290d6b4669a6259_449722_27278366bdb30735ec3edb5dd68ce37b.webp 400w,
                /media/img/gems/Diamond_Polisher_hu2b5ca0e8d1290dc6b290d6b4669a6259_449722_2022c9c74076769b68c8f788b6835f99.webp 760w,
                /media/img/gems/Diamond_Polisher_hu2b5ca0e8d1290dc6b290d6b4669a6259_449722_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/gems/Diamond_Polisher_hu2b5ca0e8d1290dc6b290d6b4669a6259_449722_27278366bdb30735ec3edb5dd68ce37b.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/gems/Diamond_Polisher_hu2b5ca0e8d1290dc6b290d6b4669a6259_449722_27278366bdb30735ec3edb5dd68ce37b.webp&#34;
                width=&#34;760&#34;
                height=&#34;506&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -519,12 +519,12 @@ give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#
                /media/img/gems/edgar-soto-gb0BZGae1Nk-unsplash_hu885793c483f74753314f6c800c67a06f_204775_81b97d34c1ccb0eb3994b312d0747e63.webp 400w,
                /media/img/gems/edgar-soto-gb0BZGae1Nk-unsplash_hu885793c483f74753314f6c800c67a06f_204775_b3ddf8e86873a66ce16e8636fadc3357.webp 760w,
                /media/img/gems/edgar-soto-gb0BZGae1Nk-unsplash_hu885793c483f74753314f6c800c67a06f_204775_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/gems/edgar-soto-gb0BZGae1Nk-unsplash_hu885793c483f74753314f6c800c67a06f_204775_81b97d34c1ccb0eb3994b312d0747e63.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/gems/edgar-soto-gb0BZGae1Nk-unsplash_hu885793c483f74753314f6c800c67a06f_204775_81b97d34c1ccb0eb3994b312d0747e63.webp&#34;
                width=&#34;760&#34;
                height=&#34;506&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      &lt;a href=&#34;https://eviota.eu/services/data-as-service/&#34;&gt;Data-as-Service&lt;/a&gt;&lt;/br&gt;&lt;/br&gt;Reusable, legal, easy-to-import, interoperable, always fresh data in tidy formats with a modern API. Photo: &lt;a href=&#34;https://unsplash.com/photos/gb0BZGae1Nk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Edgar Soto&lt;/a&gt;.
+      &lt;a href=&#34;https://surveyharmonies.eu/services/data-as-service/&#34;&gt;Data-as-Service&lt;/a&gt;&lt;/br&gt;&lt;/br&gt;Reusable, legal, easy-to-import, interoperable, always fresh data in tidy formats with a modern API. Photo: &lt;a href=&#34;https://unsplash.com/photos/gb0BZGae1Nk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Edgar Soto&lt;/a&gt;.
     &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
 &lt;p&gt;If the data source is cheap or has a low quality, you do not even get it.  If you do not have it, it will show up as a human resource cost in research (when your analysist or junior researcher are spending countless hours to find out the missing metadata information on the correct use of the data) or in sales costs (when you try to reuse a research, consulting or legal product and you have comb through your archive and retest elements again and again.)&lt;/p&gt;
 &lt;ul&gt;
@@ -534,118 +534,10 @@ give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#
     </item>
     
     <item>
-      <title>Developing an Open API is the Right Direction</title>
-      <link>https://eviota.eu/post/2021-06-08-developer-botond-vitos/</link>
-      <pubDate>Mon, 07 Jun 2021 20:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-06-08-developer-botond-vitos/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Botond Vitos, PhD is responsible for maintaing our &lt;a href=&#34;https://eviota.eu/data/api/&#34;&gt;API&lt;/a&gt;. He first started collaboration with our &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; and its trustwrothy AI project.&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;as-data-engineer-what-type-of-data-do-you-usually-use-in-your-projects&#34;&gt;As data engineer, what type of data do you usually use in your projects?&lt;/h2&gt;
-&lt;p&gt;Coming from a cultural studies background, my main research interest has been grassroots music scenes and festival cultures, which I hope to extend to my current projects as data engineer and as a data scientist. My prior research’s scope was mainly qualitative and focused on the inside views and stories of scene participants and stakeholders, which was invaluable in the understanding of specialized stylistic vocabularies. At the same time, I was interested in the “bigger picture,” which can be approximated through algorithmic approaches and data analysis. With both interests together, I shifted towards data science and engineering.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-see-our-trustworthy-ai-driven-music-export-case-study-for-slovakiahttpsmusicdataobservatoryeupublicationlisten_local_2020&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;See our trustworthy AI-driven music export case study for [Slovakia](https://music.dataobservatory.eu/publication/listen_local_2020/)&#34; srcset=&#34;
-               /media/img/streaming/listen_local_SK_EN_hue3bbdd36723034473d5308625670dcc8_550932_8e1b9f713792380fd59264a40e5b9362.webp 400w,
-               /media/img/streaming/listen_local_SK_EN_hue3bbdd36723034473d5308625670dcc8_550932_990e882f700e82da59356785ef840ceb.webp 760w,
-               /media/img/streaming/listen_local_SK_EN_hue3bbdd36723034473d5308625670dcc8_550932_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/streaming/listen_local_SK_EN_hue3bbdd36723034473d5308625670dcc8_550932_8e1b9f713792380fd59264a40e5b9362.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;507&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      See our trustworthy AI-driven music export case study for &lt;a href=&#34;https://music.dataobservatory.eu/publication/listen_local_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slovakia&lt;/a&gt;
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;I was recently involved with the development of a classification algorithm that detected stylistic directions within the music genres of electronic dance music labels found on Bandcamp. The &lt;a href=&#34;https://medium.com/data-lyrics/how-to-speak-about-music-in-the-digital-age-from-taxonomies-to-folksonomies-ac2d25ed29f7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bandcamp Librarian&lt;/a&gt; project makes use of the genre taxonomy offered by the industry website Beatport, which is a very top-down approach on electronic dance music genres, often resisted by the artists themselves (many of the more niche subgenres don’t even appear on the Beatport site). Accordingly, the project defined genre clusters within each Bandcamp label, which show up as combinations of Beatport subgenres. Also, it indicated some of the folksonomies (bottom-up stylistic definitions and tags) propagated by the musicians themselves.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-screenshot-of-the-first-verison-of-the-demo-app&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Screenshot of the first verison of the demo app.&#34; srcset=&#34;
-               /media/img/streaming/listen_local_app_1_hu098db0e3c2b2943b540798ab81deb1b0_117013_98cf3836f56fdd9aae930cde9bb5a3e5.webp 400w,
-               /media/img/streaming/listen_local_app_1_hu098db0e3c2b2943b540798ab81deb1b0_117013_50e29da19d86792d96fd18dc07a23aa1.webp 760w,
-               /media/img/streaming/listen_local_app_1_hu098db0e3c2b2943b540798ab81deb1b0_117013_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/streaming/listen_local_app_1_hu098db0e3c2b2943b540798ab81deb1b0_117013_98cf3836f56fdd9aae930cde9bb5a3e5.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;309&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      Screenshot of the first verison of the demo app.
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;In addition, working with Reprex, I became involved in the development of the Listen Local initiative. The system was aimed to protect the rights of small local artists by offering recommendation algorithms that prioritize local talent for consideration and enables the user to find local talent. The current playlist recommendations of streaming industry giants, such a,s Spotify prioritize big labels and big names, blocking access to the output of smaller, local musicians. Naturally, I looked at this project as a possible continuation of my previous work, and we are currently &lt;a href=&#34;https://bvitos.medium.com/bandcamp-librarian-part-ii-57adc160d13f&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;extending the scope of the Bandcamp Librarian&lt;/a&gt; to fit this initiative.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In an ideal data world, what would be the ultimate dataset or datasets that you would like to see in the Digital Music Observatory?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;As my answer to the previous question suggests, my main concern is the development of a trustworthy AI framework. Acknowledging the national and cultural diversity of the European Union, it is essential to enable access to data that takes into account such diversities and the priorities of smaller stakeholders as well. This type of data needs to be comprehensive and well-maintained, and I believe that with curators&amp;rsquo; priorities and the development of an easily accessible, open API, we are moving in the right direction.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-our-apihttpsapigreendealdataobservatoryeu-contains-rich-processing-and-descriptive-metadata-besides-our-high-quality-indicators&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Our [API](https://api.greendeal.dataobservatory.eu/) contains rich processing and descriptive metadata besides our high-quality indicators.&#34; srcset=&#34;
-               /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp 400w,
-               /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_5807feecbd17bee02fd8c68fad87b1d7.webp 760w,
-               /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;428&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      Our &lt;a href=&#34;https://api.greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;API&lt;/a&gt; contains rich processing and descriptive metadata besides our high-quality indicators.
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h2 id=&#34;read-more-on-data--lyrics&#34;&gt;Read More on Data &amp;amp; Lyrics&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dataandlyrics.com/post/2021-05-16-recommendation-outcomes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Recommendation Systems: What can Go Wrong with the Algorithm?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;join-us&#34;&gt;Join us&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://eviota.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://eviota.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://eviota.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in antitrust, innovation policy or economic impact analysis? Try our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Data API</title>
-      <link>https://eviota.eu/data/api/</link>
+      <link>https://surveyharmonies.eu/data/api/</link>
       <pubDate>Tue, 01 Jun 2021 11:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/data/api/</guid>
+      <guid>https://surveyharmonies.eu/data/api/</guid>
       <description>&lt;p&gt;Our observatory has a new data API which allows access to our daily refreshing open data. You can access the API via &lt;a href=&#34;http://api.economy.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;api.economy.dataobservatory.eu&lt;/a&gt; (&lt;em&gt;apologies for the ugly, temporary subdomain masking!&lt;/em&gt;).&lt;/p&gt;
 &lt;p&gt;All the data and the metadata are available as open data, without database use restrictions, under the &lt;a href=&#34;https://opendatacommons.org/licenses/odbl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ODbL&lt;/a&gt; license. However, the metadata contents are not finalized yet. We are currently working on a solution that applies the &lt;a href=&#34;http://www.nature.com/articles/sdata201618&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR Guiding Principles for scientific data management and stewardship&lt;/a&gt;, and fulfills the mandatory requirements of the Dublic Core metadata standards and at the same time the &lt;a href=&#34;https://support.datacite.org/docs/datacite-metadata-schema-v44-mandatory-properties&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mandatory requirements&lt;/a&gt;, and most of the &lt;a href=&#34;https://support.datacite.org/docs/datacite-metadata-schema-v44-recommended-and-optional-properties&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recommended requirements&lt;/a&gt; of DataCite. These changes will be effective before 1 July 2021.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;Competition Data Observatory&lt;/strong&gt; temporarily shares an API with the &lt;a href=&#34;https://economy.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data Observatory&lt;/a&gt;, which serves as an incubator for similar economy-oriented reproducible research resources.&lt;/p&gt;
@@ -669,7 +561,7 @@ give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#
 
 &lt;figure  id=&#34;figure-apieconomydataobservatoryeu-indicator-retrieval&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eviota.eu/img/observatory_screenshots/EDO_API_indicator_table.png&#34; alt=&#34;api.economy.dataobservatory.eu: indicator retrieval&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/img/observatory_screenshots/EDO_API_indicator_table.png&#34; alt=&#34;api.economy.dataobservatory.eu: indicator retrieval&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
       api.economy.dataobservatory.eu: indicator retrieval
     &lt;/figcaption&gt;&lt;/figure&gt;
@@ -695,7 +587,7 @@ give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#
 
 &lt;figure  id=&#34;figure-apieconomydataobservatoryeu-processing-metadata&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eviota.eu/img/observatory_screenshots/EDO_API_metadata_table.png&#34; alt=&#34;api.economy.dataobservatory.eu: processing metadata&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/img/observatory_screenshots/EDO_API_metadata_table.png&#34; alt=&#34;api.economy.dataobservatory.eu: processing metadata&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
       api.economy.dataobservatory.eu: processing metadata
     &lt;/figcaption&gt;&lt;/figure&gt;
@@ -706,9 +598,9 @@ give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#
     
     <item>
       <title>Data-as-Service</title>
-      <link>https://eviota.eu/services/data-as-service/</link>
+      <link>https://surveyharmonies.eu/services/data-as-service/</link>
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/services/data-as-service/</guid>
+      <guid>https://surveyharmonies.eu/services/data-as-service/</guid>
       <description>&lt;p&gt;&lt;strong&gt;We want to ensure that individual researchers, artists, and professionals, as well as NGOs and small and large organizations can benefit equally from big data in the age of artificial intelligence.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Big data creates inequality and injustice because it is only the big corporations, big government agencies, and the biggest, best endowed universities that can finance long-lasting, comprehensive data collection programs. Big data, and large, well-processed, tidy, and accurately imputed datasets allow them to unleash the power of machine learning and AI. These large entities are able to create algorithms that decide the commercial success of your product and your artwork, giving them a competitive edge against smaller competitors while helping them evade regulations.&lt;/p&gt;
 &lt;blockquote&gt;

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data-processing | Eviota</title>
-    <link>https://eviota.eu/tag/data-processing/</link>
-      <atom:link href="https://eviota.eu/tag/data-processing/index.xml" rel="self" type="application/rss+xml" />
+    <title>data-processing | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/data-processing/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/data-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>data-processing</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>data-processing</title>
-      <link>https://eviota.eu/tag/data-processing/</link>
+      <link>https://surveyharmonies.eu/tag/data-processing/</link>
     </image>
     
     <item>
       <title>Data Processing</title>
-      <link>https://eviota.eu/services/data-processing/</link>
+      <link>https://surveyharmonies.eu/services/data-processing/</link>
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/services/data-processing/</guid>
+      <guid>https://surveyharmonies.eu/services/data-processing/</guid>
       <description>&lt;p&gt;&lt;em&gt;Data analysts spend 80% of their time on data processing, even though computers can perform these task much faster, with far less errors, and they can document the process automatically. Data processing can be shared: an analyst in a company and an analyst in an      NGO does not have to reprocess the very same data twice&lt;/em&gt;*&lt;/p&gt;
-&lt;p&gt;See our blogpost &lt;a href=&#34;https://eviota.eu/post/2021-11-06-indicator_value_added/&#34;&gt;How We Add Value to Public Data With Imputation and Forecasting?&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See our blogpost &lt;a href=&#34;https://surveyharmonies.eu/post/2021-11-06-indicator_value_added/&#34;&gt;How We Add Value to Public Data With Imputation and Forecasting?&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Public data sources are often plagued by missng values. Naively you may think that you can ignore them, but think twice: in most cases, missing data in a table is not missing information, but rather malformatted information. This approach of ignoring or dropping missing values will not be feasible or robust when you want to make a beautiful visualization, or use data in a business forecasting model, a machine learning (AI) applicaton, or a more complex scientific model. All of the above require complete datasets, and naively discarding missing data points amounts to an excessive waste of information. In this example we are continuing the example a not-so-easy to find public dataset.&lt;/p&gt;
 &lt;p&gt;Completing missing datapoints requires statistical production information (why might the data be missing?) and data science knowhow (how to impute the missing value.) If you do not have a good statistician or data scientist in your team, you will need high-quality, complete datasets. This is what our automated data observatories provide.&lt;/p&gt;
 &lt;td style=&#34;text-align: center;&#34;&gt;
@@ -43,7 +43,7 @@
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp 400w,
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_a6eb1b13ff33a5c73aba34550964ff52.webp 760w,
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

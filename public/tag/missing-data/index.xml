@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>missing data | Eviota</title>
-    <link>https://eviota.eu/tag/missing-data/</link>
-      <atom:link href="https://eviota.eu/tag/missing-data/index.xml" rel="self" type="application/rss+xml" />
+    <title>missing data | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/missing-data/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/missing-data/index.xml" rel="self" type="application/rss+xml" />
     <description>missing data</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Nov 2021 10:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>missing data</title>
-      <link>https://eviota.eu/tag/missing-data/</link>
+      <link>https://surveyharmonies.eu/tag/missing-data/</link>
     </image>
     
     <item>
       <title>How We Add Value to Public Data With Imputation and Forecasting?</title>
-      <link>https://eviota.eu/post/2021-11-08-indicator_value_added/</link>
+      <link>https://surveyharmonies.eu/post/2021-11-08-indicator_value_added/</link>
       <pubDate>Mon, 08 Nov 2021 10:00:00 +0100</pubDate>
-      <guid>https://eviota.eu/post/2021-11-08-indicator_value_added/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-11-08-indicator_value_added/</guid>
       <description>&lt;p&gt;Public data sources are often plagued by missng values. Naively you may think that you can ignore them, but think twice: in most cases, missing data in a table is not missing information, but rather malformatted information. This approach of ignoring or dropping missing values will not be feasible or robust when you want to make a beautiful visualization, or use data in a business forecasting model, a machine learning (AI) applicaton, or a more complex scientific model. All of the above require complete datasets, and naively discarding missing data points amounts to an excessive waste of information. In this example we are continuing the example a not-so-easy to find public dataset.&lt;/p&gt;
 &lt;td style=&#34;text-align: center;&#34;&gt;
 
@@ -40,7 +40,7 @@
                /media/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited_huc1de598e48bcf2ca9302064c36ee3048_2297404_13a19cc7308f7f90fb71ae2c524e8fe6.webp 400w,
                /media/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited_huc1de598e48bcf2ca9302064c36ee3048_2297404_4c70859ff3bfdb7160714dc07c4d5305.webp 760w,
                /media/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited_huc1de598e48bcf2ca9302064c36ee3048_2297404_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited_huc1de598e48bcf2ca9302064c36ee3048_2297404_13a19cc7308f7f90fb71ae2c524e8fe6.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited_huc1de598e48bcf2ca9302064c36ee3048_2297404_13a19cc7308f7f90fb71ae2c524e8fe6.webp&#34;
                width=&#34;760&#34;
                height=&#34;504&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -73,7 +73,7 @@
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp 400w,
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_99b295653ecf8ec6dbf89153a188c1fa.webp 760w,
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -122,7 +122,7 @@ This example highlights another important aspect of data trustworthiness. If you
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp 400w,
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_a6eb1b13ff33a5c73aba34550964ff52.webp 760w,
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

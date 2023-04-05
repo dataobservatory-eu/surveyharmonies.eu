@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Environmental impact analysis | Eviota</title>
-    <link>https://eviota.eu/tag/environmental-impact-analysis/</link>
-      <atom:link href="https://eviota.eu/tag/environmental-impact-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <title>Environmental impact analysis | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/environmental-impact-analysis/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/environmental-impact-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Environmental impact analysis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Environmental impact analysis</title>
-      <link>https://eviota.eu/tag/environmental-impact-analysis/</link>
+      <link>https://surveyharmonies.eu/tag/environmental-impact-analysis/</link>
     </image>
     
     <item>
       <title>iotables R package for working with symmetric input-output tables</title>
-      <link>https://eviota.eu/software/iotables/</link>
+      <link>https://surveyharmonies.eu/software/iotables/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/software/iotables/</guid>
+      <guid>https://surveyharmonies.eu/software/iotables/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://iotables.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; processes all the symmetric input-output tables of the EU member states, and calculates direct, indirect and induced effects, multipliers for GVA, employment, taxation. These are important inputs into policy evaluation, business forecasting, or granting/development indicator design. iotables is used by about 800 experts around the world.&lt;/p&gt;
 &lt;h2 id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h2&gt;
 &lt;p&gt;Please note that the &lt;code&gt;iotables&lt;/code&gt; project is released with a

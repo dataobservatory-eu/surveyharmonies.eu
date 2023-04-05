@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software | Eviota</title>
-    <link>https://eviota.eu/software/</link>
-      <atom:link href="https://eviota.eu/software/index.xml" rel="self" type="application/rss+xml" />
+    <title>Software | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/software/</link>
+      <atom:link href="https://surveyharmonies.eu/software/index.xml" rel="self" type="application/rss+xml" />
     <description>Software</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Software</title>
-      <link>https://eviota.eu/software/</link>
+      <link>https://surveyharmonies.eu/software/</link>
     </image>
     
     <item>
       <title>dataset: Create Interoperable FAIR Datasets</title>
-      <link>https://eviota.eu/software/dataset/</link>
+      <link>https://surveyharmonies.eu/software/dataset/</link>
       <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/software/dataset/</guid>
+      <guid>https://surveyharmonies.eu/software/dataset/</guid>
       <description>&lt;h2 id=&#34;interoperable-fair-datasets&#34;&gt;Interoperable, FAIR datasets&lt;/h2&gt;
 &lt;p&gt;The primary aim of dataset is create well-referenced, well-described,
 interoperable datasets from data.frames, tibbles or data.tables that
@@ -62,9 +62,9 @@ By contributing to this project, you agree to abide by its terms.&lt;/p&gt;
     
     <item>
       <title>statcodelists: Use Standardized Statistical Codelists</title>
-      <link>https://eviota.eu/software/statcodelists/</link>
+      <link>https://surveyharmonies.eu/software/statcodelists/</link>
       <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/software/statcodelists/</guid>
+      <guid>https://surveyharmonies.eu/software/statcodelists/</guid>
       <description>&lt;h2 id=&#34;retrospective-data-harmonization&#34;&gt;Retrospective data harmonization&lt;/h2&gt;
 &lt;p&gt;The aim of &lt;code&gt;retroharmonize&lt;/code&gt; is to provide tools for reproducible
 retrospective (ex-post) harmonization of datasets that contain variables
@@ -178,9 +178,9 @@ By contributing to this project, you agree to abide by its terms.&lt;/p&gt;
     
     <item>
       <title>retroharmonize R package for survey harmonization</title>
-      <link>https://eviota.eu/software/retroharmonize/</link>
+      <link>https://surveyharmonies.eu/software/retroharmonize/</link>
       <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/software/retroharmonize/</guid>
+      <guid>https://surveyharmonies.eu/software/retroharmonize/</guid>
       <description>&lt;h2 id=&#34;retrospective-data-harmonization&#34;&gt;Retrospective data harmonization&lt;/h2&gt;
 &lt;p&gt;The aim of &lt;code&gt;retroharmonize&lt;/code&gt; is to provide tools for reproducible
 retrospective (ex-post) harmonization of datasets that contain variables
@@ -294,9 +294,9 @@ By contributing to this project, you agree to abide by its terms.&lt;/p&gt;
     
     <item>
       <title>iotables R package for working with symmetric input-output tables</title>
-      <link>https://eviota.eu/software/iotables/</link>
+      <link>https://surveyharmonies.eu/software/iotables/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/software/iotables/</guid>
+      <guid>https://surveyharmonies.eu/software/iotables/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://iotables.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; processes all the symmetric input-output tables of the EU member states, and calculates direct, indirect and induced effects, multipliers for GVA, employment, taxation. These are important inputs into policy evaluation, business forecasting, or granting/development indicator design. iotables is used by about 800 experts around the world.&lt;/p&gt;
 &lt;h2 id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h2&gt;
 &lt;p&gt;Please note that the &lt;code&gt;iotables&lt;/code&gt; project is released with a
@@ -313,9 +313,9 @@ By contributing to this project, you agree to abide by its terms.&lt;/p&gt;
     
     <item>
       <title>regions R package to create sub-national statistical indicators</title>
-      <link>https://eviota.eu/software/regions/</link>
+      <link>https://surveyharmonies.eu/software/regions/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/software/regions/</guid>
+      <guid>https://surveyharmonies.eu/software/regions/</guid>
       <description>&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;You can install the development version from
 &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; with:&lt;/p&gt;
