@@ -10,7 +10,7 @@ summary: We created a longitudinal dataset that contains data on the attitudes E
 projects: []
 
 # Date published
-date: "2021-03-06T00:00:00Z"
+date: "2021-03-06T00:00:00Z" 
 
 # Date updated
 lastmod: "2021-03-06T00:00:00Z"

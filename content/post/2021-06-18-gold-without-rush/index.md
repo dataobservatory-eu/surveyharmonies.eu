@@ -10,7 +10,7 @@ authors:  ["daniel_antal"]
 tags:  ["Open data", "Open science", "R", "Data collection"]
 
 summary:  "If open data is the new gold, why even those who release fail to reuse it? We created an open collaboration of data curators and open-source developers to dig into novel open data sources and/or increase the usability of existing ones. We transform reproducible research software into research- as-service."
-
+ 
 projects:  ""
 
 links:

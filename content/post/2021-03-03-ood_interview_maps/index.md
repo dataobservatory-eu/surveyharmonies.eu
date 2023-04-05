@@ -9,7 +9,7 @@ authors:  ["Daniel Antal"]
 
 tags:  ["open data", "music-observatory", "open data day", "maps"]
 
-summary:  "Milos Popovic is a researcher, a data scientist, Marie Curie postdoc & Top 10 dataviz & R contributor on Twitter according to NodeXL. He is going to join the Data & Lyrics team on International Open Data Day to help us put harmonized environmental degradation perception and environmental sensory data on maps. We asked him four questions about his passion, mapping data. Please join us 6 March 2021 9.30 EST / 15.30 CET for an informal digital coffee."
+summary:  "Milos Popovic is a researcher, a data scientist, Marie Curie postdoc & Top 10 dataviz & R contributor on Twitter according to NodeXL. He is going to join the Data & Lyrics team on International Open Data Day to help us put harmonized environmental degradation perception and environmental sensory data on maps. We asked him four questions about his passion, mapping data. Please join us 6 March 2021 9.30 EST / 15.30 CET for an informal digital coffee." 
 
 projects:  ["music-observatory"]
 

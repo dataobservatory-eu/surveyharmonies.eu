@@ -17,8 +17,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: 'Eviota'
-    description: 'Connecting financial and sustainability management'
+    org_name: 'SurveyHarmonies'
+    description: 'Harmonised Survey Tools for Music Industry Stakeholders'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -70,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/dataobservatory-eu/greendeal'
+    url: 'https://github.com/dataobservatory-eu/surveyharmonies.eu'
     content_dir: content
     branch: master
   avatar:
