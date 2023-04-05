@@ -11,7 +11,7 @@ tags:
  - Open data
  - Open science
  - Regional data
- - R
+ - R 
  - Small area statistics
  
 summary:  "There are numerous advantages of switching from a national level of the analysis to a sub-national level comes with a huge price in data processing, validation and imputation, and the regions package aims to help this process."

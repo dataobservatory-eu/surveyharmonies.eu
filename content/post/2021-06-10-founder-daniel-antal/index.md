@@ -16,7 +16,7 @@ projects:  ["eu-datathon_2021"]
 # Featured image
 image:
   # Caption (optional)
-  caption:  "Annette Wong"
+  caption:  "Annette Wong" 
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight

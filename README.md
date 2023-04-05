@@ -16,7 +16,7 @@ statcodelists](https://img.shields.io/badge/R-statcodelists-lightgrey.svg)](http
 [![Contributor
 Covenant](https://img.shields.io/badge/ethics-Contributor%20Covenant-680171.svg)](https://dataobservatory.eu/)
 
-## Welcome 👋
+## Welcome 👋 
 
 🙋‍♀️ Creating an ecosystem of open data and open knowledge sharing in R, hugo, and open science repositories.
 
@@ -28,7 +28,7 @@ Our work relies on commissioned work, grants, sponsorship, and the same goes to 
 
 ## New Contributors
 
-Welcome to our [dataobservatory.eu](https://github.com/dataobservatory-eu/) R, hugo, and open data ecosystem and the repository of the [Green Deal Data Observatory website](https://greendeal.dataobservatory.eu/).
+Welcome to our [dataobservatory.eu](https://github.com/dataobservatory-eu/) R, hugo, and open data ecosystem and the repository of the [SurveyHarmonies website](https://surveyharmonies.eu/).
 
 We are very happy to guide you to the experience of open source development and open knowledge management regardless of your experience level with R or Github. We kindly ask you to take the Contributor Covenant Pledge before starting our collaboration.
 
@@ -38,7 +38,7 @@ We pledge to act and interact in ways that contribute to an open, welcoming, div
 
 Please read the [entire covenant here](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
 
-## Contribute to the Green Deal Data Observatory
+## Contribute to SurveyHarmonies
 
 - [x]  Name, affiliation, education details, one-line and short biography. Please, send back this [bio_template.txt text file](https://raw.githubusercontent.com/dataobservatory-eu/new-contributors/main/biography/bio_template.txt) with your details or, if you know markdown, use [this version](https://github.com/dataobservatory-eu/new-contributors/blob/main/biography/_index.md). The files are identical, but your word processor may not know how to open an .md file.
 - [x] Your [ORCiD](https://orcid.org/) to resolve ambiguity with similarly named people. You may use different library or publication service IDs, such as Google Scholar, Publeon, etc, you may provide them, too, but we do need an ORCiD ID, because most of the EU open science infrastructure and the R ecosystem uses this one. If you do not have it, please create one---it only takes a few minutes. Please add it to the bio_template.txt.
