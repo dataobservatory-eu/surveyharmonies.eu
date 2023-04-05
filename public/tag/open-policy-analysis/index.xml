@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Policy Analysis | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/open-policy-analysis/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/open-policy-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Open Policy Analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Feb 2022 09:24:00 +0100</lastBuildDate>
+    <image>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Open Policy Analysis</title>
+      <link>https://surveyharmonies.eu/tag/open-policy-analysis/</link>
+    </image>
+    
+    <item>
+      <title>How We Design Better Indicators?</title>
+      <link>https://surveyharmonies.eu/post/2022-02-17-better-indicator-design/</link>
+      <pubDate>Thu, 17 Feb 2022 09:24:00 +0100</pubDate>
+      <guid>https://surveyharmonies.eu/post/2022-02-17-better-indicator-design/</guid>
+      <description>&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-follow-the-eurostat-indicator-design-guidelines-to-make-sure-that-our-users--cultural-ministries-representative-organizations-of-music-large-music-organization-and-companies-researcher-get-the-information-that-they-need-in-usable-and-precise-indicators&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2022/Eurostat_using_indicators_way_communicating_captioned.jpg&#34; alt=&#34;We follow the Eurostat indicator design guidelines to make sure that our users – cultural ministries, representative organizations of music, large music organization and companies, researcher get the information that they need in usable and precise indicators.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We follow the Eurostat indicator design guidelines to make sure that our users – cultural ministries, representative organizations of music, large music organization and companies, researcher get the information that they need in usable and precise indicators.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;Many people only trust statistics from the Eurostat service, a U.S. federal service, or from their national statistical offices. Our data provided by market research firms with a premium price.  Our aim is to create open key business performance indicators, evidence-based policy indicators and other statistical indicators for academic research that has a similar or higher level of usability, reliability, and quality. We want to fill the data gaps for the &lt;a href=&#34;https://music.dataobservatory.eu/pillars/music-economy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Music Economy&lt;/a&gt;, the &lt;a href=&#34;https://music.dataobservatory.eu/pillars/diversity-circulation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diversity of Circulation of European Music&lt;/a&gt;, &lt;a href=&#34;https://music.dataobservatory.eu/pillars/music-and-society/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Music &amp;amp; Society&lt;/a&gt; and &lt;a href=&#34;https://music.dataobservatory.eu/pillars/innovation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Music Innovation&lt;/a&gt; data left by public authorities and international organization with timely, easy-to-import, easy to use indicators and visualizations.&lt;/p&gt;
+&lt;p&gt;We work using the agile open collaboration method that allows music organizations, companies, universities, think-tanks, and individual researchers to share data, efforts, and results.  We are asking our users to nominate a knowledgeable &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data curator&lt;/a&gt; who communicates the data needs to us. The curators are not data experts: they tell us what their organization or project needs, and they evaluate if our technically sound datasets and visualizations truly meet your needs, or they must be redesigned. We make sure that whatever the data curators approved will be refreshed, if needed, monthly or quarterly, and placed into our data services for free.&lt;/p&gt;
+&lt;p&gt;Our quality assurance program is sometimes the same as in national statistical offices, and sometimes it is different.  We use only open-source statistical software, and we follow the &lt;a href=&#34;https://music.dataobservatory.eu/pillars/opa/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Policy Analysis Guidelines&lt;/a&gt; for full transparency in our data handling.  We send both our software code and our results to scientific peer review, which is often more rigorous than other internal quality controls.  We use so-called computerized &lt;em&gt;unit-tests&lt;/em&gt;, often almost 100 of them, that search for signs of any data corruption.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-see-our-previous-blogpost-how-we-add-value-to-public-data-with-imputation-and-forecastinghttpsmusicdataobservatoryeupost2021-11-06-indicator_value_added-with-an-example-on-radio-market-data&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2021/jack-sloop-eYwn81sPkJ8-unsplash.jpg&#34; alt=&#34;See our previous blogpost: [How We Add Value to Public Data With Imputation and Forecasting?](https://music.dataobservatory.eu/post/2021-11-06-indicator_value_added/) with an example on radio market data.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      See our previous blogpost: &lt;a href=&#34;https://music.dataobservatory.eu/post/2021-11-06-indicator_value_added/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How We Add Value to Public Data With Imputation and Forecasting?&lt;/a&gt; with an example on radio market data.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; We involve business, policy and academic users in the entire cycle of indicator design to make sure that they receive the information they need in their decision making process or resaerch, and that the information is correct and well documented.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; We place the data, the codebook in the EU &lt;a href=&#34;https://explore.openaire.eu/search/dataset?pid=10.5281%2Fzenodo.5917742&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenAire&lt;/a&gt; and &lt;a href=&#34;https://zenodo.org/communities/music_observatory?page=1&amp;amp;size=20&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt; repositories with a DOI and versioning for data integrity, and into the Figshare repository for free, resuable, Creative Commons visualizations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; We have a similar &lt;a href=&#34;https://api.music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rest API&lt;/a&gt; to the Eurostat data warehouse for automatic database connections.  But we always make sure that the data is available in the easiest to use form for SPSS, STATA, Excel, Numbers, or OpenOffice.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Currently we have only ad hoc funding, and we could not process all the data we have. In fact, we have more than 1000 indicators in our treasure trove &amp;mdash; if you need something, just &lt;a href=&#34;%28https://reprex.nl/#contact%29&#34;&gt;contact us&lt;/a&gt; and ask, we are more than likely to be able to give you something. If you need more data, consider joining or &lt;a href=&#34;https://reprex.nl/project/horizon/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&amp;amp;D Consortium&lt;/a&gt; as a music sector affiliated partner to seek EU funds to provide you with free and high quality data.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

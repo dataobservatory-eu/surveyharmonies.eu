@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>statcodelists | Eviota</title>
-    <link>https://eviota.eu/tag/statcodelists/</link>
-      <atom:link href="https://eviota.eu/tag/statcodelists/index.xml" rel="self" type="application/rss+xml" />
+    <title>statcodelists | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/statcodelists/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/statcodelists/index.xml" rel="self" type="application/rss+xml" />
     <description>statcodelists</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>statcodelists</title>
-      <link>https://eviota.eu/tag/statcodelists/</link>
+      <link>https://surveyharmonies.eu/tag/statcodelists/</link>
     </image>
     
     <item>
       <title>statcodelists: Use Standardized Statistical Codelists</title>
-      <link>https://eviota.eu/software/statcodelists/</link>
+      <link>https://surveyharmonies.eu/software/statcodelists/</link>
       <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/software/statcodelists/</guid>
+      <guid>https://surveyharmonies.eu/software/statcodelists/</guid>
       <description>&lt;h2 id=&#34;retrospective-data-harmonization&#34;&gt;Retrospective data harmonization&lt;/h2&gt;
 &lt;p&gt;The aim of &lt;code&gt;retroharmonize&lt;/code&gt; is to provide tools for reproducible
 retrospective (ex-post) harmonization of datasets that contain variables

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R | Eviota</title>
-    <link>https://eviota.eu/tag/r/</link>
-      <atom:link href="https://eviota.eu/tag/r/index.xml" rel="self" type="application/rss+xml" />
+    <title>R | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/r/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Jun 2022 08:12:00 +0100</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
-      <link>https://eviota.eu/tag/r/</link>
+      <link>https://surveyharmonies.eu/tag/r/</link>
     </image>
     
     <item>
       <title>stacodelists: use standard, language-independent variable codes to help international data interoperability and machine reuse in R</title>
-      <link>https://eviota.eu/post/2022-06-29-statcodelists/</link>
+      <link>https://surveyharmonies.eu/post/2022-06-29-statcodelists/</link>
       <pubDate>Wed, 29 Jun 2022 08:12:00 +0100</pubDate>
-      <guid>https://eviota.eu/post/2022-06-29-statcodelists/</guid>
+      <guid>https://surveyharmonies.eu/post/2022-06-29-statcodelists/</guid>
       <description>&lt;td style=&#34;text-align: center;&#34;&gt;
 
 
@@ -39,7 +39,7 @@
                /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_0b514d80337ede30bff4c26cee6a6f11.webp 400w,
                /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_1416f7a0950b1cecac8097850d995432.webp 760w,
                /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_0b514d80337ede30bff4c26cee6a6f11.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_0b514d80337ede30bff4c26cee6a6f11.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -109,9 +109,9 @@
     
     <item>
       <title>Including Indicators from Arab Barometer in Our Observatory</title>
-      <link>https://eviota.eu/post/2021-06-28-arabbarometer/</link>
+      <link>https://surveyharmonies.eu/post/2021-06-28-arabbarometer/</link>
       <pubDate>Mon, 28 Jun 2021 09:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-06-28-arabbarometer/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-06-28-arabbarometer/</guid>
       <description>&lt;p&gt;&lt;em&gt;A new version of the retroharmonize R package – which is working with retrospective, ex post harmonization of survey data – was released yesterday after peer-review on CRAN. It allows us to compare opinion polling data from the Arab Barometer with the Eurobarometer and Afrorbarometer. This is the first version that is released in the rOpenGov community, a community of R package developers on open government data analytics and related topics.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Surveys are the most important data sources in social and economic
 statistics – they ask people about their lives, their attitudes and
@@ -173,7 +173,7 @@ are treated the same way.&lt;/li&gt;
                /media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1bab40489e5820c07250b277ffe362e0.webp 400w,
                /media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_fd825f05348e751021206419bd01c763.webp 760w,
                /media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1bab40489e5820c07250b277ffe362e0.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1bab40489e5820c07250b277ffe362e0.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -256,7 +256,7 @@ code them consistently &lt;code&gt;1:  free_and_fair&lt;/code&gt;, &lt;code&gt;2
                /media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_30b9d9bccbe8f347c912dbe10ef5159c.webp 400w,
                /media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_f7e62366b8310160e9cdd16714a5ac44.webp 760w,
                /media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_30b9d9bccbe8f347c912dbe10ef5159c.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_30b9d9bccbe8f347c912dbe10ef5159c.webp&#34;
                width=&#34;506&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -299,7 +299,7 @@ contributors, see the
 use it for your work, please kindly cite it as:&lt;/p&gt;
 &lt;p&gt;Daniel Antal (2021). retroharmonize: Ex Post Survey Data Harmonization.
 R package version 0.1.17. &lt;a href=&#34;https://doi.org/10.5281/zenodo.5034752&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.5034752&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Download the &lt;a href=&#34;https://eviota.eu/media/bibliography/cite-retroharmonize.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Download the &lt;a href=&#34;https://surveyharmonies.eu/media/bibliography/cite-retroharmonize.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;tutorial-to-work-with-the-arab-barometer-survey-data&#34;&gt;Tutorial to work with the Arab Barometer survey data&lt;/h3&gt;
 &lt;p&gt;Daniel Antal, &amp;amp; Ahmed Shaibani. (2021, June 26). Case Study: Working
 With Arab Barometer Surveys for the retroharmonize R package (Version
@@ -328,19 +328,19 @@ manipulating or data, or for easy import into your database.&lt;/p&gt;
 offering? Join the rOpenGov community of R package developers, an our
 open collaboration to create the automated data observatories. We are
 not only looking for
-&lt;a href=&#34;https://eviota.eu/authors/developer/&#34;&gt;developers&lt;/a&gt;,
-but &lt;a href=&#34;https://eviota.eu/authors/curator/&#34;&gt;data
+&lt;a href=&#34;https://surveyharmonies.eu/authors/developer/&#34;&gt;developers&lt;/a&gt;,
+but &lt;a href=&#34;https://surveyharmonies.eu/authors/curator/&#34;&gt;data
 curators&lt;/a&gt; and
-&lt;a href=&#34;https://eviota.eu/authors/team/&#34;&gt;service design
+&lt;a href=&#34;https://surveyharmonies.eu/authors/team/&#34;&gt;service design
 associates&lt;/a&gt;, too.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Open Data - The New Gold Without the Rush</title>
-      <link>https://eviota.eu/post/2021-06-18-gold-without-rush/</link>
+      <link>https://surveyharmonies.eu/post/2021-06-18-gold-without-rush/</link>
       <pubDate>Fri, 18 Jun 2021 17:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-06-18-gold-without-rush/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-06-18-gold-without-rush/</guid>
       <description>&lt;p&gt;&lt;em&gt;If open data is the new gold, why even those who release fail to reuse it? We created an open collaboration of data curators and open-source developers to dig into novel open data sources and/or increase the usability of existing ones. We transform reproducible research software into research- as-service.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Every year, the EU announces that billions and billions of data are now “open” again, but this is not gold. At least not in the form of nicely minted gold coins, but in gold dust and nuggets found in the muddy banks of chilly rivers. There is no rush for it, because panning out its value requires a lot of hours of hard work. Our goal is to automate this work to make open data usable at scale, even in trustworthy AI solutions.&lt;/p&gt;
 
@@ -365,7 +365,7 @@ associates&lt;/a&gt;, too.&lt;/p&gt;
                /media/img/slides/gold_panning_slide_notitle_hu8f7296f20da8c17f972a0534c44322c2_1382486_b042523dffe8143dea3d8c8c9c3262f4.webp 400w,
                /media/img/slides/gold_panning_slide_notitle_hu8f7296f20da8c17f972a0534c44322c2_1382486_faa00e96d3d0b700cfcf1daa513f3ad2.webp 760w,
                /media/img/slides/gold_panning_slide_notitle_hu8f7296f20da8c17f972a0534c44322c2_1382486_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/slides/gold_panning_slide_notitle_hu8f7296f20da8c17f972a0534c44322c2_1382486_b042523dffe8143dea3d8c8c9c3262f4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/slides/gold_panning_slide_notitle_hu8f7296f20da8c17f972a0534c44322c2_1382486_b042523dffe8143dea3d8c8c9c3262f4.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -396,7 +396,7 @@ associates&lt;/a&gt;, too.&lt;/p&gt;
                /media/img/observatory_screenshots/observatory_collage_16x9_800_hu47f74f5cdae63c7248c2367b9d148671_353025_0079ea9844f6c5e52b52fd0e627467a2.webp 400w,
                /media/img/observatory_screenshots/observatory_collage_16x9_800_hu47f74f5cdae63c7248c2367b9d148671_353025_ecd6d08ba5e9bac19c8173546f036651.webp 760w,
                /media/img/observatory_screenshots/observatory_collage_16x9_800_hu47f74f5cdae63c7248c2367b9d148671_353025_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/observatory_screenshots/observatory_collage_16x9_800_hu47f74f5cdae63c7248c2367b9d148671_353025_0079ea9844f6c5e52b52fd0e627467a2.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/observatory_screenshots/observatory_collage_16x9_800_hu47f74f5cdae63c7248c2367b9d148671_353025_0079ea9844f6c5e52b52fd0e627467a2.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -426,7 +426,7 @@ associates&lt;/a&gt;, too.&lt;/p&gt;
                /media/img/slides/automated_observatory_value_chain_huf9c0a6d9b150a8fdeb42cadf99abee90_616274_c18a97f00bbcac322614b6c2d55783f6.webp 400w,
                /media/img/slides/automated_observatory_value_chain_huf9c0a6d9b150a8fdeb42cadf99abee90_616274_8b655e803b41b817a8093a37ccd19689.webp 760w,
                /media/img/slides/automated_observatory_value_chain_huf9c0a6d9b150a8fdeb42cadf99abee90_616274_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/slides/automated_observatory_value_chain_huf9c0a6d9b150a8fdeb42cadf99abee90_616274_c18a97f00bbcac322614b6c2d55783f6.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/slides/automated_observatory_value_chain_huf9c0a6d9b150a8fdeb42cadf99abee90_616274_c18a97f00bbcac322614b6c2d55783f6.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -437,7 +437,7 @@ associates&lt;/a&gt;, too.&lt;/p&gt;
 &lt;li&gt;We are building various open-source data collection tools in R and Python to bring up data from big data APIs and legally open, but not public, and not well served data sources. For example, we are working on capturing representative data from the Spotify API or creating harmonized datasets from the Eurobarometer and Afrobarometer survey programs.&lt;/li&gt;
 &lt;li&gt;Open data is usually not public; whatever is legally accessible is usually not ready to use for commercial or scientific purposes. In Europe, almost all taxpayer funded data is legally open for reuse, but it is usually stored in heterogeneous formats, processed into an original government or scientific need, and with various and low documentation standards. Our expert data curators are looking for new data sources that should be (re-) processed and re-documented to be usable for a wider community. We would like to introduce our service flow, which touches upon many important aspects of data scientist, data engineer and data curatorial work.&lt;/li&gt;
 &lt;li&gt;We believe that even such generally trusted data sources as Eurostat often need to be reprocessed, because various legal and political constraints do not allow the common European statistical services to provide optimal quality data – for example, on the regional and city levels.&lt;/li&gt;
-&lt;li&gt;With &lt;a href=&#34;https://eviota.eu/authors/ropengov/&#34;&gt;rOpenGov&lt;/a&gt; and other partners, we are creating open-source statistical software in R to re-process these heterogenous and low-quality data into tidy statistical indicators to automatically validate and document it.&lt;/li&gt;
+&lt;li&gt;With &lt;a href=&#34;https://surveyharmonies.eu/authors/ropengov/&#34;&gt;rOpenGov&lt;/a&gt; and other partners, we are creating open-source statistical software in R to re-process these heterogenous and low-quality data into tidy statistical indicators to automatically validate and document it.&lt;/li&gt;
 &lt;li&gt;We are carefully documenting and releasing administrative, processing, and descriptive metadata, following international metadata standards, to make our data easy to find and easy to use for data analysts.&lt;/li&gt;
 &lt;li&gt;We are automatically creating depositions and authoritative copies marked with an individual digital object identifier (DOI) to maintain data integrity.&lt;/li&gt;
 &lt;li&gt;We are building simple databases and supporting APIs that release the data without restrictions, in a tidy format that is easy to join with other data, or easy to join into databases, together with standardized metadata.&lt;/li&gt;
@@ -466,22 +466,22 @@ associates&lt;/a&gt;, too.&lt;/p&gt;
                /media/img/observatory_screenshots/dmo_contributors_hua4f41ef7327b64bb97f169af135070bd_140729_a07a8e618fa7317f6f8256b9a334262e.webp 400w,
                /media/img/observatory_screenshots/dmo_contributors_hua4f41ef7327b64bb97f169af135070bd_140729_3a4ae7f72478fd880961b08e1f7075dd.webp 760w,
                /media/img/observatory_screenshots/dmo_contributors_hua4f41ef7327b64bb97f169af135070bd_140729_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/observatory_screenshots/dmo_contributors_hua4f41ef7327b64bb97f169af135070bd_140729_a07a8e618fa7317f6f8256b9a334262e.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/observatory_screenshots/dmo_contributors_hua4f41ef7327b64bb97f169af135070bd_140729_a07a8e618fa7317f6f8256b9a334262e.webp&#34;
                width=&#34;760&#34;
                height=&#34;427&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      Our open collaboration is truly open: new &lt;a href=&#34;https://eviota.eu/authors/curator/&#34;&gt;data curators&lt;/a&gt;,&lt;a href=&#34;https://eviota.eu/authors/developer/&#34;&gt;developers&lt;/a&gt; and &lt;a href=&#34;https://eviota.eu/authors/team/&#34;&gt;service designers&lt;/a&gt;, even volunteers and citizen scientists are welcome to join.
+      Our open collaboration is truly open: new &lt;a href=&#34;https://surveyharmonies.eu/authors/curator/&#34;&gt;data curators&lt;/a&gt;,&lt;a href=&#34;https://surveyharmonies.eu/authors/developer/&#34;&gt;developers&lt;/a&gt; and &lt;a href=&#34;https://surveyharmonies.eu/authors/team/&#34;&gt;service designers&lt;/a&gt;, even volunteers and citizen scientists are welcome to join.
     &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;Our open collaboration is truly open: new &lt;a href=&#34;https://eviota.eu/authors/curator/&#34;&gt;data curators&lt;/a&gt;, data scientists and data engineers are welcome to join. We develop open-source software in an agile way, so you can join in with an intermediate programming skill to build unit tests or add new functionality, and if you are a beginner, you can start with documentation and testing our tutorials. For business, policy, and scientific data analysts, we provide unexploited, exciting new datasets. Advanced developers can &lt;a href=&#34;https://eviota.eu/authors/developer/&#34;&gt;join&lt;/a&gt; our development team: the statistical data creation is mainly made in the R language, and the service infrastructure in Python and Go components.&lt;/p&gt;
+&lt;p&gt;Our open collaboration is truly open: new &lt;a href=&#34;https://surveyharmonies.eu/authors/curator/&#34;&gt;data curators&lt;/a&gt;, data scientists and data engineers are welcome to join. We develop open-source software in an agile way, so you can join in with an intermediate programming skill to build unit tests or add new functionality, and if you are a beginner, you can start with documentation and testing our tutorials. For business, policy, and scientific data analysts, we provide unexploited, exciting new datasets. Advanced developers can &lt;a href=&#34;https://surveyharmonies.eu/authors/developer/&#34;&gt;join&lt;/a&gt; our development team: the statistical data creation is mainly made in the R language, and the service infrastructure in Python and Go components.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Analyze Locally, Act Globally: New regions R Package Release</title>
-      <link>https://eviota.eu/post/2021-06-16-regions-release/</link>
+      <link>https://surveyharmonies.eu/post/2021-06-16-regions-release/</link>
       <pubDate>Wed, 16 Jun 2021 12:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-06-16-regions-release/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-06-16-regions-release/</guid>
       <description>
 
 
@@ -504,7 +504,7 @@ associates&lt;/a&gt;, too.&lt;/p&gt;
                /media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_1aeab2d63a062640baf35ce7ffff4b52.webp 400w,
                /media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_340cd90381be5d85c6b08caba8072821.webp 760w,
                /media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_1aeab2d63a062640baf35ce7ffff4b52.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_1aeab2d63a062640baf35ce7ffff4b52.webp&#34;
                width=&#34;760&#34;
                height=&#34;427&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -559,7 +559,7 @@ grows from 20 to 200-300.&lt;/p&gt;
                /media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_df043b13fb62aa7b45aa15fad51f4229.webp 400w,
                /media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_09a0d6124e334c5f1727420a059512a9.webp 760w,
                /media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_df043b13fb62aa7b45aa15fad51f4229.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_df043b13fb62aa7b45aa15fad51f4229.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -597,7 +597,7 @@ difficult.&lt;/p&gt;
                /media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_65df57cf4311bb2623535a1a5be044c0.webp 400w,
                /media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_81a53fd42fac7f0c3fe4e1a89d5b7892.webp 760w,
                /media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_65df57cf4311bb2623535a1a5be044c0.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_65df57cf4311bb2623535a1a5be044c0.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -638,7 +638,7 @@ Conduct&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you use &lt;code&gt;regions&lt;/code&gt; in your work, please cite the
 package as:
 Daniel Antal. (2021, June 16). regions (Version 0.1.7). CRAN. &lt;a href=&#34;%28https://doi.org/10.5281/zenodo.4965909%29&#34;&gt;http://doi.org/10.5281/zenodo.4965909&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Download the &lt;a href=&#34;https://eviota.eu/media/bibliography/cite-regions.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Download the &lt;a href=&#34;https://surveyharmonies.eu/media/bibliography/cite-regions.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/package=regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
 
 
@@ -663,7 +663,7 @@ Daniel Antal. (2021, June 16). regions (Version 0.1.7). CRAN. &lt;a href=&#34;%2
 &lt;h2 id=&#34;join-us&#34;&gt;Join us&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Join our Green Deal Data Observatory collaboration!&lt;/summary&gt;
-  &lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://eviota.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://eviota.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://eviota.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Music Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://surveyharmonies.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://surveyharmonies.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://surveyharmonies.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Music Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/intent/follow?screen_name=GreenDealObs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
 
@@ -691,12 +691,12 @@ Daniel Antal. (2021, June 16). regions (Version 0.1.7). CRAN. &lt;a href=&#34;%2
     
     <item>
       <title>Retrospective Survey Harmonization Case Study - Climate Awareness Change in Europe 2013-2019.</title>
-      <link>https://eviota.eu/post/2021-03-05-retroharmonize-climate/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-05-retroharmonize-climate/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-05-retroharmonize-climate/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-05-retroharmonize-climate/</guid>
       <description>&lt;p&gt;Retrospective survey harmonization comes with many challenges, as we
 have shown in the
-&lt;a href=&#34;https://eviota.eu/post/2021-03-04_retroharmonize_intro/&#34;&gt;introduction&lt;/a&gt;
+&lt;a href=&#34;https://surveyharmonies.eu/post/2021-03-04_retroharmonize_intro/&#34;&gt;introduction&lt;/a&gt;
 to this tutorial case study. In this example, we will work with
 Eurobarometer’s data.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -1336,9 +1336,9 @@ Dataset&lt;/a&gt;.&lt;/p&gt;
     
     <item>
       <title>What is Retrospective Survey Harmonization?</title>
-      <link>https://eviota.eu/post/2021-03-04_retroharmonize_intro/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-04_retroharmonize_intro/</link>
       <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-04_retroharmonize_intro/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-04_retroharmonize_intro/</guid>
       <description>&lt;h2 id=&#34;reproducible-ex-post-harmonization-of-survey-microdata&#34;&gt;Reproducible ex post harmonization of survey microdata&lt;/h2&gt;
 &lt;p&gt;Retrospective survey harmonization allows the comparison of opinion poll
 data conducted in different countries or time. In this example we are

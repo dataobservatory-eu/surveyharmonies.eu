@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Enviromental Impact Analysis | Eviota</title>
-    <link>https://eviota.eu/tag/enviromental-impact-analysis/</link>
-      <atom:link href="https://eviota.eu/tag/enviromental-impact-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <title>Enviromental Impact Analysis | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/enviromental-impact-analysis/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/enviromental-impact-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Enviromental Impact Analysis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 03 Jun 2021 16:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Enviromental Impact Analysis</title>
-      <link>https://eviota.eu/tag/enviromental-impact-analysis/</link>
+      <link>https://surveyharmonies.eu/tag/enviromental-impact-analysis/</link>
     </image>
     
     <item>
       <title>Economic and Environment Impact Analysis, Automated for Data-as-Service</title>
-      <link>https://eviota.eu/post/2021-06-03-iotables-release/</link>
+      <link>https://surveyharmonies.eu/post/2021-06-03-iotables-release/</link>
       <pubDate>Thu, 03 Jun 2021 16:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-06-03-iotables-release/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-06-03-iotables-release/</guid>
       <description>&lt;p&gt;We have released a new version of
 &lt;a href=&#34;https://iotables.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; as part of the
 &lt;a href=&#34;http://ropengov.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; project. The package, as the name
@@ -90,7 +90,7 @@ is to keep vectors and matrices, which have at least one dimension of
                /media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_1ff902b174dec383d32d5245b4103fff.webp 400w,
                /media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_af398c7bd5f3c936ea4ad7a030c0a82e.webp 760w,
                /media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_1ff902b174dec383d32d5245b4103fff.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_1ff902b174dec383d32d5245b4103fff.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -300,7 +300,7 @@ greenhouse gases.&lt;/p&gt;
 &lt;p&gt;The last released version of &lt;em&gt;iotables&lt;/em&gt; is Importing and Manipulating
 Symmetric Input-Output Tables (Version 0.4.4). Zenodo.
 &lt;a href=&#34;https://zenodo.org/record/4897472&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.4897472&lt;/a&gt;,
-but we are already  working on a new major release. (Download the &lt;a href=&#34;https://eviota.eu/media/bibliography/cite-iotables.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.) In that release, we
+but we are already  working on a new major release. (Download the &lt;a href=&#34;https://surveyharmonies.eu/media/bibliography/cite-iotables.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.) In that release, we
 are planning to build in the necessary vocabulary into the metadata
 functions to increase the functionality of the package, and create new
 indicators for our &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt;. This experimental
@@ -330,7 +330,7 @@ the daylight yet.&lt;/p&gt;
                /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp 400w,
                /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_3250accecb68b0ec9716afed72d0f77e.webp 760w,
                /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -359,7 +359,7 @@ recruitment
 --&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Join our Green Deal Data Observatory collaboration!&lt;/summary&gt;
-  &lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://eviota.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://eviota.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://eviota.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Music Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://surveyharmonies.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://surveyharmonies.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://surveyharmonies.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Music Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
 &lt;/details&gt;
 </description>
     </item>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>competition | Eviota</title>
-    <link>https://eviota.eu/authors/competition/</link>
-      <atom:link href="https://eviota.eu/authors/competition/index.xml" rel="self" type="application/rss+xml" />
+    <title>competition | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/authors/competition/</link>
+      <atom:link href="https://surveyharmonies.eu/authors/competition/index.xml" rel="self" type="application/rss+xml" />
     <description>competition</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 Mar 2023 13:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>competition</title>
-      <link>https://eviota.eu/authors/competition/</link>
+      <link>https://surveyharmonies.eu/authors/competition/</link>
     </image>
     
     <item>
       <title>Open Data Day in The Hague 2023</title>
-      <link>https://eviota.eu/talk/open-data-day-in-the-hague-2023/</link>
+      <link>https://surveyharmonies.eu/talk/open-data-day-in-the-hague-2023/</link>
       <pubDate>Sun, 05 Mar 2023 13:00:00 +0100</pubDate>
-      <guid>https://eviota.eu/talk/open-data-day-in-the-hague-2023/</guid>
+      <guid>https://surveyharmonies.eu/talk/open-data-day-in-the-hague-2023/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Reprex is a finalist for The Hague Innovators Award 2022, and the prize of the audience, in the startup category with our respectable competitors, Sibö, WECO, STHRIVE and ECOBLOQ.

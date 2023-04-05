@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>survey harmonization | Eviota</title>
-    <link>https://eviota.eu/tag/survey-harmonization/</link>
-      <atom:link href="https://eviota.eu/tag/survey-harmonization/index.xml" rel="self" type="application/rss+xml" />
+    <title>survey harmonization | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/survey-harmonization/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/survey-harmonization/index.xml" rel="self" type="application/rss+xml" />
     <description>survey harmonization</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Mar 2023 13:40:00 +0100</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>survey harmonization</title>
-      <link>https://eviota.eu/tag/survey-harmonization/</link>
+      <link>https://surveyharmonies.eu/tag/survey-harmonization/</link>
     </image>
     
     <item>
       <title>Data Observatory Labs</title>
-      <link>https://eviota.eu/project/crea-innovlab-2023/</link>
+      <link>https://surveyharmonies.eu/project/crea-innovlab-2023/</link>
       <pubDate>Thu, 02 Mar 2023 13:40:00 +0100</pubDate>
-      <guid>https://eviota.eu/project/crea-innovlab-2023/</guid>
+      <guid>https://surveyharmonies.eu/project/crea-innovlab-2023/</guid>
       <description>&lt;td style=&#34;text-align: center;&#34;&gt;
 
 
@@ -39,12 +39,12 @@
                /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_7bd71fd8e70a273b3810f176737a6cba.webp 400w,
                /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_1a4a4035938d7ffa013802bbb41a78c2.webp 760w,
                /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_1200x1200_fit_q75_h2_lanczos_2.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_7bd71fd8e70a273b3810f176737a6cba.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_7bd71fd8e70a273b3810f176737a6cba.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      Check out our &lt;a href=&#34;https://eviota.eu/slides/crea-innovlab-2023/&#34;&gt;slides&lt;/a&gt;. We are still looking for certain &lt;a href=&#34;https://eviota.eu/project/crea-innovlab-2023/#potential-partners&#34;&gt;partners&lt;/a&gt;.
+      Check out our &lt;a href=&#34;https://surveyharmonies.eu/slides/crea-innovlab-2023/&#34;&gt;slides&lt;/a&gt;. We are still looking for certain &lt;a href=&#34;https://surveyharmonies.eu/project/crea-innovlab-2023/#potential-partners&#34;&gt;partners&lt;/a&gt;.
     &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
 &lt;p&gt;We want to build a network of Innovation Labs, connecting labs and businesses that bring these novel scientific and innovation results nearer to civil society actors, individual creators, and microenterprises in services. We bring data-, sustainability-, rights management innovation, and novel distribution models nearer to the grassroots level of creation. We want to transform scientific and technical development into business development available for small creative organizations without a data engineering/science function.&lt;/p&gt;
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
@@ -133,10 +133,194 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
     </item>
     
     <item>
+      <title>Pan-European Creator Survey</title>
+      <link>https://surveyharmonies.eu/post/2022-03-20-pan-european-creator-survey/</link>
+      <pubDate>Sun, 20 Mar 2022 14:10:00 +0100</pubDate>
+      <guid>https://surveyharmonies.eu/post/2022-03-20-pan-european-creator-survey/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Engage with us on &lt;a href=&#34;https://www.linkedin.com/company/79286750/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fab fa-linkedin  pr-1 fa-fw&#34;&gt;&lt;/i&gt;LinkedIn&lt;/a&gt; &lt;a href=&#34;https://twitter.com/DigitalMusicObs/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fab fa-twitter  pr-1 fa-fw&#34;&gt;&lt;/i&gt;@DigitalMusicObs&lt;/a&gt; or check out our &lt;a href=&#34;https://zenodo.org/communities/music_observatory/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fas fa-database  pr-1 fa-fw&#34;&gt;&lt;/i&gt;open data&lt;/a&gt; and &lt;a href=&#34;https://github.com/dataobservatory-eu/&#34; target=&#34;_blank&#34;&gt;
+&lt;i class=&#34;fas fa-code  pr-1 fa-fw&#34;&gt;&lt;/i&gt; open repositories, code, tutorials&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-if-you-are-a-creator-yourself-please-fill-outhttpsuvafra1qualtricscomjfeformsv_23khcb7e2xqqfnq-the-survey-of-2022-in-any-eu-language-if-you-represent-an-artist-organization-please-make-sure-that-the-survey-finds-its-way-to-your-newsletter-and-get-in-touchhttpsreprexnlcontact-with-us-to-get-the-results---and-any-further-data-you-need-for-your-work&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2022/CCSID_reCreating_Survey_16x9.png&#34; alt=&#34;If you are a creator yourself, please, [fill out](https://uva.fra1.qualtrics.com/jfe/form/SV_23KHcb7E2xqQFNQ) the survey of 2022 in any EU language. If you represent an artist organization, please, make sure that the survey finds its way to your newsletter and [get in touch](https://reprex.nl/#/contact) with us to get the results---and any further data you need for your work.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      If you are a creator yourself, please, &lt;a href=&#34;https://uva.fra1.qualtrics.com/jfe/form/SV_23KHcb7E2xqQFNQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fill out&lt;/a&gt; the survey of 2022 in any EU language. If you represent an artist organization, please, make sure that the survey finds its way to your newsletter and &lt;a href=&#34;https://reprex.nl/#/contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;get in touch&lt;/a&gt; with us to get the results&amp;mdash;and any further data you need for your work.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;The &lt;strong&gt;Digital Music Observatory&lt;/strong&gt; has harmonized and collected surveys in all European countries about how musicians work and earn their living, and how audiences differ in various countries, metropolitan regions in terms of typical age, visiting probability, spending capacity, and other important factors. We helped music organizations to significantly increase the royalty pay-outs of artists in two countries, and we contributed for the advocacy of fairer compensation and fairer taxation in others.&lt;/p&gt;
+&lt;p&gt;This year we teamed up with the &lt;a href=&#34;https://www.recreating.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ReCreating Europe&lt;/a&gt; research consortium of renowned experts in the field of copyright, geography and economics of creativity, sociology of innovation, communication and media studies, cultural policies, Open Knowledge and access to culture, cultural policies, minority rights and disability rights.   We are carrying out a truly pan-European survey in all EU languages about important topics for music and other creators:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Understanding how much creators are aware of the legal and financial terms that online platforms use that distribute their work&lt;/li&gt;
+&lt;li&gt;Understanding and interest in how AI Algorithms contribute to the successful or not successful dissemination of their work, or can support their creative processes&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Understanding and evaluation of fairness in the way internet platforms distribute earnings to creators&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Attitudes to plagiarism, piracy, and copyright protection&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Access to Covid-19 relief funds&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; No personal data is involved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-do-we-ask-from-individual-creators-bands-collectives&#34;&gt;What do we ask from individual creators, bands, collectives?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The researchers of the reCreating Europe Consortium would like to carry out an interview with you in English.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; If you are not able to carry out an interview in English, or do not want to, we would be grateful if you would still fill out the survey form (about 10 minutes) in any of the EU official languages,&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; And invite a colleague/friend confident in English to do the same and volunteer for the interview at the end of the survey.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;music-organizations&#34;&gt;Music organizations&lt;/h2&gt;
+&lt;p&gt;We would like to ask you to ask your members to do the same above, in your newsletter, Facebook page, or other means of communication. The research with free datasets, visualizations, infographics will be placed for free in the &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; and the &lt;a href=&#34;https://ccsi.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cultural and Creative Sectors Industries Data Observatory&lt;/a&gt; and can help your own HR, advocacy, education work.  (We have many other similar data assets that are already there, or we can give to you.) Therefore, it is fully compliant with GDPR&amp;mdash;we do not want to know who fills out our survey, the interviews are voluntary, and sharing the survey can contribute to your core business.&lt;/p&gt;
+&lt;h2 id=&#34;bloggers&#34;&gt;Bloggers&lt;/h2&gt;
+&lt;p&gt;We would be very happy if you would write about this survey or invite creators to participate in our research. We can give you infographics, data visualizations prior to academic publication to write about the results.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-in-our--central--eastern-european-music-industry-report-2020httpsmusicdataobservatoryeupublicationceereport_2020-as-a-case-study-on-evidence-based-policymakinghttpsmusicdataobservatoryeupost2020-01-30-ceereport-we-compared-how-musicians-and-their-audiences-live-in-several-countries&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2021/difficulty_bills_levels.jpg&#34; alt=&#34;In our  [Central &amp;amp; Eastern European Music Industry Report 2020](https://music.dataobservatory.eu/publication/ceereport_2020/) as a case-study on [evidence-based policymaking](https://music.dataobservatory.eu/post/2020-01-30-ceereport/) we compared how musicians and their audiences live in several countries.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      In our  &lt;a href=&#34;https://music.dataobservatory.eu/publication/ceereport_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Central &amp;amp; Eastern European Music Industry Report 2020&lt;/a&gt; as a case-study on &lt;a href=&#34;https://music.dataobservatory.eu/post/2020-01-30-ceereport/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;evidence-based policymaking&lt;/a&gt; we compared how musicians and their audiences live in several countries.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;h2 id=&#34;our-research-principles&#34;&gt;Our research principles&lt;/h2&gt;
+&lt;p&gt;We believe in transparency, openness, and high-quality work.  We carry out an open collaboration with representatives of music professionals, NGOs, and universities. Because in the European music ecosystem, most professional and artists are freelancers or micro-entrepreneurs, we also try to form collaborations with individuals. All our data is open, interoperable, reusable data that comes with the highest quality of documentation and help for reuse.&lt;/p&gt;
+&lt;p&gt;We would appreciate it immensely if you would support this important research by disseminating the call to participate in this study.&lt;/p&gt;
+&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Before you start a new questionnaire-based research, get in touch with us!  Maybe we have history for your questionnaires.  We can make your survey cheaper, better, and more informative.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The &lt;em&gt;Digital Music Observatory&lt;/em&gt; and its predecessor, &lt;a href=&#34;https://reprex.nl/project/ceemid/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CEEMID&lt;/a&gt;, has been working with harmonized surveys for 8 years.  We have compiled the biggest database of interview transcripts with concert audiences (more than 70,000 interviews in all European countries, soon to be extended to more than 100k) and the world&amp;rsquo;s biggest harmonized survey dataset about music creators (4000 responses from 12 European countries.) We use the Open Data Directive, originally for government-funded research data, recently extended to taxpayer funded scientific research, to access datasets that are invisible for the music industry.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-using-survey-harmonization-and-data-integration-techniques-to-join-hundreds-of-questionnaire-based-research-in-europe-on-music-audiences-we-are-now-improving-our-capacities-to-bring-analysis-to-sub-national-level-like-in-the-example-of-wales&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2021/CAP_with_Wales_concerts.jpg&#34; alt=&#34;We using survey harmonization and data integration techniques to join hundreds of questionnaire-based research in Europe on music audiences. We are now improving our capacities to bring analysis to sub-national level, like in the example of Wales.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We using survey harmonization and data integration techniques to join hundreds of questionnaire-based research in Europe on music audiences. We are now improving our capacities to bring analysis to sub-national level, like in the example of Wales.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What is Survey Harmonization?</title>
+      <link>https://surveyharmonies.eu/post/2022-02-16-survey-harmonization/</link>
+      <pubDate>Wed, 16 Feb 2022 17:00:00 +0100</pubDate>
+      <guid>https://surveyharmonies.eu/post/2022-02-16-survey-harmonization/</guid>
+      <description>&lt;p&gt;Survey harmonization is a powerful research tool to increase the usability of questionnaire-based empirical research.  When the same questions are asked from similarly selected German and French people, music audiences and musicians, then we can make meaningful comparisons between the public opinions of the two countries, or the different perceptions of fans and makers of music.  And if we repeat this procedure time after time, we can see if opinion is shifting more in Germany or France, or the living conditions of musicians are catching up with the rest of the country population.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-in-our--central--eastern-european-music-industry-report-2020httpsmusicdataobservatoryeupublicationceereport_2020-as-a-case-study-on-evidence-based-policymakinghttpsmusicdataobservatoryeupost2020-01-30-ceereport-we-compared-how-musicians-and-their-audiences-live-in-several-countries&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2021/difficulty_bills_levels.jpg&#34; alt=&#34;In our  [Central &amp;amp; Eastern European Music Industry Report 2020](https://music.dataobservatory.eu/publication/ceereport_2020/) as a case-study on [evidence-based policymaking](https://music.dataobservatory.eu/post/2020-01-30-ceereport/) we compared how musicians and their audiences live in several countries.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      In our  &lt;a href=&#34;https://music.dataobservatory.eu/publication/ceereport_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Central &amp;amp; Eastern European Music Industry Report 2020&lt;/a&gt; as a case-study on &lt;a href=&#34;https://music.dataobservatory.eu/post/2020-01-30-ceereport/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;evidence-based policymaking&lt;/a&gt; we compared how musicians and their audiences live in several countries.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;The &lt;em&gt;Digital Music Observatory&lt;/em&gt; and its predecessor, &lt;a href=&#34;https://reprex.nl/project/ceemid/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CEEMID&lt;/a&gt;, has been working with harmonized surveys for 8 years.  We have compiled the biggest database of interview transcripts with concert audiences (more than 70,000 interviews in all European countries, soon to be extended to more than 100k) and the world’s biggest harmonized survey dataset about music creators (4000 responses from 12 European countries.) We use the Open Data Directive, originally for government-funded research data, recently extended to taxpayer funded scientific research, to access datasets that are invisible for the music industry.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-using-survey-harmonization-and-data-integration-techniques-to-join-hundreds-of-questionnaire-based-research-in-europe-on-music-audiences-we-are-now-improving-our-capacities-to-bring-analysis-to-sub-national-level-like-in-the-example-of-wales&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/blogposts_2021/CAP_with_Wales_concerts.jpg&#34; alt=&#34;We using survey harmonization and data integration techniques to join hundreds of questionnaire-based research in Europe on music audiences. We are now improving our capacities to bring analysis to sub-national level, like in the example of Wales.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We using survey harmonization and data integration techniques to join hundreds of questionnaire-based research in Europe on music audiences. We are now improving our capacities to bring analysis to sub-national level, like in the example of Wales.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; You can create better surveys with less cost:  you only need to ask the information, or change of information, that is not included in our harmonized datasets. Shorter, better questionnaires, smaller samples sizes, huge cost savings.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; When you make questionnaire-based research, you immediately get a history (the same question asked years ago) and an international comparison (the same question asked in other countries.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Often you do not even have to pay for the survey, because somebody else has already made a similar taxpayer funded research and we can just get the data for you.
+Harmonizing surveys requires advanced data science and statistics knowledge, which is what we provide with the scientific partners of the Digital Music Observatory.  We have developed an open-source software, free to use, for this purpose.  It is not for the faint heart – but users of our observatory can just leave their data for us and let us run the code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Before you start a new questionnaire-based research, get in touch with us!  Maybe we have history for your questionnaires.  We can make your survey cheaper, better, and more informative. See our &lt;a href=&#34;https://music.dataobservatory.eu/post/2022-11-22-surveyharmonies/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;use case for gender diversity&lt;/a&gt; in music.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>100,000 Opinions on the Most Pressing Global Problem</title>
-      <link>https://eviota.eu/post/2021-11-19_global_problem/</link>
+      <link>https://surveyharmonies.eu/post/2021-11-19_global_problem/</link>
       <pubDate>Thu, 25 Nov 2021 09:41:00 +0100</pubDate>
-      <guid>https://eviota.eu/post/2021-11-19_global_problem/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-11-19_global_problem/</guid>
       <description>&lt;td style=&#34;text-align: center;&#34;&gt;
 
 
@@ -159,7 +343,7 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
                /media/img/blogposts_2021/global_problem_1_climate_change_5_plots_hue8b7ea28ffb9d0df039569ac96f076be_37305_4a8b0d559d16fda0b316f86641bb328a.webp 400w,
                /media/img/blogposts_2021/global_problem_1_climate_change_5_plots_hue8b7ea28ffb9d0df039569ac96f076be_37305_86610edc39505a8c207c1542e1f57369.webp 760w,
                /media/img/blogposts_2021/global_problem_1_climate_change_5_plots_hue8b7ea28ffb9d0df039569ac96f076be_37305_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/global_problem_1_climate_change_5_plots_hue8b7ea28ffb9d0df039569ac96f076be_37305_4a8b0d559d16fda0b316f86641bb328a.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/global_problem_1_climate_change_5_plots_hue8b7ea28ffb9d0df039569ac96f076be_37305_4a8b0d559d16fda0b316f86641bb328a.webp&#34;
                width=&#34;760&#34;
                height=&#34;604&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -187,7 +371,7 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eviota.eu/media/gif/global_problem_1_climate_change_800.gif&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/media/gif/global_problem_1_climate_change_800.gif&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Survey data harmonization refers to procedures that improve the data comparability or the possibility to make policy or scientific comparisons between data from surveys conducted in different countries or in different years. Our &lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; software helps this tedious, laborous, difficult data processing task.&lt;/p&gt;
@@ -216,7 +400,7 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
                /media/img/blogposts_2021/CART_global_problem_1_climate_change_hu52e8dbc1c769947e5e070575639ef30f_15643_24ef626f078c444c7a44764722c56df9.webp 400w,
                /media/img/blogposts_2021/CART_global_problem_1_climate_change_hu52e8dbc1c769947e5e070575639ef30f_15643_69493fe6457b3ad3ac727ca24112cfe8.webp 760w,
                /media/img/blogposts_2021/CART_global_problem_1_climate_change_hu52e8dbc1c769947e5e070575639ef30f_15643_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/CART_global_problem_1_climate_change_hu52e8dbc1c769947e5e070575639ef30f_15643_24ef626f078c444c7a44764722c56df9.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/CART_global_problem_1_climate_change_hu52e8dbc1c769947e5e070575639ef30f_15643_24ef626f078c444c7a44764722c56df9.webp&#34;
                width=&#34;760&#34;
                height=&#34;597&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -249,7 +433,7 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
                /media/img/blogposts_2021/importance_global_problem_1_climate_change_hu29659d24aa62dce8b30a2e07c8a07ec1_11276_c79653e7ee7d989591bfcf532a407f54.webp 400w,
                /media/img/blogposts_2021/importance_global_problem_1_climate_change_hu29659d24aa62dce8b30a2e07c8a07ec1_11276_e6deba47b95b9e7497f154f668273f04.webp 760w,
                /media/img/blogposts_2021/importance_global_problem_1_climate_change_hu29659d24aa62dce8b30a2e07c8a07ec1_11276_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/importance_global_problem_1_climate_change_hu29659d24aa62dce8b30a2e07c8a07ec1_11276_c79653e7ee7d989591bfcf532a407f54.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/importance_global_problem_1_climate_change_hu29659d24aa62dce8b30a2e07c8a07ec1_11276_c79653e7ee7d989591bfcf532a407f54.webp&#34;
                width=&#34;760&#34;
                height=&#34;597&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -280,7 +464,7 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
                /media/img/blogposts_2021/CART_global_problem_1_climate_change_hu52e8dbc1c769947e5e070575639ef30f_15643_24ef626f078c444c7a44764722c56df9.webp 400w,
                /media/img/blogposts_2021/CART_global_problem_1_climate_change_hu52e8dbc1c769947e5e070575639ef30f_15643_69493fe6457b3ad3ac727ca24112cfe8.webp 760w,
                /media/img/blogposts_2021/CART_global_problem_1_climate_change_hu52e8dbc1c769947e5e070575639ef30f_15643_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/CART_global_problem_1_climate_change_hu52e8dbc1c769947e5e070575639ef30f_15643_24ef626f078c444c7a44764722c56df9.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/CART_global_problem_1_climate_change_hu52e8dbc1c769947e5e070575639ef30f_15643_24ef626f078c444c7a44764722c56df9.webp&#34;
                width=&#34;760&#34;
                height=&#34;597&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -296,9 +480,9 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
     
     <item>
       <title>Survey Harmonization</title>
-      <link>https://eviota.eu/data/surveys/</link>
+      <link>https://surveyharmonies.eu/data/surveys/</link>
       <pubDate>Mon, 05 Jul 2021 08:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/data/surveys/</guid>
+      <guid>https://surveyharmonies.eu/data/surveys/</guid>
       <description>&lt;p&gt;We provide retrospecitve, &lt;em&gt;ex post&lt;/em&gt;, and &lt;em&gt;ex ante&lt;/em&gt; survey harmonization to our partners.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;The aim of retrospective survey harmonization is to pool data from pre-existing surveys made with a similar methodology in different points in time and different countries or territories.  Ex post survey harmonization is in a way a passive form of pooling research funding because you can utilize information from surveying that were made on somebody else’s expense.&lt;/li&gt;
@@ -321,7 +505,7 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
 
 &lt;figure  id=&#34;figure-the-arab-barometer-surveys-do-not-have-a-consolidated-codebook-but-our-retroharmonize-software-created-one-and-put-together-data-from-three-years-and-collected-in-many-countries-about-various-public-policy-issues&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eviota.eu/img/surveys/arabb-comparison-select-country-chart.png&#34; alt=&#34;The Arab Barometer surveys do not have a consolidated codebook, but our retroharmonize software created one, and put together data from three years and collected in many countries about various public policy issues.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/img/surveys/arabb-comparison-select-country-chart.png&#34; alt=&#34;The Arab Barometer surveys do not have a consolidated codebook, but our retroharmonize software created one, and put together data from three years and collected in many countries about various public policy issues.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
       The Arab Barometer surveys do not have a consolidated codebook, but our retroharmonize software created one, and put together data from three years and collected in many countries about various public policy issues.
     &lt;/figcaption&gt;&lt;/figure&gt;
@@ -346,7 +530,7 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
 
 &lt;figure  id=&#34;figure-in-this-example-we-designed-a-survey-representative-among-music-professionals-that-it-can-be-compared-with-large-sample-national-surveys-on-living-conditions-and-attitudes-and-with-occupational-groups--nationally-representative-surveys-do-not-question-enough-musicians-to-allow-such-specific-use-musician-only-surveys-do-not-allow-comparison&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eviota.eu/img/surveys/difficulty_bills_levels.jpg&#34; alt=&#34;In this example we designed a survey representative among music professionals that it can be compared with large-sample, national surveys on living conditions and attitudes, and with occupational groups.  Nationally representative surveys do not question enough musicians to allow such specific use; musician only surveys do not allow comparison.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/img/surveys/difficulty_bills_levels.jpg&#34; alt=&#34;In this example we designed a survey representative among music professionals that it can be compared with large-sample, national surveys on living conditions and attitudes, and with occupational groups.  Nationally representative surveys do not question enough musicians to allow such specific use; musician only surveys do not allow comparison.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
       In this example we designed a survey representative among music professionals that it can be compared with large-sample, national surveys on living conditions and attitudes, and with occupational groups.  Nationally representative surveys do not question enough musicians to allow such specific use; musician only surveys do not allow comparison.
     &lt;/figcaption&gt;&lt;/figure&gt;
@@ -357,9 +541,9 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
     
     <item>
       <title>Including Indicators from Arab Barometer in Our Observatory</title>
-      <link>https://eviota.eu/post/2021-06-28-arabbarometer/</link>
+      <link>https://surveyharmonies.eu/post/2021-06-28-arabbarometer/</link>
       <pubDate>Mon, 28 Jun 2021 09:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-06-28-arabbarometer/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-06-28-arabbarometer/</guid>
       <description>&lt;p&gt;&lt;em&gt;A new version of the retroharmonize R package – which is working with retrospective, ex post harmonization of survey data – was released yesterday after peer-review on CRAN. It allows us to compare opinion polling data from the Arab Barometer with the Eurobarometer and Afrorbarometer. This is the first version that is released in the rOpenGov community, a community of R package developers on open government data analytics and related topics.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Surveys are the most important data sources in social and economic
 statistics – they ask people about their lives, their attitudes and
@@ -421,7 +605,7 @@ are treated the same way.&lt;/li&gt;
                /media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1bab40489e5820c07250b277ffe362e0.webp 400w,
                /media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_fd825f05348e751021206419bd01c763.webp 760w,
                /media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1bab40489e5820c07250b277ffe362e0.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/arab_barometer_5_climate_change_by_country_hu8dd9da8add5270829a1e50ead6a6a120_38791_1bab40489e5820c07250b277ffe362e0.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -504,7 +688,7 @@ code them consistently &lt;code&gt;1:  free_and_fair&lt;/code&gt;, &lt;code&gt;2
                /media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_30b9d9bccbe8f347c912dbe10ef5159c.webp 400w,
                /media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_f7e62366b8310160e9cdd16714a5ac44.webp 760w,
                /media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_30b9d9bccbe8f347c912dbe10ef5159c.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/arabb-comparison-country-chart_hu876e56138097bf35e9ab80c0a7351314_159521_30b9d9bccbe8f347c912dbe10ef5159c.webp&#34;
                width=&#34;506&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -547,7 +731,7 @@ contributors, see the
 use it for your work, please kindly cite it as:&lt;/p&gt;
 &lt;p&gt;Daniel Antal (2021). retroharmonize: Ex Post Survey Data Harmonization.
 R package version 0.1.17. &lt;a href=&#34;https://doi.org/10.5281/zenodo.5034752&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.5034752&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Download the &lt;a href=&#34;https://eviota.eu/media/bibliography/cite-retroharmonize.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Download the &lt;a href=&#34;https://surveyharmonies.eu/media/bibliography/cite-retroharmonize.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;tutorial-to-work-with-the-arab-barometer-survey-data&#34;&gt;Tutorial to work with the Arab Barometer survey data&lt;/h3&gt;
 &lt;p&gt;Daniel Antal, &amp;amp; Ahmed Shaibani. (2021, June 26). Case Study: Working
 With Arab Barometer Surveys for the retroharmonize R package (Version
@@ -576,19 +760,19 @@ manipulating or data, or for easy import into your database.&lt;/p&gt;
 offering? Join the rOpenGov community of R package developers, an our
 open collaboration to create the automated data observatories. We are
 not only looking for
-&lt;a href=&#34;https://eviota.eu/authors/developer/&#34;&gt;developers&lt;/a&gt;,
-but &lt;a href=&#34;https://eviota.eu/authors/curator/&#34;&gt;data
+&lt;a href=&#34;https://surveyharmonies.eu/authors/developer/&#34;&gt;developers&lt;/a&gt;,
+but &lt;a href=&#34;https://surveyharmonies.eu/authors/curator/&#34;&gt;data
 curators&lt;/a&gt; and
-&lt;a href=&#34;https://eviota.eu/authors/team/&#34;&gt;service design
+&lt;a href=&#34;https://surveyharmonies.eu/authors/team/&#34;&gt;service design
 associates&lt;/a&gt;, too.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>What is Retrospective Survey Harmonization?</title>
-      <link>https://eviota.eu/post/2021-03-04_retroharmonize_intro/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-04_retroharmonize_intro/</link>
       <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-04_retroharmonize_intro/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-04_retroharmonize_intro/</guid>
       <description>&lt;h2 id=&#34;reproducible-ex-post-harmonization-of-survey-microdata&#34;&gt;Reproducible ex post harmonization of survey microdata&lt;/h2&gt;
 &lt;p&gt;Retrospective survey harmonization allows the comparison of opinion poll
 data conducted in different countries or time. In this example we are
@@ -731,9 +915,9 @@ head start for less experienced R users.&lt;/p&gt;
     
     <item>
       <title>retroharmonize R package for survey harmonization</title>
-      <link>https://eviota.eu/software/retroharmonize/</link>
+      <link>https://surveyharmonies.eu/software/retroharmonize/</link>
       <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/software/retroharmonize/</guid>
+      <guid>https://surveyharmonies.eu/software/retroharmonize/</guid>
       <description>&lt;h2 id=&#34;retrospective-data-harmonization&#34;&gt;Retrospective data harmonization&lt;/h2&gt;
 &lt;p&gt;The aim of &lt;code&gt;retroharmonize&lt;/code&gt; is to provide tools for reproducible
 retrospective (ex-post) harmonization of datasets that contain variables

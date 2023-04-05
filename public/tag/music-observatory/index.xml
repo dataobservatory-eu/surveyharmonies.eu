@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>music-observatory | Eviota</title>
-    <link>https://eviota.eu/tag/music-observatory/</link>
-      <atom:link href="https://eviota.eu/tag/music-observatory/index.xml" rel="self" type="application/rss+xml" />
+    <title>music-observatory | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/music-observatory/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/music-observatory/index.xml" rel="self" type="application/rss+xml" />
     <description>music-observatory</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Mar 2021 22:23:00 +0200</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>music-observatory</title>
-      <link>https://eviota.eu/tag/music-observatory/</link>
+      <link>https://surveyharmonies.eu/tag/music-observatory/</link>
     </image>
     
     <item>
       <title>Open Data Day Interview: Mapping Data with Milos Popovic</title>
-      <link>https://eviota.eu/post/2021-03-03-ood_interview_maps/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-03-ood_interview_maps/</link>
       <pubDate>Wed, 03 Mar 2021 22:23:00 +0200</pubDate>
-      <guid>https://eviota.eu/post/2021-03-03-ood_interview_maps/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-03-ood_interview_maps/</guid>
       <description>&lt;p&gt;&lt;em&gt;Milos Popovic is a researcher, a data scientist, Marie Curie postdoc &amp;amp; Top 10 dataviz &amp;amp; R contributor on Twitter according to NodeXL. He took part in policy debates about terrorism and military intervention and appeared on a number of TV channels including N1 (the CNN affiliate in the Western Balkans), Serbian National Television and Al-Jazeera Balkans. My research interests are at the intersection of civil war dynamics and postwar politics in the Balkans. He is going to join the Data &amp;amp; Lyrics team on International Open Data Day to help us put harmonized environmental degradation perception and environmental sensory data on maps. We asked him four questions about his passion, mapping data. Please join us 6 March 2021 9.30 EST / 15.30 CET for an informal digital coffee.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;As a researcher, why are you so much drawn into maps? Is this connected to your interest in territorial conflicts, or you have some other inspiration?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;That’s a great question that really makes me pause and look back at the past 5 years. My mapping story started out of curiosity: I found interesting data on the post-WWII violence in Serbia and thought how cool it would be to make a map in R. I quickly made an unimpressive choropleth map and noticed some unexpected patterns. Then I realized just how much unused violence and census data sits out there while we have no clue about geographic patterns. So, it began. I started off with map-making but my curiosity took me to the world of georeferencing and geospatial analysis. In the process, I created over 300 maps hosted on my website as well as dozens of shapefiles from the scratch.&lt;/p&gt;

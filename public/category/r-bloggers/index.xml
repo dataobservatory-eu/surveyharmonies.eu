@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R-bloggers | Eviota</title>
-    <link>https://eviota.eu/category/r-bloggers/</link>
-      <atom:link href="https://eviota.eu/category/r-bloggers/index.xml" rel="self" type="application/rss+xml" />
+    <title>R-bloggers | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/category/r-bloggers/</link>
+      <atom:link href="https://surveyharmonies.eu/category/r-bloggers/index.xml" rel="self" type="application/rss+xml" />
     <description>R-bloggers</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Jun 2022 08:12:00 +0100</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>R-bloggers</title>
-      <link>https://eviota.eu/category/r-bloggers/</link>
+      <link>https://surveyharmonies.eu/category/r-bloggers/</link>
     </image>
     
     <item>
       <title>stacodelists: use standard, language-independent variable codes to help international data interoperability and machine reuse in R</title>
-      <link>https://eviota.eu/post/2022-06-29-statcodelists/</link>
+      <link>https://surveyharmonies.eu/post/2022-06-29-statcodelists/</link>
       <pubDate>Wed, 29 Jun 2022 08:12:00 +0100</pubDate>
-      <guid>https://eviota.eu/post/2022-06-29-statcodelists/</guid>
+      <guid>https://surveyharmonies.eu/post/2022-06-29-statcodelists/</guid>
       <description>&lt;td style=&#34;text-align: center;&#34;&gt;
 
 
@@ -39,7 +39,7 @@
                /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_0b514d80337ede30bff4c26cee6a6f11.webp 400w,
                /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_1416f7a0950b1cecac8097850d995432.webp 760w,
                /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_0b514d80337ede30bff4c26cee6a6f11.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_0b514d80337ede30bff4c26cee6a6f11.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -109,9 +109,9 @@
     
     <item>
       <title>Analyze Locally, Act Globally: New regions R Package Release</title>
-      <link>https://eviota.eu/post/2021-06-16-regions-release/</link>
+      <link>https://surveyharmonies.eu/post/2021-06-16-regions-release/</link>
       <pubDate>Wed, 16 Jun 2021 12:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-06-16-regions-release/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-06-16-regions-release/</guid>
       <description>
 
 
@@ -134,7 +134,7 @@
                /media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_1aeab2d63a062640baf35ce7ffff4b52.webp 400w,
                /media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_340cd90381be5d85c6b08caba8072821.webp 760w,
                /media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_1aeab2d63a062640baf35ce7ffff4b52.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_1aeab2d63a062640baf35ce7ffff4b52.webp&#34;
                width=&#34;760&#34;
                height=&#34;427&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -189,7 +189,7 @@ grows from 20 to 200-300.&lt;/p&gt;
                /media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_df043b13fb62aa7b45aa15fad51f4229.webp 400w,
                /media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_09a0d6124e334c5f1727420a059512a9.webp 760w,
                /media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_df043b13fb62aa7b45aa15fad51f4229.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_df043b13fb62aa7b45aa15fad51f4229.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -227,7 +227,7 @@ difficult.&lt;/p&gt;
                /media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_65df57cf4311bb2623535a1a5be044c0.webp 400w,
                /media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_81a53fd42fac7f0c3fe4e1a89d5b7892.webp 760w,
                /media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_65df57cf4311bb2623535a1a5be044c0.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_65df57cf4311bb2623535a1a5be044c0.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -268,7 +268,7 @@ Conduct&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you use &lt;code&gt;regions&lt;/code&gt; in your work, please cite the
 package as:
 Daniel Antal. (2021, June 16). regions (Version 0.1.7). CRAN. &lt;a href=&#34;%28https://doi.org/10.5281/zenodo.4965909%29&#34;&gt;http://doi.org/10.5281/zenodo.4965909&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Download the &lt;a href=&#34;https://eviota.eu/media/bibliography/cite-regions.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Download the &lt;a href=&#34;https://surveyharmonies.eu/media/bibliography/cite-regions.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/package=regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
 
 
@@ -293,7 +293,7 @@ Daniel Antal. (2021, June 16). regions (Version 0.1.7). CRAN. &lt;a href=&#34;%2
 &lt;h2 id=&#34;join-us&#34;&gt;Join us&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Join our Green Deal Data Observatory collaboration!&lt;/summary&gt;
-  &lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://eviota.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://eviota.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://eviota.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Music Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://surveyharmonies.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://surveyharmonies.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://surveyharmonies.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Music Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/intent/follow?screen_name=GreenDealObs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
 
@@ -321,9 +321,9 @@ Daniel Antal. (2021, June 16). regions (Version 0.1.7). CRAN. &lt;a href=&#34;%2
     
     <item>
       <title>Economic and Environment Impact Analysis, Automated for Data-as-Service</title>
-      <link>https://eviota.eu/post/2021-06-03-iotables-release/</link>
+      <link>https://surveyharmonies.eu/post/2021-06-03-iotables-release/</link>
       <pubDate>Thu, 03 Jun 2021 16:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-06-03-iotables-release/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-06-03-iotables-release/</guid>
       <description>&lt;p&gt;We have released a new version of
 &lt;a href=&#34;https://iotables.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; as part of the
 &lt;a href=&#34;http://ropengov.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; project. The package, as the name
@@ -397,7 +397,7 @@ is to keep vectors and matrices, which have at least one dimension of
                /media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_1ff902b174dec383d32d5245b4103fff.webp 400w,
                /media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_af398c7bd5f3c936ea4ad7a030c0a82e.webp 760w,
                /media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_1ff902b174dec383d32d5245b4103fff.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_1ff902b174dec383d32d5245b4103fff.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -607,7 +607,7 @@ greenhouse gases.&lt;/p&gt;
 &lt;p&gt;The last released version of &lt;em&gt;iotables&lt;/em&gt; is Importing and Manipulating
 Symmetric Input-Output Tables (Version 0.4.4). Zenodo.
 &lt;a href=&#34;https://zenodo.org/record/4897472&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.4897472&lt;/a&gt;,
-but we are already  working on a new major release. (Download the &lt;a href=&#34;https://eviota.eu/media/bibliography/cite-iotables.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.) In that release, we
+but we are already  working on a new major release. (Download the &lt;a href=&#34;https://surveyharmonies.eu/media/bibliography/cite-iotables.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.) In that release, we
 are planning to build in the necessary vocabulary into the metadata
 functions to increase the functionality of the package, and create new
 indicators for our &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt;. This experimental
@@ -637,7 +637,7 @@ the daylight yet.&lt;/p&gt;
                /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp 400w,
                /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_3250accecb68b0ec9716afed72d0f77e.webp 760w,
                /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -666,16 +666,16 @@ recruitment
 --&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Join our Green Deal Data Observatory collaboration!&lt;/summary&gt;
-  &lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://eviota.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://eviota.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://eviota.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Music Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://surveyharmonies.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://surveyharmonies.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://surveyharmonies.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Music Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
 &lt;/details&gt;
 </description>
     </item>
     
     <item>
       <title>Regional Geocoding Harmonization Case Study - Regional Climate Change Awareness Datasets</title>
-      <link>https://eviota.eu/post/2021-03-06-regions-climate/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-06-regions-climate/</link>
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-06-regions-climate/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-06-regions-climate/</guid>
       <description>&lt;pre&gt;&lt;code&gt;library(regions)
 library(lubridate)
 library(dplyr)
@@ -820,9 +820,9 @@ saveRDS( climate_data_recoded , file:  file.path(&amp;quot;data-raw&amp;quot;, &
     
     <item>
       <title>Where Are People More Likely To Treat Climate Change as the Most Serious Global Problem?</title>
-      <link>https://eviota.eu/post/2021-03-06-individual-join/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-06-individual-join/</link>
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-06-individual-join/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-06-individual-join/</guid>
       <description>&lt;pre&gt;&lt;code&gt;library(regions)
 library(lubridate)
 library(dplyr)
@@ -1028,7 +1028,7 @@ plotcp(fit) # visualize cross-validation results
                /post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_8ce48ac0f7ba6b1d3752385b96368cc3.webp 400w,
                /post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_b20e6dca7fcadd4576da216956498a35.webp 760w,
                /post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_8ce48ac0f7ba6b1d3752385b96368cc3.webp&#34;
+               src=&#34;https://surveyharmonies.eu/post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_8ce48ac0f7ba6b1d3752385b96368cc3.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1208,7 +1208,7 @@ text(fit, use.n=TRUE, all=TRUE, cex=.8)
                /post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_0bdd94d7f6c1efcc2575c1adeb6917c8.webp 400w,
                /post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_daf3b553e16b54a4b23a242bc9ef1e6b.webp 760w,
                /post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_0bdd94d7f6c1efcc2575c1adeb6917c8.webp&#34;
+               src=&#34;https://surveyharmonies.eu/post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_0bdd94d7f6c1efcc2575c1adeb6917c8.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1224,12 +1224,12 @@ saveRDS( climate_awareness_air, file:  file.path(&amp;quot;data-raw&amp;quot;, &
     
     <item>
       <title>Retrospective Survey Harmonization Case Study - Climate Awareness Change in Europe 2013-2019.</title>
-      <link>https://eviota.eu/post/2021-03-05-retroharmonize-climate/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-05-retroharmonize-climate/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-05-retroharmonize-climate/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-05-retroharmonize-climate/</guid>
       <description>&lt;p&gt;Retrospective survey harmonization comes with many challenges, as we
 have shown in the
-&lt;a href=&#34;https://eviota.eu/post/2021-03-04_retroharmonize_intro/&#34;&gt;introduction&lt;/a&gt;
+&lt;a href=&#34;https://surveyharmonies.eu/post/2021-03-04_retroharmonize_intro/&#34;&gt;introduction&lt;/a&gt;
 to this tutorial case study. In this example, we will work with
 Eurobarometer’s data.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -1869,9 +1869,9 @@ Dataset&lt;/a&gt;.&lt;/p&gt;
     
     <item>
       <title>What is Retrospective Survey Harmonization?</title>
-      <link>https://eviota.eu/post/2021-03-04_retroharmonize_intro/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-04_retroharmonize_intro/</link>
       <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-04_retroharmonize_intro/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-04_retroharmonize_intro/</guid>
       <description>&lt;h2 id=&#34;reproducible-ex-post-harmonization-of-survey-microdata&#34;&gt;Reproducible ex post harmonization of survey microdata&lt;/h2&gt;
 &lt;p&gt;Retrospective survey harmonization allows the comparison of opinion poll
 data conducted in different countries or time. In this example we are
@@ -2014,9 +2014,9 @@ head start for less experienced R users.&lt;/p&gt;
     
     <item>
       <title>Eurobarometer Surveys Used In Our Project</title>
-      <link>https://eviota.eu/post/2021-03-04-eurobarometer_data/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-04-eurobarometer_data/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-04-eurobarometer_data/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-04-eurobarometer_data/</guid>
       <description>&lt;p&gt;In our &lt;a href=&#34;http://netzero.dataobservatory.eu/post/2021-03-04_retroharmonize_intro/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial
 series&lt;/a&gt;,
 we are going to harmonize the following questionnaire items from five

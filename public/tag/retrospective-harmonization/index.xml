@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>retrospective-harmonization | Eviota</title>
-    <link>https://eviota.eu/tag/retrospective-harmonization/</link>
-      <atom:link href="https://eviota.eu/tag/retrospective-harmonization/index.xml" rel="self" type="application/rss+xml" />
+    <title>retrospective-harmonization | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/retrospective-harmonization/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/retrospective-harmonization/index.xml" rel="self" type="application/rss+xml" />
     <description>retrospective-harmonization</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>retrospective-harmonization</title>
-      <link>https://eviota.eu/tag/retrospective-harmonization/</link>
+      <link>https://surveyharmonies.eu/tag/retrospective-harmonization/</link>
     </image>
     
     <item>
       <title>Regional Geocoding Harmonization Case Study - Regional Climate Change Awareness Datasets</title>
-      <link>https://eviota.eu/post/2021-03-06-regions-climate/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-06-regions-climate/</link>
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-06-regions-climate/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-06-regions-climate/</guid>
       <description>&lt;pre&gt;&lt;code&gt;library(regions)
 library(lubridate)
 library(dplyr)
@@ -161,9 +161,9 @@ saveRDS( climate_data_recoded , file:  file.path(&amp;quot;data-raw&amp;quot;, &
     
     <item>
       <title>Where Are People More Likely To Treat Climate Change as the Most Serious Global Problem?</title>
-      <link>https://eviota.eu/post/2021-03-06-individual-join/</link>
+      <link>https://surveyharmonies.eu/post/2021-03-06-individual-join/</link>
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/post/2021-03-06-individual-join/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-03-06-individual-join/</guid>
       <description>&lt;pre&gt;&lt;code&gt;library(regions)
 library(lubridate)
 library(dplyr)
@@ -369,7 +369,7 @@ plotcp(fit) # visualize cross-validation results
                /post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_8ce48ac0f7ba6b1d3752385b96368cc3.webp 400w,
                /post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_b20e6dca7fcadd4576da216956498a35.webp 760w,
                /post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_8ce48ac0f7ba6b1d3752385b96368cc3.webp&#34;
+               src=&#34;https://surveyharmonies.eu/post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_8ce48ac0f7ba6b1d3752385b96368cc3.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -549,7 +549,7 @@ text(fit, use.n=TRUE, all=TRUE, cex=.8)
                /post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_0bdd94d7f6c1efcc2575c1adeb6917c8.webp 400w,
                /post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_daf3b553e16b54a4b23a242bc9ef1e6b.webp 760w,
                /post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_0bdd94d7f6c1efcc2575c1adeb6917c8.webp&#34;
+               src=&#34;https://surveyharmonies.eu/post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_0bdd94d7f6c1efcc2575c1adeb6917c8.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

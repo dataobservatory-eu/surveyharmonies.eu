@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Services | Eviota</title>
-    <link>https://eviota.eu/services/</link>
-      <atom:link href="https://eviota.eu/services/index.xml" rel="self" type="application/rss+xml" />
+    <title>Services | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/services/</link>
+      <atom:link href="https://surveyharmonies.eu/services/index.xml" rel="self" type="application/rss+xml" />
     <description>Services</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Services</title>
-      <link>https://eviota.eu/services/</link>
+      <link>https://surveyharmonies.eu/services/</link>
     </image>
     
     <item>
       <title>Metadata</title>
-      <link>https://eviota.eu/services/metadata/</link>
+      <link>https://surveyharmonies.eu/services/metadata/</link>
       <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/services/metadata/</guid>
+      <guid>https://surveyharmonies.eu/services/metadata/</guid>
       <description>&lt;p&gt;&lt;em&gt;Adding metadata exponentially increases the value of data. Did your region add a new town to its boundaries? How do you adjust old data to conform to constantly changing geographic boundaries? What are some practical ways of combining satellite sensory data with my organization&amp;rsquo;s records? And do I have the right to do so? Metadata logs the history of data, providing instructions on how to reuse it, also setting the terms of use. We automate this labor-intensive process applying the FAIR data concept.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;In our observatory we apply the concept of &lt;a href=&#34;#FAIR&#34;&gt;FAIR&lt;/a&gt; (&lt;strong&gt;f&lt;/strong&gt;indable, &lt;strong&gt;a&lt;/strong&gt;ccessibe, &lt;strong&gt;i&lt;/strong&gt;nteroperable, and &lt;strong&gt;r&lt;/strong&gt;eusable digital assets) in our APIs and in our open-source statistical software packages.&lt;/p&gt;
 &lt;h2 id=&#34;the-hidden-cost-item&#34;&gt;The hidden cost item&lt;/h2&gt;
@@ -47,7 +47,7 @@
                /media/img/gems/n-RFId0_7kep4-unsplash_huee7d1c00c98fa72789543cf5e3e81601_230600_4ef39edbabd2ce5d60369717f173740b.webp 400w,
                /media/img/gems/n-RFId0_7kep4-unsplash_huee7d1c00c98fa72789543cf5e3e81601_230600_b62329f523c1d5825fbad91ef6374d1a.webp 760w,
                /media/img/gems/n-RFId0_7kep4-unsplash_huee7d1c00c98fa72789543cf5e3e81601_230600_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/gems/n-RFId0_7kep4-unsplash_huee7d1c00c98fa72789543cf5e3e81601_230600_4ef39edbabd2ce5d60369717f173740b.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/gems/n-RFId0_7kep4-unsplash_huee7d1c00c98fa72789543cf5e3e81601_230600_4ef39edbabd2ce5d60369717f173740b.webp&#34;
                width=&#34;760&#34;
                height=&#34;506&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -74,23 +74,23 @@ The manual data processing and manipulation is very error prone and makes the us
     
     <item>
       <title>Data Curation</title>
-      <link>https://eviota.eu/services/data-curation/</link>
+      <link>https://surveyharmonies.eu/services/data-curation/</link>
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/services/data-curation/</guid>
+      <guid>https://surveyharmonies.eu/services/data-curation/</guid>
       <description>&lt;p&gt;&lt;strong&gt;If you cannot find the right data for your policy evaluation, your consulting project, your PhD thesis, your market research, or your scientific research project, it does not mean that the data does not exist, or that it is not available for free. In our experience, up to 95% of available open data is never used, because potential users do not realize it exists or do not know how to access it.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Every day, thousands of new datasets become available via the EU open data regime, freedom of information legislation in the United States and other jurisdictions, or open science and scientific reproducibility requirements — but as these datasets have been packaged or processed for different primary, original uses, they often require open data experts to locate them and adapt them to a usable form for reuse in business, scientific, or policy research.&lt;/p&gt;
 &lt;p&gt;The creative and cultural industries often do not participate in government statistics programs because these industries are typically comprised of microenterprises that are exempted from statistical reporting and that file only simplified financial statements and tax returns. This means that finding the appropriate private or public data sources for creative and cultural industry uses requires particularly good data maps.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Data curation&lt;/code&gt; means that we are continuously mapping potential data sources and sending requests to download and quality test the most current data sources. Our CEEMID project has produced several thousand indicators, of which a few dozen are available in our &lt;a href=&#34;https://eviota.eu/project/music-observatory/&#34;&gt;Demo Music Observatory&lt;/a&gt;.If you have specific data needs for a scientific research, policy evaluation, or business project, we can find and provide the most suitable, most current, and best value data for analysis or for &lt;a href=&#34;https://eviota.eu/service/trustworthy-ai/&#34;&gt;ethical AI applications&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Data curation&lt;/code&gt; means that we are continuously mapping potential data sources and sending requests to download and quality test the most current data sources. Our CEEMID project has produced several thousand indicators, of which a few dozen are available in our &lt;a href=&#34;https://surveyharmonies.eu/project/music-observatory/&#34;&gt;Demo Music Observatory&lt;/a&gt;.If you have specific data needs for a scientific research, policy evaluation, or business project, we can find and provide the most suitable, most current, and best value data for analysis or for &lt;a href=&#34;https://surveyharmonies.eu/service/trustworthy-ai/&#34;&gt;ethical AI applications&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Data Processing</title>
-      <link>https://eviota.eu/services/data-processing/</link>
+      <link>https://surveyharmonies.eu/services/data-processing/</link>
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/services/data-processing/</guid>
+      <guid>https://surveyharmonies.eu/services/data-processing/</guid>
       <description>&lt;p&gt;&lt;em&gt;Data analysts spend 80% of their time on data processing, even though computers can perform these task much faster, with far less errors, and they can document the process automatically. Data processing can be shared: an analyst in a company and an analyst in an      NGO does not have to reprocess the very same data twice&lt;/em&gt;*&lt;/p&gt;
-&lt;p&gt;See our blogpost &lt;a href=&#34;https://eviota.eu/post/2021-11-06-indicator_value_added/&#34;&gt;How We Add Value to Public Data With Imputation and Forecasting?&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See our blogpost &lt;a href=&#34;https://surveyharmonies.eu/post/2021-11-06-indicator_value_added/&#34;&gt;How We Add Value to Public Data With Imputation and Forecasting?&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Public data sources are often plagued by missng values. Naively you may think that you can ignore them, but think twice: in most cases, missing data in a table is not missing information, but rather malformatted information. This approach of ignoring or dropping missing values will not be feasible or robust when you want to make a beautiful visualization, or use data in a business forecasting model, a machine learning (AI) applicaton, or a more complex scientific model. All of the above require complete datasets, and naively discarding missing data points amounts to an excessive waste of information. In this example we are continuing the example a not-so-easy to find public dataset.&lt;/p&gt;
 &lt;p&gt;Completing missing datapoints requires statistical production information (why might the data be missing?) and data science knowhow (how to impute the missing value.) If you do not have a good statistician or data scientist in your team, you will need high-quality, complete datasets. This is what our automated data observatories provide.&lt;/p&gt;
 &lt;td style=&#34;text-align: center;&#34;&gt;
@@ -115,7 +115,7 @@ The manual data processing and manipulation is very error prone and makes the us
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp 400w,
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_a6eb1b13ff33a5c73aba34550964ff52.webp 760w,
                /media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library_hu99f0c1d6c82963b9538437670b4d339d_1662894_cd48a6c374c9ff68a08abe79a6abf2f4.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -128,9 +128,9 @@ The manual data processing and manipulation is very error prone and makes the us
     
     <item>
       <title>Data-as-Service</title>
-      <link>https://eviota.eu/services/data-as-service/</link>
+      <link>https://surveyharmonies.eu/services/data-as-service/</link>
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/services/data-as-service/</guid>
+      <guid>https://surveyharmonies.eu/services/data-as-service/</guid>
       <description>&lt;p&gt;&lt;strong&gt;We want to ensure that individual researchers, artists, and professionals, as well as NGOs and small and large organizations can benefit equally from big data in the age of artificial intelligence.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Big data creates inequality and injustice because it is only the big corporations, big government agencies, and the biggest, best endowed universities that can finance long-lasting, comprehensive data collection programs. Big data, and large, well-processed, tidy, and accurately imputed datasets allow them to unleash the power of machine learning and AI. These large entities are able to create algorithms that decide the commercial success of your product and your artwork, giving them a competitive edge against smaller competitors while helping them evade regulations.&lt;/p&gt;
 &lt;blockquote&gt;

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>James Edwards, PhD | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/authors/james_edwards/</link>
+      <atom:link href="https://surveyharmonies.eu/authors/james_edwards/index.xml" rel="self" type="application/rss+xml" />
+    <description>James Edwards, PhD</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://surveyharmonies.eu/authors/james_edwards/avatar_huba9e35eb2856f345b6d88c00ba243d5c_130791_270x270_fill_lanczos_center_3.png</url>
+      <title>James Edwards, PhD</title>
+      <link>https://surveyharmonies.eu/authors/james_edwards/</link>
+    </image>
+    
+  </channel>
+</rss>

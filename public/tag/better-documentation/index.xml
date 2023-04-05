@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>better documentation | Eviota</title>
-    <link>https://eviota.eu/tag/better-documentation/</link>
-      <atom:link href="https://eviota.eu/tag/better-documentation/index.xml" rel="self" type="application/rss+xml" />
+    <title>better documentation | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/better-documentation/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/better-documentation/index.xml" rel="self" type="application/rss+xml" />
     <description>better documentation</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Nov 2021 09:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>better documentation</title>
-      <link>https://eviota.eu/tag/better-documentation/</link>
+      <link>https://surveyharmonies.eu/tag/better-documentation/</link>
     </image>
     
     <item>
       <title>How We Add Value to Public Data With Better Curation And Documentation?</title>
-      <link>https://eviota.eu/post/2021-11-08-indicator_findable/</link>
+      <link>https://surveyharmonies.eu/post/2021-11-08-indicator_findable/</link>
       <pubDate>Mon, 08 Nov 2021 09:00:00 +0100</pubDate>
-      <guid>https://eviota.eu/post/2021-11-08-indicator_findable/</guid>
+      <guid>https://surveyharmonies.eu/post/2021-11-08-indicator_findable/</guid>
       <description>&lt;p&gt;In this example, we show a simple indicator: the &lt;em&gt;Government Budget Allocations for R&amp;amp;D in Environment&lt;/em&gt; in many European countries. (In our &lt;em&gt;Digital Music Observatory&lt;/em&gt; we give a more relevant &lt;a href=&#34;https://music.dataobservatory.eu/post/2021-11-08-indicator_findable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;example&lt;/a&gt; about the turnover of the radio industry in Europe.)&lt;/p&gt;
 &lt;p&gt;This dataset comes from a public datasource, the data warehouse of the
 European statistical agency, Eurostat. Yet it is not trivial to use:
@@ -43,7 +43,7 @@ unless you are familiar with the &lt;em&gt;nomenclature for the analysis and com
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp 400w,
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_99b295653ecf8ec6dbf89153a188c1fa.webp 760w,
                /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -54,7 +54,7 @@ unless you are familiar with the &lt;em&gt;nomenclature for the analysis and com
 are findable, accessible, interoperable, and reusable. While the
 Eurostat data warehouse partly fulfills these important data quality
 expectations, we can improve them significantly. And we can also
-improve the dataset, too, as we will show in the &lt;a href=&#34;https://eviota.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
+improve the dataset, too, as we will show in the &lt;a href=&#34;https://surveyharmonies.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;findable-data&#34;&gt;Findable Data&lt;/h2&gt;
 &lt;p&gt;Our data observatories add value by curating the data&amp;ndash;we bring this
 indicator to light with a more descriptive name, and we place it in
@@ -83,7 +83,7 @@ available data around important domains. Our &lt;em&gt;Green Deal Data Observato
                /media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_94393f82400c1139d76477a52a1af13a.webp 400w,
                /media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_2b0d6d8f077aaaeca31f7fc768a35e03.webp 760w,
                /media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_94393f82400c1139d76477a52a1af13a.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_94393f82400c1139d76477a52a1af13a.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -137,7 +137,7 @@ chances are that the process of tidying will overwrite, delete, or omit a data o
                /media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_840d5597bab1e4d7c2b314453bf83608.webp 400w,
                /media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_f01845e0e6967cc9a3a2b53cf12edd0a.webp 760w,
                /media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_840d5597bab1e4d7c2b314453bf83608.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_840d5597bab1e4d7c2b314453bf83608.webp&#34;
                width=&#34;760&#34;
                height=&#34;355&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -174,7 +174,7 @@ plotting in Excel, OpenOffice or Numbers.&lt;/p&gt;
                /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp 400w,
                /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_5807feecbd17bee02fd8c68fad87b1d7.webp 760w,
                /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -209,7 +209,7 @@ connect the data with other data sources, e.g. turnover with the number of radio
                /media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_25232c9bd0c86814e3e3337261110ea4.webp 400w,
                /media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_93fa43b83c3a299d78a1afed7bc4f820.webp 760w,
                /media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_25232c9bd0c86814e3e3337261110ea4.webp&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_25232c9bd0c86814e3e3337261110ea4.webp&#34;
                width=&#34;760&#34;
                height=&#34;506&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -223,7 +223,7 @@ datasets can be used without commercial restriction after acknowledging
 the source, but we sometimes work with less permissible data licenses.&lt;/p&gt;
 &lt;p&gt;In the case presented here, we added further value to encourage re-use. In addition to tidying, we
 significantly increased the usability of public data by handling
-missing cases. This is the subject of our &lt;a href=&#34;https://eviota.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
+missing cases. This is the subject of our &lt;a href=&#34;https://surveyharmonies.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Are you a data user? Give us some feedback! Shall we do some further
 automatic data enhancements with our datasets? Document with different
 metadata? Link more information for business, policy, or academic use? Please

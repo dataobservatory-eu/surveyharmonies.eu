@@ -1,158 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Semantic web | Eviota</title>
-    <link>https://eviota.eu/tag/semantic-web/</link>
-      <atom:link href="https://eviota.eu/tag/semantic-web/index.xml" rel="self" type="application/rss+xml" />
-    <description>Semantic web</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 16:18:00 +0200</lastBuildDate>
+    <title>semantic web | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/semantic-web/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/semantic-web/index.xml" rel="self" type="application/rss+xml" />
+    <description>semantic web</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
-      <title>Semantic web</title>
-      <link>https://eviota.eu/tag/semantic-web/</link>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>semantic web</title>
+      <link>https://surveyharmonies.eu/tag/semantic-web/</link>
     </image>
     
     <item>
-      <title>How to Find Locations for Things That Save Waste Heat?</title>
-      <link>https://eviota.eu/post/2022-10-24_thermowatt/</link>
-      <pubDate>Mon, 24 Oct 2022 16:18:00 +0200</pubDate>
-      <guid>https://eviota.eu/post/2022-10-24_thermowatt/</guid>
-      <description>&lt;td style=&#34;text-align: center;&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-peter-rosbjerg-the-loss-of-winterhttpswwwflickrcomphotospeterrosbjerg4249419898&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Peter Rosbjerg: [The Loss of Winter...](https://www.flickr.com/photos/peterrosbjerg/4249419898/).&#34; srcset=&#34;
-               /media/img/blogposts_2022/4249419898_2ed064f29c_o_hu6d2c265ebc69c1e462b98b86c8da9bbb_1902290_3f47b478d1eaf75125b2338485ed3881.webp 400w,
-               /media/img/blogposts_2022/4249419898_2ed064f29c_o_hu6d2c265ebc69c1e462b98b86c8da9bbb_1902290_ef7d2e97f4ba92e240e47fd97d2fbf43.webp 760w,
-               /media/img/blogposts_2022/4249419898_2ed064f29c_o_hu6d2c265ebc69c1e462b98b86c8da9bbb_1902290_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2022/4249419898_2ed064f29c_o_hu6d2c265ebc69c1e462b98b86c8da9bbb_1902290_3f47b478d1eaf75125b2338485ed3881.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;760&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Peter Rosbjerg: &lt;a href=&#34;https://www.flickr.com/photos/peterrosbjerg/4249419898/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Loss of Winter&amp;hellip;&lt;/a&gt;.
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
-&lt;p&gt;Europe is preparing for the coldest winter since the second world war.  We must conserve energy, and use every particle of gas, sunshine, and wind to heat our homes, schools, and hospitals.  This is a great moment to give new inventors who want to save wasted energy a chance.  Our &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt; would like to help Thermowatt in identifying the best possible city locations to implement their ground breaking technology that turns the heat stranded in our sewage networks into city heating. Thermowatt is addressing one of the most mind blowing sources of wastes that we cause and don’t utilize in a city context.&lt;/p&gt;
-&lt;p&gt;Washing machines, showers, and even floor-wiping buckets are full of water that is significantly and constantly warmer than the cold European winter. We know well from our studies in elementary school physics that it is at least theoretically possible to utilize the heat going down the sink from our houses as heat. Maybe it is even possible to conserve it for future use.  This is how geothermal energy works for heat and power generation. This is exactly what heat pumps do in many houses. But how could we install heat pumps into an 8-story-high residential building in the Hague?  How could we save this wasted heat?&lt;/p&gt;
-&lt;p&gt;Converting the inner energy of lukewarm or warm water into hot water is theoretically possible, the question is, what would be necessary to make this economic in everyday life?  Saving the energy wasted from a washing machine or a shower would be most likely to succeed if we would not need to convert to electricity (the conversion always leads to a loss of much energy due to the inefficiency of the conversion) and use the energy of the warm water for heating. We need to find places where there is an abundant use of lukewarm water in the sewage and there is a stable need for heat nearby. It also helps if the potential buyer has long-term contracting credibility. To install a pump that will, drop by drop, save energy from lukewarm water will need years of operation to turn economically profitable.&lt;/p&gt;
-&lt;p&gt;The inventor of Thermowatt says that his invention will pump back hot water from the sewage if the sewage mainline is not far from the location of the waste (the sewage is not yet cold) and the buyer of the energy is nearby.  Searching for such locations is exactly what our Green Deal Data Observatory wants to facilitate.  We want to find house complexes in Europe that need heating on many days (for example, a hospital in a relatively Nordic country) close to a sewage system that is close enough to industry or residential zones with a large quantity of lukewarm, low-heat water.  This is not a simple Google search!&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-thermowatt-in-the-budapest-sewage-works-see-image-galleryhttpswwwthermowatthureferencesfovarosi-csatornazasi-muvek-zrt-asztalos-sandor-utcai-telephelye-budapest-viii-kerulet-where-can-we-find-places-for-these-_things_&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Thermowatt in the Budapest Sewage Works. See [image gallery](https://www.thermowatt.hu/references/fovarosi-csatornazasi-muvek-zrt-asztalos-sandor-utcai-telephelye-budapest-viii-kerulet). Where can we find places for these _things_?&#34; srcset=&#34;
-               /media/img/blogposts_2022/1000x750_Kerepesi7_hu90e86328da8eb13e7a23df04b83aeb8e_74889_920e8589ea9f9d79ddfda948157ca6b1.webp 400w,
-               /media/img/blogposts_2022/1000x750_Kerepesi7_hu90e86328da8eb13e7a23df04b83aeb8e_74889_1f91605e0842a7ff4b31c7bbf2b6ecb7.webp 760w,
-               /media/img/blogposts_2022/1000x750_Kerepesi7_hu90e86328da8eb13e7a23df04b83aeb8e_74889_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2022/1000x750_Kerepesi7_hu90e86328da8eb13e7a23df04b83aeb8e_74889_920e8589ea9f9d79ddfda948157ca6b1.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;570&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      Thermowatt in the Budapest Sewage Works. See &lt;a href=&#34;https://www.thermowatt.hu/references/fovarosi-csatornazasi-muvek-zrt-asztalos-sandor-utcai-telephelye-budapest-viii-kerulet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;image gallery&lt;/a&gt;. Where can we find places for these &lt;em&gt;things&lt;/em&gt;?
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;To find ideal sites for Thermowatt, we would need to search for buildings and pipelines, not maps or documents. The Internet of Things is for connecting buildings and pipes that have sensors and chips.  The semantic search on web 3.0 is finding buildings and pipelines even if they do not have chips, or sensors.  The idea of the semantic web, or the web 3.0 is to connect any well-described “thing”, from heat day statistical tables to building documentation to urban plans of sewage systems into a single, searchable web.&lt;/p&gt;
-&lt;p&gt;In the web 3.0, a thing can be anything that is properly documented: a table, an e-book or a printed book, photographs or a building, or the description of a building in a city cadastre.   The web 1.0 way would be to google for building databases, heating day data, and sewage pipeline data all over Europe, by accessing those databases, placing them into the Thermowatt’s database, then making a SQL query for the locations of certain buildings matching the environmental profile.  The web 3.0 is to search for things, such as hospital buildings, whose coordinates match a certain environmental profile, in many databases.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-searching-for-buildings-in-labskadasternlhttpslabskadasternlsparql&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Searching for buildings in [labs.kadaster.nl](https://labs.kadaster.nl/sparql/).&#34; srcset=&#34;
-               /media/img/blogposts_2022/SPARQL_endpoint_kadaster_hued049f980c9a0289a3d5512d1d42e22c_81515_127b906a2e05a54d196e67718f034c03.webp 400w,
-               /media/img/blogposts_2022/SPARQL_endpoint_kadaster_hued049f980c9a0289a3d5512d1d42e22c_81515_8f56202d23048133a09c210f7261ce45.webp 760w,
-               /media/img/blogposts_2022/SPARQL_endpoint_kadaster_hued049f980c9a0289a3d5512d1d42e22c_81515_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2022/SPARQL_endpoint_kadaster_hued049f980c9a0289a3d5512d1d42e22c_81515_127b906a2e05a54d196e67718f034c03.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;364&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      Searching for buildings in &lt;a href=&#34;https://labs.kadaster.nl/sparql/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;labs.kadaster.nl&lt;/a&gt;.
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;The web 3.0 way is to link together existing databases, including databases that fall under the EU Open Data Directive, because such databases can be re-used for commercial purposes for free. The European Union wants to boost the efficiency of business innovation by making all data assets that were originally financed by the taxpayers—including companies, like Thermowatt itself&amp;ndash;, available for commercial use after the government has used them for its own purposes.  If the government has placed all hospitals, and sewage pipeline data into databases, why not open it up for Thermowatt? And why not in a way that avoids database building costs for Thermowatt, which is, itself, a small, innovative eco-tech company without a data science or large IT team. The web 3.0 makes links to databases, just like you would link to the websites of each and every hospital building where you would like to pitch this installation.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-sthe-semantic-web-compared-to-the-traditional-web-by-arbeckhttpscommonswikimediaorgwikifilethe_semantic_web_compared_to_the_traditional_websvg&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;SThe Semantic Web Compared To The Traditional Web by [Arbeck](https://commons.wikimedia.org/wiki/File:The_Semantic_Web_Compared_To_The_Traditional_Web.svg).&#34; srcset=&#34;
-               /media/img/blogposts_2022/semantic_web_compared_to_traditional_web_hu79f06a16cebf70f436af364b39866335_387122_c234bf171fd555c43f389440db1dd2e3.webp 400w,
-               /media/img/blogposts_2022/semantic_web_compared_to_traditional_web_hu79f06a16cebf70f436af364b39866335_387122_05f0eee99596ac53f0792c03cb1aeedf.webp 760w,
-               /media/img/blogposts_2022/semantic_web_compared_to_traditional_web_hu79f06a16cebf70f436af364b39866335_387122_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://eviota.eu/media/img/blogposts_2022/semantic_web_compared_to_traditional_web_hu79f06a16cebf70f436af364b39866335_387122_c234bf171fd555c43f389440db1dd2e3.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;333&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      SThe Semantic Web Compared To The Traditional Web by &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:The_Semantic_Web_Compared_To_The_Traditional_Web.svg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arbeck&lt;/a&gt;.
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;The Semantic Web Compared To The Traditional Web&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;The semantic web is the future of the internet and always will be,”, joked, Peter Norvig, director of research at Google said almost 20 years after the invention of the world wide web, which took only 5 years to become from concept a global hit.. While the connection of webpages with the hypertext url link, or the http(s), was an instant success in 1994, connecting databases with the RDF standards has proven to be a much more difficult task. But it is happening.  The European Union releases more and more datasets in this format, and researchers and startups like Reprex are offering cheaper and easier open-source tools to build RDF-compatible ‘dataset resources’.&lt;/p&gt;
-&lt;p&gt;Linking together datasets in a way that they can be searched by meaning (‘give me a building close enough to a sewage main pipe in the Hague’, ‘now find me similar buildings in relatively cool cities with many heating days in the Netherlands… in the Benelux…. In Europe’). Google, an early evangelist of the web 3.0 as much as the web 1.0 15 years earlier, started to commercially release it under the name ‘Google knowledge graph’, allowing users to &lt;a href=&#34;https://blog.google/products/search/introducing-knowledge-graph-things-not/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;search for a thing instead of a thing&lt;/a&gt;.  Between 1997 and 2004 it took about 7 years to make Google search engine the global leader in finding strings in the web 1.0. The commercialization of the web 3.0 is taking a slower pace, but around 2019-2020 it became a mainstream technology for large organizations.  The mission of Reprex is to make knowledge graphs available for small companies, even civil society actors with cooperation in the data observatories.&lt;/p&gt;
-&lt;p&gt;The aim of the Green Deal Data Observatory is to create such a knowledge graph that connects datasets from Eurostat, the European Environmental Agency, national and city cadastres, Wikipedia, Open Street Data, and all sorts of places in a way that ecotech companies like Thermowatt can search for their next site and start saving energy loss in Europe.&lt;/p&gt;
-&lt;p&gt;Creating a knowledge graph is always an open collaboration: we never know what new datasets, blueprints, photos, and heatmaps will be available on web 3.0 in the future.  The G&lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reen Deal Data Observatory&lt;/a&gt; is creating a knowledge graph that serves business and policy purposes related to the European Green Deal.  Reprex, &lt;a href=&#34;https://eviota.eu/authors/thermowatt/&#34;&gt;Thermowatt&lt;/a&gt;, &lt;a href=&#34;https://cmbp.hu/?lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Concorde MB Partners&lt;/a&gt;, and &lt;a href=&#34;https://www.bluedoorconsulting.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blue Door Consulting&lt;/a&gt; are inviting district heating companies, facility operators, sewage utilities,s and cities to join our knowledge graph, and start looking for new locations where we can stop the energy loss in the cold winter of 2022/2023.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>dataset: Create Interoperable FAIR Datasets</title>
-      <link>https://eviota.eu/software/dataset/</link>
+      <link>https://surveyharmonies.eu/software/dataset/</link>
       <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/software/dataset/</guid>
+      <guid>https://surveyharmonies.eu/software/dataset/</guid>
       <description>&lt;h2 id=&#34;interoperable-fair-datasets&#34;&gt;Interoperable, FAIR datasets&lt;/h2&gt;
 &lt;p&gt;The primary aim of dataset is create well-referenced, well-described,
 interoperable datasets from data.frames, tibbles or data.tables that

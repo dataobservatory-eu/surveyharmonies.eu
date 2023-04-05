@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>daas | Eviota</title>
-    <link>https://eviota.eu/tag/daas/</link>
-      <atom:link href="https://eviota.eu/tag/daas/index.xml" rel="self" type="application/rss+xml" />
+    <title>daas | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/daas/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/daas/index.xml" rel="self" type="application/rss+xml" />
     <description>daas</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>daas</title>
-      <link>https://eviota.eu/tag/daas/</link>
+      <link>https://surveyharmonies.eu/tag/daas/</link>
     </image>
     
     <item>
       <title>Data-as-Service</title>
-      <link>https://eviota.eu/services/data-as-service/</link>
+      <link>https://surveyharmonies.eu/services/data-as-service/</link>
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://eviota.eu/services/data-as-service/</guid>
+      <guid>https://surveyharmonies.eu/services/data-as-service/</guid>
       <description>&lt;p&gt;&lt;strong&gt;We want to ensure that individual researchers, artists, and professionals, as well as NGOs and small and large organizations can benefit equally from big data in the age of artificial intelligence.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Big data creates inequality and injustice because it is only the big corporations, big government agencies, and the biggest, best endowed universities that can finance long-lasting, comprehensive data collection programs. Big data, and large, well-processed, tidy, and accurately imputed datasets allow them to unleash the power of machine learning and AI. These large entities are able to create algorithms that decide the commercial success of your product and your artwork, giving them a competitive edge against smaller competitors while helping them evade regulations.&lt;/p&gt;
 &lt;blockquote&gt;
