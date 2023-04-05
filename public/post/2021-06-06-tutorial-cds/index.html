@@ -1,0 +1,1620 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.6.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Daniel Antal" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="In this series of blogposts we will show how to collect environmental data from the EU’s Copernicus Climate Data Store, and bring it to a data format that you can join with Eurostat’s socio-economic and environmental data." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://eviota.eu/post/2021-06-06-tutorial-cds/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.3495fc6150afdd177f1d04fbba9f5e2c.css" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://eviota.eu/post/2021-06-06-tutorial-cds/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Eviota" />
+  <meta property="og:url" content="https://eviota.eu/post/2021-06-06-tutorial-cds/" />
+  <meta property="og:title" content="Join Copernicus Climate Data Store Data with Socio-Economic and Opinion Poll Data | Eviota" />
+  <meta property="og:description" content="In this series of blogposts we will show how to collect environmental data from the EU’s Copernicus Climate Data Store, and bring it to a data format that you can join with Eurostat’s socio-economic and environmental data." /><meta property="og:image" content="https://eviota.eu/post/2021-06-06-tutorial-cds/featured.png" />
+    <meta property="twitter:image" content="https://eviota.eu/post/2021-06-06-tutorial-cds/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-06-06T10:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-06-06T10:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://eviota.eu/post/2021-06-06-tutorial-cds/"
+  },
+  "headline": "Join Copernicus Climate Data Store Data with Socio-Economic and Opinion Poll Data",
+  
+  "image": [
+    "https://eviota.eu/post/2021-06-06-tutorial-cds/featured.png"
+  ],
+  
+  "datePublished": "2021-06-06T10:00:00Z",
+  "dateModified": "2021-06-06T10:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Daniel Antal"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Eviota",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "In this series of blogposts we will show how to collect environmental data from the EU’s Copernicus Climate Data Store, and bring it to a data format that you can join with Eurostat’s socio-economic and environmental data."
+}
+</script>
+
+  
+
+  
+
+  
+
+
+  <title>Join Copernicus Climate Data Store Data with Socio-Economic and Opinion Poll Data | Eviota</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="7a81c8746a8e7ff36b9652c8e021af96" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.613040fe4f2c0f007b4dcb64404201cb.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Eviota</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Eviota</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Home</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#about"><span>About</span></a>
+              
+                <a class="dropdown-item" href="/#slider"><span>In 1 minute</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>News</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#posts"><span>Blog</span></a>
+              
+                <a class="dropdown-item" href="/#tags"><span>Topics</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Solutions</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#apps"><span>Apps</span></a>
+              
+                <a class="dropdown-item" href="/#releases"><span>Software</span></a>
+              
+                <a class="dropdown-item" href="/category/r-bloggers/"><span>Code</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Sectors</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/sector/sector-agnostic"><span>Sector Agnostic</span></a>
+              
+                <a class="dropdown-item" href="/sector/banking"><span>Banking</span></a>
+              
+                <a class="dropdown-item" href="/sector/music"><span>Music</span></a>
+              
+                <a class="dropdown-item" href="/sector/film"><span>Film, Televison & Video</span></a>
+              
+                <a class="dropdown-item" href="/sector/sme"><span>Micro-, Small- and Medium Enterprises</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Projects</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#projects"><span>Overview</span></a>
+              
+                <a class="dropdown-item" href="/project/eviota"><span>Open Music Europe</span></a>
+              
+                <a class="dropdown-item" href="/project/coal-mining"><span>MusicAIRE</span></a>
+              
+                <a class="dropdown-item" href="/project/greenwashing"><span>Open Innovation Lab</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#partners"><span>Partners</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Contact</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#contact"><span>Get in touch</span></a>
+              
+                <a class="dropdown-item" href="/#talks"><span>Public talks</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Join Copernicus Climate Data Store Data with Socio-Economic and Opinion Poll Data</h1>
+
+  
+  <p class="page-subtitle">Part I: Get the data and aggregate it over Europe&rsquo;s NUTS statistical regions</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/daniel_antal/">Daniel Antal</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 6, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>In this series of blogposts we will show how to collect environmental
+data from the EU’s <a href="https://cds.climate.copernicus.eu/#!/home" target="_blank" rel="noopener">Copernicus Climate Data
+Store</a>, and bring it to a
+data format that you can join with Eurostat’s socio-economic and
+environmental data. We have shown in <a href="https://greendeal.dataobservatory.eu/post/2021-04-23-belgium-flood-insurance/" target="_blank" rel="noopener">a previous
+blogpost</a>
+how to connect this to survey (opinion poll) and tax data, and a real
+policy problem in Belgium. We will create now subsequent tutorials to do
+more!</p>
+<p>But first, why are we doing this? The European Union and its members
+states are releasing every year more and more data for open re-use since
+2003, yet these are often not used in the EU’s data dissemination
+projects (the observatories) or in EU-funded research. We believe that
+there are <a href="https://greendeal.dataobservatory.eu/project/eu-datathon_2021/#problem-statement" target="_blank" rel="noopener">many
+reasons</a>
+behind this. Whilst more and more people can conduct business,
+scientific or policy analysis programmatically or with statistical
+software, knowledge how to systematically collect the data from the
+exponentially growing availability is not everybody’s specialty. And the
+lack of documentation, and high re-processing and validation need for
+open data is another drawback.</p>
+<p><a href="http://ropengov.org/" target="_blank" rel="noopener">rOpenGov</a> has long been producing high-quality,
+peer-reviewed R packages to work with open data, but their use is not
+for all. In an open collaboration, where you can join, too, rOpenGov
+<a href="https://greendeal.dataobservatory.eu/#contributors" target="_blank" rel="noopener">teamed up</a> with
+open source developers, knowledgeable data curators, and a service
+developer team lead by the Dutch reproducible research start-up
+<a href="https://reprex.nl/" target="_blank" rel="noopener">Reprex</a> to create a sustainable infrastructure that
+is permanently collecting, processing, documenting and visualizing open
+data. What we do is that we access open data (that is not always
+available for direct download) and re-process it to usable data that is
+<a href="https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html" target="_blank" rel="noopener">tidy</a>
+to be integrated with your existing data or databases. We are competing
+for the <a href="https://greendeal.dataobservatory.eu/project/eu-datathon_2021/" target="_blank" rel="noopener">EU
+Datathon</a>
+Challenge 1: supporting a European Green Deal agenda with open data as a
+service, and research as a servcie, and you are more than welcome to
+join our effort as a developer, a data curator, or as an occasional
+contributor to open government packages.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp 400w,
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_3250accecb68b0ec9716afed72d0f77e.webp 760w,
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp"
+               width="760"
+               height="428"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+<h2 id="register-to-the-copernicus-climate-data-store">Register to the Copernicus Climate Data Store</h2>
+<p>Koen Hufkens, Reto Stauffer and Elio Campitelli created the
+<a href="https://bluegreen-labs.github.io/ecmwfr/index.html" target="_blank" rel="noopener">ecmwfr</a> R package
+for programmatically accessing the Copernicus Data Store service. Follow
+the <a href="https://bluegreen-labs.github.io/ecmwfr/articles/cds_vignette.html" target="_blank" rel="noopener">CDS Functionality
+vignette</a>
+to get started.</p>
+<p>You will need to create a <a href="https://cds.climate.copernicus.eu/user/91923/edit" target="_blank" rel="noopener">Register yourself for CDS
+services</a> after
+accepting the <a href="https://cds.climate.copernicus.eu/disclaimer-privacy" target="_blank" rel="noopener">Terms and
+conditions</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/img/tutorials/register_to_cds_hub0b07c0de85c1c6f552b5959e300cde5_61323_bf70ade001619e999a885daf0f712a00.webp 400w,
+               /media/img/tutorials/register_to_cds_hub0b07c0de85c1c6f552b5959e300cde5_61323_92f833ed7a49aa44d59ff98c399f97dd.webp 760w,
+               /media/img/tutorials/register_to_cds_hub0b07c0de85c1c6f552b5959e300cde5_61323_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/media/img/tutorials/register_to_cds_hub0b07c0de85c1c6f552b5959e300cde5_61323_bf70ade001619e999a885daf0f712a00.webp"
+               width="760"
+               height="427"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+<pre><code>wf_set_key(user:  &quot;12345&quot;, 
+           key:  &quot;00000000-aaaa-b1b1-0000-a1a1a1a1a1a1&quot;, 
+           service:  &quot;cds&quot;)
+</code></pre>
+<p>You can check if you were successful with:</p>
+<pre><code>ecmwfr::wf_get_key(user:  &quot;12345&quot;, service:  &quot;cds&quot;)
+</code></pre>
+<h2 id="get-the-data">Get the Data</h2>
+<p>Let us formulate our first request:</p>
+<pre><code>request_lai_hv_2019_06 &lt;- list(
+  &quot;dataset_short_name&quot;:  &quot;reanalysis-era5-land-monthly-means&quot;,
+  &quot;product_type&quot;  :  &quot;monthly_averaged_reanalysis&quot;,
+  &quot;variable&quot;      :  &quot;leaf_area_index_high_vegetation&quot;,
+  &quot;year&quot;          :  &quot;2019&quot;,
+  &quot;month&quot;         :   &quot;06&quot;,
+  &quot;time&quot;          :  &quot;00:00&quot;,
+  &quot;area&quot;          :  &quot;70/-20/30/60&quot;,
+  &quot;format&quot;        :  &quot;netcdf&quot;,
+  &quot;target&quot;        :  &quot;demo_file.nc&quot;)
+
+lai_hv_2019_06.nc  &lt;- wf_request(user:  &quot;&lt;your_ID&gt;&quot;,
+                     request:  request_lai_hv_2019_06 ,
+                     transfer:  TRUE,
+                     path:  &quot;data-raw&quot;,
+                     verbose:  FALSE)
+</code></pre>
+<h2 id="effective-leaf-area-index">Effective Leaf Area Index</h2>
+<p>You can find this data either in global computer raster images, or in
+re-processed monthly averages. Working with the raw data is not very
+practical – in case of cloudy weather you have missing data, and the
+files are extremely huge for a personal computer. For the purposes of
+our <a href="https://greendeal.dataobservatory.eu/" target="_blank" rel="noopener">Green Deal Data Observatory</a>
+the monthly average values are far more practical, which are called
+<code>monthly_averaged_reanalysis</code> product types.</p>
+<p>For compatibility with other R packages, convert the data with the from
+<a href="https://rspatial.org/raster/" target="_blank" rel="noopener">raster</a> package from
+<a href="https://rspatial.org" target="_blank" rel="noopener">rSpatial.org</a>.</p>
+<pre><code>lai_file &lt;- here::here( &quot;data-raw&quot;, &quot;demo_file.nc&quot;)
+lai_raster &lt;- raster::raster(lai_file)
+
+## Loading required namespace: ncdf4
+</code></pre>
+<p>Let us convert this to a <code>SpatialDataPointsDataFrame</code> class, which is an
+augmented data frame class with coordinates.</p>
+<pre><code>LAI_df &lt;- raster::rasterToPoints(lai_raster, fun=NULL, spatial=TRUE)
+</code></pre>
+<h2 id="get-the-map">Get The Map</h2>
+<p>With the help fo <a href="http://ropengov.org/" target="_blank" rel="noopener">rOpenGov</a>, we are creating
+various R packages to programmatically access open data and put them
+into the right format. The popular
+<a href="http://ropengov.github.io/eurostat/" target="_blank" rel="noopener">eurostat</a> package is not only
+useful to download data from Eurostat, but also to map it.</p>
+<p>In this case, we want to create regional maps. Europe has five levels of
+geographical regions: <code>NUTS0</code> for countries, <code>NUTS1</code> for larger areas
+like states, provinces; <code>NUTS2</code> for smaller areas like countries,
+<code>NUTS3</code> for even smaller areas. The <code>LAU</code> level contains settlemens and
+their surrounding areas.</p>
+<p>Country borders change sometimes (think about the unification of
+Germany, or the breakup of Czechoslovakia and Yugoslavia), but they are
+relatively stable entities. Sub-national regional border change
+very-very frequently – since 2000 there were many thousand changes in
+Europe. This means that you must choose one regional boundary
+definition. The latest edition is <code>NUTS2021</code> but most of the data
+available is still in the <code>NUTS2016</code> format, and often you will find
+<code>NUTS2013</code> or even <code>NUTS2010</code> data around. Our <a href="https://greendeal.dataobservatory.eu/" target="_blank" rel="noopener">Green Deal Data
+Observatory</a> uses the <code>NUTS2016</code>
+definition, because it is far the most used in 2021. An offspring of the
+<a href="http://ropengov.github.io/eurostat/" target="_blank" rel="noopener">eurostat</a> package,
+<a href="https://regions.dataobservatory.eu/" target="_blank" rel="noopener">regions</a> helps you take care of
+NUTS changes when you work, and can convert your data to <code>NUTS2021</code> if
+you later need it.</p>
+<pre><code>## sf at resolution 1:60 read from local file
+
+## Warning in eurostat::get_eurostat_geospatial(resolution:  &quot;60&quot;, nuts_level: 
+## &quot;2&quot;, : Default of 'make_valid' for 'output_class=&quot;sf&quot;' will be changed in the
+## future (see function details).
+
+plot(map_nuts_2)
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/img/tutorials/cds_tutorial_plot_1_hue23442eb5edee4c705b69c6160645e77_6309_00bf66866999e071c262a0963b7726e5.webp 400w,
+               /media/img/tutorials/cds_tutorial_plot_1_hue23442eb5edee4c705b69c6160645e77_6309_28265a8228e87ca8ef84824993690bcf.webp 760w,
+               /media/img/tutorials/cds_tutorial_plot_1_hue23442eb5edee4c705b69c6160645e77_6309_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/media/img/tutorials/cds_tutorial_plot_1_hue23442eb5edee4c705b69c6160645e77_6309_00bf66866999e071c262a0963b7726e5.webp"
+               width="672"
+               height="480"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+<p>Our measurement of the average Effective Leaf Area Index is a raster
+data, it is given for many points of Europe’s map. What we need to do is
+to overlay this raster information of the statistical map of Europe. We
+use the excellent <a href="https://github.com/edzer/sp" target="_blank" rel="noopener">sp: R Classes and Methods for Spatial
+Data</a> package for this purpose. The
+<code>sp::over()</code> function decides if a point of Leaf Area Index measurement
+falls into the polygon (shape) of a particular NUTS2 regions, for
+example, Zuid-Holland or South Holland in the Netherlands, or Saarland
+in Germany, or not. Then it averages with the <code>mean()</code> function those
+measurements falling in the area.</p>
+<pre><code>LAI_nuts_2:  sp::over(sp::geometry(
+  as(map_nuts_2, 'Spatial')), 
+  LAI_df,
+  fn=mean)
+</code></pre>
+<p>Let’s call the average LAI index <code>lai</code>, and bind it to the Eurostat map:</p>
+<pre><code>names(LAI_nuts_2)[1] &lt;- &quot;lai&quot;
+LAI_sfdf &lt;- bind_cols ( map_nuts_2, LAI_nuts_2 )
+</code></pre>
+<p>If you want to work with the data in a numeric context, you do not need
+the geographical information, and you can “downgrade” the
+<code>SpatialDataPointsDataFrame</code> to a simple data frame.</p>
+<pre><code>set.seed(2019) #to always see the same sample
+LAI_sfdf %&gt;%
+  as.data.frame() %&gt;%
+  select ( all_of(c(&quot;NUTS_NAME&quot;, &quot;NUTS_ID&quot;, &quot;lai&quot;)) ) %&gt;%
+  sample_n(10)
+
+##                      NUTS_NAME NUTS_ID lai
+## 281                       Vest    RO42  NA
+## 125                     Kassel    DE73  NA
+## 69              Friesland (NL)    NL12  NA
+## 237 Agri, Kars, Igdir, Ardahan    TRA2  NA
+## 273                East Anglia    UKH1  NA
+## 119                Prov. Liège    BE33  NA
+## 61                   Bourgogne    FRC1  NA
+## 275                      Essex    UKH3  NA
+## 282                   Istanbul    TR10  NA
+## 174                    Leipzig    DED5  NA
+</code></pre>
+<p>We’ll plot the map with <a href="https://ggplot2.tidyverse.org/" target="_blank" rel="noopener">ggplot2</a>.</p>
+<pre><code>library(ggplot2)
+library(sf)
+ggplot(data=LAI_sfdf) + 
+  geom_sf(aes(fill=lai),
+          color=&quot;dim grey&quot;, size=.1) + 
+  scale_fill_gradient( low: &quot;#FAE000&quot;, high:  &quot;#00843A&quot;) +
+  guides(fill:  guide_legend(reverse=T, title:  &quot;LAI&quot;)) +
+  labs(title=&quot;Leaf Area Index&quot;,
+       subtitle:  &quot;High vegetation half, NUTS2 regional avareage values&quot;,
+       caption=&quot;\ua9 EuroGeographics for the administrative boundaries 
+                \ua9 Copernicus Data Service, June 2019 average values
+                Tutorial and ready-to-use data on greendeal.dataobservatory.eu&quot;) +
+  theme_light() + theme(legend.position=c(.88,.78)) +
+  coord_sf(xlim=c(-22,48), ylim=c(34,70))
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/img/tutorials/LAI_plot_demo_hu4d370a736e40349b168ee924157b9365_71580_e36c601565f21c35efd1c5c8858ec5e9.webp 400w,
+               /media/img/tutorials/LAI_plot_demo_hu4d370a736e40349b168ee924157b9365_71580_d6621addc530408eab0e7f4bdd6783aa.webp 760w,
+               /media/img/tutorials/LAI_plot_demo_hu4d370a736e40349b168ee924157b9365_71580_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/media/img/tutorials/LAI_plot_demo_hu4d370a736e40349b168ee924157b9365_71580_e36c601565f21c35efd1c5c8858ec5e9.webp"
+               width="760"
+               height="507"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+<h2 id="data-integrity">Data Integrity</h2>
+<p>Our <a href="https://greendeal.dataobservatory.eu/" target="_blank" rel="noopener">Green Deal Data Observatory</a>
+has a data API where we place the new data with metadata for
+programmatic download in CSV, JSON or even with SQL queries. For data
+integrity purposes, we are placing an authoritative copy on <a href="https://zenodo.org/communities/greendeal_observatory/" target="_blank" rel="noopener">Zenodo
+(Green Deal Data Observatory
+Community)</a>. You
+can use this for scientific citations. We are also happy if you place
+your own climate policy related research data here, so that we can
+include it in our observatory. In our subsequent tutorials, we will show
+how to do this programmatically in R. This particular dataset (not only
+with the month June, which we selected to streamline the tutorial) is
+available <a href="https://zenodo.org/record/4903940#.YLyYrqgzbIU" target="_blank" rel="noopener">here</a> with
+the digital object identifier
+<a href="http://doi.org/10.5281/zenodo.4903940" target="_blank" rel="noopener">doi.org/10.5281/zenodo.4903940</a>.</p>
+<h2 id="join-us">Join us</h2>
+<p><em>Join our open collaboration Green Deal Data Observatory team as a <a href="/authors/curator">data curator</a>, <a href="/authors/developer">developer</a> or <a href="/authors/team">business developer</a>. More interested in antitrust, innovation policy or economic impact analysis? Try our <a href="https://economy.dataobservatory.eu/#contributors" target="_blank" rel="noopener">Economy Data Observatory</a> team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our <a href="https://music.dataobservatory.eu/#contributors" target="_blank" rel="noopener">Digital Music Observatory</a> team!</em></p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/open-data/">open-data</a>
+  
+  <a class="badge badge-light" href="/tag/open-science/">Open science</a>
+  
+  <a class="badge badge-light" href="/tag/reproducible-research/">reproducible research</a>
+  
+  <a class="badge badge-light" href="/tag/open-government/">open government</a>
+  
+  <a class="badge badge-light" href="/tag/tutorials/">tutorials</a>
+  
+  <a class="badge badge-light" href="/tag/rbloggers/">rbloggers</a>
+  
+  <a class="badge badge-light" href="/tag/copernicus/">Copernicus</a>
+  
+  <a class="badge badge-light" href="/tag/biosphere/">biosphere</a>
+  
+  <a class="badge badge-light" href="/tag/vegetation/">vegetation</a>
+  
+  <a class="badge badge-light" href="/tag/lai/">LAI</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://eviota.eu/post/2021-06-06-tutorial-cds/&amp;text=Join%20Copernicus%20Climate%20Data%20Store%20Data%20with%20Socio-Economic%20and%20Opinion%20Poll%20Data" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://eviota.eu/post/2021-06-06-tutorial-cds/&amp;t=Join%20Copernicus%20Climate%20Data%20Store%20Data%20with%20Socio-Economic%20and%20Opinion%20Poll%20Data" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Join%20Copernicus%20Climate%20Data%20Store%20Data%20with%20Socio-Economic%20and%20Opinion%20Poll%20Data&amp;body=https://eviota.eu/post/2021-06-06-tutorial-cds/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://eviota.eu/post/2021-06-06-tutorial-cds/&amp;title=Join%20Copernicus%20Climate%20Data%20Store%20Data%20with%20Socio-Economic%20and%20Opinion%20Poll%20Data" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Join%20Copernicus%20Climate%20Data%20Store%20Data%20with%20Socio-Economic%20and%20Opinion%20Poll%20Data%20https://eviota.eu/post/2021-06-06-tutorial-cds/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://eviota.eu/post/2021-06-06-tutorial-cds/&amp;title=Join%20Copernicus%20Climate%20Data%20Store%20Data%20with%20Socio-Economic%20and%20Opinion%20Poll%20Data" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://eviota.eu/"><img class="avatar mr-3 avatar-circle" src="/authors/daniel_antal/avatar_hud88ed22bc3c29040ee8bdf20c6cd6530_105602_270x270_fill_q75_lanczos_center.jpg" alt="Daniel Antal"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://eviota.eu/">Daniel Antal</a></h5>
+      <h6 class="card-subtitle">Data Scientist &amp; Founder of the Green Deal Data Observatory</h6>
+      <p class="card-text">Making big data work for everybody.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://keybase.io/antaldaniel" target="_blank" rel="noopener">
+        <i class="fab fa-keybase"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-7513-6760" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/antaldaniel" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/antaldaniel/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2021-2023 Daniel Antal, Reprex B.V. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.a6238d5886fa4a2f7cf92df25709326f.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

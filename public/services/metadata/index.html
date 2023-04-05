@@ -1,0 +1,1344 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.6.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Daniel Antal" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Adding metadata exponentially increases the value of data. Did somebody already adjust old data to conform to constantly changing geographic boundaries? What are some practical ways of combining satellite sensory data with my organization&#39;s records? And do I have the right to do so? Metadata logs the history of data, providing instructions on how to reuse it, also setting the terms of use. We automate this labor-intensive process applying the FAIR data concept." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://eviota.eu/services/metadata/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.3495fc6150afdd177f1d04fbba9f5e2c.css" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://eviota.eu/services/metadata/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Eviota" />
+  <meta property="og:url" content="https://eviota.eu/services/metadata/" />
+  <meta property="og:title" content="Metadata | Eviota" />
+  <meta property="og:description" content="Adding metadata exponentially increases the value of data. Did somebody already adjust old data to conform to constantly changing geographic boundaries? What are some practical ways of combining satellite sensory data with my organization&#39;s records? And do I have the right to do so? Metadata logs the history of data, providing instructions on how to reuse it, also setting the terms of use. We automate this labor-intensive process applying the FAIR data concept." /><meta property="og:image" content="https://eviota.eu/services/metadata/featured.jpg" />
+    <meta property="twitter:image" content="https://eviota.eu/services/metadata/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-07-07T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-07-07T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+
+  <title>Metadata | Eviota</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="8ac5f27972f957d4b5d4188584738e4c" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.613040fe4f2c0f007b4dcb64404201cb.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Eviota</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Eviota</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Home</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#about"><span>About</span></a>
+              
+                <a class="dropdown-item" href="/#slider"><span>In 1 minute</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>News</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#posts"><span>Blog</span></a>
+              
+                <a class="dropdown-item" href="/#tags"><span>Topics</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Solutions</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#apps"><span>Apps</span></a>
+              
+                <a class="dropdown-item" href="/#releases"><span>Software</span></a>
+              
+                <a class="dropdown-item" href="/category/r-bloggers/"><span>Code</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Sectors</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/sector/sector-agnostic"><span>Sector Agnostic</span></a>
+              
+                <a class="dropdown-item" href="/sector/banking"><span>Banking</span></a>
+              
+                <a class="dropdown-item" href="/sector/music"><span>Music</span></a>
+              
+                <a class="dropdown-item" href="/sector/film"><span>Film, Televison & Video</span></a>
+              
+                <a class="dropdown-item" href="/sector/sme"><span>Micro-, Small- and Medium Enterprises</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Projects</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#projects"><span>Overview</span></a>
+              
+                <a class="dropdown-item" href="/project/eviota"><span>Open Music Europe</span></a>
+              
+                <a class="dropdown-item" href="/project/coal-mining"><span>MusicAIRE</span></a>
+              
+                <a class="dropdown-item" href="/project/greenwashing"><span>Open Innovation Lab</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#partners"><span>Partners</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Contact</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#contact"><span>Get in touch</span></a>
+              
+                <a class="dropdown-item" href="/#talks"><span>Public talks</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Metadata</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 7, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/EconDataObs" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>Follow</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://www.linkedin.com/company/78562153/" target="_blank" rel="noopener">
+    <i class="fab fa-linkedin mr-1"></i>Connect</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/dataobservatory-eu/dataobservatory/" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>Code</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://r.dataobservatory.eu/" target="_blank" rel="noopener">
+    <i class="fas fa-book-open mr-1"></i>Documentation</a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
+  <div style="position: relative">
+    <img src="/services/metadata/featured_hu2b5ca0e8d1290dc6b290d6b4669a6259_449722_720x2500_fit_q75_h2_lanczos.webp" width="720" height="480" alt="" class="featured-image">
+    <span class="article-header-caption">Diamond Polisher, ©<a href="https://commons.wikimedia.org/w/index.php?curid=4770037" target="_blank" rel="noopener">Andere Andre</a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p><em>Adding metadata exponentially increases the value of data. Did your region add a new town to its boundaries? How do you adjust old data to conform to constantly changing geographic boundaries? What are some practical ways of combining satellite sensory data with my organization&rsquo;s records? And do I have the right to do so? Metadata logs the history of data, providing instructions on how to reuse it, also setting the terms of use. We automate this labor-intensive process applying the FAIR data concept.</em></p>
+<p>In our observatory we apply the concept of <a href="#FAIR">FAIR</a> (<strong>f</strong>indable, <strong>a</strong>ccessibe, <strong>i</strong>nteroperable, and <strong>r</strong>eusable digital assets) in our APIs and in our open-source statistical software packages.</p>
+<h2 id="the-hidden-cost-item">The hidden cost item</h2>
+<p>Metadata gets less attention than data, because it is never acquired separately, it is not on the invoice, and therefore it remains an a hidden cost, and it is more important from a budgeting and a usability point of view than the data itself. Metadata is responsible for industry non-billable hours or uncredited working hours in academia. Poor data documentation, lack of reproducible processing and testing logs, inconsistent use of currencies, keywords, and storing <a href="#messy-data">messy data</a> make reusability and interoperability, integration with other information impossible.</p>
+<p><a href="#FAIR-data">FAIR Data and the Added Value of Rich Metadata</a> we introduce how we apply the concept of <a href="#FAIR">FAIR</a> (<strong>f</strong>indable, <strong>a</strong>ccessibe, <strong>i</strong>nteroperable, and <strong>r</strong>eusable digital assets) in our APIs.</p>
+<p>Organizations pay many times for the same, repeated work, because these boring tasks, which often comprise of tens of thousands of microtasks, are neglected. Our solution creates automatic documentation and metadata for your own historical internal data or for acquisitions from data vendors. We apply the more general <a href="#Dublin-Core">Dublin Core</a> and the more specific, mandatory and recommended values of <a href="#DataCite">DataCite</a> for datasets &ndash; these are new requirements in EU-funded research from 2021. But they are just the minimal steps, and there is a lot more to do to create a diamond ring from an uncut gem.</p>
+<h2 id="map-your-data-bibliographis-catalogues-codebooks-versioning">Map your data: bibliographis, catalogues, codebooks, versioning</h2>
+<p>Updating descriptive metadata, such as bibliographic citation files, descriptions and sources to data files downloaded from the internet, versioning spreadsheet documents and presentations is usually a hated and often neglected task withing organization, and rightly so: these boring and error-prone tasks are best left to computers.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-already-adjusted-spreadsheets-are-re-adjusted-and-re-checked-hours-are-spent-on-looking-for-the-right-document-with-the-rigth-version-duplicates-multiply-already-downloaded-data-is-downloaded-again-and-miscategorized-again-finding-the-data-without-map-is-a-treasure-hunt-photo--nhttpsunsplashcomphotosrfid0_7kep4utm_sourceunsplash">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Already adjusted spreadsheets are re-adjusted and re-checked. Hours are spent on looking for the right document with the rigth version. Duplicates multiply. Already downloaded data is downloaded again, and miscategorized, again. Finding the data without map is a treasure hunt. Photo: © [N.](https://unsplash.com/photos/RFId0_7kep4?utm_source=unsplash)" srcset="
+               /media/img/gems/n-RFId0_7kep4-unsplash_huee7d1c00c98fa72789543cf5e3e81601_230600_4ef39edbabd2ce5d60369717f173740b.webp 400w,
+               /media/img/gems/n-RFId0_7kep4-unsplash_huee7d1c00c98fa72789543cf5e3e81601_230600_b62329f523c1d5825fbad91ef6374d1a.webp 760w,
+               /media/img/gems/n-RFId0_7kep4-unsplash_huee7d1c00c98fa72789543cf5e3e81601_230600_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/img/gems/n-RFId0_7kep4-unsplash_huee7d1c00c98fa72789543cf5e3e81601_230600_4ef39edbabd2ce5d60369717f173740b.webp"
+               width="760"
+               height="506"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Already adjusted spreadsheets are re-adjusted and re-checked. Hours are spent on looking for the right document with the rigth version. Duplicates multiply. Already downloaded data is downloaded again, and miscategorized, again. Finding the data without map is a treasure hunt. Photo: © <a href="https://unsplash.com/photos/RFId0_7kep4?utm_source=unsplash" target="_blank" rel="noopener">N.</a>
+    </figcaption></figure>
+<p>The lack of time and resources spend on documentation over time reduces reusability and significantly increases data processing and supervision or auditing costs.</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Our observatory metadata is compliant with the <a href="https://www.dublincore.org/specifications/dublin-core/cross-domain-attribute/" target="_blank" rel="noopener">Dublin Core Cross-Domain Attribute Set</a> metadata standard, but we use different formatting. We offer simple re-formatting from the richer DataCite to Dublin Core for interoperability with a wider set of data sources.</li>
+<li><input checked="" disabled="" type="checkbox"> We use all <a href="https://support.datacite.org/docs/datacite-metadata-schema-v44-mandatory-properties" target="_blank" rel="noopener">mandatory</a> DataCite metadata fields, all the <a href="https://support.datacite.org/docs/datacite-metadata-schema-v44-recommended-and-optional-properties" target="_blank" rel="noopener">the recommended and optional</a> ones.</li>
+<li><input checked="" disabled="" type="checkbox"> It complies with the tidy data principles.</li>
+</ul>
+<p>In other words: very easy to import into your databases, or join with other databases, and the information is easy to find.  Corrections, updates can automatically managed.</p>
+<h2 id="what-happened-with-the-data-before">What happened with the data before?</h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> We are creating Codebooks that are following the SDMX statistical metadata codelists, and resemble the SMDX concepts used by international statistical agencies. (See more technical information <a href="https://r.dataobservatory.eu/articles/codebook.html" target="_blank" rel="noopener">here</a>.)</li>
+</ul>
+<p>Small organizations often cannot afford to have data engineers and data scientists on staff, and they employ analysts who work with Excel, OpenOffice, PowerBI, SPSS or Stata.  The problem with these applications is that they often require the user to manually adjust the data, with keyboard entries or mouse clicks.  Furthermore, they do not provide a precise logging of the data processing, manipulation history.
+The manual data processing and manipulation is very error prone and makes the use of complex and high value resources, such as harmonized surveys or symmetric input-output tables, to name two important source we deal with, impossible to use.  The use of these high-value data sources often requires tens of thousands of data processing steps: no human can do it faultlessly.</p>
+<p>What is even more problematic that simple applications for analysis do not provide a log of these manipulations’ steps: pulling over a column with the mouse, renaming a row, adding a zero to an empty cell. This makes senior supervisory oversight and external audit very costly.</p>
+<p>Our data comes with full history: all changes are visible, and we even open the code or algorithm that processed the raw data.  Your analysts can still use their favourite spreadsheet or statistical software application, but they can start from a clean, tidy dataset, with all data wrangling, currency and unit conversion, imputation and other low-priority but important tasks done and logged.</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/metadata/">metadata</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://eviota.eu/services/metadata/&amp;text=Metadata" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://eviota.eu/services/metadata/&amp;t=Metadata" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Metadata&amp;body=https://eviota.eu/services/metadata/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://eviota.eu/services/metadata/&amp;title=Metadata" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Metadata%20https://eviota.eu/services/metadata/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://eviota.eu/services/metadata/&amp;title=Metadata" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://eviota.eu/"><img class="avatar mr-3 avatar-circle" src="/authors/daniel_antal/avatar_hud88ed22bc3c29040ee8bdf20c6cd6530_105602_270x270_fill_q75_lanczos_center.jpg" alt="Daniel Antal"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://eviota.eu/">Daniel Antal</a></h5>
+      <h6 class="card-subtitle">Data Scientist &amp; Founder of the Green Deal Data Observatory</h6>
+      <p class="card-text">Making big data work for everybody.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://keybase.io/antaldaniel" target="_blank" rel="noopener">
+        <i class="fab fa-keybase"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-7513-6760" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/antaldaniel" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/antaldaniel/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2021-2023 Daniel Antal, Reprex B.V. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.a6238d5886fa4a2f7cf92df25709326f.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

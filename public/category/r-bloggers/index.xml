@@ -1,0 +1,2163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R-bloggers | Eviota</title>
+    <link>https://eviota.eu/category/r-bloggers/</link>
+      <atom:link href="https://eviota.eu/category/r-bloggers/index.xml" rel="self" type="application/rss+xml" />
+    <description>R-bloggers</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Jun 2022 08:12:00 +0100</lastBuildDate>
+    <image>
+      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <title>R-bloggers</title>
+      <link>https://eviota.eu/category/r-bloggers/</link>
+    </image>
+    
+    <item>
+      <title>stacodelists: use standard, language-independent variable codes to help international data interoperability and machine reuse in R</title>
+      <link>https://eviota.eu/post/2022-06-29-statcodelists/</link>
+      <pubDate>Wed, 29 Jun 2022 08:12:00 +0100</pubDate>
+      <guid>https://eviota.eu/post/2022-06-29-statcodelists/</guid>
+      <description>&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-visit-the-documentation-website-of-statcodelists-on-statcodelistsdataobservatoryeuhttpsstatcodelistsdataobservatoryeu&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Visit the documentation website of statcodelists on [statcodelists.dataobservatory.eu/](https://statcodelists.dataobservatory.eu/).&#34; srcset=&#34;
+               /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_0b514d80337ede30bff4c26cee6a6f11.webp 400w,
+               /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_1416f7a0950b1cecac8097850d995432.webp 760w,
+               /media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/blogposts_2022/statcodelists_website_huef7e1379be389a62e3a47c5a8502e55c_102481_0b514d80337ede30bff4c26cee6a6f11.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Visit the documentation website of statcodelists on &lt;a href=&#34;https://statcodelists.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;statcodelists.dataobservatory.eu/&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;!-- badges: start --&gt;
+&lt;p&gt;&lt;a href=&#34;https://dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://img.shields.io/badge/ecosystem-dataobservatory.eu-3EA135.svg&#34; alt=&#34;dataobservatory&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;!-- badges: end --&gt;
+&lt;p&gt;The goal of &lt;code&gt;statcodelists&lt;/code&gt; is to promote the reuse and exchange of statistical information and related metadata with making the internationally standardized SDMX code lists available for the R user. SDMX – the &lt;a href=&#34;https://sdmx.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Statistical Data and Metadata eXchange&lt;/a&gt; has been published as an ISO International Standard (ISO 17369). The metadata definitions, including the codelists are updated regularly according to the standard. The authoritative version of the code lists made available in this package is &lt;a href=&#34;https://sdmx.org/?page_id=3215/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sdmx.org/?page_id=3215/&lt;/a&gt;.&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;Click to expand table of contents of the post&lt;/summary&gt;
+  &lt;p&gt;&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#purpose&#34;&gt;Purpose&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#code-of-conduct&#34;&gt;Code of Conduct&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;purpose&#34;&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;Cross-domain concepts in the SDMX framework describe concepts relevant to many, if not all, statistical domains. SDMX recommends using these concepts whenever feasible in SDMX structures and messages to promote the reuse and exchange of statistical information and related metadata between organisations.&lt;/p&gt;
+&lt;p&gt;Code lists are predefined sets of terms from which some statistical coded concepts take their values. SDMX cross-domain code lists are used to support cross-domain concepts. What are these cross-domain coded concepts?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Geographical codes, like &lt;code&gt;NL&lt;/code&gt;:  the Netherlands in the &lt;a href=&#34;https://statcodelists.dataobservatory.eu/reference/CL_AREA.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CL_AREA&lt;/a&gt; code list.&lt;/li&gt;
+&lt;li&gt;Standard industry codes &lt;code&gt;J631&lt;/code&gt; for Data processing, hosting and related activities in Europe. (&lt;a href=&#34;https://statcodelists.dataobservatory.eu/reference/CL_ACTIVITY_NACE2.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NACE Rev 2&lt;/a&gt; in Europe, beware, it is &lt;code&gt;J592&lt;/code&gt;in Australia and New Zealand, see &lt;a href=&#34;https://statcodelists.dataobservatory.eu/reference/CL_ACTIVITY_ANZSIC06.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CL_ACTIVITY_ANZSIC06&lt;/a&gt;.)&lt;/li&gt;
+&lt;li&gt;Occupations, like &lt;code&gt;OC2521&lt;/code&gt; for &lt;code&gt;Database designers and administrators&lt;/code&gt; in &lt;a href=&#34;https://statcodelists.dataobservatory.eu/reference/CL_OCCUPATION.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CL_OCCUPATIONS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Time fomatting standards, like &lt;code&gt;CCYY&lt;/code&gt; for annual data series in &lt;a href=&#34;https://statcodelists.dataobservatory.eu/reference/CL_TIME_FORMAT.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CL_TIME_FORMAT&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check out the available codlists on the &lt;a href=&#34;https://statcodelists.dataobservatory.eu/reference/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;package homepage&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The use of common code lists will help users to work even more efficiently, easing the maintenance of and reducing the need for mapping systems and interfaces delivering data and metadata to them. A very obvious advantage of using the code systems is that you can retrieve data from national sources indifferent of the natural language used in North Macedonia, Japan, the U.S. or the Netherlands. While the data labels may change to be locally human-readable, computers and geeks can read the codes and understand them immediately. Provided that they use the standard codes.&lt;/p&gt;
+&lt;p&gt;Our data observatories are rolling out SDMX coding across all datasets to help data ingestion and interoperability, data findability and data reuse. &lt;code&gt;statcodelists&lt;/code&gt; can help the use of standard SDMX codes in your R workflow&amp;ndash;both for downloading data from statistical agencies and to produce publication-ready datasets that the rest of the world (and even APIs) will understand.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;You can install &lt;code&gt;statcodelists&lt;/code&gt; from CRAN:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;install.packages(&amp;#34;statcodelists&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Further recommended code values for expressing general statistical concepts like &lt;code&gt;not applicable&lt;/code&gt;, etc., can be found in section &lt;code&gt;Generic codes&lt;/code&gt; of the &lt;a href=&#34;https://sdmx.org/?page_id=4345&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guidelines for the creation and management of SDMX Cross-Domain Code Lists&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For further codelists used by reliable statistical agency but not harmonized on SDMX level please consult the &lt;a href=&#34;https://registry.sdmx.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SDMX Global Registry&lt;/a&gt; &lt;a href=&#34;https://registry.sdmx.org/items/codelist.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Codelists&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;The creator of this package is not affiliated with SDMX, and this package was has not been endorsed by SDMX.&lt;/p&gt;
+&lt;h2 id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h2&gt;
+&lt;p&gt;Please note that the &lt;code&gt;statcodelists&lt;/code&gt; project is released with a &lt;a href=&#34;https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Code of Conduct&lt;/a&gt;. By contributing to this project, you agree to abide by its terms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analyze Locally, Act Globally: New regions R Package Release</title>
+      <link>https://eviota.eu/post/2021-06-16-regions-release/</link>
+      <pubDate>Wed, 16 Jun 2021 12:00:00 +0000</pubDate>
+      <guid>https://eviota.eu/post/2021-06-16-regions-release/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_1aeab2d63a062640baf35ce7ffff4b52.webp 400w,
+               /media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_340cd90381be5d85c6b08caba8072821.webp 760w,
+               /media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/package_screenshots/regions_017_169_hu4c6da2626fe9335e12d5da3506258dd2_123607_1aeab2d63a062640baf35ce7ffff4b52.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;427&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;The new version of our &lt;a href=&#34;https://ropengov.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; R package
+&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; was released today on
+CRAN. This package is one of the engines of our experimental open
+data-as-service &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt;, &lt;a href=&#34;https://economy.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data Observatory&lt;/a&gt;, &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; prototypes, which aim to
+place open data packages into open-source applications.&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;Click to expand table of contents of the post&lt;/summary&gt;
+  &lt;p&gt;&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#get-the-package&#34;&gt;Get the Package&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#join-us&#34;&gt;Join us&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;In international comparison the use of nationally aggregated indicators
+often have many disadvantages: they inhibit very different levels of
+homogeneity, and data is often very limited in number of observations
+for a cross-sectional analysis. When comparing European countries, a few
+missing cases can limit the cross-section of countries to around 20
+cases which disallows the use of many analytical methods. Working with
+sub-national statistics has many advantages: the similarity of the
+aggregation level and high number of observations can allow more precise
+control of model parameters and errors, and the number of observations
+grows from 20 to 200-300.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-change-from-national-to-sub-national-level-comes-with-a-huge-data-processing-price-internal-administrative-boundaries-their-names-codes-codes-change-very-frequently&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The change from national to sub-national level comes with a huge data processing price: internal administrative boundaries, their names, codes codes change very frequently.&#34; srcset=&#34;
+               /media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_df043b13fb62aa7b45aa15fad51f4229.webp 400w,
+               /media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_09a0d6124e334c5f1727420a059512a9.webp 760w,
+               /media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/blogposts_2021/indicator_with_map_hue9f606f6489f63a22f67aeb7e2b3402b_98843_df043b13fb62aa7b45aa15fad51f4229.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      The change from national to sub-national level comes with a huge data processing price: internal administrative boundaries, their names, codes codes change very frequently.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Yet the change from national to sub-national level comes with a huge
+data processing price. While national boundaries are relatively stable,
+with only a handful of changes in each recent decade. The change of
+national boundaries requires a more-or-less global consensus. But states
+are free to change their internal administrative boundaries, and they do
+it with large frequency. This means that the names, identification codes
+and boundary definitions of sub-national regions change very frequently.
+Joining data from different sources and different years can be very
+difficult.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-our-regions-r-packagehttpsregionsdataobservatoryeu-helps-the-data-processing-validation-and-imputation-of-sub-national-regional-datasets-and-their-coding&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Our [regions R package](https://regions.dataobservatory.eu/) helps the data processing, validation and imputation of sub-national, regional datasets and their coding.&#34; srcset=&#34;
+               /media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_65df57cf4311bb2623535a1a5be044c0.webp 400w,
+               /media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_81a53fd42fac7f0c3fe4e1a89d5b7892.webp 760w,
+               /media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/blogposts_2021/recoded_indicator_with_map_hubda8124fbfd6305eacfd3d4f0fcd06cc_71873_65df57cf4311bb2623535a1a5be044c0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Our &lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions R package&lt;/a&gt; helps the data processing, validation and imputation of sub-national, regional datasets and their coding.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;There are numerous advantages of switching from a national level of the
+analysis to a sub-national level comes with a huge price in data
+processing, validation and imputation, and the
+&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; package aims to help this
+process.&lt;/p&gt;
+&lt;p&gt;You can review the problem, and the code that created the two map
+comparisons, in the &lt;a href=&#34;https://regions.dataobservatory.eu/articles/maping.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maping Regional Data, Maping Metadata
+Problems&lt;/a&gt;
+vignette article of the package. A more detailed problem description can
+be found in &lt;a href=&#34;https://regions.dataobservatory.eu/articles/Regional_stats.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Working With Regional, Sub-National Statistical
+Products&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This package is an offspring of the
+&lt;a href=&#34;https://ropengov.github.io/eurostat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurostat&lt;/a&gt; package on
+&lt;a href=&#34;https://ropengov.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt;. It started as a tool to
+validate and re-code regional Eurostat statistics, but it aims to be a
+general solution for all sub-national statistics. It will be developed
+parallel with other rOpenGov packages.&lt;/p&gt;
+&lt;h2 id=&#34;get-the-package&#34;&gt;Get the Package&lt;/h2&gt;
+&lt;p&gt;You can install the development version from
+&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;devtools::install_github(&amp;quot;rOpenGov/regions&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or the released version from CRAN:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;regions&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can review the complete package documentation on
+&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions.dataobservaotry.eu&lt;/a&gt;. If
+you find any problems with the code, please raise an issue on
+&lt;a href=&#34;https://github.com/rOpenGov/regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;. Pull requests are welcome
+if you agree with the &lt;a href=&#34;https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Code of
+Conduct&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you use &lt;code&gt;regions&lt;/code&gt; in your work, please cite the
+package as:
+Daniel Antal. (2021, June 16). regions (Version 0.1.7). CRAN. &lt;a href=&#34;%28https://doi.org/10.5281/zenodo.4965909%29&#34;&gt;http://doi.org/10.5281/zenodo.4965909&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download the &lt;a href=&#34;https://eviota.eu/media/bibliography/cite-regions.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/package=regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://www.r-pkg.org/badges/version/regions&#34; alt=&#34;CRAN_Status_Badge&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;join-us&#34;&gt;Join us&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Join our Green Deal Data Observatory collaboration!&lt;/summary&gt;
+  &lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://eviota.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://eviota.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://eviota.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Music Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/intent/follow?screen_name=GreenDealObs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://img.shields.io/twitter/follow/GreenDealObs.svg?style=social&#34; alt=&#34;Follow GreenDealObs&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Economic and Environment Impact Analysis, Automated for Data-as-Service</title>
+      <link>https://eviota.eu/post/2021-06-03-iotables-release/</link>
+      <pubDate>Thu, 03 Jun 2021 16:00:00 +0000</pubDate>
+      <guid>https://eviota.eu/post/2021-06-03-iotables-release/</guid>
+      <description>&lt;p&gt;We have released a new version of
+&lt;a href=&#34;https://iotables.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; as part of the
+&lt;a href=&#34;http://ropengov.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; project. The package, as the name
+suggests, works with European symmetric input-output tables (SIOTs).
+SIOTs are among the most complex governmental statistical products. They
+show how each country’s 64 agricultural, industrial, service, and
+sometimes household sectors relate to each other. They are estimated
+from various components of the GDP, tax collection, at least every five
+years.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    This code tutorial is not outdated, but the &lt;a href=&#34;https://iotables.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; R package has a new release with more environmental impact analysis featues.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;Click to expand table of contents of the post&lt;/summary&gt;
+  &lt;p&gt;&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#accessing-and-tidying-the-data-programmatically&#34;&gt;Accessing and tidying the data programmatically&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#vignettes&#34;&gt;Vignettes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#environmental-impact-analysis&#34;&gt;Environmental Impact Analysis&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ropengov-and-the-eu-datathon-challenges&#34;&gt;rOpenGov and the EU Datathon Challenges&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;SIOTs offer great value to policy-makers and analysts to make more than
+educated guesses on how a million euros, pounds or Czech korunas spent
+on a certain sector will impact other sectors of the economy, employment
+or GDP. What happens when a bank starts to give new loans and advertise
+them? How is an increase in economic activity going to affect the amount
+of wages paid and and where will consumers most likely spend their
+wages? As the national economies begin to reopen after COVID-19 pandemic
+lockdowns, is to utilize SIOTs to calculate direct and indirect
+employment effects or value added effects of government grant programs
+to sectors such as cultural and creative industries or actors such as
+venues for performing arts, movie theaters, bars and restaurants.&lt;/p&gt;
+&lt;p&gt;Making such calculations requires a bit of matrix algebra, and
+understanding of input-output economics, direct, indirect effects, and
+multipliers. Economists, grant designers, policy makers have those
+skills, but until now, such calculations were either made in cumbersome
+Excel sheets, or proprietary software, as the key to these calculations
+is to keep vectors and matrices, which have at least one dimension of
+64, perfectly aligned. We made this process reproducible with
+&lt;a href=&#34;https://iotables.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; and
+&lt;a href=&#34;https://CRAN.R-project.org/package=eurostat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurostat&lt;/a&gt; on
+&lt;a href=&#34;http://ropengov.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-our-iotables-package-creates-direct-indirect-effects-and-multipliers-programatically-our-observatory-will-make-those-indicators-available-for-all-european-countries&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Our iotables package creates direct, indirect effects and multipliers programatically. Our observatory will make those indicators available for all European countries.&#34; srcset=&#34;
+               /media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_1ff902b174dec383d32d5245b4103fff.webp 400w,
+               /media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_af398c7bd5f3c936ea4ad7a030c0a82e.webp 760w,
+               /media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/package_screenshots/iotables_045_hu2a20ce082ac1035f2e18bbe9f771b917_198414_1ff902b174dec383d32d5245b4103fff.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Our iotables package creates direct, indirect effects and multipliers programatically. Our observatory will make those indicators available for all European countries.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;accessing-and-tidying-the-data-programmatically&#34;&gt;Accessing and tidying the data programmatically&lt;/h2&gt;
+&lt;p&gt;The iotables package is in a way an extension to the &lt;em&gt;eurostat&lt;/em&gt; R
+package, which provides a programmatic access to the
+&lt;a href=&#34;https://ec.europa.eu/eurostat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurostat&lt;/a&gt; data warehouse. The reason for
+releasing a new package is that working with SIOTs requires plenty of
+meticulous data wrangling based on various &lt;em&gt;metadata&lt;/em&gt; sources, apart
+from actually accessing the &lt;em&gt;data&lt;/em&gt; itself. When working with matrix
+equations, the bar is higher than with tidy data. Not only your rows and
+columns must match, but their ordering must strictly conform the
+quadrants of the a matrix system, including the connecting trade or tax
+matrices.&lt;/p&gt;
+&lt;p&gt;When you download a country’s SIOT table, you receive a long form data
+frame, a very-very long one, which contains the matrix values and their
+labels like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## Table naio_10_cp1700 cached at C:\Users\...\Temp\RtmpGQF4gr/eurostat/naio_10_cp1700_date_code_FF.rds
+
+# we save it for further reference here 
+saveRDS(naio_10_cp1700, &amp;quot;not_included/naio_10_cp1700_date_code_FF.rds&amp;quot;)
+
+# should you need to retrieve the large tempfiles, they are in 
+dir (file.path(tempdir(), &amp;quot;eurostat&amp;quot;))
+
+dplyr::slice_head(naio_10_cp1700, n:  5)
+
+## # A tibble: 5 x 7
+##   unit    stk_flow induse  prod_na geo       time        values
+##   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;    &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;     &amp;lt;date&amp;gt;       &amp;lt;dbl&amp;gt;
+## 1 MIO_EUR DOM      CPA_A01 B1G     EA19      2019-01-01 141873.
+## 2 MIO_EUR DOM      CPA_A01 B1G     EU27_2020 2019-01-01 174976.
+## 3 MIO_EUR DOM      CPA_A01 B1G     EU28      2019-01-01 187814.
+## 4 MIO_EUR DOM      CPA_A01 B2A3G   EA19      2019-01-01      0 
+## 5 MIO_EUR DOM      CPA_A01 B2A3G   EU27_2020 2019-01-01      0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The metadata reads like this: the units are in millions of euros, we are
+analyzing domestic flows, and the national account items &lt;code&gt;B1-B2&lt;/code&gt; for the
+industry &lt;code&gt;A01&lt;/code&gt;. The information of a 64x64 matrix (the SIOT) and its
+connecting matrices, such as taxes, or employment, or &lt;em&gt;C**O&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;
+emissions, must be placed exactly in one correct ordering of columns and
+rows. Every single data wrangling error will usually lead in an error
+(the matrix equation has no solution), or, what is worse, in a very
+difficult to trace algebraic error. Our package not only labels this
+data meaningfully, but creates very tidy data frames that contain each
+necessary matrix of vector with a key column.&lt;/p&gt;
+&lt;p&gt;iotables package contains the vocabularies (abbreviations and human
+readable labels) of three statistical vocabularies: the so called
+&lt;code&gt;COICOP&lt;/code&gt; product codes, the &lt;code&gt;NACE&lt;/code&gt; industry codes, and the vocabulary of
+the &lt;code&gt;ESA2010&lt;/code&gt; definition of national accounts (which is the government
+equivalent of corporate accounting).&lt;/p&gt;
+&lt;p&gt;Our package currently solves all equations for direct, indirect effects,
+multipliers and inter-industry linkages. Backward linkages show what
+happens with the suppliers of an industry, such as catering or
+advertising in the case of music festivals, if the festivals reopen. The
+forward linkages show how much extra demand this creates for connecting
+services that treat festivals as a ‘supplier’, such as cultural tourism.&lt;/p&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;## Downloading employment data from the Eurostat database.
+
+## Table lfsq_egan22d cached at C:\Users\...\Temp\RtmpGQF4gr/eurostat/lfsq_egan22d_date_code_FF.rds
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and match it with the latest structural information on from the
+&lt;a href=&#34;http://appsso.eurostat.ec.europa.eu/nui/show.do?wai=true&amp;amp;dataset=naio_10_cp1700&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Symmetric input-output table at basic prices (product by
+product)&lt;/a&gt;
+Eurostat product. A quick look at the Eurostat website already shows
+that there is a lot of work ahead to make the data look like an actual
+Symmetric input-output table. Download it with &lt;code&gt;iotable_get()&lt;/code&gt; which
+does basic labelling and preprocessing on the raw Eurostat files.
+Because of the size of the unfiltered dataset on Eurostat, the following
+code may take several minutes to run.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sk_io &amp;lt;-  iotable_get ( labelled_io_data:  NULL, 
+                        source:  &amp;quot;naio_10_cp1700&amp;quot;, geo:  &amp;quot;SK&amp;quot;, 
+                        year:  2015, unit:  &amp;quot;MIO_EUR&amp;quot;, 
+                        stk_flow:  &amp;quot;TOTAL&amp;quot;,
+                        labelling:  &amp;quot;iotables&amp;quot; )
+
+## Reading cache file C:\Users\..\Temp\RtmpGQF4gr/eurostat/naio_10_cp1700_date_code_FF.rds
+
+## Table  naio_10_cp1700  read from cache file:  C:\Users\..\Temp\RtmpGQF4gr/eurostat/naio_10_cp1700_date_code_FF.rds
+
+## Saving 808 input-output tables into the temporary directory
+## C:\Users\...\Temp\RtmpGQF4gr
+
+## Saved the raw data of this table type in temporary directory C:\Users\...\Temp\RtmpGQF4gr/naio_10_cp1700.rds.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;input_coefficient_matrix_create()&lt;/code&gt; creates the input coefficient
+matrix, which is used for most of the analytical functions.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;a&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i**j&lt;/em&gt;&lt;/sub&gt;:  &lt;em&gt;X&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i**j&lt;/em&gt;&lt;/sub&gt; / &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;&lt;em&gt;j&lt;/em&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;It checks the correct ordering of columns, and furthermore it fills up 0
+values with 0.000001 to avoid division with zero.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;input_coeff_matrix_sk &amp;lt;- input_coefficient_matrix_create(
+  data_table:  sk_io
+)
+
+## Columns and rows of real_estate_imputed_a, extraterriorial_organizations are all zeros and will be removed.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then you can create the Leontieff-inverse, which contains all the
+structural information about the relationships of 64x64 sectors of the
+chosen country, in this case, Slovakia, ready for the main equations of
+input-output economics.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;I_sk &amp;lt;- leontieff_inverse_create(input_coeff_matrix_sk)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And take out the primary inputs:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;primary_inputs_sk &amp;lt;- coefficient_matrix_create(
+  data_table:  sk_io, 
+  total:  &#39;output&#39;, 
+  return:  &#39;primary_inputs&#39;)
+
+## Columns and rows of real_estate_imputed_a, extraterriorial_organizations are all zeros and will be removed.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now let’s see if there the government tries to stimulate the economy in
+three sectors, agricultulre, car manufacturing, and R&amp;amp;D with a billion
+euros. Direct effects measure the initial, direct impact of the change
+in demand and supply for a product. When production goes up, it will
+create demand in all supply industries (backward linkages) and create
+opportunities in the industries that use the product themselves (forward
+linkages.)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;direct_effects_create( primary_inputs_sk, I_sk ) %&amp;gt;%
+  select ( all_of(c(&amp;quot;iotables_row&amp;quot;, &amp;quot;agriculture&amp;quot;,
+                    &amp;quot;motor_vechicles&amp;quot;, &amp;quot;research_development&amp;quot;))) %&amp;gt;%
+  filter (.data$iotables_row %in% c(&amp;quot;gva_effect&amp;quot;, &amp;quot;wages_salaries_effect&amp;quot;, 
+                                    &amp;quot;imports_effect&amp;quot;, &amp;quot;output_effect&amp;quot;))
+
+##            iotables_row agriculture motor_vechicles research_development
+## 1        imports_effect   1.3684350       2.3028203            0.9764921
+## 2 wages_salaries_effect   0.2713804       0.3183523            0.3828014
+## 3            gva_effect   0.9669621       0.9790771            0.9669467
+## 4         output_effect   2.2876287       3.9840251            2.2579634
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Car manufacturing requires much imported components, so each extra
+demand will create a large importing activity. The R&amp;amp;D will create a the
+most local wages (and supports most jobs) because research is
+job-intensive. As we can see, the effect on imports, wages, gross value
+added (which will end up in the GDP) and output changes are very
+different in these three sectors.&lt;/p&gt;
+&lt;p&gt;This is not the total effect, because some of the increased production
+will translate into income, which in turn will be used to create further
+demand in all parts of the domestic economy. The total effect is
+characterized by multipliers.&lt;/p&gt;
+&lt;p&gt;Then solve for the multipliers:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;multipliers_sk &amp;lt;- input_multipliers_create( 
+  primary_inputs_sk %&amp;gt;%
+    filter (.data$iotables_row: = &amp;quot;gva&amp;quot;), I_sk ) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And select a few industries:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(12)
+multipliers_sk %&amp;gt;% 
+  tidyr::pivot_longer ( -all_of(&amp;quot;iotables_row&amp;quot;), 
+                        names_to:  &amp;quot;industry&amp;quot;, 
+                        values_to:  &amp;quot;GVA_multiplier&amp;quot;) %&amp;gt;%
+  select (-all_of(&amp;quot;iotables_row&amp;quot;)) %&amp;gt;%
+  arrange( -.data$GVA_multiplier) %&amp;gt;%
+  dplyr::sample_n(8)
+
+## # A tibble: 8 x 2
+##   industry               GVA_multiplier
+##   &amp;lt;chr&amp;gt;                           &amp;lt;dbl&amp;gt;
+## 1 motor_vechicles                  7.81
+## 2 wood_products                    2.27
+## 3 mineral_products                 2.83
+## 4 human_health                     1.53
+## 5 post_courier                     2.23
+## 6 sewage                           1.82
+## 7 basic_metals                     4.16
+## 8 real_estate_services_b           1.48
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;vignettes&#34;&gt;Vignettes&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://iotables.dataobservatory.eu/articles/germany_1990.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Germany
+1990&lt;/a&gt;
+provides an introduction of input-output economics and re-creates the
+examples of the &lt;a href=&#34;https://iotables.dataobservatory.eu/articles/germany_1990.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurostat Manual of Supply, Use and Input-Output
+Tables&lt;/a&gt;,
+by Jörg Beutel (Eurostat Manual).&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://iotables.dataobservatory.eu/articles/united_kingdom_2010.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;United Kingdom Input-Output Analytical Tables Daniel Antal, based
+on the work edited by Richard
+Wild&lt;/a&gt;
+is a use case on how to correctly import data from outside Eurostat
+(i.e., not with &lt;code&gt;eurostat::get_eurostat()&lt;/code&gt;) and join it properly to a
+SIOT. We also used this example to create unit tests of our functions
+from a published, official government statistical release.&lt;/p&gt;
+&lt;p&gt;Finally, &lt;a href=&#34;https://iotables.dataobservatory.eu/articles/working_with_eurostat.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Working With Eurostat
+Data&lt;/a&gt;
+is a detailed use case of working with all the current functionalities
+of the package by comparing two economies, Czechia and Slovakia and
+guides you through a lot more examples than this short blogpost.&lt;/p&gt;
+&lt;p&gt;Our package was originally developed to calculate GVA and employment
+effects for the Slovak music industry, and similar calculations for the
+Hungarian film tax shelter. We can now programatically create
+reproducible multipliers for all European economies in the &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital
+Music Observatory&lt;/a&gt;, and create
+further indicators for economic policy making in the &lt;a href=&#34;https://economy.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data
+Observatory&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;environmental-impact-analysis&#34;&gt;Environmental Impact Analysis&lt;/h2&gt;
+&lt;p&gt;Our package allows the calculation of various economic policy scenarios,
+such as changing the VAT on meat or effects of re-opening music
+festivals on aggregate demand, GDP, tax revenues, or employment. But
+what about the &lt;em&gt;C**O&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;, methane and other greenhouse gas
+effects of the reopening festivals, or the increasing meat prices?&lt;/p&gt;
+&lt;p&gt;Technically our package can already calculate such effects, but to do
+so, you have to carefully match further statistical vocabulary items
+used by the European Environmental Agency about air pollutants and
+greenhouse gases.&lt;/p&gt;
+&lt;p&gt;The last released version of &lt;em&gt;iotables&lt;/em&gt; is Importing and Manipulating
+Symmetric Input-Output Tables (Version 0.4.4). Zenodo.
+&lt;a href=&#34;https://zenodo.org/record/4897472&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.4897472&lt;/a&gt;,
+but we are already  working on a new major release. (Download the &lt;a href=&#34;https://eviota.eu/media/bibliography/cite-iotables.bib&#34; target=&#34;_blank&#34;&gt;BibLaTeX entry&lt;/a&gt;.) In that release, we
+are planning to build in the necessary vocabulary into the metadata
+functions to increase the functionality of the package, and create new
+indicators for our &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt;. This experimental
+data observatory is creating new, high quality statistical indicators
+from open governmental and open science data sources that has not seen
+the daylight yet.&lt;/p&gt;
+&lt;h2 id=&#34;ropengov-and-the-eu-datathon-challenges&#34;&gt;rOpenGov and the EU Datathon Challenges&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-ropengov-reprex-and-other-open-collaboration-partners-teamed-up-to-build-on-our-expertise-of-open-source-statistical-software-development-further-we-want-to-create-a-technologically-and-financially-feasible-data-as-service-to-put-our-reproducible-research-products-into-wider-user-for-the-business-analyst-scientific-researcher-and-evidence-based-policy-design-communities&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;rOpenGov, Reprex, and other open collaboration partners teamed up to build on our expertise of open source statistical software development further: we want to create a technologically and financially feasible data-as-service to put our reproducible research products into wider user for the business analyst, scientific researcher and evidence-based policy design communities.&#34; srcset=&#34;
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp 400w,
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_3250accecb68b0ec9716afed72d0f77e.webp 760w,
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      rOpenGov, Reprex, and other open collaboration partners teamed up to build on our expertise of open source statistical software development further: we want to create a technologically and financially feasible data-as-service to put our reproducible research products into wider user for the business analyst, scientific researcher and evidence-based policy design communities.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;http://ropengov.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; is a community of open governmental
+data and statistics developers with many packages that make programmatic
+access and work with open data possible in the R language.
+&lt;a href=&#34;https://reprex.nl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reprex&lt;/a&gt; is a Dutch-startup that teamed up with
+rOpenGov and other open collaboration partners to create a
+technologically and financially feasible service to exploit reproducible
+research products for the wider business, scientific and evidence-based
+policy design community. Open data is a legal concept - it means that
+you have the rigth to reuse the data, but often the reuse requires
+significant programming and statistical know-how. We entered into the
+annual &lt;a href=&#34;https://reprex.nl/project/eu-datathon_2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EU Datathon&lt;/a&gt;
+competition in all three challenges with our applications to not only
+provide open-source software, but daily updated, validated, documented,
+high-quality statistical indicators as open data in an open database.
+Our &lt;a href=&#34;https://iotables.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; package is one of
+our many open-source building blocks to make open data more accessible
+to all.&lt;/p&gt;
+&lt;!---
+recruitment
+--&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Join our Green Deal Data Observatory collaboration!&lt;/summary&gt;
+  &lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://eviota.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://eviota.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://eviota.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Music Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
+&lt;/details&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Regional Geocoding Harmonization Case Study - Regional Climate Change Awareness Datasets</title>
+      <link>https://eviota.eu/post/2021-03-06-regions-climate/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://eviota.eu/post/2021-03-06-regions-climate/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;library(regions)
+library(lubridate)
+library(dplyr)
+
+if ( dir.exists(&#39;data-raw&#39;) ) {
+  data_raw_dir &amp;lt;- &amp;quot;data-raw&amp;quot;
+} else {
+  data_raw_dir &amp;lt;- file.path(&amp;quot;..&amp;quot;, &amp;quot;..&amp;quot;, &amp;quot;data-raw&amp;quot;)
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;going-beyond-the-national-level&#34;&gt;Going beyond the national level&lt;/h2&gt;
+&lt;p&gt;Let’s start with a dirty averaging by sub-national unit. The w1
+weighting variable contains the post-stratification weight for the
+national samples. The Eurobarometer samples represent nations (with the
+exception of East and West Germany, Northern Ireland and Great Britain.)
+The average of the &lt;code&gt;w1&lt;/code&gt; variable is 1.00 for each sample, but it is not
+necessarily 1 for smaller territorial units. If &lt;code&gt;sum(w)&amp;gt;1&lt;/code&gt; for say,
+&lt;code&gt;AT23&lt;/code&gt; it only means that the &lt;code&gt;AT23&lt;/code&gt; region was undersampled relatively
+to the rest of Austria, and responses must be over-weighted in
+post-stratification.&lt;/p&gt;
+&lt;p&gt;There is no way to make the samples become regionally representative,
+and a correct post-stratification would require further data about the
+sampel design. But we can simply adjust to over/undersampling by making
+sure that oversampled territorial averages are proportionally increased
+and undersampled ones are decreased. [Another ‘dirty’ averaging would
+be the use of an unweighted average, but our method is better, because
+it more-or-less adjusts gender and education level biases, but leaves
+intra-country regional biases in the sample.]&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;panel &amp;lt;- readRDS((file.path(data_raw_dir, &amp;quot;climate-panel.rds&amp;quot;)))
+
+climate_data &amp;lt;-  panel %&amp;gt;%
+  mutate ( year:  lubridate::year(date_of_interview)) %&amp;gt;%
+  select ( all_of(c(&amp;quot;isocntry&amp;quot;, &amp;quot;geo&amp;quot;, &amp;quot;w1&amp;quot;)), 
+           contains(&amp;quot;problem&amp;quot;)
+  )  %&amp;gt;%
+  mutate ( 
+    # use the post-stratification weights for national samples
+    serious_world_problems_first:  w1*serious_world_problems_first , 
+    serious_world_problems_climate_change:  w1*serious_world_problems_climate_change) %&amp;gt;%
+  group_by (  .data$geo ) %&amp;gt;%
+  summarise( serious_world_problems_first:  mean(serious_world_problems_first, na.rm=TRUE),
+             serious_world_problems_climate_change:  mean (serious_world_problems_climate_change, na.rm=TRUE),
+             mean_w1:  mean(w1)
+             ) %&amp;gt;%
+  mutate ( 
+    # adjust for post-stratification weight bias due to regional over/undersampling
+    climate_first:  serious_world_problems_first / mean_w1, 
+    climate_mentioned:  serious_world_problems_climate_change / mean_w1
+    ) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So, we averaged, weighted and adjusted the mentioning of climate change
+as the world’s most serious, or one of the most serious problems by NUTS
+regions.&lt;/p&gt;
+&lt;h2 id=&#34;aggregation-level&#34;&gt;Aggregation level&lt;/h2&gt;
+&lt;p&gt;The problem is that most statistical data is available in for the NUTS
+regional boundaries according to the &lt;code&gt;NUTS2016&lt;/code&gt; definition. However,
+GESIS uses &lt;code&gt;NUTS2013&lt;/code&gt; regions, so 252 regional codes in the four survey
+waves are invalid. Some data is available only on national level, but it
+can be projected to regional level, because small countries like
+Luxembourg have no regional divisions. Larger countries like Germany are
+divided only on state level (&lt;code&gt;NUTS1&lt;/code&gt;), while small countries are divided
+on &lt;code&gt;NUTS3&lt;/code&gt; level.&lt;/p&gt;
+&lt;p&gt;This leads to various problems. Many data is available only on &lt;code&gt;NUTS2&lt;/code&gt;
+level, in which case &lt;code&gt;NUTS1&lt;/code&gt; data should be projected to its constituent
+smaller &lt;code&gt;NUTS2&lt;/code&gt; regions, and &lt;code&gt;NUTS3&lt;/code&gt; level data must be aggregated up to
+larger, containing &lt;code&gt;NUTS2&lt;/code&gt; levels.&lt;/p&gt;
+&lt;p&gt;Of course, we also must choose if we use `&lt;code&gt;NUTS2013&lt;/code&gt; or &lt;code&gt;NUTS2016&lt;/code&gt;
+boundaries. Sub-national boundaries have changed many thousand times in
+the EU27 countries alone since 1999.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 5 x 2
+##   validate         n
+##   &amp;lt;chr&amp;gt;        &amp;lt;int&amp;gt;
+## 1 country         15
+## 2 invalid        252
+## 3 nuts_level_1   132
+## 4 nuts_level_2   452
+## 5 nuts_level_3   141
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;recoding-the-regions&#34;&gt;Recoding the Regions&lt;/h2&gt;
+&lt;p&gt;Our regions package was designed to keep track of sub-national regional
+boundary changes. It can validate regional data codes, and to some
+extent carry out recoding, imputation or simple aggregation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recoding means that the boundaries are unchanged, but the country
+changed the names/codes of regions, because there were other
+boundary changes which did not affect our observation unit.&lt;/li&gt;
+&lt;li&gt;Imputation must not be done with usual, general imputation tools,
+because our data is regionally structured. However, some imputations
+are very simple, because we can use equality equasions like &lt;code&gt;MT&lt;/code&gt;:
+&lt;code&gt;MT0&lt;/code&gt;, &lt;code&gt;MT00&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Often the boundary change is additive, and merged territorial units
+can simple aggregated for comparison in earlier data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- --&gt;
+&lt;pre&gt;&lt;code&gt;regional_coding_2016 &amp;lt;- panel %&amp;gt;%
+  mutate ( year:  lubridate::year(date_of_interview)) %&amp;gt;%
+  select (  all_of(c(&amp;quot;isocntry&amp;quot;, &amp;quot;geo&amp;quot;, &amp;quot;region&amp;quot;, &amp;quot;year&amp;quot;) ) ) %&amp;gt;%
+  distinct_all() %&amp;gt;%
+  recode_nuts()
+
+regional_coding_2013 &amp;lt;- panel %&amp;gt;%
+  mutate ( year:  lubridate::year(date_of_interview)) %&amp;gt;%
+  select (  all_of(c(&amp;quot;isocntry&amp;quot;, &amp;quot;geo&amp;quot;, &amp;quot;region&amp;quot;, &amp;quot;year&amp;quot;) ) ) %&amp;gt;%
+  distinct_all() %&amp;gt;%
+  recode_nuts( nuts_year:  2013)
+
+climate_data_recoded &amp;lt;- climate_data %&amp;gt;% 
+  left_join ( regional_coding_2016, by:  &#39;geo&#39; ) %&amp;gt;%
+  left_join ( regional_coding_2013 %&amp;gt;% 
+                select ( all_of(c(&amp;quot;geo&amp;quot;, &amp;quot;code_2013&amp;quot;))), 
+              by:  &amp;quot;geo&amp;quot;) %&amp;gt;%
+  distinct_all()
+
+saveRDS ( climate_data_recoded , file.path(tempdir(), &amp;quot;climate_panel_recoded_agr.rds&amp;quot;), version:  2)
+
+# not evaluated
+saveRDS( climate_data_recoded , file:  file.path(&amp;quot;data-raw&amp;quot;, &amp;quot;climate_panel_recoded_agr.rds&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://netzero.dataobservatory.eu/media/gif/eu_climate_change.gif&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Where Are People More Likely To Treat Climate Change as the Most Serious Global Problem?</title>
+      <link>https://eviota.eu/post/2021-03-06-individual-join/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://eviota.eu/post/2021-03-06-individual-join/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;library(regions)
+library(lubridate)
+library(dplyr)
+
+if ( dir.exists(&#39;data-raw&#39;) ) {
+  data_raw_dir &amp;lt;- &amp;quot;data-raw&amp;quot;
+} else {
+  data_raw_dir &amp;lt;- file.path(&amp;quot;..&amp;quot;, &amp;quot;..&amp;quot;, &amp;quot;data-raw&amp;quot;)
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The first results of our longitudinal table &lt;a href=&#34;post/2021-03-05-retroharmonize-climate/&#34;&gt;were difficult to
+map&lt;/a&gt;, because the surveys used
+an obsolete regional coding. We will adjust the wrong coding, when
+possible, and join the data with the European Environment Agency’s (EEA)
+Air Quality e-Reporting (AQ e-Reporting) data on environmental
+pollution. We recoded the annual level for every available reporting
+stations [&lt;em&gt;not shown here&lt;/em&gt;] and all values are in μg/m3. The period
+under observation is 2014-2016. Data file:
+&lt;a href=&#34;https://www.eea.europa.eu/data-and-maps/data/aqereporting-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.eea.europa.eu/data-and-maps/data/aqereporting-8&lt;/a&gt; (European
+Environment Agency 2021).&lt;/p&gt;
+&lt;h2 id=&#34;recoding-the-regions&#34;&gt;Recoding the Regions&lt;/h2&gt;
+&lt;p&gt;Recoding means that the boundaries are unchanged, but the country
+changed the names and codes of regions because there were other boundary
+changes which did not affect our observation unit. We explain the
+problem and the solution in greater detail in &lt;a href=&#34;http://netzero.dataobservatory.eu/post/2021-03-06-regions-climate/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our
+tutorial&lt;/a&gt;
+that aggregates the data on regional levels.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;panel &amp;lt;- readRDS((file.path(data_raw_dir, &amp;quot;climate-panel.rds&amp;quot;)))
+
+climate_data_geocode &amp;lt;-  panel %&amp;gt;%
+  mutate ( year:  lubridate::year(date_of_interview)) %&amp;gt;%
+  recode_nuts()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s join the air pollution data and join it by corrected geocodes:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;load(file.path(&amp;quot;data&amp;quot;, &amp;quot;air_pollutants.rda&amp;quot;)) ## good practice to use system-independent file.path
+
+climate_awareness_air &amp;lt;- climate_data_geocode %&amp;gt;%
+  rename ( region_nuts_codes :  .data$code_2016) %&amp;gt;%
+  left_join ( air_pollutants, by:  &amp;quot;region_nuts_codes&amp;quot; ) %&amp;gt;%
+  select ( -all_of(c(&amp;quot;w1&amp;quot;, &amp;quot;wex&amp;quot;, &amp;quot;date_of_interview&amp;quot;, 
+                     &amp;quot;typology&amp;quot;, &amp;quot;typology_change&amp;quot;, &amp;quot;geo&amp;quot;, &amp;quot;region&amp;quot;))) %&amp;gt;%
+  mutate (
+    # remove special labels and create NA_numeric_ 
+    age_education:  retroharmonize::as_numeric(age_education)) %&amp;gt;%
+  mutate_if ( is.character, as.factor) %&amp;gt;%
+  mutate ( 
+    # we only have responses from 4 years, and this should be treated as a categorical variable
+    year:  as.factor(year) 
+    ) %&amp;gt;%
+  filter ( complete.cases(.) ) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;climate_awareness_air&lt;/code&gt; data frame contains the answers of 75086
+individual respondents. 17.07% thought that climate change was the most
+serious world problem and 33.6% mentioned climate change as one of the
+three most important global problems.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;summary ( climate_awareness_air  )
+
+##                  rowid       serious_world_problems_first
+##  ZA5877_v2-0-0_1    :    1   Min.   :0.0000              
+##  ZA5877_v2-0-0_10   :    1   1st Qu.:0.0000              
+##  ZA5877_v2-0-0_100  :    1   Median :0.0000              
+##  ZA5877_v2-0-0_1000 :    1   Mean   :0.1707              
+##  ZA5877_v2-0-0_10000:    1   3rd Qu.:0.0000              
+##  ZA5877_v2-0-0_10001:    1   Max.   :1.0000              
+##  (Other)            :75080                               
+##  serious_world_problems_climate_change    isocntry    
+##  Min.   :0.000                         BE     : 3028  
+##  1st Qu.:0.000                         CZ     : 3023  
+##  Median :0.000                         NL     : 3019  
+##  Mean   :0.336                         SK     : 3000  
+##  3rd Qu.:1.000                         SE     : 2980  
+##  Max.   :1.000                         DE-W   : 2978  
+##                                        (Other):57058  
+##                                    marital_status         age_education  
+##  (Re-)Married: without children           :13242   18            :15485  
+##  (Re-)Married: children this marriage     :12696   19            : 7728  
+##  Single: without children                 : 7650   16            : 5840  
+##  (Re-)Married: w children of this marriage: 6520   still studying: 5098  
+##  (Re-)Married: living without children    : 6225   17            : 5092  
+##  Single: living without children          : 4102   15            : 4528  
+##  (Other)                                  :24651   (Other)       :31315  
+##    age_exact                      occupation_of_respondent
+##  Min.   :15.0   Retired, unable to work       :22911      
+##  1st Qu.:36.0   Skilled manual worker         : 6774      
+##  Median :51.0   Employed position, at desk    : 6716      
+##  Mean   :50.1   Employed position, service job: 5624      
+##  3rd Qu.:65.0   Middle management, etc.       : 5252      
+##  Max.   :99.0   Student                       : 5098      
+##                 (Other)                       :22711      
+##             occupation_of_respondent_recoded
+##  Employed (10-18 in d15a)   :32763          
+##  Not working (1-4 in d15a)  :37125          
+##  Self-employed (5-9 in d15a): 5198          
+##                                             
+##                                             
+##                                             
+##                                             
+##                        respondent_occupation_scale_c_14
+##  Retired (4 in d15a)                   :22911          
+##  Manual workers (15 to 18 in d15a)     :15269          
+##  Other white collars (13 or 14 in d15a): 9203          
+##  Managers (10 to 12 in d15a)           : 8291          
+##  Self-employed (5 to 9 in d15a)        : 5198          
+##  Students (2 in d15a)                  : 5098          
+##  (Other)                               : 9116          
+##                   type_of_community   is_student      no_education     
+##  DK                        :   34   Min.   :0.0000   Min.   :0.000000  
+##  Large town                :20939   1st Qu.:0.0000   1st Qu.:0.000000  
+##  Rural area or village     :24686   Median :0.0000   Median :0.000000  
+##  Small or middle sized town: 9850   Mean   :0.0679   Mean   :0.008151  
+##  Small/middle town         :19577   3rd Qu.:0.0000   3rd Qu.:0.000000  
+##                                     Max.   :1.0000   Max.   :1.000000  
+##                                                                        
+##    education       year       region_nuts_codes  country_code  
+##  Min.   :14.00   2013:25103   LU     : 1432     DE     : 4531  
+##  1st Qu.:17.00   2015:    0   MT     : 1398     GB     : 3538  
+##  Median :18.00   2017:25053   CY     : 1192     BE     : 3028  
+##  Mean   :19.61   2019:24930   SK02   : 1053     CZ     : 3023  
+##  3rd Qu.:22.00                EL30   :  974     NL     : 3019  
+##  Max.   :30.00                EE     :  973     SK     : 3000  
+##                               (Other):68064     (Other):54947  
+##      pm2_5             pm10               o3              BaP        
+##  Min.   : 2.109   Min.   :  5.883   Min.   : 66.37   Min.   :0.0102  
+##  1st Qu.: 9.374   1st Qu.: 28.326   1st Qu.: 90.89   1st Qu.:0.1779  
+##  Median :11.866   Median : 33.673   Median :102.81   Median :0.4105  
+##  Mean   :12.954   Mean   : 38.637   Mean   :101.49   Mean   :0.8759  
+##  3rd Qu.:15.890   3rd Qu.: 49.488   3rd Qu.:110.73   3rd Qu.:1.0692  
+##  Max.   :41.293   Max.   :123.239   Max.   :141.04   Max.   :7.8050  
+##                                                                      
+##       so2              ap_pc1            ap_pc2             ap_pc3       
+##  Min.   : 0.0000   Min.   :-4.6669   Min.   :-2.21851   Min.   :-2.1007  
+##  1st Qu.: 0.0000   1st Qu.:-0.4624   1st Qu.:-0.49130   1st Qu.:-0.5695  
+##  Median : 0.0000   Median : 0.4263   Median : 0.02902   Median :-0.1113  
+##  Mean   : 0.1032   Mean   : 0.1031   Mean   : 0.04166   Mean   :-0.1746  
+##  3rd Qu.: 0.0000   3rd Qu.: 0.9748   3rd Qu.: 0.57416   3rd Qu.: 0.3309  
+##  Max.   :42.5325   Max.   : 2.0344   Max.   : 3.25841   Max.   : 4.1615  
+##                                                                          
+##      ap_pc4            ap_pc5        
+##  Min.   :-1.7387   Min.   :-2.75079  
+##  1st Qu.:-0.1669   1st Qu.:-0.18748  
+##  Median : 0.0371   Median : 0.01811  
+##  Mean   : 0.1154   Mean   : 0.06797  
+##  3rd Qu.: 0.3050   3rd Qu.: 0.34937  
+##  Max.   : 3.2476   Max.   : 1.42816  
+## 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s see a simple CART tree! We remove the regional codes, because
+there are very serious differences among regional climate awareness.
+These differences, together with education level, and the year we are
+talking about, are the most important predictors of thinking about
+climate change as the most important global problem in Europe.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Classification Tree with rpart
+library(rpart)
+
+# grow tree
+fit &amp;lt;- rpart(as.factor(serious_world_problems_first) ~ .,
+   method=&amp;quot;class&amp;quot;, data=climate_awareness_air %&amp;gt;%
+     select ( - all_of(c(&amp;quot;rowid&amp;quot;, &amp;quot;region_nuts_codes&amp;quot;))), 
+   control:  rpart.control(cp:  0.005))
+
+printcp(fit) # display the results
+
+## 
+## Classification tree:
+## rpart(formula:  as.factor(serious_world_problems_first) ~ ., 
+##     data:  climate_awareness_air %&amp;gt;% select(-all_of(c(&amp;quot;rowid&amp;quot;, 
+##         &amp;quot;region_nuts_codes&amp;quot;))), method:  &amp;quot;class&amp;quot;, control:  rpart.control(cp:  0.005))
+## 
+## Variables actually used in tree construction:
+## [1] age_education                         isocntry                             
+## [3] serious_world_problems_climate_change year                                 
+## 
+## Root node error: 12817/75086:  0.1707
+## 
+## n= 75086 
+## 
+##          CP nsplit rel error  xerror      xstd
+## 1 0.0240566      0   1.00000 1.00000 0.0080438
+## 2 0.0082703      3   0.92783 0.92783 0.0078055
+## 3 0.0050000      5   0.91129 0.91425 0.0077588
+
+plotcp(fit) # visualize cross-validation results
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&amp;amp;ldquo;Visualize cross-validation results&amp;amp;rdquo;&#34; srcset=&#34;
+               /post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_8ce48ac0f7ba6b1d3752385b96368cc3.webp 400w,
+               /post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_b20e6dca7fcadd4576da216956498a35.webp 760w,
+               /post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/post/2021-03-06-individual-join/rpart-1_hu9f1f775a32eec3a67a573c0d2df50ef4_4271_8ce48ac0f7ba6b1d3752385b96368cc3.webp&#34;
+               width=&#34;672&#34;
+               height=&#34;480&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;summary(fit) # detailed summary of splits
+
+## Call:
+## rpart(formula:  as.factor(serious_world_problems_first) ~ ., 
+##     data:  climate_awareness_air %&amp;gt;% select(-all_of(c(&amp;quot;rowid&amp;quot;, 
+##         &amp;quot;region_nuts_codes&amp;quot;))), method:  &amp;quot;class&amp;quot;, control:  rpart.control(cp:  0.005))
+##   n= 75086 
+## 
+##            CP nsplit rel error    xerror        xstd
+## 1 0.024056592      0 1.0000000 1.0000000 0.008043837
+## 2 0.008270266      3 0.9278302 0.9278302 0.007805478
+## 3 0.005000000      5 0.9112897 0.9142545 0.007758824
+## 
+## Variable importance
+## serious_world_problems_climate_change                              isocntry 
+##                                    31                                    26 
+##                          country_code                                   BaP 
+##                                    20                                     8 
+##                                 pm2_5                                ap_pc1 
+##                                     4                                     3 
+##                         age_education                                  pm10 
+##                                     2                                     2 
+##                             education                                ap_pc2 
+##                                     2                                     1 
+##                                  year 
+##                                     1 
+## 
+## Node number 1: 75086 observations,    complexity param=0.02405659
+##   predicted class=0  expected loss=0.1706976  P(node): 1
+##     class counts: 62269 12817
+##    probabilities: 0.829 0.171 
+##   left son=2 (25229 obs) right son=3 (49857 obs)
+##   Primary splits:
+##       serious_world_problems_climate_change &amp;lt; 0.5          to the right, improve=2214.2040, (0 missing)
+##       isocntry                              splits as  RRLLLRRRLLRLRLLLLLLLLLLRRLLLRLL, improve= 728.0160, (0 missing)
+##       country_code                          splits as  RRLLLRRLLRLLLLLLLLLLRRLLLRLL, improve= 673.3656, (0 missing)
+##       BaP                                   &amp;lt; 0.4300347    to the right, improve= 310.6229, (0 missing)
+##       pm2_5                                 &amp;lt; 13.38264     to the right, improve= 296.4013, (0 missing)
+##   Surrogate splits:
+##       age_education splits as  ----RRRRRR-RRRRRRRRRR-RRRRRRRRRR-RRRRRRRRRR-RRRRRRRRRR-RRRRRL-RRR-RRRRRRRRR--RRRLLR--R-R, agree=0.664, adj=0, (0 split)
+##       pm10          &amp;lt; 7.491315     to the left,  agree=0.664, adj=0, (0 split)
+## 
+## Node number 2: 25229 observations
+##   predicted class=0  expected loss=0  P(node): 0.3360014
+##     class counts: 25229     0
+##    probabilities: 1.000 0.000 
+## 
+## Node number 3: 49857 observations,    complexity param=0.02405659
+##   predicted class=0  expected loss=0.2570752  P(node): 0.6639986
+##     class counts: 37040 12817
+##    probabilities: 0.743 0.257 
+##   left son=6 (34631 obs) right son=7 (15226 obs)
+##   Primary splits:
+##       isocntry     splits as  RRLLLRRRLLRLRLLLLLLLLLLRRLLLRLL, improve=1454.9460, (0 missing)
+##       country_code splits as  RRLLLRRLLRLLLLLLLLLLRRLLLRLL, improve=1359.7210, (0 missing)
+##       BaP          &amp;lt; 0.4300347    to the right, improve= 629.8844, (0 missing)
+##       pm2_5        &amp;lt; 13.38264     to the right, improve= 555.7484, (0 missing)
+##       ap_pc1       &amp;lt; -0.005459537 to the left,  improve= 533.3579, (0 missing)
+##   Surrogate splits:
+##       country_code splits as  RRLLLRRLLRLLLLLLLLLLRRLLLRLL, agree=0.987, adj=0.957, (0 split)
+##       BaP          &amp;lt; 0.1749425    to the right, agree=0.775, adj=0.264, (0 split)
+##       pm2_5        &amp;lt; 5.206993     to the right, agree=0.737, adj=0.140, (0 split)
+##       ap_pc1       &amp;lt; 1.405527     to the left,  agree=0.733, adj=0.126, (0 split)
+##       pm10         &amp;lt; 25.31211     to the right, agree=0.718, adj=0.076, (0 split)
+## 
+## Node number 6: 34631 observations
+##   predicted class=0  expected loss=0.1769802  P(node): 0.4612178
+##     class counts: 28502  6129
+##    probabilities: 0.823 0.177 
+## 
+## Node number 7: 15226 observations,    complexity param=0.02405659
+##   predicted class=0  expected loss=0.4392487  P(node): 0.2027808
+##     class counts:  8538  6688
+##    probabilities: 0.561 0.439 
+##   left son=14 (11607 obs) right son=15 (3619 obs)
+##   Primary splits:
+##       isocntry      splits as  LL---LLR--L-L----------LL---R--, improve=337.5462, (0 missing)
+##       country_code  splits as  LL---LR--L-L--------LL---R--, improve=337.5462, (0 missing)
+##       age_education splits as  ----LLLLLL-LLLRRRRRRR-RRRRRRRRRL-RRRRRRLLRR-RRRRLLRLRL-RRLRRR-RRR-LLLLRRR-----LR-----L-R, improve=294.0807, (0 missing)
+##       education     &amp;lt; 22.5         to the left,  improve=262.3747, (0 missing)
+##       BaP           &amp;lt; 0.053328     to the right, improve=232.7043, (0 missing)
+##   Surrogate splits:
+##       BaP           &amp;lt; 0.053328     to the right, agree=0.878, adj=0.485, (0 split)
+##       pm2_5         &amp;lt; 4.810361     to the right, agree=0.827, adj=0.271, (0 split)
+##       ap_pc2        &amp;lt; 0.8746175    to the left,  agree=0.792, adj=0.124, (0 split)
+##       so2           &amp;lt; 0.3302972    to the left,  agree=0.781, adj=0.078, (0 split)
+##       age_education splits as  ----LLLLLL-LLLLLLLRLR-LRRLRRRRRR-RRRRLLLLLR-LRLRLLRRLL-LLRLLR-LLR-RRLLLLL-----RR-----R-L, agree=0.779, adj=0.071, (0 split)
+## 
+## Node number 14: 11607 observations,    complexity param=0.008270266
+##   predicted class=0  expected loss=0.3804601  P(node): 0.1545827
+##     class counts:  7191  4416
+##    probabilities: 0.620 0.380 
+##   left son=28 (7462 obs) right son=29 (4145 obs)
+##   Primary splits:
+##       age_education                    splits as  ----LLLLLL-LRRRRRRRRR-RRLRRLRRLL-RRRRLRLLRR-RLRLLLRLRL-RR-RR--RRL-L-LLRRR------------L-R, improve=123.71070, (0 missing)
+##       year                             splits as  R-LR, improve=107.79460, (0 missing)
+##       education                        &amp;lt; 20.5         to the left,  improve= 90.28724, (0 missing)
+##       occupation_of_respondent         splits as  LRRLRRRRRLRLLLRLLL, improve= 84.62865, (0 missing)
+##       respondent_occupation_scale_c_14 splits as  LRLLLRRL, improve= 68.88653, (0 missing)
+##   Surrogate splits:
+##       education                        &amp;lt; 20.5         to the left,  agree=0.950, adj=0.861, (0 split)
+##       occupation_of_respondent         splits as  LLLLRLLRRLRLLLRLLL, agree=0.738, adj=0.267, (0 split)
+##       respondent_occupation_scale_c_14 splits as  LRLLLLRL, agree=0.733, adj=0.251, (0 split)
+##       is_student                       &amp;lt; 0.5          to the left,  agree=0.709, adj=0.186, (0 split)
+##       age_exact                        &amp;lt; 23.5         to the right, agree=0.676, adj=0.094, (0 split)
+## 
+## Node number 15: 3619 observations
+##   predicted class=1  expected loss=0.3722023  P(node): 0.04819807
+##     class counts:  1347  2272
+##    probabilities: 0.372 0.628 
+## 
+## Node number 28: 7462 observations
+##   predicted class=0  expected loss=0.326052  P(node): 0.09937938
+##     class counts:  5029  2433
+##    probabilities: 0.674 0.326 
+## 
+## Node number 29: 4145 observations,    complexity param=0.008270266
+##   predicted class=0  expected loss=0.4784077  P(node): 0.05520337
+##     class counts:  2162  1983
+##    probabilities: 0.522 0.478 
+##   left son=58 (2573 obs) right son=59 (1572 obs)
+##   Primary splits:
+##       year                     splits as  L-LR, improve=40.13885, (0 missing)
+##       occupation_of_respondent splits as  LRLLRRRRRLRLLLRLLL, improve=18.33254, (0 missing)
+##       marital_status           splits as  LRRRLRRRLRRLRLLRRRRRRLRLRLLRR, improve=17.86888, (0 missing)
+##       type_of_community        splits as  LRLRL, improve=17.55254, (0 missing)
+##       age_education            splits as  ------------LLRRRRRRR-RR-RL-RR---LRRR-R--LR-R-R---R-R--RR-RR--RR------RRR--------------R, improve=14.66121, (0 missing)
+##   Surrogate splits:
+##       type_of_community splits as  LLLRL, agree=0.777, adj=0.412, (0 split)
+##       marital_status    splits as  RRLLLLLRLLLLLLLRRRLLLLLLRLRLL, agree=0.680, adj=0.155, (0 split)
+##       isocntry          splits as  LL---LL---L-R----------LL------, agree=0.669, adj=0.127, (0 split)
+##       country_code      splits as  LL---L---L-R--------LL------, agree=0.669, adj=0.127, (0 split)
+##       o3                &amp;lt; 83.06345     to the right, agree=0.650, adj=0.076, (0 split)
+## 
+## Node number 58: 2573 observations
+##   predicted class=0  expected loss=0.4240187  P(node): 0.03426737
+##     class counts:  1482  1091
+##    probabilities: 0.576 0.424 
+## 
+## Node number 59: 1572 observations
+##   predicted class=1  expected loss=0.43257  P(node): 0.02093599
+##     class counts:   680   892
+##    probabilities: 0.433 0.567
+
+# plot tree
+plot(fit, uniform=TRUE,
+   main=&amp;quot;Classification Tree: Climate Change Is The Most Serious Threat&amp;quot;)
+text(fit, use.n=TRUE, all=TRUE, cex=.8)
+
+## Warning in labels.rpart(x, minlength:  minlength): more than 52 levels in a
+## predicting factor, truncated for printout
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&amp;amp;ldquo;predicting factor, truncated for printout&amp;amp;rdquo;&#34; srcset=&#34;
+               /post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_0bdd94d7f6c1efcc2575c1adeb6917c8.webp 400w,
+               /post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_daf3b553e16b54a4b23a242bc9ef1e6b.webp 760w,
+               /post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/post/2021-03-06-individual-join/rpart-2_hu8765078af843fd2a25e4b77d7cba4bfb_9882_0bdd94d7f6c1efcc2575c1adeb6917c8.webp&#34;
+               width=&#34;672&#34;
+               height=&#34;480&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;saveRDS ( climate_awareness_air , file.path(tempdir(), &amp;quot;climate_panel_recoded.rds&amp;quot;), version:  2)
+
+# not evaluated
+saveRDS( climate_awareness_air, file:  file.path(&amp;quot;data-raw&amp;quot;, &amp;quot;climate-panel_recoded.rds&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Retrospective Survey Harmonization Case Study - Climate Awareness Change in Europe 2013-2019.</title>
+      <link>https://eviota.eu/post/2021-03-05-retroharmonize-climate/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://eviota.eu/post/2021-03-05-retroharmonize-climate/</guid>
+      <description>&lt;p&gt;Retrospective survey harmonization comes with many challenges, as we
+have shown in the
+&lt;a href=&#34;https://eviota.eu/post/2021-03-04_retroharmonize_intro/&#34;&gt;introduction&lt;/a&gt;
+to this tutorial case study. In this example, we will work with
+Eurobarometer’s data.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    This code tutorial is not outdated, but the &lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; R package has a new (development) release with more featues.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;Click to expand table of contents of the post&lt;/summary&gt;
+  &lt;p&gt;&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#get-the-data&#34;&gt;Get the Data&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#metadata-analysis&#34;&gt;Metadata analysis&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#metadata-protocol-variables&#34;&gt;Metadata: Protocol Variables&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#metadata-geographical-information&#34;&gt;Metadata: Geographical information&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#socio-demography-and-weights&#34;&gt;Socio-demography and Weights&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#harmonizing-variable-labels&#34;&gt;Harmonizing Variable Labels&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#creating-the-longitudional-table&#34;&gt;Creating the Longitudional Table&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#putting-it-on-a-map&#34;&gt;Putting It on a Map&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;Please use the development version of
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;devtools::install_github(&amp;quot;antaldaniel/retroharmonize&amp;quot;)
+
+library(retroharmonize)
+library(dplyr)       # this is necessary for the example 
+library(lubridate)   # easier date conversion
+
+## Warning: package &#39;lubridate&#39; was built under R version 4.0.4
+
+library(stringr)     # You can also use base R string processing functions 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;get-the-data&#34;&gt;Get the Data&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;retroharmonize&lt;/code&gt; is not associated with Eurobarometer, or its creators,
+Kantar, or its archivists, GESIS. We assume that you have acquired the
+necessary files from GESIS after carefully reading their terms and you
+placed it on a path that you call gesis_dir. The precise documentation
+of the data we use can be found in this supporting
+&lt;a href=&#34;http://netzero.dataobservatory.eu/post/2021-03-04-eurobarometer_data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogpost&lt;/a&gt;.
+To reproduce this blogpost, you will need &lt;code&gt;ZA5877_v2-0-0.sav&lt;/code&gt;,
+&lt;code&gt;ZA6595_v3-0-0.sav&lt;/code&gt;, &lt;code&gt;ZA6861_v1-2-0.sav&lt;/code&gt;, &lt;code&gt;ZA7488_v1-0-0.sav&lt;/code&gt;,
+&lt;code&gt;ZA7572_v1-0-0.sav&lt;/code&gt; in a directory that you will name &lt;code&gt;gesis_dir&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#Not run in the blogpost. In the repo we have a saved version.
+climate_change_files &amp;lt;- c(&amp;quot;ZA5877_v2-0-0.sav&amp;quot;, &amp;quot;ZA6595_v3-0-0.sav&amp;quot;,  &amp;quot;ZA6861_v1-2-0.sav&amp;quot;, 
+                          &amp;quot;ZA7488_v1-0-0.sav&amp;quot;, &amp;quot;ZA7572_v1-0-0.sav&amp;quot;)
+
+eb_waves &amp;lt;- read_surveys(file.path(gesis_dir, climate_change_files), .f=&#39;read_spss&#39;)
+
+if (dir.exists(&amp;quot;data-raw&amp;quot;)) {
+  save ( eb_waves,  file:  file.path(&amp;quot;data-raw&amp;quot;, &amp;quot;eb_climate_change_waves.rda&amp;quot;) )
+}
+
+if ( file.exists( file.path(&amp;quot;data-raw&amp;quot;, &amp;quot;eb_climate_change_waves.rda&amp;quot;) )) {
+  load (file.path( &amp;quot;data-raw&amp;quot;, &amp;quot;eb_climate_change_waves.rda&amp;quot; ) )
+} else {
+  load (file.path(&amp;quot;..&amp;quot;, &amp;quot;..&amp;quot;,  &amp;quot;data-raw&amp;quot;, &amp;quot;eb_climate_change_waves.rda&amp;quot;) )
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;eb_waves&lt;/code&gt; nested list contains five surveys imported from SPSS to
+the survey class of
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/labelled_spss_survey.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt;.
+The survey class is a data.frame that retains important metadata for
+further harmonization.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;document_waves (eb_waves)
+
+## # A tibble: 5 x 5
+##   id            filename           ncol  nrow object_size
+##   &amp;lt;chr&amp;gt;         &amp;lt;chr&amp;gt;             &amp;lt;int&amp;gt; &amp;lt;int&amp;gt;       &amp;lt;dbl&amp;gt;
+## 1 ZA5877_v2-0-0 ZA5877_v2-0-0.sav   604 27919   139352456
+## 2 ZA6595_v3-0-0 ZA6595_v3-0-0.sav   519 27718   119370440
+## 3 ZA6861_v1-2-0 ZA6861_v1-2-0.sav   657 27901   151397528
+## 4 ZA7488_v1-0-0 ZA7488_v1-0-0.sav   752 27339   169465928
+## 5 ZA7572_v1-0-0 ZA7572_v1-0-0.sav   348 27655    80562432
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Beware the object sizes. If you work with many surveys, memory-efficient
+programming becomes imperative. We will be subsetting whenever possible.&lt;/p&gt;
+&lt;h2 id=&#34;metadata-analysis&#34;&gt;Metadata analysis&lt;/h2&gt;
+&lt;p&gt;As noted before, prepare to work with nested lists. Each imported survey
+is nested as a data frame in the &lt;code&gt;eb_waves&lt;/code&gt; list.&lt;/p&gt;
+&lt;h2 id=&#34;metadata-protocol-variables&#34;&gt;Metadata: Protocol Variables&lt;/h2&gt;
+&lt;p&gt;Eurobarometer calls certain metadata elements, like interviewee
+cooperation level or the date of a survey interview as protocol
+variable. Let’s start here. This will be our template to harmonize more
+and more aspects of the five surveys (which are, in fact, already
+harmonization of about 30 surveys conducted in a single ‘wave’ in
+multiple countries.)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# select variables of interest from the metadata
+eb_protocol_metadata &amp;lt;- eb_climate_metadata %&amp;gt;%
+  filter ( .data$label_orig %in% c(&amp;quot;date of interview&amp;quot;) |
+             .data$var_name_orig: = &amp;quot;rowid&amp;quot;)  %&amp;gt;%
+  suggest_var_names( survey_program:  &amp;quot;eurobarometer&amp;quot; )
+
+# subset and harmonize these variables in all nested list items of &#39;waves&#39; of surveys
+interview_dates &amp;lt;- harmonize_var_names(eb_waves, 
+                                       eb_protocol_metadata )
+
+# apply similar data processing rules to same variables
+interview_dates &amp;lt;- lapply (interview_dates, 
+                      function (x) x %&amp;gt;% mutate ( date_of_interview:  as_character(.data$date_of_interview) )
+                      )
+
+# join the individual survey tables into a single table 
+interview_dates &amp;lt;- as_tibble ( Reduce (rbind, interview_dates) )
+
+# Check the variable classes.
+
+vapply(interview_dates, function(x) class(x)[1], character(1))
+
+##             rowid date_of_interview 
+##       &amp;quot;character&amp;quot;       &amp;quot;character&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is our sample workflow for each block of variables.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Get a unique identifier.&lt;/li&gt;
+&lt;li&gt;Add other variables&lt;/li&gt;
+&lt;li&gt;Harmonize the variable names&lt;/li&gt;
+&lt;li&gt;Subset the data leaving out anything that you do not harmonize in
+this block.&lt;/li&gt;
+&lt;li&gt;Apply some normalization in a nested list.&lt;/li&gt;
+&lt;li&gt;When the variables are harmonized to same name, class, merge them
+into a data.frame-like &lt;code&gt;tibble&lt;/code&gt; object.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now finish the harmonization. &lt;code&gt;Wednesday, 31st October 2018&lt;/code&gt; should
+become a Date type &lt;code&gt;2018-10-31&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;require(lubridate)
+harmonize_date &amp;lt;- function(x) {
+  x &amp;lt;- tolower(as.character(x))
+  x &amp;lt;- gsub(&amp;quot;monday|tuesday|wednesday|thursday|friday|saturday|sunday|\\,|th|nd|rd|st&amp;quot;, &amp;quot;&amp;quot;, x)
+  x &amp;lt;- gsub(&amp;quot;decemberber&amp;quot;, &amp;quot;december&amp;quot;, x) # all those annoying real-life data problems!
+  x &amp;lt;- stringr::str_trim (x, &amp;quot;both&amp;quot;)
+  x &amp;lt;- gsub(&amp;quot;^0&amp;quot;, &amp;quot;&amp;quot;, x )
+  x &amp;lt;- gsub(&amp;quot;\\s\\s&amp;quot;, &amp;quot;\\s&amp;quot;, x)
+  lubridate::dmy(x) 
+}
+
+interview_dates &amp;lt;- interview_dates %&amp;gt;%
+  mutate ( date_of_interview:  harmonize_date(.data$date_of_interview) )
+
+vapply(interview_dates, function(x) class(x)[1], character(1))
+
+##             rowid date_of_interview 
+##       &amp;quot;character&amp;quot;            &amp;quot;Date&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To avoid duplication of row IDs in surveys that may not be unique in
+&lt;em&gt;different&lt;/em&gt; surveys, we created a simple, sequential ID for each survey,
+including the ID of the original file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(2021)
+sample_n(interview_dates, 6)
+
+## # A tibble: 6 x 2
+##   rowid               date_of_interview
+##   &amp;lt;chr&amp;gt;               &amp;lt;date&amp;gt;           
+## 1 ZA7488_v1-0-0_7016  2018-10-28       
+## 2 ZA7488_v1-0-0_19187 2018-11-02       
+## 3 ZA6861_v1-2-0_1218  2017-03-18       
+## 4 ZA6861_v1-2-0_4142  2017-03-21       
+## 5 ZA7572_v1-0-0_12363 2019-04-17       
+## 6 ZA7572_v1-0-0_8071  2019-04-18
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After this type-conversion problem let’s see an issue when an original
+SPSS variable can have two meaningful R representations.&lt;/p&gt;
+&lt;h2 id=&#34;metadata-geographical-information&#34;&gt;Metadata: Geographical information&lt;/h2&gt;
+&lt;p&gt;Let’s continue with harmonizing geographical information in the files.
+In this example, &lt;code&gt;var_name_suggested&lt;/code&gt; will contain the harmonized
+variable name. It is likely that you have to make this call, after
+carefully reading the original questionnaires and codebooks.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;eb_regional_metadata &amp;lt;- eb_climate_metadata %&amp;gt;%
+  filter ( grepl( &amp;quot;rowid|isocntry|^nuts$&amp;quot;, .data$var_name_orig)) %&amp;gt;%
+  suggest_var_names( survey_program:  &amp;quot;eurobarometer&amp;quot; ) %&amp;gt;%
+  mutate ( var_name_suggested:  case_when ( 
+    var_name_suggested: = &amp;quot;region_nuts_codes&amp;quot;     ~ &amp;quot;geo&amp;quot;,
+    TRUE ~ var_name_suggested ))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;harmonize_var_names()&lt;/code&gt; takes all variables in the subsetted,
+geographical metadata table, and brings them to the harmonized
+&lt;code&gt;var_name_suggested&lt;/code&gt; name. The function subsets the surveys to avoid the
+presence of non-harmonized variables. All regional NUTS codes become
+&lt;code&gt;geo&lt;/code&gt; in our case:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;geography &amp;lt;- harmonize_var_names(eb_waves, 
+                                 eb_regional_metadata)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you are used to work with single survey files, you are likely to work
+in a tabular format, which easily converts into a data.frame like
+object, in our example, to tidyverse’s &lt;code&gt;tibble&lt;/code&gt;. However, when working
+with longitudinal data, it is far simpler to work with nested lists,
+because the tables usually have different dimensions (neither the rows
+corresponding to observations or the columns are the same across all
+survey files.)&lt;/p&gt;
+&lt;p&gt;In the nested list, each list element is a single, tabular-format
+survey. (In fact, the survey are in retroharmonize’s
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/reference/survey.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;survey&lt;/a&gt;
+class, which is a rich tibble that contains the metadata and the
+processing history of the survey.)&lt;/p&gt;
+&lt;p&gt;The regional information in the Eurobarometer files is contained in the
+&lt;code&gt;nuts&lt;/code&gt; variable. We want to keep both the original labels and values.
+The original values are the region’s codes, and the labels are the
+names. The easiest and fastest solution is the base R &lt;code&gt;lapply&lt;/code&gt; loop.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;geography &amp;lt;- lapply ( geography, 
+                      function (x) x %&amp;gt;% mutate ( region:  as_character(geo), 
+                                                  geo   :  as.character(geo) )  
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Because each table has exactly the same columns, we can simply use
+&lt;code&gt;rbind()&lt;/code&gt; and reduce the list to a modern &lt;code&gt;data.frame&lt;/code&gt;, i.e. a &lt;code&gt;tibble&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;geography &amp;lt;- as_tibble ( Reduce (rbind, geography) )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s see a dozen cases:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(2021)
+sample_n(geography, 12)
+
+## # A tibble: 12 x 4
+##    rowid               isocntry geo   region              
+##    &amp;lt;chr&amp;gt;               &amp;lt;chr&amp;gt;    &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt;               
+##  1 ZA7488_v1-0-0_7016  SI       SI012 Podravska           
+##  2 ZA7488_v1-0-0_19187 PL       PL63  Pomorskie           
+##  3 ZA6861_v1-2-0_1218  DK       DK02  Sjaelland           
+##  4 ZA6861_v1-2-0_4142  FI       FI1B  Helsinki-Uusimaa    
+##  5 ZA7572_v1-0-0_12363 SE       SE12  Oestra Mellansverige
+##  6 ZA7572_v1-0-0_8071  IT       ITH   Nord-Est [IT]       
+##  7 ZA6861_v1-2-0_6145  IE       IE021 Dublin              
+##  8 ZA6861_v1-2-0_24638 RO       RO31  South [RO]          
+##  9 ZA7488_v1-0-0_11315 CY       CY    REPUBLIC OF CYPRUS  
+## 10 ZA6595_v3-0-0_27568 HR       HR041 Grad Zagreb         
+## 11 ZA7572_v1-0-0_17397 CZ       CZ06  Jihovychod          
+## 12 ZA6861_v1-2-0_10993 PT       PT17  Lisboa
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The idea is that we do similar variable harmonization block by block,
+and eventually we will join them together. Next step: socio-demography
+and weights.&lt;/p&gt;
+&lt;h2 id=&#34;socio-demography-and-weights&#34;&gt;Socio-demography and Weights&lt;/h2&gt;
+&lt;p&gt;There are a few peculiar issues to look out for. This example shows that
+survey harmonization requires plenty of expert judgment, and you cannot
+fully automate the process.&lt;/p&gt;
+&lt;p&gt;The Eurobarometer archives do not use all weight and demographic
+variable names consistently. For example, the &lt;code&gt;wex&lt;/code&gt; variable, which is a
+projected weight for the country’s 15 years old or older population is
+sometimes called &lt;code&gt;wex&lt;/code&gt;, sometimes &lt;code&gt;wextra&lt;/code&gt;. The individual survey’s
+post-stratification weight is the &lt;code&gt;w1&lt;/code&gt; variable, but this is not
+necessarily what you need to use.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;suggest_var_names()&lt;/code&gt; function has a parameter for
+&lt;code&gt;survey_program:  &amp;quot;eurobaromater&amp;quot;&lt;/code&gt; which normalizes a bit the most used
+variables. For example, all variations of wex, wextra wil be noramlized
+to wex. You can ignore this parameter and use your own names, too.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;eb_demography_metadata  &amp;lt;- eb_climate_metadata %&amp;gt;%
+  filter ( grepl( &amp;quot;rowid|isocntry|^d8$|^d7$|^wex|^w1$|d25|^d15a|^d11$&amp;quot;, .data$var_name_orig) ) %&amp;gt;%
+  suggest_var_names( survey_program:  &amp;quot;eurobarometer&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As you can see, using the original labels would not help, because they
+also contain various alterations.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;eb_demography_metadata %&amp;gt;%
+  select ( filename, var_name_orig, label_orig, var_name_suggested ) %&amp;gt;%
+  filter (var_name_orig %in% c(&amp;quot;wex&amp;quot;, &amp;quot;wextra&amp;quot;) )
+
+##            filename var_name_orig                                  label_orig
+## 1 ZA5877_v2-0-0.sav        wextra      weight extrapolated population 15 plus
+## 2 ZA6595_v3-0-0.sav        wextra      weight extrapolated population 15 plus
+## 3 ZA6861_v1-2-0.sav           wex weight extrapolated population aged 15 plus
+## 4 ZA7488_v1-0-0.sav           wex weight extrapolated population aged 15 plus
+## 5 ZA7572_v1-0-0.sav           wex weight extrapolated population aged 15 plus
+##   var_name_suggested
+## 1                wex
+## 2                wex
+## 3                wex
+## 4                wex
+## 5                wex
+
+demography &amp;lt;- harmonize_var_names ( waves:  eb_waves, 
+                                    metadata:  eb_demography_metadata ) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Socio-demographic variables like level of highest education or
+occupation are rather country-specific. Eurobarometer uses standardized
+occupation and marital status scales, and a proxy for education levels,
+age of leaving full-time education.&lt;/p&gt;
+&lt;p&gt;This is a particularly tricky variable, because it’s coding in fact
+contains three different variables - school leaving age, except for
+students, and except for people who did not finish their compulsory
+primary school. And while school leaving age was a good proxy since the
+1970s, in the age when the EU is promoting life-long-learning becomes
+less and less useful, as people stop and re-start their education
+throughout their lives.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;example &amp;lt;- demography[[1]] %&amp;gt;%
+  mutate ( across ( -any_of(c(&amp;quot;rowid&amp;quot;, &amp;quot;w1&amp;quot;, &amp;quot;wex&amp;quot;)), as_character) ) %&amp;gt;%
+  mutate ( across (any_of(c(&amp;quot;w1&amp;quot;, &amp;quot;wex&amp;quot;)), as_numeric) )
+unique ( example$age_education )
+
+##  [1] &amp;quot;22&amp;quot;                     &amp;quot;25&amp;quot;                     &amp;quot;17&amp;quot;                    
+##  [4] &amp;quot;19&amp;quot;                     &amp;quot;12&amp;quot;                     &amp;quot;23&amp;quot;                    
+##  [7] &amp;quot;18&amp;quot;                     &amp;quot;20&amp;quot;                     &amp;quot;21&amp;quot;                    
+## [10] &amp;quot;14&amp;quot;                     &amp;quot;24&amp;quot;                     &amp;quot;16&amp;quot;                    
+## [13] &amp;quot;26&amp;quot;                     &amp;quot;15&amp;quot;                     &amp;quot;Still studying&amp;quot;        
+## [16] &amp;quot;DK&amp;quot;                     &amp;quot;31&amp;quot;                     &amp;quot;29&amp;quot;                    
+## [19] &amp;quot;27&amp;quot;                     &amp;quot;13&amp;quot;                     &amp;quot;32&amp;quot;                    
+## [22] &amp;quot;28&amp;quot;                     &amp;quot;30&amp;quot;                     &amp;quot;53&amp;quot;                    
+## [25] &amp;quot;42&amp;quot;                     &amp;quot;62&amp;quot;                     &amp;quot;40&amp;quot;                    
+## [28] &amp;quot;No full-time education&amp;quot; &amp;quot;Refusal&amp;quot;                &amp;quot;37&amp;quot;                    
+## [31] &amp;quot;39&amp;quot;                     &amp;quot;34&amp;quot;                     &amp;quot;35&amp;quot;                    
+## [34] &amp;quot;47&amp;quot;                     &amp;quot;36&amp;quot;                     &amp;quot;45&amp;quot;                    
+## [37] &amp;quot;51&amp;quot;                     &amp;quot;33&amp;quot;                     &amp;quot;43&amp;quot;                    
+## [40] &amp;quot;38&amp;quot;                     &amp;quot;49&amp;quot;                     &amp;quot;46&amp;quot;                    
+## [43] &amp;quot;41&amp;quot;                     &amp;quot;57&amp;quot;                     &amp;quot;7&amp;quot;                     
+## [46] &amp;quot;48&amp;quot;                     &amp;quot;44&amp;quot;                     &amp;quot;50&amp;quot;                    
+## [49] &amp;quot;56&amp;quot;                     &amp;quot;8&amp;quot;                      &amp;quot;11&amp;quot;                    
+## [52] &amp;quot;10&amp;quot;                     &amp;quot;9&amp;quot;                      &amp;quot;75 years&amp;quot;              
+## [55] &amp;quot;6&amp;quot;                      &amp;quot;3&amp;quot;                      &amp;quot;54&amp;quot;                    
+## [58] &amp;quot;55&amp;quot;                     &amp;quot;60&amp;quot;                     &amp;quot;64&amp;quot;                    
+## [61] &amp;quot;2 years&amp;quot;                &amp;quot;58&amp;quot;                     &amp;quot;52&amp;quot;                    
+## [64] &amp;quot;72&amp;quot;                     &amp;quot;61&amp;quot;                     &amp;quot;4&amp;quot;                     
+## [67] &amp;quot;63&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The seamingly trival &lt;code&gt;age_exact&lt;/code&gt; variable has its own issues, too:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;unique ( example$age_exact)
+
+##  [1] &amp;quot;54&amp;quot;       &amp;quot;66&amp;quot;       &amp;quot;56&amp;quot;       &amp;quot;53&amp;quot;       &amp;quot;33&amp;quot;       &amp;quot;72&amp;quot;      
+##  [7] &amp;quot;83&amp;quot;       &amp;quot;62&amp;quot;       &amp;quot;86&amp;quot;       &amp;quot;77&amp;quot;       &amp;quot;64&amp;quot;       &amp;quot;46&amp;quot;      
+## [13] &amp;quot;44&amp;quot;       &amp;quot;59&amp;quot;       &amp;quot;60&amp;quot;       &amp;quot;67&amp;quot;       &amp;quot;63&amp;quot;       &amp;quot;20&amp;quot;      
+## [19] &amp;quot;43&amp;quot;       &amp;quot;37&amp;quot;       &amp;quot;78&amp;quot;       &amp;quot;49&amp;quot;       &amp;quot;90&amp;quot;       &amp;quot;45&amp;quot;      
+## [25] &amp;quot;28&amp;quot;       &amp;quot;29&amp;quot;       &amp;quot;30&amp;quot;       &amp;quot;39&amp;quot;       &amp;quot;51&amp;quot;       &amp;quot;38&amp;quot;      
+## [31] &amp;quot;41&amp;quot;       &amp;quot;71&amp;quot;       &amp;quot;25&amp;quot;       &amp;quot;48&amp;quot;       &amp;quot;79&amp;quot;       &amp;quot;88&amp;quot;      
+## [37] &amp;quot;61&amp;quot;       &amp;quot;85&amp;quot;       &amp;quot;70&amp;quot;       &amp;quot;35&amp;quot;       &amp;quot;81&amp;quot;       &amp;quot;52&amp;quot;      
+## [43] &amp;quot;57&amp;quot;       &amp;quot;27&amp;quot;       &amp;quot;47&amp;quot;       &amp;quot;15 years&amp;quot; &amp;quot;21&amp;quot;       &amp;quot;42&amp;quot;      
+## [49] &amp;quot;32&amp;quot;       &amp;quot;68&amp;quot;       &amp;quot;36&amp;quot;       &amp;quot;34&amp;quot;       &amp;quot;19&amp;quot;       &amp;quot;31&amp;quot;      
+## [55] &amp;quot;26&amp;quot;       &amp;quot;23&amp;quot;       &amp;quot;24&amp;quot;       &amp;quot;22&amp;quot;       &amp;quot;16&amp;quot;       &amp;quot;84&amp;quot;      
+## [61] &amp;quot;65&amp;quot;       &amp;quot;18&amp;quot;       &amp;quot;55&amp;quot;       &amp;quot;40&amp;quot;       &amp;quot;50&amp;quot;       &amp;quot;73&amp;quot;      
+## [67] &amp;quot;69&amp;quot;       &amp;quot;87&amp;quot;       &amp;quot;89&amp;quot;       &amp;quot;74&amp;quot;       &amp;quot;75&amp;quot;       &amp;quot;98 years&amp;quot;
+## [73] &amp;quot;76&amp;quot;       &amp;quot;80&amp;quot;       &amp;quot;58&amp;quot;       &amp;quot;82&amp;quot;       &amp;quot;17&amp;quot;       &amp;quot;93&amp;quot;      
+## [79] &amp;quot;91&amp;quot;       &amp;quot;92&amp;quot;       &amp;quot;95&amp;quot;       &amp;quot;94&amp;quot;       &amp;quot;97&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s see all the strange labels attached to &lt;code&gt;age&lt;/code&gt;-type variables:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;collect_val_labels(metadata:  eb_demography_metadata %&amp;gt;%
+                     filter ( var_name_suggested %in% c(&amp;quot;age_exact&amp;quot;, &amp;quot;age_education&amp;quot;)) )
+
+##  [1] &amp;quot;2 years&amp;quot;                  &amp;quot;75 years&amp;quot;                
+##  [3] &amp;quot;No full-time education&amp;quot;   &amp;quot;Still studying&amp;quot;          
+##  [5] &amp;quot;15 years&amp;quot;                 &amp;quot;98 years&amp;quot;                
+##  [7] &amp;quot;96 years&amp;quot;                 &amp;quot;[NOT CLEARLY DOCUMENTED]&amp;quot;
+##  [9] &amp;quot;74 years&amp;quot;                 &amp;quot;99 and older&amp;quot;            
+## [11] &amp;quot;Refusal&amp;quot;                  &amp;quot;87 years&amp;quot;                
+## [13] &amp;quot;DK&amp;quot;                       &amp;quot;88 years&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We must handle many exception, so we created a function for this
+purpose:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;remove_years  &amp;lt;- function(x) { 
+  x &amp;lt;- gsub(&amp;quot;years|and\\solder&amp;quot;, &amp;quot;&amp;quot;, tolower(x))
+  stringr::str_trim (x, &amp;quot;both&amp;quot;)}
+
+process_demography &amp;lt;- function (x) { 
+  
+  x %&amp;gt;% mutate ( across ( -any_of(c(&amp;quot;rowid&amp;quot;, &amp;quot;w1&amp;quot;, &amp;quot;wex&amp;quot;)), as_character) ) %&amp;gt;%
+    mutate ( across (any_of(c(&amp;quot;w1&amp;quot;, &amp;quot;wex&amp;quot;)), as_numeric) ) %&amp;gt;%
+    mutate ( across (contains(&amp;quot;age&amp;quot;), remove_years)) %&amp;gt;%
+    mutate ( age_exact:  as.numeric (age_exact)) %&amp;gt;%
+    mutate ( is_student:  ifelse ( tolower(age_education): = &amp;quot;still studying&amp;quot;, 
+                                   1, 0), 
+             no_education:  ifelse ( tolower(age_education): = &amp;quot;no full-time education&amp;quot;, 1, 0)) %&amp;gt;%
+    mutate ( education:  case_when (
+      grepl(&amp;quot;studying&amp;quot;, age_education) ~ age_exact, 
+      grepl (&amp;quot;education&amp;quot;, age_education)  ~ 14, 
+      grepl (&amp;quot;refus|document|dk&amp;quot;, tolower(age_education)) ~ NA_real_,
+      TRUE ~ as.numeric(age_education)
+    ))  %&amp;gt;%
+    mutate ( education:  case_when ( 
+      education &amp;lt; 14 ~ NA_real_, 
+      education &amp;gt; 30 ~ 30, 
+      TRUE ~ education )) 
+}
+
+demography &amp;lt;- lapply ( demography, process_demography )
+
+## Warning in eval_tidy(pair$rhs, env:  default_env): NAs introduced by coercion
+
+## Warning in mask$eval_all_mutate(quo): NAs introduced by coercion
+
+## Warning in eval_tidy(pair$rhs, env:  default_env): NAs introduced by coercion
+
+## Warning in eval_tidy(pair$rhs, env:  default_env): NAs introduced by coercion
+
+## Warning in eval_tidy(pair$rhs, env:  default_env): NAs introduced by coercion
+
+## Warning in eval_tidy(pair$rhs, env:  default_env): NAs introduced by coercion
+
+## WE&#39;ll full join and not use rbind, because we have different variables in different waves.
+demography &amp;lt;- Reduce ( full_join, demography )
+
+## Joining, by:  c(&amp;quot;rowid&amp;quot;, &amp;quot;isocntry&amp;quot;, &amp;quot;w1&amp;quot;, &amp;quot;wex&amp;quot;, &amp;quot;marital_status&amp;quot;, &amp;quot;age_education&amp;quot;, &amp;quot;age_exact&amp;quot;, &amp;quot;occupation_of_respondent&amp;quot;, &amp;quot;occupation_of_respondent_recoded&amp;quot;, &amp;quot;respondent_occupation_scale_c_14&amp;quot;, &amp;quot;type_of_community&amp;quot;, &amp;quot;is_student&amp;quot;, &amp;quot;no_education&amp;quot;, &amp;quot;education&amp;quot;)
+## Joining, by:  c(&amp;quot;rowid&amp;quot;, &amp;quot;isocntry&amp;quot;, &amp;quot;w1&amp;quot;, &amp;quot;wex&amp;quot;, &amp;quot;marital_status&amp;quot;, &amp;quot;age_education&amp;quot;, &amp;quot;age_exact&amp;quot;, &amp;quot;occupation_of_respondent&amp;quot;, &amp;quot;occupation_of_respondent_recoded&amp;quot;, &amp;quot;respondent_occupation_scale_c_14&amp;quot;, &amp;quot;type_of_community&amp;quot;, &amp;quot;is_student&amp;quot;, &amp;quot;no_education&amp;quot;, &amp;quot;education&amp;quot;)
+## Joining, by:  c(&amp;quot;rowid&amp;quot;, &amp;quot;isocntry&amp;quot;, &amp;quot;w1&amp;quot;, &amp;quot;wex&amp;quot;, &amp;quot;marital_status&amp;quot;, &amp;quot;age_education&amp;quot;, &amp;quot;age_exact&amp;quot;, &amp;quot;occupation_of_respondent&amp;quot;, &amp;quot;occupation_of_respondent_recoded&amp;quot;, &amp;quot;respondent_occupation_scale_c_14&amp;quot;, &amp;quot;type_of_community&amp;quot;, &amp;quot;is_student&amp;quot;, &amp;quot;no_education&amp;quot;, &amp;quot;education&amp;quot;)
+## Joining, by:  c(&amp;quot;rowid&amp;quot;, &amp;quot;isocntry&amp;quot;, &amp;quot;w1&amp;quot;, &amp;quot;wex&amp;quot;, &amp;quot;marital_status&amp;quot;, &amp;quot;age_education&amp;quot;, &amp;quot;age_exact&amp;quot;, &amp;quot;occupation_of_respondent&amp;quot;, &amp;quot;occupation_of_respondent_recoded&amp;quot;, &amp;quot;respondent_occupation_scale_c_14&amp;quot;, &amp;quot;type_of_community&amp;quot;, &amp;quot;is_student&amp;quot;, &amp;quot;no_education&amp;quot;, &amp;quot;education&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now let’s see what we have here:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(2021)
+sample_n(demography, 12)
+
+## # A tibble: 12 x 14
+##    rowid    isocntry    w1    wex marital_status        age_education  age_exact
+##    &amp;lt;chr&amp;gt;    &amp;lt;chr&amp;gt;    &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;                 &amp;lt;chr&amp;gt;              &amp;lt;dbl&amp;gt;
+##  1 ZA7488_~ SI       0.828  1428. (Re-)Married: withou~ 19                    43
+##  2 ZA7488_~ PL       1.01  32830. (Re-)Married: withou~ 19                    64
+##  3 ZA6861_~ DK       0.641  3100. (Re-)Married: withou~ 22                    78
+##  4 ZA6861_~ FI       1.83   8601. (Re-)Married: childr~ 30                    38
+##  5 ZA7572_~ SE       0.342  2645. (Re-)Married: withou~ 17                    68
+##  6 ZA7572_~ IT       0.630 32287. (Re-)Married: childr~ 20                    40
+##  7 ZA6861_~ IE       0.868  3054. (Re-)Married: childr~ 32                    42
+##  8 ZA6861_~ RO       0.724 11805. (Re-)Married: withou~ 14                    59
+##  9 ZA7488_~ CY       0.691  1013. (Re-)Married: childr~ 18                    67
+## 10 ZA6595_~ HR       0.580  2098. Single living w part~ 27                    30
+## 11 ZA7572_~ CZ       1.86  16908. Single: without chil~ still studying        20
+## 12 ZA6861_~ PT       0.932  7448. Widow: with children  no full-time ~        84
+## # ... with 7 more variables: occupation_of_respondent &amp;lt;chr&amp;gt;,
+## #   occupation_of_respondent_recoded &amp;lt;chr&amp;gt;,
+## #   respondent_occupation_scale_c_14 &amp;lt;chr&amp;gt;, type_of_community &amp;lt;chr&amp;gt;,
+## #   is_student &amp;lt;dbl&amp;gt;, no_education &amp;lt;dbl&amp;gt;, education &amp;lt;dbl&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;harmonizing-variable-labels&#34;&gt;Harmonizing Variable Labels&lt;/h2&gt;
+&lt;p&gt;So far we have been working with metadata, weights and socio-demography.
+In other words, we have not even started the desired harmonization of
+climate change awareness. The methodology is the same, but here we
+really must look out for the answer options in the questionnaire. (Refer
+to our data summary again
+&lt;a href=&#34;http://netzero.dataobservatory.eu/post/2021-03-04-eurobarometer_data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;climate_awareness_metadata &amp;lt;- eb_climate_metadata %&amp;gt;%
+  suggest_var_names( survey_program:  &amp;quot;eurobarometer&amp;quot; ) %&amp;gt;%
+  filter ( .data$var_name_suggested  %in% c(&amp;quot;rowid&amp;quot;,
+                                            &amp;quot;serious_world_problems_first&amp;quot;, 
+                                             &amp;quot;serious_world_problems_climate_change&amp;quot;)
+  ) 
+
+hw &amp;lt;- harmonize_var_names ( waves:  eb_waves, 
+                            metadata:  climate_awareness_metadata )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;retroharmoinze&lt;/code&gt; package comes with a generic
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/reference/harmonize_waves.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;harmonize_values()&lt;/a&gt;
+function that will change the value labels of categorical variables
+(including binary ones) to a unitary format. It will also take care of
+various types of missing values.&lt;/p&gt;
+&lt;p&gt;First, let’s go back to our metadata and collect all value labels that
+will show up with
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/reference/collect_val_labels.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;collect_val_labels()&lt;/a&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;collect_val_labels(climate_awareness_metadata)
+
+##  [1] &amp;quot;Climate change&amp;quot;                            
+##  [2] &amp;quot;International terrorism&amp;quot;                   
+##  [3] &amp;quot;Poverty, hunger and lack of drinking water&amp;quot;
+##  [4] &amp;quot;Spread of infectious diseases&amp;quot;             
+##  [5] &amp;quot;The economic situation&amp;quot;                    
+##  [6] &amp;quot;Proliferation of nuclear weapons&amp;quot;          
+##  [7] &amp;quot;Armed conflicts&amp;quot;                           
+##  [8] &amp;quot;The increasing global population&amp;quot;          
+##  [9] &amp;quot;Other (SPONTANEOUS)&amp;quot;                       
+## [10] &amp;quot;None (SPONTANEOUS)&amp;quot;                        
+## [11] &amp;quot;Not mentioned&amp;quot;                             
+## [12] &amp;quot;Mentioned&amp;quot;                                 
+## [13] &amp;quot;DK&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this case, we want to select &lt;code&gt;Climate change&lt;/code&gt; as the mentioned &lt;em&gt;most
+serious problem&lt;/em&gt;, and &lt;code&gt;Climate change&lt;/code&gt; taken from a list of three
+serious problems. The first question type is a single-choice one, where
+&lt;code&gt;Climate change&lt;/code&gt; is either mentioned, or the alternative answer is
+labeled as &lt;code&gt;Not mentioned&lt;/code&gt;. In the multiple choice case, the alternative
+may be something else, for example, &lt;code&gt;Spread of infectious diseases&lt;/code&gt;, as
+we all well know by 2021.&lt;/p&gt;
+&lt;p&gt;We want to see who thought &lt;code&gt;Climate change&lt;/code&gt; was the most serious
+problem, or one of the most serious problems, so we label each mentions
+of &lt;code&gt;Climate change&lt;/code&gt; as &lt;code&gt;mentioned&lt;/code&gt; and we pair it with a numeric value
+of &lt;code&gt;1&lt;/code&gt;. All other cases are labeled as &lt;code&gt;not_mentioned&lt;/code&gt;, with the
+exceptions of various missing observations, which in these cases are
+&lt;code&gt;Do not know&lt;/code&gt; answers, &lt;code&gt;Declined to answer&lt;/code&gt; cases, and &lt;code&gt;Inappropriate&lt;/code&gt;
+cases [The latter one is Eurobarometer’s label for questions that were
+for one reason or other not asked from a particular interviewee – for
+example, because the Turkish Cypriot community received a different
+questionnaire.]&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# positive cases
+label_1:  c(&amp;quot;^Climate\\schange&amp;quot;, &amp;quot;^Mentioned&amp;quot;)
+# missing cases 
+na_labels &amp;lt;- collect_na_labels( climate_awareness_metadata)
+na_labels
+
+## [1] &amp;quot;DK&amp;quot;                             &amp;quot;Inap. (10 or 11 in qa1a)&amp;quot;      
+## [3] &amp;quot;Inap. (coded 10 or 11 in qc1a)&amp;quot; &amp;quot;Inap. (coded 10 or 11 in qb1a)&amp;quot;
+
+# negative cases
+label_0 &amp;lt;- collect_val_labels( climate_awareness_metadata)
+label_0 &amp;lt;- label_0[! label_0 %in% label_1 ]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;harmonize_serious_problems()&lt;/code&gt; function harmonizes the labels within
+the special labeled class of &lt;code&gt;retroharmonize&lt;/code&gt;. This class retains all
+information to give categorical variables a character or numeric
+representation, and various processing metadata for documentation
+purposes. While this class is very reach (it contains whatever was
+imported from SPSS’s proprietary data format and the history), it is not
+suitable for statistical analysis. We could, of course, directly call
+the
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/reference/harmonize_values.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;harmonize_values()&lt;/a&gt;
+from the retroharmonize package, but the parameterization would be very
+complicated even in a simple function call, not to mention a looped
+call. Because this function is the heart of the
+&lt;code&gt;retroharmonize package&lt;/code&gt;, it has &lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/harmonize_labels.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a tutorial
+article&lt;/a&gt;
+on its own.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;harmonize_serious_problems &amp;lt;- function(x) {
+  label_list &amp;lt;- list(
+    from:  c(label_0, label_1, na_labels), 
+    to:  c( rep ( &amp;quot;not_mentioned&amp;quot;, length(label_0) ),   # use the same order as in from!
+            rep ( &amp;quot;mentioned&amp;quot;, length(label_1) ),
+            &amp;quot;do_not_know&amp;quot;, &amp;quot;inap&amp;quot;, &amp;quot;inap&amp;quot;, &amp;quot;inap&amp;quot;), 
+    numeric_values:  c(rep ( 0, length(label_0) ), # use the same order as in from!
+                       rep ( 1, length(label_1) ),
+                       99997,99999,99999,99999)
+  )
+  
+  harmonize_values(x, 
+                   harmonize_labels:  label_list, 
+                   na_values:  c(&amp;quot;do_not_know&amp;quot;=99997,
+                                 &amp;quot;declined&amp;quot;=99998,
+                                 &amp;quot;inap&amp;quot;=99999), 
+                   remove:  &amp;quot;\\(|\\)|\\[|\\]|\\%&amp;quot;
+  )
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Our objects are rather big in memory, so first, let’s remove the surveys
+that do not contain these world problem variables. In this cases, the
+subsetted and harmonized surveys in the nested list have only one
+columns, i.e. the &lt;code&gt;rowid&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hw &amp;lt;- hw[unlist ( lapply ( hw, ncol)) &amp;gt; 1 ]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we have a smaller problem to deal with. With many surveys, it is
+easy to fill up your computer’s memory, so let’s start building up our
+joined panel data from a smaller set of nested, subsetted surveys.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hw &amp;lt;- lapply ( hw, function (x) x %&amp;gt;% mutate ( across ( contains(&amp;quot;problem&amp;quot;), harmonize_serious_problems) ) )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Our &lt;code&gt;lapply&lt;/code&gt; loop calls an anonymous function which in turn calls the
+&lt;code&gt;harmonize_serious_problems&lt;/code&gt; parameterized version of the
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/reference/harmonize_values.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;harmonize_values()&lt;/a&gt;
+on all variables that have &lt;code&gt;problem&lt;/code&gt; in their names.&lt;/p&gt;
+&lt;p&gt;once we are done, our variables have harmonized names, and harmonized
+values, and harmonized label, but they are stored in the complex
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/harmonize_labels.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize_labelled_spss_survey&lt;/a&gt;
+class, inherited from the &lt;code&gt;haven_labelled_spss&lt;/code&gt; in
+&lt;a href=&#34;https://haven.tidyverse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;haven&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We reduced our single and multiple choice questions to binary choice
+variables. We can now give them a numeric representation. Be mindful
+that &lt;code&gt;retroharmonize&lt;/code&gt; has special methods for its special labeled class
+that retains metadata from SPSS. This means that &lt;code&gt;as_character&lt;/code&gt; and
+&lt;code&gt;as_numeric&lt;/code&gt; knows how to handle various types of missing values,
+whereas the base R &lt;code&gt;as.character&lt;/code&gt; and &lt;code&gt;as.numeric&lt;/code&gt; may coerce special
+values to unwanted results. This is particularly dangerous with numeric
+variables – and this is the reason why we introduced a new set of S3
+objects and methods in the package.&lt;/p&gt;
+&lt;p&gt;We will ignore the differences between various forms of missingness,
+i.e. the person said that she did not know, or did not want to answer,
+or for some reason was not asked in the survey. In a more descriptive,
+non-harmonized analysis you would probably want to explore them as
+various ‘categories’ and use a character representation.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hw &amp;lt;- lapply ( hw, function(x) x %&amp;gt;% mutate ( across ( contains(&amp;quot;problem&amp;quot;), as_numeric) ))
+
+hw &amp;lt;- Reduce ( full_join, hw) # we must use joins instead of binds because the number of columns vary.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s see what we have:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(2021)
+sample_n (hw, 12)
+
+## # A tibble: 12 x 3
+##    rowid             serious_world_problems_fi~ serious_world_problems_climate_~
+##    &amp;lt;chr&amp;gt;                                  &amp;lt;dbl&amp;gt;                            &amp;lt;dbl&amp;gt;
+##  1 ZA6595_v3-0-0_23~                          0                               NA
+##  2 ZA7572_v1-0-0_70~                          0                                0
+##  3 ZA6595_v3-0-0_18~                          0                               NA
+##  4 ZA6861_v1-2-0_27~                          0                                0
+##  5 ZA6595_v3-0-0_26~                          0                               NA
+##  6 ZA7572_v1-0-0_19~                          0                                1
+##  7 ZA5877_v2-0-0_16~                          0                                0
+##  8 ZA6861_v1-2-0_12~                          0                                0
+##  9 ZA7572_v1-0-0_17~                          0                                0
+## 10 ZA5877_v2-0-0_17~                          0                                1
+## 11 ZA6861_v1-2-0_41~                          0                                0
+## 12 ZA6861_v1-2-0_61~                          0                                1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;creating-the-longitudional-table&#34;&gt;Creating the Longitudional Table&lt;/h2&gt;
+&lt;p&gt;Now we just need to join the partial table by the &lt;code&gt;rowid&lt;/code&gt; together:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#start from the smallest (we removed the survey that had no relevant questionnaire item)
+panel &amp;lt;- hw %&amp;gt;%
+  left_join ( geography, by:  &#39;rowid&#39; ) 
+
+panel &amp;lt;- panel %&amp;gt;%
+  left_join ( demography, by:  c(&amp;quot;rowid&amp;quot;, &amp;quot;isocntry&amp;quot;) ) 
+
+panel &amp;lt;- panel %&amp;gt;%
+  left_join ( interview_dates, by:  &#39;rowid&#39; )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And let’s see a small sample:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sample_n(panel, 12)
+
+## # A tibble: 12 x 19
+##    rowid  serious_world_pr~ serious_world_pr~ isocntry geo   region    w1    wex
+##    &amp;lt;chr&amp;gt;              &amp;lt;dbl&amp;gt;             &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;    &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt;  &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;
+##  1 ZA686~                 0                 0 ES       ES41  Casti~ 1.21  46787.
+##  2 ZA686~                 0                 0 RO       RO31  South~ 0.724 11805.
+##  3 ZA686~                 0                 0 SK       SK02  Zapad~ 0.774  3499.
+##  4 ZA757~                 0                 1 PT       PT16  Centr~ 1.11   9336.
+##  5 ZA659~                 1                NA HR       HR041 Grad ~ 0.580  2098.
+##  6 ZA659~                 1                NA RO       RO21  North~ 1.21  20160.
+##  7 ZA686~                 0                 0 PT       PT17  Lisboa 0.932  7448.
+##  8 ZA659~                 0                NA GB-GBN   UKI   London 0.994 50133.
+##  9 ZA757~                 0                 0 CY       CY    REPUB~ 0.594   874.
+## 10 ZA686~                 0                 0 LT       LT003 Klaip~ 0.623  1564.
+## 11 ZA757~                 0                 0 IE       IE013 West ~ 0.490  1651.
+## 12 ZA659~                 0                NA LT       LT003 Klaip~ 1.16   2917.
+## # ... with 11 more variables: marital_status &amp;lt;chr&amp;gt;, age_education &amp;lt;chr&amp;gt;,
+## #   age_exact &amp;lt;dbl&amp;gt;, occupation_of_respondent &amp;lt;chr&amp;gt;,
+## #   occupation_of_respondent_recoded &amp;lt;chr&amp;gt;,
+## #   respondent_occupation_scale_c_14 &amp;lt;chr&amp;gt;, type_of_community &amp;lt;chr&amp;gt;,
+## #   is_student &amp;lt;dbl&amp;gt;, no_education &amp;lt;dbl&amp;gt;, education &amp;lt;dbl&amp;gt;,
+## #   date_of_interview &amp;lt;date&amp;gt;
+
+saveRDS ( panel, file.path(tempdir(), &amp;quot;climate_panel.rds&amp;quot;), version:  2)
+
+# not evaluated
+saveRDS( panel, file:  file.path(&amp;quot;data-raw&amp;quot;, &amp;quot;climate-panel.rds&amp;quot;), version=2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;putting-it-on-a-map&#34;&gt;Putting It on a Map&lt;/h2&gt;
+&lt;p&gt;This is not the end of the story. If you put all this on a map, the
+results are a bit disappointing.&lt;/p&gt;
+&lt;img src=&#34;featured.png&#34; width=&#34;660&#34; /&gt;
+&lt;p&gt;Why? Because sub-national (provincial, state, county, district, parish)
+borders are changing all the time - within the EU and everywhere. The
+next step is to harmonize the geographical information. We have another
+CRAN released package to help you with. See the next post: &lt;a href=&#34;https://rpubs.com/antaldaniel/regions-OOD21&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Regional
+Climate Change Awareness
+Dataset&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What is Retrospective Survey Harmonization?</title>
+      <link>https://eviota.eu/post/2021-03-04_retroharmonize_intro/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://eviota.eu/post/2021-03-04_retroharmonize_intro/</guid>
+      <description>&lt;h2 id=&#34;reproducible-ex-post-harmonization-of-survey-microdata&#34;&gt;Reproducible ex post harmonization of survey microdata&lt;/h2&gt;
+&lt;p&gt;Retrospective survey harmonization allows the comparison of opinion poll
+data conducted in different countries or time. In this example we are
+working with data from surveys that were ex ante harmonized to a certain
+degree – in our tutorials we are choosing questions that were asked in
+the same way in many natural languages. For example, you can compare
+what percentage of the European people in various countries, provinces
+and regions thought climate change was a serious world problem back in
+2013, 2015, 2017 and 2019.&lt;/p&gt;
+&lt;p&gt;We developed the
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; R package
+to help this process. We have tested the package with about 80
+Eurobarometer, 5 Afrobarometer survey files extensively, and a bit with
+Arabbarometer files. This allows the comparison of various survey
+answers in about 70 countries. This policy-oriented survey programs were
+designed to be harmonized to a certain degree, but their ex post
+harmonization is still necessary, challenging and errorprone.
+Retrospective harmonization includes harmonization of the different
+coding used for questions and answer options, post-stratification
+weights, and using different file formats.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ec.europa.eu/commfrontoffice/publicopinion/index.cfm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer&lt;/a&gt;,
+&lt;a href=&#34;https://www.afrobarometer.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Afrobaromer&lt;/a&gt;, &lt;a href=&#34;https://www.arabbarometer.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arab
+Barometer&lt;/a&gt; and
+&lt;a href=&#34;https://www.latinobarometro.org/lat.jsp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Latinobarómetro&lt;/a&gt; make survey
+files that are harmonized across countries available for research with
+various terms. Our
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; is not
+affiliated with them, and to run our examples, you must visit their
+websites, carefully read their terms, agree to them, and download their
+data yourself. What we add as a value is that we help to connect their
+files across time (from different years) or across these programs.&lt;/p&gt;
+&lt;p&gt;The survey programs mentioned above publish their data in the
+proprietary SPSS format. This file format can be imported and translated
+to R objects with the haven package; however, we needed to re-design
+&lt;a href=&#34;https://haven.tidyverse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;haven’s&lt;/a&gt;
+&lt;a href=&#34;https://haven.tidyverse.org/reference/labelled_spss.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;labelled_spss&lt;/a&gt;
+class to maintain far more metadata, which, in turn, a modification of
+the &lt;a href=&#34;&#34;&gt;labelled&lt;/a&gt; class. The haven package was designed and tested with
+data stored in individual SPSS files.&lt;/p&gt;
+&lt;p&gt;The author of labelled, Joseph Larmarange describes two main approaches
+to work with labelled data, such as SPSS’s method to store categorical
+data in the &lt;a href=&#34;http://larmarange.github.io/labelled/articles/intro_labelled.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to
+labelled&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-two-main-approaches-of-labelled-data-conversion&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;img/larmarange_approaches_to_labelled.png&#34; alt=&#34;Two main approaches of labelled data conversion.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Two main approaches of labelled data conversion.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Our approach is a further extension of &lt;strong&gt;Approach B&lt;/strong&gt;. Survey
+harmonization in our case always means the joining data from several
+SPSS files, which requires a consistent coding among several data
+sources. This means that data cleaning and recoding must take place
+before conversion to factors, character or numeric vectors. This is
+particularly important with factor data (and their simple character
+conversions) and numeric data that occasionally contains labels, for
+example, to describe the reason why certain data is missing. Our
+tutorial vignette
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/labelled_spss_survey.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;labelled_spss_survey&lt;/a&gt;
+gives you more information about this.&lt;/p&gt;
+&lt;p&gt;In the next series of tutorials, we will deal with an array of problems.
+These are not for the faint heart – you need to have a solid
+intermediate level of R to follow.&lt;/p&gt;
+&lt;h2 id=&#34;tidy-joined-survey-data&#34;&gt;Tidy, joined survey data&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The original files identifiers may not be unique, we have to create
+new, truly unique identifiers. Weighting may not be straightforward.&lt;/li&gt;
+&lt;li&gt;Neither the number of observations or the number of variables (which
+represents the survey questions and their translation to coded data)
+is the same. Certain data may be only present in one survey and not
+the other. This means that you will likely to run loops on lists and
+not data.frames, but eventually you must carefully join them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;class-conversion&#34;&gt;Class conversion&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Similar questions may be imported from a non-native R format, in our
+case, from an SPSS files, in an inconsistent manner. SPSS’s variable
+formats cannot be translated unambiguously to R classes.
+&lt;code&gt;retroharmonize&lt;/code&gt; introduced a new S3 class system that handles this
+problem, but eventually you will have to choose if you want to see a
+numeric or character coding of each categorical variable.&lt;/li&gt;
+&lt;li&gt;The harmonized surveys, with harmonized variable names and
+harmonized value labels, must be brought to consistent R
+representations (most statistical functions will only work on
+numeric, factor or character data) and carefully joined into a
+single data table for analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;harmonization-of-variables-and-variable-labels&#34;&gt;Harmonization of variables and variable labels&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Same variables may come with dissimilar variable names and variable
+labels. It may be a challenge to match age with age. We need to
+harmonize the names of variables.&lt;/li&gt;
+&lt;li&gt;The harmonized variables may have different labeling. One may call
+refused answers as &lt;code&gt;declined&lt;/code&gt; and the other &lt;code&gt;refusal&lt;/code&gt;. On a simple
+choice, climate change may be ‘Climate change’ or
+&lt;code&gt;Problem: Climate change&lt;/code&gt;. Binary choices may have survey-specific
+coding conventions. Value labels must be harmonized. There are good
+tools to do this in a single file - but we have to work with several
+of them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;missing-value-harmonization&#34;&gt;Missing value harmonization&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;There are likely to be various types of &lt;code&gt;missing values&lt;/code&gt;. Working
+with missing values is probably where most human judgment is needed.
+Why are some answers missing: was the question not asked in some
+questionnaires? Is there a coding error? Did the respondent refuse
+the question, or sad that she did not have an answer?
+&lt;code&gt;retroharmonize&lt;/code&gt; has a special labeled vector type that retains this
+information from the raw data, if it is present, but you must make
+the judgment yourself – in R, eventually you will either create a
+missing category, or use &lt;code&gt;NA_character_&lt;/code&gt; or &lt;code&gt;NA_real_&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That’s a lot to put on your plate.&lt;/p&gt;
+&lt;p&gt;It is unlikely that you will be able to work with completely unfamiliar
+survey programs if you do not have a strong intermediate level of R. Our
+package comes with tutorials for
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/eurobarometer.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer&lt;/a&gt;,
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/afrobarometer.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Afrobarometer&lt;/a&gt;
+and our development version already covers Arab Barometer, highlighting
+some peculiar issues with these survey programs, that we hope to give a
+head start for less experienced R users.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eurobarometer Surveys Used In Our Project</title>
+      <link>https://eviota.eu/post/2021-03-04-eurobarometer_data/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://eviota.eu/post/2021-03-04-eurobarometer_data/</guid>
+      <description>&lt;p&gt;In our &lt;a href=&#34;http://netzero.dataobservatory.eu/post/2021-03-04_retroharmonize_intro/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial
+series&lt;/a&gt;,
+we are going to harmonize the following questionnaire items from five
+Eurobarometer harmonized survey files. The Eurobarometer survey files
+are harmonized across countries, but they are only partially harmonized
+in time.&lt;/p&gt;
+&lt;p&gt;All data must be downloaded from the
+&lt;a href=&#34;https://www.gesis.org/en/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GESIS&lt;/a&gt; Data Archive in Cologne. We are
+not affiliated with GESIS and you must read and accept their terms to
+use the data.&lt;/p&gt;
+&lt;h2 id=&#34;eurobarometer-802-2013&#34;&gt;Eurobarometer 80.2 (2013)&lt;/h2&gt;
+&lt;p&gt;GESIS Data Archive, Cologne. ZA5877 Data file Version 2.0.0,
+&lt;a href=&#34;https://doi.org/10.4232/1.12792&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.12792&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data file: &lt;a href=&#34;https://search.gesis.org/research_data/ZA5877&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6595&lt;/a&gt;
+data file (European Commission 2017).&lt;/li&gt;
+&lt;li&gt;Questionnaire: &lt;a href=&#34;https://dbk.gesis.org/dbksearch/download.asp?id=54036&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer 83.4 Basic Bilingual
+Questionnaire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Citation: &lt;a href=&#34;https://search.gesis.org/ajax/bibtex.php?type=research_data&amp;amp;docid=ZA5877&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6595
+Bibtex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;QA1a Which of the following do you consider to be the single most serious problem facing the world as a whole?&lt;/code&gt;
+(single choice)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QA1b Which others do you consider to be serious problems?&lt;/code&gt; (multiple
+choice)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QA2 And how serious a problem do you think climate change is at this moment? Please use a scale from 1 to 10, with &#39;1&#39; meaning it is &amp;quot;not at all a serious problem&lt;/code&gt;
+(scale 1-10)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QA4 To what extent do you agree or disagree with each of the following statements? - Fighting climate change and using energy more efficiently can boost the economy and jobs in the EU&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QA4 To what extent do you agree or disagree with each of the following statements? - Reducing fossil fuel imports from outside the EU could benefit the EU economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QA5 Have   you personally  taken   any action  to  fight   climate change  over    the past    six months?&lt;/code&gt;
+(binary)&lt;/p&gt;
+&lt;h2 id=&#34;eurobarometer-834-2015&#34;&gt;Eurobarometer 83.4 (2015)&lt;/h2&gt;
+&lt;p&gt;European Commission, Brussels; Directorate General Communication
+COMM.A.1 ´Strategy, Corporate Communication Actions and
+Eurobarometer´GESIS Data Archive, Cologne. ZA6595 Data file Version
+3.0.0, &lt;a href=&#34;https://doi.org/10.4232/1.13146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13146&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data file: &lt;a href=&#34;https://search.gesis.org/research_data/ZA6595&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6595&lt;/a&gt;
+data file (European Commission 2018).&lt;/li&gt;
+&lt;li&gt;Questionnaire: &lt;a href=&#34;https://dbk.gesis.org/dbksearch/download.asp?id=57940&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer 83.4 Basic Bilingual
+Questionnaire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Citation: &lt;a href=&#34;https://search.gesis.org/ajax/bibtex.php?type=research_data&amp;amp;docid=ZA6595&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6595
+Bibtex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;eurobarometer-871-2017&#34;&gt;Eurobarometer 87.1 (2017)&lt;/h2&gt;
+&lt;p&gt;European Commission, Brussels; Directorate General Communication,
+COMM.A.1 ‘Strategic Communication’; European Parliament,
+Directorate-General for Communication, Public Opinion Monitoring Unit
+GESIS Data Archive, Cologne. ZA6861 Data file Version 1.2.0,
+&lt;a href=&#34;https://doi.org/10.4232/1.12922&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.12922&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data file: &lt;a href=&#34;https://search.gesis.org/research_data/ZA6861&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6861&lt;/a&gt;
+data file.&lt;/li&gt;
+&lt;li&gt;Questionnaire: &lt;a href=&#34;https://dbk.gesis.org/dbksearch/download.asp?id=65967&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer 90.2 Basic Bilingual
+Questionnaire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Citation: &lt;a href=&#34;https://search.gesis.org/ajax/bibtex.php?type=research_data&amp;amp;docid=ZA6861&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6861
+Bibtex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;QC1a Which of the following do you consider to be the single most serious problem facing the world as a whole?&lt;/code&gt;
+(single choice)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QC1b Which others do you consider to be serious problems?&lt;/code&gt; (multiple
+choice)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QC2 And how serious a problem do you think climate change is at this moment? Please use a scale from 1 to 10, with &#39;1&#39; meaning it is &amp;quot;not at all a serious problem&lt;/code&gt;
+(scale 1-10)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc4 To what extent do you agree or disagree with each of the following statements? - Fighting  climate change  and using   energy  more    efficiently can boost   the economy and jobs in the EU&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc4 To what extent do you agree or disagree with each of the following statements? - Promoting EU  expertise   in  new clean   technologies    to countries    outside the EU  can benefit the  EU economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc4 To what extent do you agree or disagree with each of the following statements? - Reducing  fossil  fuel    imports from    outside the EU  can benefit the EU  economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc4 To what extent do you agree or disagree with each of the following statements? - Reducing  fossil  fuel    imports from    outside the EU  can increase    the security    of  EU  energy  supplies&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc4 To what extent do you agree or disagree with each of the following statements? - More  public  financial   support should  be  given   to  the transition to   clean   energies    even    if  it  means   subsidies   to  fossil  fuels   should  be  reduced.&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc5 Have   you personally  taken   any action  to  fight   climate change  over    the past    six months?&lt;/code&gt;
+(binary)&lt;/p&gt;
+&lt;h2 id=&#34;eurobarometer-902-2018&#34;&gt;Eurobarometer 90.2 (2018)&lt;/h2&gt;
+&lt;p&gt;European Commission, Brussels; Directorate General Communication,
+COMM.A.3 ‘Media Monitoring and Eurobarometer’ GESIS Data Archive,
+Cologne. ZA7488 Data file Version 1.0.0,
+&lt;a href=&#34;https://doi.org/10.4232/1.13289&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13289&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data file:
+&lt;a href=&#34;https://dbk.gesis.org/dbksearch/sdesc2.asp?db=e&amp;amp;no=7488&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA7488&lt;/a&gt;
+data file (European Commission 2019a)&lt;/li&gt;
+&lt;li&gt;Questionnaire: &lt;a href=&#34;https://dbk.gesis.org/dbksearch/download.asp?id=65967&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer 90.2 Basic Bilingual
+Questionnaire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Citation: &lt;a href=&#34;https://search.gesis.org/ajax/bibtex.php?type=research_data&amp;amp;docid=ZA7488&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA7488
+Bibtex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;QB5 To what extent do you agree or disagree with each of the following statements? - Fighting  climate change  and using   energy  more    efficiently can boost   the economy and jobs in the EU&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB5 To what extent do you agree or disagree with each of the following statements? - Promoting EU  expertise   in  new clean   technologies    to countries    outside the EU  can benefit the  EU economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB5 To what extent do you agree or disagree with each of the following statements? - Reducing  fossil  fuel    imports from    outside the EU  can benefit the EU  economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB5 To what extent do you agree or disagree with each of the following statements? - Reducing  fossil  fuel    imports from    outside the EU  can increase    the security    of  EU  energy  supplies&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB5 To what extent do you agree or disagree with each of the following statements? - More  public  financial   support should  be  given   to  the transition to   clean   energies    even    if  it  means   subsidies   to  fossil  fuels   should  be  reduced.&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;h2 id=&#34;eurobarometer-913-2019&#34;&gt;Eurobarometer 91.3 (2019)&lt;/h2&gt;
+&lt;p&gt;European Commission, Brussels; Directorate General Communication,
+COMM.A.3 ‘Media Monitoring and Eurobarometer’ GESIS Data Archive,
+Cologne. ZA7572 Data file Version 1.0.0,
+&lt;a href=&#34;https://doi.org/10.4232/1.13372&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13372&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data file:
+&lt;a href=&#34;https://dbk.gesis.org/dbksearch/sdesc2.asp?db=e&amp;amp;no=7572&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA7572&lt;/a&gt;
+data file (European Commission 2019b).&lt;/li&gt;
+&lt;li&gt;Questionnaire: &lt;a href=&#34;https://dbk.gesis.org/dbksearch/download.asp?id=66774&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer 91.3 Basic Bilingual
+Questionnaire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Citation: &lt;a href=&#34;https://search.gesis.org/ajax/bibtex.php?type=research_data&amp;amp;docid=ZA7572&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA7572
+Bibtex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;QB4 To what extent do you agree or disagree with each of the following statements? - Taking action on climate change will lead to innovation that will make EU companies more competitive (N)&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB4 To what extent do you agree or disagree with each of the following statements? - Promoting EU  expertise   in  new clean   technologies    to countries    outside the EU  can benefit the  EU economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB4 To what extent do you agree or disagree with each of the following statements? - Reducing  fossil  fuel    imports from    outside the EU  can benefit the EU  economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB4 To what extent do you agree or disagree with each of the following statements? - Adapting to the adverse impacts of climate change can have positive outcomes for citizens in the EU&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB5 Have   you personally  taken   any action  to  fight   climate change  over    the past    six months?&lt;/code&gt;
+(binary)&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;European Commission, Brussels. 2017. “Eurobarometer 80.2 (2013).” GESIS
+Data Archive, Cologne. ZA5877 Data file Version 2.0.0,
+&lt;a href=&#34;https://doi.org/10.4232/1.12792&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.12792&lt;/a&gt;. &lt;a href=&#34;https://doi.org/10.4232/1.12792&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.12792&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;———. 2018. “Eurobarometer 83.4 (2015).” GESIS Data Archive, Cologne.
+ZA6595 Data file Version 3.0.0, &lt;a href=&#34;https://doi.org/10.4232/1.13146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13146&lt;/a&gt;.
+&lt;a href=&#34;https://doi.org/10.4232/1.13146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13146&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;———. 2019a. “Eurobarometer 90.2 (2018).” GESIS Data Archive, Cologne.
+ZA7488 Data file Version 1.0.0, &lt;a href=&#34;https://doi.org/10.4232/1.13289&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13289&lt;/a&gt;.
+&lt;a href=&#34;https://doi.org/10.4232/1.13289&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13289&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;———. 2019b. “Eurobarometer 91.3 (2019).” GESIS Data Archive, Cologne.
+ZA7572 Data file Version 1.0.0, &lt;a href=&#34;https://doi.org/10.4232/1.13372&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13372&lt;/a&gt;.
+&lt;a href=&#34;https://doi.org/10.4232/1.13372&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13372&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Copernicus | Eviota</title>
+    <link>https://eviota.eu/tag/copernicus/</link>
+      <atom:link href="https://eviota.eu/tag/copernicus/index.xml" rel="self" type="application/rss+xml" />
+    <description>Copernicus</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 06 Jun 2021 10:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <title>Copernicus</title>
+      <link>https://eviota.eu/tag/copernicus/</link>
+    </image>
+    
+    <item>
+      <title>Join Copernicus Climate Data Store Data with Socio-Economic and Opinion Poll Data</title>
+      <link>https://eviota.eu/post/2021-06-06-tutorial-cds/</link>
+      <pubDate>Sun, 06 Jun 2021 10:00:00 +0000</pubDate>
+      <guid>https://eviota.eu/post/2021-06-06-tutorial-cds/</guid>
+      <description>&lt;p&gt;In this series of blogposts we will show how to collect environmental
+data from the EU’s &lt;a href=&#34;https://cds.climate.copernicus.eu/#!/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copernicus Climate Data
+Store&lt;/a&gt;, and bring it to a
+data format that you can join with Eurostat’s socio-economic and
+environmental data. We have shown in &lt;a href=&#34;https://greendeal.dataobservatory.eu/post/2021-04-23-belgium-flood-insurance/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a previous
+blogpost&lt;/a&gt;
+how to connect this to survey (opinion poll) and tax data, and a real
+policy problem in Belgium. We will create now subsequent tutorials to do
+more!&lt;/p&gt;
+&lt;p&gt;But first, why are we doing this? The European Union and its members
+states are releasing every year more and more data for open re-use since
+2003, yet these are often not used in the EU’s data dissemination
+projects (the observatories) or in EU-funded research. We believe that
+there are &lt;a href=&#34;https://greendeal.dataobservatory.eu/project/eu-datathon_2021/#problem-statement&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;many
+reasons&lt;/a&gt;
+behind this. Whilst more and more people can conduct business,
+scientific or policy analysis programmatically or with statistical
+software, knowledge how to systematically collect the data from the
+exponentially growing availability is not everybody’s specialty. And the
+lack of documentation, and high re-processing and validation need for
+open data is another drawback.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ropengov.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; has long been producing high-quality,
+peer-reviewed R packages to work with open data, but their use is not
+for all. In an open collaboration, where you can join, too, rOpenGov
+&lt;a href=&#34;https://greendeal.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;teamed up&lt;/a&gt; with
+open source developers, knowledgeable data curators, and a service
+developer team lead by the Dutch reproducible research start-up
+&lt;a href=&#34;https://reprex.nl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reprex&lt;/a&gt; to create a sustainable infrastructure that
+is permanently collecting, processing, documenting and visualizing open
+data. What we do is that we access open data (that is not always
+available for direct download) and re-process it to usable data that is
+&lt;a href=&#34;https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidy&lt;/a&gt;
+to be integrated with your existing data or databases. We are competing
+for the &lt;a href=&#34;https://greendeal.dataobservatory.eu/project/eu-datathon_2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EU
+Datathon&lt;/a&gt;
+Challenge 1: supporting a European Green Deal agenda with open data as a
+service, and research as a servcie, and you are more than welcome to
+join our effort as a developer, a data curator, or as an occasional
+contributor to open government packages.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp 400w,
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_3250accecb68b0ec9716afed72d0f77e.webp 760w,
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;register-to-the-copernicus-climate-data-store&#34;&gt;Register to the Copernicus Climate Data Store&lt;/h2&gt;
+&lt;p&gt;Koen Hufkens, Reto Stauffer and Elio Campitelli created the
+&lt;a href=&#34;https://bluegreen-labs.github.io/ecmwfr/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ecmwfr&lt;/a&gt; R package
+for programmatically accessing the Copernicus Data Store service. Follow
+the &lt;a href=&#34;https://bluegreen-labs.github.io/ecmwfr/articles/cds_vignette.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CDS Functionality
+vignette&lt;/a&gt;
+to get started.&lt;/p&gt;
+&lt;p&gt;You will need to create a &lt;a href=&#34;https://cds.climate.copernicus.eu/user/91923/edit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Register yourself for CDS
+services&lt;/a&gt; after
+accepting the &lt;a href=&#34;https://cds.climate.copernicus.eu/disclaimer-privacy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Terms and
+conditions&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/img/tutorials/register_to_cds_hub0b07c0de85c1c6f552b5959e300cde5_61323_bf70ade001619e999a885daf0f712a00.webp 400w,
+               /media/img/tutorials/register_to_cds_hub0b07c0de85c1c6f552b5959e300cde5_61323_92f833ed7a49aa44d59ff98c399f97dd.webp 760w,
+               /media/img/tutorials/register_to_cds_hub0b07c0de85c1c6f552b5959e300cde5_61323_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/tutorials/register_to_cds_hub0b07c0de85c1c6f552b5959e300cde5_61323_bf70ade001619e999a885daf0f712a00.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;427&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code&gt;wf_set_key(user:  &amp;quot;12345&amp;quot;, 
+           key:  &amp;quot;00000000-aaaa-b1b1-0000-a1a1a1a1a1a1&amp;quot;, 
+           service:  &amp;quot;cds&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can check if you were successful with:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ecmwfr::wf_get_key(user:  &amp;quot;12345&amp;quot;, service:  &amp;quot;cds&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;get-the-data&#34;&gt;Get the Data&lt;/h2&gt;
+&lt;p&gt;Let us formulate our first request:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;request_lai_hv_2019_06 &amp;lt;- list(
+  &amp;quot;dataset_short_name&amp;quot;:  &amp;quot;reanalysis-era5-land-monthly-means&amp;quot;,
+  &amp;quot;product_type&amp;quot;  :  &amp;quot;monthly_averaged_reanalysis&amp;quot;,
+  &amp;quot;variable&amp;quot;      :  &amp;quot;leaf_area_index_high_vegetation&amp;quot;,
+  &amp;quot;year&amp;quot;          :  &amp;quot;2019&amp;quot;,
+  &amp;quot;month&amp;quot;         :   &amp;quot;06&amp;quot;,
+  &amp;quot;time&amp;quot;          :  &amp;quot;00:00&amp;quot;,
+  &amp;quot;area&amp;quot;          :  &amp;quot;70/-20/30/60&amp;quot;,
+  &amp;quot;format&amp;quot;        :  &amp;quot;netcdf&amp;quot;,
+  &amp;quot;target&amp;quot;        :  &amp;quot;demo_file.nc&amp;quot;)
+
+lai_hv_2019_06.nc  &amp;lt;- wf_request(user:  &amp;quot;&amp;lt;your_ID&amp;gt;&amp;quot;,
+                     request:  request_lai_hv_2019_06 ,
+                     transfer:  TRUE,
+                     path:  &amp;quot;data-raw&amp;quot;,
+                     verbose:  FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;effective-leaf-area-index&#34;&gt;Effective Leaf Area Index&lt;/h2&gt;
+&lt;p&gt;You can find this data either in global computer raster images, or in
+re-processed monthly averages. Working with the raw data is not very
+practical – in case of cloudy weather you have missing data, and the
+files are extremely huge for a personal computer. For the purposes of
+our &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt;
+the monthly average values are far more practical, which are called
+&lt;code&gt;monthly_averaged_reanalysis&lt;/code&gt; product types.&lt;/p&gt;
+&lt;p&gt;For compatibility with other R packages, convert the data with the from
+&lt;a href=&#34;https://rspatial.org/raster/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;raster&lt;/a&gt; package from
+&lt;a href=&#34;https://rspatial.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rSpatial.org&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;lai_file &amp;lt;- here::here( &amp;quot;data-raw&amp;quot;, &amp;quot;demo_file.nc&amp;quot;)
+lai_raster &amp;lt;- raster::raster(lai_file)
+
+## Loading required namespace: ncdf4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let us convert this to a &lt;code&gt;SpatialDataPointsDataFrame&lt;/code&gt; class, which is an
+augmented data frame class with coordinates.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;LAI_df &amp;lt;- raster::rasterToPoints(lai_raster, fun=NULL, spatial=TRUE)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;get-the-map&#34;&gt;Get The Map&lt;/h2&gt;
+&lt;p&gt;With the help fo &lt;a href=&#34;http://ropengov.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt;, we are creating
+various R packages to programmatically access open data and put them
+into the right format. The popular
+&lt;a href=&#34;http://ropengov.github.io/eurostat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurostat&lt;/a&gt; package is not only
+useful to download data from Eurostat, but also to map it.&lt;/p&gt;
+&lt;p&gt;In this case, we want to create regional maps. Europe has five levels of
+geographical regions: &lt;code&gt;NUTS0&lt;/code&gt; for countries, &lt;code&gt;NUTS1&lt;/code&gt; for larger areas
+like states, provinces; &lt;code&gt;NUTS2&lt;/code&gt; for smaller areas like countries,
+&lt;code&gt;NUTS3&lt;/code&gt; for even smaller areas. The &lt;code&gt;LAU&lt;/code&gt; level contains settlemens and
+their surrounding areas.&lt;/p&gt;
+&lt;p&gt;Country borders change sometimes (think about the unification of
+Germany, or the breakup of Czechoslovakia and Yugoslavia), but they are
+relatively stable entities. Sub-national regional border change
+very-very frequently – since 2000 there were many thousand changes in
+Europe. This means that you must choose one regional boundary
+definition. The latest edition is &lt;code&gt;NUTS2021&lt;/code&gt; but most of the data
+available is still in the &lt;code&gt;NUTS2016&lt;/code&gt; format, and often you will find
+&lt;code&gt;NUTS2013&lt;/code&gt; or even &lt;code&gt;NUTS2010&lt;/code&gt; data around. Our &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data
+Observatory&lt;/a&gt; uses the &lt;code&gt;NUTS2016&lt;/code&gt;
+definition, because it is far the most used in 2021. An offspring of the
+&lt;a href=&#34;http://ropengov.github.io/eurostat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurostat&lt;/a&gt; package,
+&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; helps you take care of
+NUTS changes when you work, and can convert your data to &lt;code&gt;NUTS2021&lt;/code&gt; if
+you later need it.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## sf at resolution 1:60 read from local file
+
+## Warning in eurostat::get_eurostat_geospatial(resolution:  &amp;quot;60&amp;quot;, nuts_level: 
+## &amp;quot;2&amp;quot;, : Default of &#39;make_valid&#39; for &#39;output_class=&amp;quot;sf&amp;quot;&#39; will be changed in the
+## future (see function details).
+
+plot(map_nuts_2)
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/img/tutorials/cds_tutorial_plot_1_hue23442eb5edee4c705b69c6160645e77_6309_00bf66866999e071c262a0963b7726e5.webp 400w,
+               /media/img/tutorials/cds_tutorial_plot_1_hue23442eb5edee4c705b69c6160645e77_6309_28265a8228e87ca8ef84824993690bcf.webp 760w,
+               /media/img/tutorials/cds_tutorial_plot_1_hue23442eb5edee4c705b69c6160645e77_6309_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/tutorials/cds_tutorial_plot_1_hue23442eb5edee4c705b69c6160645e77_6309_00bf66866999e071c262a0963b7726e5.webp&#34;
+               width=&#34;672&#34;
+               height=&#34;480&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;Our measurement of the average Effective Leaf Area Index is a raster
+data, it is given for many points of Europe’s map. What we need to do is
+to overlay this raster information of the statistical map of Europe. We
+use the excellent &lt;a href=&#34;https://github.com/edzer/sp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sp: R Classes and Methods for Spatial
+Data&lt;/a&gt; package for this purpose. The
+&lt;code&gt;sp::over()&lt;/code&gt; function decides if a point of Leaf Area Index measurement
+falls into the polygon (shape) of a particular NUTS2 regions, for
+example, Zuid-Holland or South Holland in the Netherlands, or Saarland
+in Germany, or not. Then it averages with the &lt;code&gt;mean()&lt;/code&gt; function those
+measurements falling in the area.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;LAI_nuts_2:  sp::over(sp::geometry(
+  as(map_nuts_2, &#39;Spatial&#39;)), 
+  LAI_df,
+  fn=mean)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s call the average LAI index &lt;code&gt;lai&lt;/code&gt;, and bind it to the Eurostat map:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;names(LAI_nuts_2)[1] &amp;lt;- &amp;quot;lai&amp;quot;
+LAI_sfdf &amp;lt;- bind_cols ( map_nuts_2, LAI_nuts_2 )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you want to work with the data in a numeric context, you do not need
+the geographical information, and you can “downgrade” the
+&lt;code&gt;SpatialDataPointsDataFrame&lt;/code&gt; to a simple data frame.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(2019) #to always see the same sample
+LAI_sfdf %&amp;gt;%
+  as.data.frame() %&amp;gt;%
+  select ( all_of(c(&amp;quot;NUTS_NAME&amp;quot;, &amp;quot;NUTS_ID&amp;quot;, &amp;quot;lai&amp;quot;)) ) %&amp;gt;%
+  sample_n(10)
+
+##                      NUTS_NAME NUTS_ID lai
+## 281                       Vest    RO42  NA
+## 125                     Kassel    DE73  NA
+## 69              Friesland (NL)    NL12  NA
+## 237 Agri, Kars, Igdir, Ardahan    TRA2  NA
+## 273                East Anglia    UKH1  NA
+## 119                Prov. Liège    BE33  NA
+## 61                   Bourgogne    FRC1  NA
+## 275                      Essex    UKH3  NA
+## 282                   Istanbul    TR10  NA
+## 174                    Leipzig    DED5  NA
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We’ll plot the map with &lt;a href=&#34;https://ggplot2.tidyverse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ggplot2&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;library(ggplot2)
+library(sf)
+ggplot(data=LAI_sfdf) + 
+  geom_sf(aes(fill=lai),
+          color=&amp;quot;dim grey&amp;quot;, size=.1) + 
+  scale_fill_gradient( low: &amp;quot;#FAE000&amp;quot;, high:  &amp;quot;#00843A&amp;quot;) +
+  guides(fill:  guide_legend(reverse=T, title:  &amp;quot;LAI&amp;quot;)) +
+  labs(title=&amp;quot;Leaf Area Index&amp;quot;,
+       subtitle:  &amp;quot;High vegetation half, NUTS2 regional avareage values&amp;quot;,
+       caption=&amp;quot;\ua9 EuroGeographics for the administrative boundaries 
+                \ua9 Copernicus Data Service, June 2019 average values
+                Tutorial and ready-to-use data on greendeal.dataobservatory.eu&amp;quot;) +
+  theme_light() + theme(legend.position=c(.88,.78)) +
+  coord_sf(xlim=c(-22,48), ylim=c(34,70))
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/img/tutorials/LAI_plot_demo_hu4d370a736e40349b168ee924157b9365_71580_e36c601565f21c35efd1c5c8858ec5e9.webp 400w,
+               /media/img/tutorials/LAI_plot_demo_hu4d370a736e40349b168ee924157b9365_71580_d6621addc530408eab0e7f4bdd6783aa.webp 760w,
+               /media/img/tutorials/LAI_plot_demo_hu4d370a736e40349b168ee924157b9365_71580_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/tutorials/LAI_plot_demo_hu4d370a736e40349b168ee924157b9365_71580_e36c601565f21c35efd1c5c8858ec5e9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;data-integrity&#34;&gt;Data Integrity&lt;/h2&gt;
+&lt;p&gt;Our &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt;
+has a data API where we place the new data with metadata for
+programmatic download in CSV, JSON or even with SQL queries. For data
+integrity purposes, we are placing an authoritative copy on &lt;a href=&#34;https://zenodo.org/communities/greendeal_observatory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo
+(Green Deal Data Observatory
+Community)&lt;/a&gt;. You
+can use this for scientific citations. We are also happy if you place
+your own climate policy related research data here, so that we can
+include it in our observatory. In our subsequent tutorials, we will show
+how to do this programmatically in R. This particular dataset (not only
+with the month June, which we selected to streamline the tutorial) is
+available &lt;a href=&#34;https://zenodo.org/record/4903940#.YLyYrqgzbIU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; with
+the digital object identifier
+&lt;a href=&#34;http://doi.org/10.5281/zenodo.4903940&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doi.org/10.5281/zenodo.4903940&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;join-us&#34;&gt;Join us&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://eviota.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://eviota.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://eviota.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in antitrust, innovation policy or economic impact analysis? Try our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data-observatory | Eviota</title>
+    <link>https://eviota.eu/tag/data-observatory/</link>
+      <atom:link href="https://eviota.eu/tag/data-observatory/index.xml" rel="self" type="application/rss+xml" />
+    <description>data-observatory</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 21 May 2021 20:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://eviota.eu/media/icon_hucb5b60c3ce6d78a39dc1b8454aefe125_21353_512x512_fill_lanczos_center_3.png</url>
+      <title>data-observatory</title>
+      <link>https://eviota.eu/tag/data-observatory/</link>
+    </image>
+    
+    <item>
+      <title>The Green Deal Data Observatory is Contesting the EU Datathon 2021 Prize</title>
+      <link>https://eviota.eu/post/2021-05-21-eu-datathon-2021/</link>
+      <pubDate>Fri, 21 May 2021 20:00:00 +0000</pubDate>
+      <guid>https://eviota.eu/post/2021-05-21-eu-datathon-2021/</guid>
+      <description>&lt;p&gt;Reprex, a Dutch start-up enterprise formed to utilize open source software and open data, is looking for partners in an agile, open collaboration to win at least one of the three EU Datathon Prizes. We are looking for policy partners, academic partners and a consultancy partner. Our project is based on agile, open collaboration with three types of contributors.&lt;/p&gt;
+&lt;p&gt;With our competing prototypes we want to show that we have a research automation technology that can find open data, process it and validate it into high-quality business, policy or scientific indicators, and release it with daily refreshments in a modern API.&lt;/p&gt;
+&lt;p&gt;We are looking for institutions to challenge us with their data problems, and sponsors to increase our capacity. Over then next 5 months, we need to find a sustainable business model for a high-quality and open alternative to other public data programs.&lt;/p&gt;
+&lt;h2 id=&#34;the-eu-datathon-2021-challenge&#34;&gt;The EU Datathon 2021 Challenge&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;To take part, you should propose the development of an application that links and uses open datasets.&lt;/em&gt; - our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data curator team&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Your application &amp;hellip; is also expected to find suitable new approaches and solutions to help Europe achieve important goals set by the European Commission through the use of open data.&lt;/em&gt;” - this application is developed by our &lt;a href=&#34;https://greendeal.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;technology contributors&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Your application should showcase opportunities for concrete business models or social enterprises.&lt;/em&gt; - our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;service development team&lt;/a&gt; is working to make this happen!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We use open source software and open data. The applications are hosted on the cloud resources of &lt;a href=&#34;#reprex&#34;&gt;Reprex&lt;/a&gt;, an early-stage technology startup currently building a viable, open-source, open-data business model to create reproducible research products.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We are working together with experts in the domain as curators (check out our guidelines if you want to join: &lt;a href=&#34;https://curators.dataobservatory.eu/data-curators.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data Curators: Get Inspired!&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Our development team works on an open collaboration basis. Our indicator R packages, and our services are developed together with &lt;a href=&#34;https://music.dataobservatory.eu/author/ropengov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mission-statement&#34;&gt;Mission statement&lt;/h2&gt;
+&lt;p&gt;We want to win an &lt;a href=&#34;https://op.europa.eu/en/web/eudatathon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EU Datathon prize&lt;/a&gt; by processing the vast, already-available governmental and scientific open data made usable for policy-makers, scientific researchers, and business researcher end-users.&lt;/p&gt;
+&lt;p&gt;“&lt;em&gt;To take part, you should propose the development of an application that links and uses open datasets. Your application should showcase opportunities for concrete business models or social enterprises. It is also expected to find suitable new approaches and solutions to help Europe achieve important goals set by the European Commission through the use of open data.&lt;/em&gt;”&lt;/p&gt;
+&lt;p&gt;We aim to win at least one first prize in the EU Datathon 2021. We are contesting &lt;strong&gt;all three&lt;/strong&gt; challenges, which are related to the EU’s official strategic policies for the coming decade.&lt;/p&gt;
+&lt;h2 id=&#34;challenge-1-a-european-grean-deel&#34;&gt;Challenge 1: A European Grean Deel&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-our-green-deal-data-observatory-connects-socio-economic-and-environmental-data-to-help-understanding-and-combating-climate-change&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Our Green Deal Data Observatory connects socio-economic and environmental data to help understanding and combating climate change.&#34; srcset=&#34;
+               /media/img/observatory_screenshots/GD_Observatory_opening_page_hucc13bb64069da5f1e36667b8db70b016_264112_57c130dac4ded4a481b6bb652578a723.webp 400w,
+               /media/img/observatory_screenshots/GD_Observatory_opening_page_hucc13bb64069da5f1e36667b8db70b016_264112_47561f8fdb4837762153f21c3e070e9a.webp 760w,
+               /media/img/observatory_screenshots/GD_Observatory_opening_page_hucc13bb64069da5f1e36667b8db70b016_264112_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/observatory_screenshots/GD_Observatory_opening_page_hucc13bb64069da5f1e36667b8db70b016_264112_57c130dac4ded4a481b6bb652578a723.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;350&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Our Green Deal Data Observatory connects socio-economic and environmental data to help understanding and combating climate change.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Challenge 1: &lt;a href=&#34;https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A European Green Deal&lt;/a&gt;, with a particular focus on the &lt;a href=&#34;https://ec.europa.eu/commission/presscorner/detail/en/ip_20_2323&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The European Climate Pact&lt;/a&gt;, the &lt;a href=&#34;https://ec.europa.eu/info/food-farming-fisheries/farming/organic-farming/organic-action-plan_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Organic Action Plan&lt;/a&gt;, and the &lt;a href=&#34;https://ec.europa.eu/commission/presscorner/detail/en/IP_21_111&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;New European Bauhaus&lt;/a&gt;, i.e., mitigation strategies.&lt;/p&gt;
+&lt;p&gt;Climate change and environmental degradation are an existential threat to Europe and the world. To overcome these challenges, the European Union created the European Green Deal strategic plan, which aims to make the EU’s economy sustainable by turning climate and environmental challenges into opportunities and making the transition just and inclusive for all.&lt;/p&gt;
+&lt;p&gt;Our &lt;a href=&#34;http://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt; is a modern reimagination of existing ‘data observatories’; currently, there are over 70 permanent international data collection and dissemination points. One of our objectives is to understand why the dozens of the EU’s observatories do not use open data and reproducible research. We want to show that open governmental data, open science, and reproducible research can lead to a higher quality and faster data ecosystem that fosters growth for policy, business, and academic data users.&lt;/p&gt;
+&lt;p&gt;We provide high quality, tidy data through a modern API which enables data flows between public and proprietary databases. We believe that introducing Open Policy Analysis standards with open data, open-source software, and research automation, can help the Green Deal policymaking process. Our collaboration is open for individuals, citizens scientists, research institutes, NGOS, and companies.&lt;/p&gt;
+&lt;h2 id=&#34;other-challenges&#34;&gt;Other Challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Challenge 2: &lt;a href=&#34;https://ec.europa.eu/info/strategy/priorities-2019-2024/economy-works-people_en#:~:text=Individuals%20and%20businesses%20in%20the,needs%20of%20the%20EU%27s%20citizens.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;An economy that works for people&lt;/a&gt;, with a particular focus on the &lt;a href=&#34;https://ec.europa.eu/info/strategy/priorities-2019-2024/economy-works-people/internal-market_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Single market strategy&lt;/a&gt;. Big data and automation create new inequalities and injustices and have the potential to create a jobless growth economy. Our &lt;a href=&#34;https://economy.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data Observatory&lt;/a&gt; is a fully automated, open source, open data observatory that produces new indicators from open data sources and experimental big data sources, with authoritative copies and a modern API.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Challenge 3: &lt;a href=&#34;https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Europe fit for the digital age&lt;/a&gt;, with a particular focus &lt;a href=&#34;https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/excellence-trust-artificial-intelligence_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Artificial Intelligence&lt;/a&gt;, the &lt;a href=&#34;https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/european-data-strategy_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Data Strategy&lt;/a&gt;, the &lt;a href=&#34;https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/digital-services-act-ensuring-safe-and-accountable-online-environment_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Services Act&lt;/a&gt;, &lt;a href=&#34;https://digital-strategy.ec.europa.eu/en/policies/digital-skills-and-jobs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Skills&lt;/a&gt; and &lt;a href=&#34;https://digital-strategy.ec.europa.eu/en/policies/connectivity&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Connectivity&lt;/a&gt;. The &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; (DMO) is a fully automated, open source, open data observatory that creates public datasets to provide a comprehensive view of the European music industry. It provides high-quality and timely indicators in all four pillars of the planned official European Music Observatory as a modern, open source and largely open data-based, automated, API-supported alternative solution for this planned observatory. The insight and methodologies we are refining in the DMO are applicable and transferable to about 60 other data observatories funded by the EU which do not currently employ governmental or scientific open data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our Product/Market Fit was validated in the world’s 2nd ranked university-backed incubator program, the &lt;a href=&#34;https://music.dataobservatory.eu/post/2020-09-25-yesdelft-validation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yes!Delft AI Validation Lab&lt;/a&gt;. We are currently developing this project with the help of the &lt;a href=&#34;https://www.jumpmusic.eu/fellow2021/automated-music-observatory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JUMP European Music Market Accelerator&lt;/a&gt; program.&lt;/p&gt;
+&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+&lt;p&gt;The EU has an 18-year-old open data regime and it makes public taxpayer-funded data in the values of tens of billions of euros per year; the Eurostat program alone handles 20,000 international data products, including at least 5,000 pan-European environmental indicators.&lt;/p&gt;
+&lt;p&gt;As open science principles gain increased acceptance, scientific researchers are making hundreds of thousands of valuable datasets public and available for replication every year.&lt;/p&gt;
+&lt;p&gt;The EU, the OECD, and UN institutions run around 100 data collection programs, so-called ‘data observatories’ that more or less avoid touching this data, and buy proprietary data instead. Annually, each observatory spends between 50 thousand and 3 million EUR on collecting untidy and proprietary data of inconsistent quality, while never even considering open data.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-our-automated-data-observatories-are-modern-reimaginations-of-the-existing-observatories-that-do-not-use-open-data-and-research-automation&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Our automated data observatories are modern reimaginations of the existing observatories that do not use open data and research automation.&#34; srcset=&#34;
+               /media/img/observatory_screenshots/observatory_collage_16x9_800_hu47f74f5cdae63c7248c2367b9d148671_353025_0079ea9844f6c5e52b52fd0e627467a2.webp 400w,
+               /media/img/observatory_screenshots/observatory_collage_16x9_800_hu47f74f5cdae63c7248c2367b9d148671_353025_ecd6d08ba5e9bac19c8173546f036651.webp 760w,
+               /media/img/observatory_screenshots/observatory_collage_16x9_800_hu47f74f5cdae63c7248c2367b9d148671_353025_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://eviota.eu/media/img/observatory_screenshots/observatory_collage_16x9_800_hu47f74f5cdae63c7248c2367b9d148671_353025_0079ea9844f6c5e52b52fd0e627467a2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Our automated data observatories are modern reimaginations of the existing observatories that do not use open data and research automation.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;The problem with the current EU data strategy is that while it produces enormous quantities of valuable open data, in the absence of common basic data science and documentation principles, it seems often cheaper to create new data than to put the existing open data into shape.&lt;/p&gt;
+&lt;p&gt;This is an absolute waste of resources and efforts. With a few R packages and our deep understanding of advanced data science techniques, we can create valuable datasets from unprocessed open data. In most domains, we are able to repurpose data originally created for other purposes at a historical cost of several billions of euros, converting these unused data assets into valuable datasets that can replace tens of millions’ worth of proprietary data.&lt;/p&gt;
+&lt;p&gt;What we want to achieve with this project – and we believe such an accomplishment would merit one of the first prizes - is to add value to a significant portion of pre-existing EU open data (for example, available on &lt;a href=&#34;https://data.europa.eu/data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data.europa.eu/data&lt;/a&gt;) by re-processing and integrating them into a modern, tidy database with an API access, and to find a business model that emphasises a triangular use of data in 1. business, 2. science and 3. policy-making. Our mission is to modernize the concept of &lt;code&gt;data observatories.&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

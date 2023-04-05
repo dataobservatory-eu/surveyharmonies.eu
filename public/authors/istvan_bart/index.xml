@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>István Bart | Eviota</title>
+    <link>https://eviota.eu/authors/istvan_bart/</link>
+      <atom:link href="https://eviota.eu/authors/istvan_bart/index.xml" rel="self" type="application/rss+xml" />
+    <description>István Bart</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://eviota.eu/authors/istvan_bart/avatar_huf325ca6d19996b136b53a118e86f9216_143921_270x270_fill_lanczos_center_3.png</url>
+      <title>István Bart</title>
+      <link>https://eviota.eu/authors/istvan_bart/</link>
+    </image>
+    
+  </channel>
+</rss>
