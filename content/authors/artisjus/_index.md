@@ -59,7 +59,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- institutional partners
+- survey partners
 ---
 
 **Artisjus** is a partner in the OpenMusE Consortium, an initiator of the former CEEMID project, and provides us with high-value and exclusive CAP survey data for developing further harmonization.

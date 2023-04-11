@@ -1,7 +1,7 @@
 ---
 # Project title.
-title: "Music Eviota"
-subtitle: "Sustainability reporting for music organizations" 
+title: "Audiovisual Surveys"
+subtitle: "Cultural Access, Participation & Production Surveys in Audiovisual Sectors" 
 
 # Date this page was created.
 date: 2022-06-09T09:40:00+01:00
@@ -11,7 +11,7 @@ lastmod: 2022-11-20T09:40:00+01:00
 summary: "We will help small music organizations in their sustainability reporting, where detail data and reporting standards are only available for greenhouse gas emissions."
 
 # Tags: can be used for filtering projects.
-tags: ["Music Eviota", "Eviota", "Sustainability", "European Green Deal", "MusicAIRE"]
+tags: ["SurveyHarmonies", "Film", "Film production"]
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

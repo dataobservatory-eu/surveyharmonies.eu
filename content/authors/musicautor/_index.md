@@ -39,19 +39,11 @@ social:
 - icon: laptop
   icon_pack: fas
   link: https://www.musicautor.org/en
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- institutional partners
+- survey partners
 ---
 
 **Musicautor/Музикаутор** is an organization of composers, authors and music publishers for collective management of copyright. Musicautor offers more than 95% of the world’s musical repertoire for the Bulgarian market. It represents over 3000 Bulgarian authors and also over 2 500 000 authors from all over the world, who are members of sister societies, with whom Musicautor has contracts for reciprocal representation.

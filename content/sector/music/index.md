@@ -1,7 +1,7 @@
 ---
 # Project title.
-title: "Music Eviota"
-subtitle: "Sustainability reporting for music organizations" 
+title: "Music Surveys"
+subtitle: "Cultural Access, Participation & Production Surveys in Live & Recorded Music" 
 
 # Date this page was created.
 date: 2022-06-09T09:40:00+01:00

@@ -1,6 +1,6 @@
 ---
 # Project title.
-title: "Cultural Access & Participation" 
+title: "Cultural Access & Participation Surveys" 
 subtitle: "Survey harmonisation for music industry stakeholders."  
 
 # Date this page was created.
@@ -11,7 +11,7 @@ lastmod: 2023-04-05T09:40:00+01:00
 summary: "We will help small music organizations in their sustainability reporting, where detail data and reporting standards are only available for greenhouse gas emissions."
 
 # Tags: can be used for filtering projects.
-tags: ["Music Eviota", "Eviota", "Sustainability", "European Green Deal", "MusicAIRE"]
+tags: ["CAP", "Open Music Europe"]
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
