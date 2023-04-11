@@ -5,7 +5,7 @@
     <link>https://surveyharmonies.eu/authors/admin/</link>
       <atom:link href="https://surveyharmonies.eu/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>SurveyHarmonies</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 Mar 2023 13:00:00 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Apr 2023 09:40:00 +0100</lastBuildDate>
     <image>
       <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>SurveyHarmonies</title>
@@ -13,306 +13,9 @@
     </image>
     
     <item>
-      <title>Open Data Day in The Hague 2023</title>
-      <link>https://surveyharmonies.eu/talk/open-data-day-in-the-hague-2023/</link>
-      <pubDate>Sun, 05 Mar 2023 13:00:00 +0100</pubDate>
-      <guid>https://surveyharmonies.eu/talk/open-data-day-in-the-hague-2023/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Reprex is a finalist for The Hague Innovators Award 2022, and the prize of the audience, in the startup category with our respectable competitors, Sibö, WECO, STHRIVE and ECOBLOQ.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Reprex will organize events on the International Open Data Day. Save the date in your calendar.&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/bgp-n55TKCk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Data Observatory Labs</title>
-      <link>https://surveyharmonies.eu/project/crea-innovlab-2023/</link>
-      <pubDate>Thu, 02 Mar 2023 13:40:00 +0100</pubDate>
-      <guid>https://surveyharmonies.eu/project/crea-innovlab-2023/</guid>
-      <description>&lt;td style=&#34;text-align: center;&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-check-out-our-slidesslidescrea-innovlab-2023-we-are-still-looking-for-certain-partnersprojectcrea-innovlab-2023potential-partners&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Check out our [slides](/slides/crea-innovlab-2023/). We are still looking for certain [partners](/project/crea-innovlab-2023/#potential-partners).&#34; srcset=&#34;
-               /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_7bd71fd8e70a273b3810f176737a6cba.webp 400w,
-               /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_1a4a4035938d7ffa013802bbb41a78c2.webp 760w,
-               /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_1200x1200_fit_q75_h2_lanczos_2.webp 1200w&#34;
-               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_7bd71fd8e70a273b3810f176737a6cba.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;428&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Check out our &lt;a href=&#34;https://surveyharmonies.eu/slides/crea-innovlab-2023/&#34;&gt;slides&lt;/a&gt;. We are still looking for certain &lt;a href=&#34;https://surveyharmonies.eu/project/crea-innovlab-2023/#potential-partners&#34;&gt;partners&lt;/a&gt;.
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
-&lt;p&gt;We want to build a network of Innovation Labs, connecting labs and businesses that bring these novel scientific and innovation results nearer to civil society actors, individual creators, and microenterprises in services. We bring data-, sustainability-, rights management innovation, and novel distribution models nearer to the grassroots level of creation. We want to transform scientific and technical development into business development available for small creative organizations without a data engineering/science function.&lt;/p&gt;
-&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
-  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#wp-coordination&#34;&gt;WP 1 Coordination&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#wp-survey-recycling&#34;&gt;WP Survey Recycling&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#wp-heritage-reuse&#34;&gt;WP Heritage Reuse&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#wp-big-data&#34;&gt;WP AI &amp;amp; Big Data That Works For Everyone&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#potential-partners&#34;&gt;Potential partners&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#in-90-secs-conceptual-introduction&#34;&gt;In 90 secs: conceptual introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&#34;wp-coordination&#34;&gt;WP 1 Coordination&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Reprex aims to coordinate this project with a dedicated, experienced Creative Europe project manager who is familiar with the music and audiovisual creation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Because of the project size and subsidy rate (60%) every partner must contribute to financing WP Project Coordination in proportion to their effective subsidies.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;wp-survey-recycling&#34;&gt;WP Survey Recycling&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Utilize the &lt;a href=&#34;https://reprex.nl/project/surveyharmonies/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;survey harmonization&lt;/a&gt; and recycling tools developed in music to be available for film, television, photography, and book publishing users.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Extend harmonized question banks, and remove interoperability and semantic barriers to reuse data from previous audience and policy surveys for these CCSIs.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Subsidize the initial costs in use to transfer from non-reusable market research to reusable, collaborative market research.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;wp-heritage-reuse&#34;&gt;WP Heritage Reuse&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Utilize the best practices from music archives, film archives, and private photography archives
-to remove copyright law, ethical, interoperability, and semantic barriers to mix archival/heritage and new content in music, film, and photography (including in books.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Create a special-purpose record label and audiovisual distributor that specializes in difficult, out-of-commerce/archival/commercial derivative work distribution on global streaming platforms.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Build a best practice for the legal and ethical public performance of derivative works that are made from archival/heritage (which were not deposited with the intent to be commercially used or widely circulated) and new creations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;wp-big-data&#34;&gt;WP AI &amp;amp; Big Data That Works For Everyone&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Utilize the best practices from data feminism, music, and film distribution of niche, marginalized content, and create a general framework that reduces inequalities created by lower data representation (of women, small countries, small languages) that result in new injustice on algorithmic platforms. See &lt;a href=&#34;https://reprex.nl/publication/european_visibilitiy_2022/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;publication&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Build new music, film, and photography information services that reduce the data imbalances, and make small language (for example, Estonian) or historically underrepresented (for example, female artists) more likely to be recommended by AI-driven algorithmic platforms such as YouTube, Spotify, or Amazon.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Create open source solutions and open knowledge that enables small, independent music, documentary, photography, and book publishers to build audiences, and monetize content with big data and AI algorithms that work for everyone, not only male artists, English language content, and mainstream works.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;potential-partners&#34;&gt;Potential partners&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Creative enterprises with good YouTube (+Vimeo and other) distribution and rights management track record.&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Market research, particularly survey based in film and television.&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Services for private collections/collectors.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;Who are we?&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ccsi.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCSI Data Observatory&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://greendeal.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Observatory&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;in-90-secs-conceptual-introduction&#34;&gt;In 90 secs: conceptual introduction&lt;/h2&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/bgp-n55TKCk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;⚙️/ subtitles/ 🇳🇱 🇬🇧 🇧🇦 🇨🇿 🇭🇺 🇩🇪 🇱🇹 🇫🇷 🇸🇰 🇪🇸 🇹🇷 + Catalan.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>LineCheck, Milano, IT</title>
-      <link>https://surveyharmonies.eu/talk/linecheck-milano-it/</link>
-      <pubDate>Thu, 24 Nov 2022 15:15:00 +0000</pubDate>
-      <guid>https://surveyharmonies.eu/talk/linecheck-milano-it/</guid>
-      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
-  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#green-deal-this-time-for-real&#34;&gt;Green Deal, this time for real&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#beta-test-our-sustainabilitiy-reporting-tool&#34;&gt;Beta test our sustainabilitiy reporting tool&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#digital-music-observatory-survive-in-the-music-business-without-a-data-engineer&#34;&gt;Digital Music Observatory: survive in the music business without a data engineer&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#harmonizing-surveys-on-gender-inequaliaty&#34;&gt;Harmonizing surveys on gender (in)equaliaty&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&#34;green-deal-this-time-for-real&#34;&gt;Green Deal, this time for real&lt;/h2&gt;
-&lt;p&gt;Daniel Antal, co-founder of Reprex will participate in the panel about on &lt;strong&gt;Thursday, November the 24th at 3.15pm&lt;/strong&gt;  about environment and sustainability in the music industry and introduce &lt;a href=&#34;https://surveyharmonies.eu/project/musiceviota/&#34;&gt;Eviota&lt;/a&gt;, our simplified, connected financial and sustainability reporting tool.&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    &lt;p&gt;At LineCheck X, you can find out more about our projects&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;You can get a free, total value chain based sustainability report. (Get in touch with us before 18 November)&lt;/li&gt;
-&lt;li&gt;We will demonstrate how you can eradicate packaging waste from your music events by making the packaging &lt;strong&gt;edible&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;And you can find out how we are trying to find where energy is &lt;a href=&#34;https://greendeal.dataobservatory.eu/post/2022-10-24_thermowatt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;going down the sewage&lt;/a&gt;, literally, with Thermowatt and the &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;beta-test-our-sustainabilitiy-reporting-tool&#34;&gt;Beta test our sustainabilitiy reporting tool&lt;/h3&gt;
-&lt;td style=&#34;text-align: center;&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-we-are-looking-for-beta-testers-for-our-simplified-sustainability-report-that-is-made-from-your-trial-balance-we-sign-and-nda-about-your-accounting-data-if-you-test-with-us-and-you-can-test-with-older-data-too-beta-testing-is-free&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;We are looking for beta testers for our simplified sustainability report that is made from your `trial balance`. We sign and NDA about your accounting data if you test with us, and you can test with older data, too. Beta testing is free.&#34; srcset=&#34;
-               /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_ba07bcb2cab6a041c8fa07a66f44c402.webp 400w,
-               /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_4a745162ba521fe0933b7f1e31de6032.webp 760w,
-               /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://surveyharmonies.eu/media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_ba07bcb2cab6a041c8fa07a66f44c402.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;428&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      We are looking for beta testers for our simplified sustainability report that is made from your &lt;code&gt;trial balance&lt;/code&gt;. We sign and NDA about your accounting data if you test with us, and you can test with older data, too. Beta testing is free.
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
-&lt;p&gt;Our solution benefits the music MSMEs and CSOs in several ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The European Commission estimates that the cost of connecting sustainability and finanical reporting will cost on average €10,000 for corporations. We want to bring down the voluntary reporting costs for MSMEs below €500 euro to benefit from &lt;code&gt;green loans&lt;/code&gt;, &lt;code&gt;green insurance&lt;/code&gt; and other &lt;code&gt;green financing&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; It provides them with a size adequate sustainability management and reporting tool that helps first the management of greenhouse gas emissions, and later sustainable water use, pollutions, biodiversity, and recycling in their entire value chain (for example, it flags environmental risks in the supply base of a festival including equipment rentals, transport, security firms, catering facilities, etc.) by connecting standard accounting documents of the MSME with SNA and EEA science based benchmarks.&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Our system will be extendible to management of social sustainability. We are also showcasing harmonized gender inequality data collection with our other project (see below.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;td style=&#34;text-align: center;&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/img/blogposts_2022/reprex_linecheck_2022_hu51661e0f756b9d3138ea612a8422b121_291613_f52b08ea0d84e55975bb2ee22879592f.webp 400w,
-               /media/img/blogposts_2022/reprex_linecheck_2022_hu51661e0f756b9d3138ea612a8422b121_291613_6032da401f74b485e4fa22ea11e75b56.webp 760w,
-               /media/img/blogposts_2022/reprex_linecheck_2022_hu51661e0f756b9d3138ea612a8422b121_291613_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2022/reprex_linecheck_2022_hu51661e0f756b9d3138ea612a8422b121_291613_f52b08ea0d84e55975bb2ee22879592f.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;428&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;&lt;/td&gt;
-&lt;h2 id=&#34;digital-music-observatory-survive-in-the-music-business-without-a-data-engineer&#34;&gt;Digital Music Observatory: survive in the music business without a data engineer&lt;/h2&gt;
-&lt;p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/bgp-n55TKCk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;small&gt;⚙️/ subtitles/ 🇳🇱 🇬🇧 🇧🇦 🇨🇿 🇭🇺 🇩🇪 🇱🇹 🇫🇷 🇸🇰 🇪🇸 🇹🇷 + Catalan. If you are there, please leave a 👍, too :)&lt;/small&gt;&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    &lt;ul&gt;
-&lt;li&gt;We will introduce &lt;strong&gt;Surveyharmonies&lt;/strong&gt;, a survey recycling and &lt;a href=&#34;https://music.dataobservatory.eu/post/2022-02-16-survey-harmonization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;survey harmonization tool&lt;/a&gt;. You can participate in our international gender bias survey in January 2023. Our team will also participate in the KeyChange Creative Lab on Friday, 25 November at 11.00.&lt;/li&gt;
-&lt;li&gt;You can learn about our &lt;strong&gt;Listen Local&lt;/strong&gt; project, which helps local music ecosystems remain visible on global platforms.&lt;/li&gt;
-&lt;li&gt;We will offer you a cup of tea or coffee in an edible cup.&lt;/li&gt;
-&lt;/ul&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;harmonizing-surveys-on-gender-inequaliaty&#34;&gt;Harmonizing surveys on gender (in)equaliaty&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; You can create better surveys with less cost: you only need to ask the information, or change of information, that is not included in our harmonized datasets. Shorter, better questionnaires, smaller samples sizes, huge cost savings.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; When you make questionnaire-based research, you immediately get a history (the same question asked years ago) and an international comparison (the same question asked in other countries.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Often you do not even have to pay for the survey, because somebody else has already made a similar taxpayer funded research and we can just get the data for you.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;td style=&#34;text-align: center;&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-survey-harmonization-is-a-powerful-research-tool-to-increase-the-usability-of-questionnaire-based-empirical-research-read-more-on-our-bloghttpsmusicdataobservatoryeupost2022-02-16-survey-harmonization&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Survey harmonization is a powerful research tool to increase the usability of questionnaire-based empirical research. Read more on [our blog](https://music.dataobservatory.eu/post/2022-02-16-survey-harmonization/).&#34; srcset=&#34;
-               /media/img/blogposts_2021/difficulty_bills_levels_hu78dfb92a43f00170e8390b0e5066e58e_221046_00525ad9e8cd67c5f65a3ddf0508cfcf.webp 400w,
-               /media/img/blogposts_2021/difficulty_bills_levels_hu78dfb92a43f00170e8390b0e5066e58e_221046_71eabed8441e8ba3b2b17c3c8c9bdbc0.webp 760w,
-               /media/img/blogposts_2021/difficulty_bills_levels_hu78dfb92a43f00170e8390b0e5066e58e_221046_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/difficulty_bills_levels_hu78dfb92a43f00170e8390b0e5066e58e_221046_00525ad9e8cd67c5f65a3ddf0508cfcf.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;570&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Survey harmonization is a powerful research tool to increase the usability of questionnaire-based empirical research. Read more on &lt;a href=&#34;https://music.dataobservatory.eu/post/2022-02-16-survey-harmonization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our blog&lt;/a&gt;.
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Cultural Access &amp; Participation</title>
       <link>https://surveyharmonies.eu/sector/cap/</link>
-      <pubDate>Thu, 09 Jun 2022 09:40:00 +0100</pubDate>
+      <pubDate>Wed, 05 Apr 2023 09:40:00 +0100</pubDate>
       <guid>https://surveyharmonies.eu/sector/cap/</guid>
       <description>&lt;td style=&#34;text-align: center;&#34;&gt;
 
@@ -671,6 +374,303 @@ reports and non-financial disclosures of the financial reports (which are not ma
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://surveyharmonies.eu/img/logos/EN_Co-Funded_by_the_EU_POS.png&#34; alt=&#34;Co-funded by the European Union&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Co-funded by the European Union
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Data Day in The Hague 2023</title>
+      <link>https://surveyharmonies.eu/talk/open-data-day-in-the-hague-2023/</link>
+      <pubDate>Sun, 05 Mar 2023 13:00:00 +0100</pubDate>
+      <guid>https://surveyharmonies.eu/talk/open-data-day-in-the-hague-2023/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Reprex is a finalist for The Hague Innovators Award 2022, and the prize of the audience, in the startup category with our respectable competitors, Sibö, WECO, STHRIVE and ECOBLOQ.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Reprex will organize events on the International Open Data Day. Save the date in your calendar.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/bgp-n55TKCk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Data Observatory Labs</title>
+      <link>https://surveyharmonies.eu/project/crea-innovlab-2023/</link>
+      <pubDate>Thu, 02 Mar 2023 13:40:00 +0100</pubDate>
+      <guid>https://surveyharmonies.eu/project/crea-innovlab-2023/</guid>
+      <description>&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-check-out-our-slidesslidescrea-innovlab-2023-we-are-still-looking-for-certain-partnersprojectcrea-innovlab-2023potential-partners&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Check out our [slides](/slides/crea-innovlab-2023/). We are still looking for certain [partners](/project/crea-innovlab-2023/#potential-partners).&#34; srcset=&#34;
+               /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_7bd71fd8e70a273b3810f176737a6cba.webp 400w,
+               /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_1a4a4035938d7ffa013802bbb41a78c2.webp 760w,
+               /media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_1200x1200_fit_q75_h2_lanczos_2.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2023/data_observatory_lab_hu744c975e010019d73fcd9c40a334bae6_51508_7bd71fd8e70a273b3810f176737a6cba.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Check out our &lt;a href=&#34;https://surveyharmonies.eu/slides/crea-innovlab-2023/&#34;&gt;slides&lt;/a&gt;. We are still looking for certain &lt;a href=&#34;https://surveyharmonies.eu/project/crea-innovlab-2023/#potential-partners&#34;&gt;partners&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;We want to build a network of Innovation Labs, connecting labs and businesses that bring these novel scientific and innovation results nearer to civil society actors, individual creators, and microenterprises in services. We bring data-, sustainability-, rights management innovation, and novel distribution models nearer to the grassroots level of creation. We want to transform scientific and technical development into business development available for small creative organizations without a data engineering/science function.&lt;/p&gt;
+&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#wp-coordination&#34;&gt;WP 1 Coordination&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#wp-survey-recycling&#34;&gt;WP Survey Recycling&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#wp-heritage-reuse&#34;&gt;WP Heritage Reuse&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#wp-big-data&#34;&gt;WP AI &amp;amp; Big Data That Works For Everyone&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#potential-partners&#34;&gt;Potential partners&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#in-90-secs-conceptual-introduction&#34;&gt;In 90 secs: conceptual introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;wp-coordination&#34;&gt;WP 1 Coordination&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Reprex aims to coordinate this project with a dedicated, experienced Creative Europe project manager who is familiar with the music and audiovisual creation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Because of the project size and subsidy rate (60%) every partner must contribute to financing WP Project Coordination in proportion to their effective subsidies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;wp-survey-recycling&#34;&gt;WP Survey Recycling&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Utilize the &lt;a href=&#34;https://reprex.nl/project/surveyharmonies/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;survey harmonization&lt;/a&gt; and recycling tools developed in music to be available for film, television, photography, and book publishing users.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Extend harmonized question banks, and remove interoperability and semantic barriers to reuse data from previous audience and policy surveys for these CCSIs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Subsidize the initial costs in use to transfer from non-reusable market research to reusable, collaborative market research.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;wp-heritage-reuse&#34;&gt;WP Heritage Reuse&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Utilize the best practices from music archives, film archives, and private photography archives
+to remove copyright law, ethical, interoperability, and semantic barriers to mix archival/heritage and new content in music, film, and photography (including in books.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a special-purpose record label and audiovisual distributor that specializes in difficult, out-of-commerce/archival/commercial derivative work distribution on global streaming platforms.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Build a best practice for the legal and ethical public performance of derivative works that are made from archival/heritage (which were not deposited with the intent to be commercially used or widely circulated) and new creations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;wp-big-data&#34;&gt;WP AI &amp;amp; Big Data That Works For Everyone&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Utilize the best practices from data feminism, music, and film distribution of niche, marginalized content, and create a general framework that reduces inequalities created by lower data representation (of women, small countries, small languages) that result in new injustice on algorithmic platforms. See &lt;a href=&#34;https://reprex.nl/publication/european_visibilitiy_2022/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;publication&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Build new music, film, and photography information services that reduce the data imbalances, and make small language (for example, Estonian) or historically underrepresented (for example, female artists) more likely to be recommended by AI-driven algorithmic platforms such as YouTube, Spotify, or Amazon.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create open source solutions and open knowledge that enables small, independent music, documentary, photography, and book publishers to build audiences, and monetize content with big data and AI algorithms that work for everyone, not only male artists, English language content, and mainstream works.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;potential-partners&#34;&gt;Potential partners&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Creative enterprises with good YouTube (+Vimeo and other) distribution and rights management track record.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Market research, particularly survey based in film and television.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Services for private collections/collectors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Who are we?&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ccsi.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCSI Data Observatory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://greendeal.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Observatory&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;in-90-secs-conceptual-introduction&#34;&gt;In 90 secs: conceptual introduction&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/bgp-n55TKCk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;⚙️/ subtitles/ 🇳🇱 🇬🇧 🇧🇦 🇨🇿 🇭🇺 🇩🇪 🇱🇹 🇫🇷 🇸🇰 🇪🇸 🇹🇷 + Catalan.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LineCheck, Milano, IT</title>
+      <link>https://surveyharmonies.eu/talk/linecheck-milano-it/</link>
+      <pubDate>Thu, 24 Nov 2022 15:15:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/talk/linecheck-milano-it/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#green-deal-this-time-for-real&#34;&gt;Green Deal, this time for real&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#beta-test-our-sustainabilitiy-reporting-tool&#34;&gt;Beta test our sustainabilitiy reporting tool&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#digital-music-observatory-survive-in-the-music-business-without-a-data-engineer&#34;&gt;Digital Music Observatory: survive in the music business without a data engineer&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#harmonizing-surveys-on-gender-inequaliaty&#34;&gt;Harmonizing surveys on gender (in)equaliaty&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;green-deal-this-time-for-real&#34;&gt;Green Deal, this time for real&lt;/h2&gt;
+&lt;p&gt;Daniel Antal, co-founder of Reprex will participate in the panel about on &lt;strong&gt;Thursday, November the 24th at 3.15pm&lt;/strong&gt;  about environment and sustainability in the music industry and introduce &lt;a href=&#34;https://surveyharmonies.eu/project/musiceviota/&#34;&gt;Eviota&lt;/a&gt;, our simplified, connected financial and sustainability reporting tool.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;At LineCheck X, you can find out more about our projects&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can get a free, total value chain based sustainability report. (Get in touch with us before 18 November)&lt;/li&gt;
+&lt;li&gt;We will demonstrate how you can eradicate packaging waste from your music events by making the packaging &lt;strong&gt;edible&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;And you can find out how we are trying to find where energy is &lt;a href=&#34;https://greendeal.dataobservatory.eu/post/2022-10-24_thermowatt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;going down the sewage&lt;/a&gt;, literally, with Thermowatt and the &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;beta-test-our-sustainabilitiy-reporting-tool&#34;&gt;Beta test our sustainabilitiy reporting tool&lt;/h3&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-are-looking-for-beta-testers-for-our-simplified-sustainability-report-that-is-made-from-your-trial-balance-we-sign-and-nda-about-your-accounting-data-if-you-test-with-us-and-you-can-test-with-older-data-too-beta-testing-is-free&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;We are looking for beta testers for our simplified sustainability report that is made from your `trial balance`. We sign and NDA about your accounting data if you test with us, and you can test with older data, too. Beta testing is free.&#34; srcset=&#34;
+               /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_ba07bcb2cab6a041c8fa07a66f44c402.webp 400w,
+               /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_4a745162ba521fe0933b7f1e31de6032.webp 760w,
+               /media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/eviota/Eviota_EFRAG_requirements_hu3389cdfb13c4fd9efff0a2d75d3bc17d_231927_ba07bcb2cab6a041c8fa07a66f44c402.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We are looking for beta testers for our simplified sustainability report that is made from your &lt;code&gt;trial balance&lt;/code&gt;. We sign and NDA about your accounting data if you test with us, and you can test with older data, too. Beta testing is free.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;Our solution benefits the music MSMEs and CSOs in several ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The European Commission estimates that the cost of connecting sustainability and finanical reporting will cost on average €10,000 for corporations. We want to bring down the voluntary reporting costs for MSMEs below €500 euro to benefit from &lt;code&gt;green loans&lt;/code&gt;, &lt;code&gt;green insurance&lt;/code&gt; and other &lt;code&gt;green financing&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; It provides them with a size adequate sustainability management and reporting tool that helps first the management of greenhouse gas emissions, and later sustainable water use, pollutions, biodiversity, and recycling in their entire value chain (for example, it flags environmental risks in the supply base of a festival including equipment rentals, transport, security firms, catering facilities, etc.) by connecting standard accounting documents of the MSME with SNA and EEA science based benchmarks.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Our system will be extendible to management of social sustainability. We are also showcasing harmonized gender inequality data collection with our other project (see below.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/img/blogposts_2022/reprex_linecheck_2022_hu51661e0f756b9d3138ea612a8422b121_291613_f52b08ea0d84e55975bb2ee22879592f.webp 400w,
+               /media/img/blogposts_2022/reprex_linecheck_2022_hu51661e0f756b9d3138ea612a8422b121_291613_6032da401f74b485e4fa22ea11e75b56.webp 760w,
+               /media/img/blogposts_2022/reprex_linecheck_2022_hu51661e0f756b9d3138ea612a8422b121_291613_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2022/reprex_linecheck_2022_hu51661e0f756b9d3138ea612a8422b121_291613_f52b08ea0d84e55975bb2ee22879592f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;h2 id=&#34;digital-music-observatory-survive-in-the-music-business-without-a-data-engineer&#34;&gt;Digital Music Observatory: survive in the music business without a data engineer&lt;/h2&gt;
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/bgp-n55TKCk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;small&gt;⚙️/ subtitles/ 🇳🇱 🇬🇧 🇧🇦 🇨🇿 🇭🇺 🇩🇪 🇱🇹 🇫🇷 🇸🇰 🇪🇸 🇹🇷 + Catalan. If you are there, please leave a 👍, too :)&lt;/small&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;ul&gt;
+&lt;li&gt;We will introduce &lt;strong&gt;Surveyharmonies&lt;/strong&gt;, a survey recycling and &lt;a href=&#34;https://music.dataobservatory.eu/post/2022-02-16-survey-harmonization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;survey harmonization tool&lt;/a&gt;. You can participate in our international gender bias survey in January 2023. Our team will also participate in the KeyChange Creative Lab on Friday, 25 November at 11.00.&lt;/li&gt;
+&lt;li&gt;You can learn about our &lt;strong&gt;Listen Local&lt;/strong&gt; project, which helps local music ecosystems remain visible on global platforms.&lt;/li&gt;
+&lt;li&gt;We will offer you a cup of tea or coffee in an edible cup.&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;harmonizing-surveys-on-gender-inequaliaty&#34;&gt;Harmonizing surveys on gender (in)equaliaty&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; You can create better surveys with less cost: you only need to ask the information, or change of information, that is not included in our harmonized datasets. Shorter, better questionnaires, smaller samples sizes, huge cost savings.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; When you make questionnaire-based research, you immediately get a history (the same question asked years ago) and an international comparison (the same question asked in other countries.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Often you do not even have to pay for the survey, because somebody else has already made a similar taxpayer funded research and we can just get the data for you.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-survey-harmonization-is-a-powerful-research-tool-to-increase-the-usability-of-questionnaire-based-empirical-research-read-more-on-our-bloghttpsmusicdataobservatoryeupost2022-02-16-survey-harmonization&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Survey harmonization is a powerful research tool to increase the usability of questionnaire-based empirical research. Read more on [our blog](https://music.dataobservatory.eu/post/2022-02-16-survey-harmonization/).&#34; srcset=&#34;
+               /media/img/blogposts_2021/difficulty_bills_levels_hu78dfb92a43f00170e8390b0e5066e58e_221046_00525ad9e8cd67c5f65a3ddf0508cfcf.webp 400w,
+               /media/img/blogposts_2021/difficulty_bills_levels_hu78dfb92a43f00170e8390b0e5066e58e_221046_71eabed8441e8ba3b2b17c3c8c9bdbc0.webp 760w,
+               /media/img/blogposts_2021/difficulty_bills_levels_hu78dfb92a43f00170e8390b0e5066e58e_221046_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/difficulty_bills_levels_hu78dfb92a43f00170e8390b0e5066e58e_221046_00525ad9e8cd67c5f65a3ddf0508cfcf.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Survey harmonization is a powerful research tool to increase the usability of questionnaire-based empirical research. Read more on &lt;a href=&#34;https://music.dataobservatory.eu/post/2022-02-16-survey-harmonization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our blog&lt;/a&gt;.
     &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
 </description>
     </item>
