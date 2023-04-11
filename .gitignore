@@ -49,3 +49,4 @@ vignettes/*.pdf
 ^public/
 ^public
 public/
+resources/_gen/
