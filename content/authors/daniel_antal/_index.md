@@ -84,10 +84,9 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- developers
+- project team
+
 ---
 
 Daniel Antal is an experienced data scientist, consultant, economist, and the co-founder of [Reprex](https://reprex.nl/), a Netherlands-based startup that brings the benefits of big data to small organizations with shared resources and research automation. He applies data science practice, open-source software development with sound economics and valuation techniques. 

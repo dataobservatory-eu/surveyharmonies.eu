@@ -55,6 +55,7 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - survey partners
+
 ---
 
 **Amadea Music** is a UK-registered company that in partnership with [The state51 Conspiracy](https://thestate51conspiracy.com/) provides an optimum solution for digital distribution of music content. They work with all the world’s music services, and run a well organized online platform which operates 24/7. The terms that they give to their clients (artists, labels and distributors) make their digital distribution deal one of the fairest in the world. Amadea Music's team consists of people who like to work in the world of music, which motivates them to give their best to make the partners happy and well taken care of. The team at Amadea believes that they should not only work as a standard service company but help artists, labels and distributors adapt to and develop in the ever-changing music industry.

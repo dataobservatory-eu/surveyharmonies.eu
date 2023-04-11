@@ -45,6 +45,7 @@ highlight_name: true
 
 user_groups:
 - funding partners
+
 ---
 
 **MusicAIRE** aims to assist the recovery of the Music Sector by designing and testing a support scheme that can meet the challenges posed by the pandemic while fostering the sustainability of the ecosystem. The action, supported by the Creative Europe Programme, intends to develop further the Music Moves Europe initiative and contributes to green, digital, and just and resilient recovery. [Join us](https://musicaire.eu/contact/)!
