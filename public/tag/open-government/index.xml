@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open government | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/open-government/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/open-government/index.xml" rel="self" type="application/rss+xml" />
+    <description>open government</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 08 Jun 2021 18:50:00 +0000</lastBuildDate>
+    <image>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>open government</title>
+      <link>https://surveyharmonies.eu/tag/open-government/</link>
+    </image>
+    
+    <item>
+      <title>Credibility is Enhanced Through Cross Links Between Different Data from Different Domains</title>
+      <link>https://surveyharmonies.eu/post/2021-06-08-data-curator-karel-volckaert/</link>
+      <pubDate>Tue, 08 Jun 2021 18:50:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/post/2021-06-08-data-curator-karel-volckaert/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;As a consultant, what type of data do you usually work with?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I work at the intersection between strategy, finance and organisation. My usual dataset is quite broad - and sometimes unstructured. Oftentimes, the most decisive data are ones that cross domains: economic data coupled with environmental measurements, sociodemographic characteristics linked with online analytics.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you were able to pick, what would be the ultimate dataset, or datasets that you would like to see in the Green Deal Data Observatory? And the Economy Data Observatory?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If I may venture that far, the interesting point is where these two data observatories meet. But high on my wishlist would be anything related to geospatial dispersion of environmental and climate data: land erosion, aerosols, solar incidence. From an economic perspective, my interest would go especially to - again - dispersion across regions or other geographical domains of, say, number of new enterprises, disposable income, tax incidence&amp;hellip;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-see-our-case-studyhttpsgreendealdataobservatoryeupost2021-04-23-belgium-flood-insurance-on-connecting-local-tax-revenues-climate-awareness-poll-data-and-drought-data-in-belgium&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;See our [case study](https://greendeal.dataobservatory.eu/post/2021-04-23-belgium-flood-insurance/) on connecting local tax revenues, climate awareness poll data and drought data in Belgium.&#34; srcset=&#34;
+               /media/img/blogposts_2021/belgium_spei_2018_hu053711948486f3d03232ef0d63e51704_295716_85cb3a3e9d67ae93c4b48d13c76f103f.webp 400w,
+               /media/img/blogposts_2021/belgium_spei_2018_hu053711948486f3d03232ef0d63e51704_295716_732c5a4fed2e5086cd4649603e01bc64.webp 760w,
+               /media/img/blogposts_2021/belgium_spei_2018_hu053711948486f3d03232ef0d63e51704_295716_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/belgium_spei_2018_hu053711948486f3d03232ef0d63e51704_295716_85cb3a3e9d67ae93c4b48d13c76f103f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      See our &lt;a href=&#34;https://greendeal.dataobservatory.eu/post/2021-04-23-belgium-flood-insurance/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;case study&lt;/a&gt; on connecting local tax revenues, climate awareness poll data and drought data in Belgium.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Why did you decide to join the challenge and why do you think that this would be a game changer for policymakers and for business leaders?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There is, both from an ecological and a societal point of view, an urgent need for open-access, real-time, trustworthy data to base decisions on. Ever since Kydland &amp;amp; Prescott’s analyses of “rules rather than discretion” and even earlier analyses of investment under uncertainty, the dynamic rules for optimal decision-making (including investment) require fast-response reliable data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Do you have a favorite, or most used open governmental or open science data source? What do you think about it?  Could it be improved?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let me give one example: the &lt;a href=&#34;https://ec.europa.eu/info/business-economy-euro/indicators-statistics/economic-databases/macro-economic-database-ameco/ameco-database_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AMECO annual macro-economic database&lt;/a&gt; is great for long-term historical analyses but its components ought to be real-time available. As an anecdote, as a fund manager in emerging markets we needed to anticipate macro-economic evolutions and in particular the manner in which capital markets anticipate these evolutions by adjusting foreign exchange rates or positioning themselves along yield curves. To some extent, we needed to predict what AMECO would tell us one year later by means of any real-time trustworthy assessments of the financial or economic situation. The latter data is what we would ideally have in an observatory.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-to-some-extent-we-needed-to-predict-what-amecohttpseceuropaeuinfobusiness-economy-euroindicators-statisticseconomic-databasesmacro-economic-database-amecoameco-database_en-would-tell-us-one-year-later-by-means-of-any-real-time-trustworthy-assessments-of-the-financial-or-economic-situation-the-latter-data-is-what-we-would-ideally-have-in-an-observatory&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;To some extent, we needed to predict what [AMECO](https://ec.europa.eu/info/business-economy-euro/indicators-statistics/economic-databases/macro-economic-database-ameco/ameco-database_en) would tell us one year later by means of any real-time trustworthy assessments of the financial or economic situation. The latter data is what we would ideally have in an observatory.&#34; srcset=&#34;
+               /media/img/blogposts_2021/AMECO_screenshot_hu1e290340e7c6d0ed7c7e3cf6b9e1eac5_97374_7431fd5b697b9816895cd67d4ae6686d.webp 400w,
+               /media/img/blogposts_2021/AMECO_screenshot_hu1e290340e7c6d0ed7c7e3cf6b9e1eac5_97374_be2785699e3b9b35616175a509dec218.webp 760w,
+               /media/img/blogposts_2021/AMECO_screenshot_hu1e290340e7c6d0ed7c7e3cf6b9e1eac5_97374_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/AMECO_screenshot_hu1e290340e7c6d0ed7c7e3cf6b9e1eac5_97374_7431fd5b697b9816895cd67d4ae6686d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;427&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      To some extent, we needed to predict what &lt;a href=&#34;https://ec.europa.eu/info/business-economy-euro/indicators-statistics/economic-databases/macro-economic-database-ameco/ameco-database_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AMECO&lt;/a&gt; would tell us one year later by means of any real-time trustworthy assessments of the financial or economic situation. The latter data is what we would ideally have in an observatory.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Is there a piece of information that recently surprised you? What was it?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I am currently working on water-related issues and came across a result reported in &lt;a href=&#34;https://www.nature.com/articles/s41560-021-00784-y&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nature Energy&lt;/a&gt; earlier this year that in more than one in ten hydropower stations, the extra warming from the dark surface of the water reservoir was enough to outbalance its “green” electricity generation potential, leading to no net climate benefits.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The researchers found that almost half of the reservoirs they surveyed took just four years to reach a net climate benefit. Unfortunately, they also found that 19% of those surveyed took more than 40 years to do so, and approximately 12% of them took 80 years—the average lifetime of a hydroelectric plant. &lt;a href=&#34;https://techxplore.com/news/2021-03-albedo-climate-penalty-hydropower-reservoirs.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Calculating the albedo-climate penalty of hydropower dammed reservoirs&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Again: spatial distribution matters&amp;hellip;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-photo-kees-streefkerk-unplash-licensehttpsunsplashcomlicense&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Photo: Kees Streefkerk, [Unplash License](https://unsplash.com/license)&#34; srcset=&#34;
+               /media/img/blogposts_2021/photo-1503754163129-a02a0c097de0_hu3d03a01dcc18bc5be0e67db3d8d209a6_95667_a6bd16b069f533993e861f2040801744.webp 400w,
+               /media/img/blogposts_2021/photo-1503754163129-a02a0c097de0_hu3d03a01dcc18bc5be0e67db3d8d209a6_95667_0044a4749a440d65ecfd5b0fa333e141.webp 760w,
+               /media/img/blogposts_2021/photo-1503754163129-a02a0c097de0_hu3d03a01dcc18bc5be0e67db3d8d209a6_95667_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/photo-1503754163129-a02a0c097de0_hu3d03a01dcc18bc5be0e67db3d8d209a6_95667_a6bd16b069f533993e861f2040801744.webp&#34;
+               width=&#34;668&#34;
+               height=&#34;501&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Photo: Kees Streefkerk, &lt;a href=&#34;https://unsplash.com/license&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unplash License&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;From your experience, what do you think the greatest problem with open data in 2021 will be?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Trust. In a society where “value” and even “truth” is determined more by the amount of (web) links to a particular “fact” than by its intrinsic characteristics, we need to be able to trust data — open data because it’s open and “closed” data because it’s closed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What can our automated data observatories do to make open data more credible in the European economic policy and climate change or mitigation community and be more accepted as verified information?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If I may refer to the previous answer: credibility is enhanced through cross-links between different data from different domains that “does not disprove” one another or that is internally consistent. If, say, data on taxable income goes in one direction and taxes in another, it is the reasoned reconciliation of the - alleged or real - inconsistency that will validate the comprehensive data set. So I am a great believer in broad, real-time observatories where not only the data capture, but the data reconciliation is automated, sometimes by means of a simple comparative statics analysis, in other cases maybe through quite elaborate artificial intelligence.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-join-our-open-collaboration-green-deal-data-observatory-team-as-a-data-curatorauthorscurator-developerauthorsdeveloper-or-business-developerauthorsteam-or-share-your-data-in-our-public-repository-green-deal-data-observatory-on-zenodohttpszenodoorgcommunitiesgreendeal_observatory&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Join our open collaboration Green Deal Data Observatory team as a [data curator](/authors/curator), [developer](/authors/developer) or [business developer](/authors/team), or share your data in our public repository [Green Deal Data Observatory on Zenodo](https://zenodo.org/communities/greendeal_observatory/).&#34; srcset=&#34;
+               /media/img/observatory_screenshots/greendeal_and_zenodo_huddcd7485e56cb33c97d3e664ae383275_281994_debfc54dcf2193c7c800dab0f36de429.webp 400w,
+               /media/img/observatory_screenshots/greendeal_and_zenodo_huddcd7485e56cb33c97d3e664ae383275_281994_3b536090581f2795373e801d65371e20.webp 760w,
+               /media/img/observatory_screenshots/greendeal_and_zenodo_huddcd7485e56cb33c97d3e664ae383275_281994_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/observatory_screenshots/greendeal_and_zenodo_huddcd7485e56cb33c97d3e664ae383275_281994_debfc54dcf2193c7c800dab0f36de429.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://surveyharmonies.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://surveyharmonies.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://surveyharmonies.eu/authors/team&#34;&gt;business developer&lt;/a&gt;, or share your data in our public repository &lt;a href=&#34;https://zenodo.org/communities/greendeal_observatory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory on Zenodo&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;join-us&#34;&gt;Join us&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://surveyharmonies.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://surveyharmonies.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://surveyharmonies.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in antitrust, innovation policy or economic impact analysis? Try our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comparing Data to Oil is a Cliché: Crude Oil Has to Go Through a Number of Steps and Pipes Before it Becomes Useful</title>
+      <link>https://surveyharmonies.eu/post/2021-06-07-data-curator-pyry-kantanen/</link>
+      <pubDate>Mon, 07 Jun 2021 10:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/post/2021-06-07-data-curator-pyry-kantanen/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;As a developer at rOpenGov, and as an economic sociologist, what type of data do you usually use in your work?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Generally speaking, people&amp;rsquo;s access to (or inequalities in accessing) different types of resources and their ability in transforming these resources to other types of resources is what interests me. The data I usually work with is the kind of data that is actually nicely covered by existing &lt;a href=&#34;http://ropengov.org/projects/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov tools&lt;/a&gt;: data about population demographics and administrative units from Statistics Finland, statistical information on welfare and health from Sotkanet and also data from Eurostat. Aside from these a lot of information is of course data from surveys and texts scraped from the internet.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-are-placing-the-growing-number-of-ropengov-toolshttpropengovorgprojects-in-a-modern-application-with-a-user-friendly-service-and-a-modern-data-api&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;We are placing the growing number of [rOpenGov tools](http://ropengov.org/projects/) in a modern application with a user-friendly service and a modern data API.&#34; srcset=&#34;
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp 400w,
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_3250accecb68b0ec9716afed72d0f77e.webp 760w,
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      We are placing the growing number of &lt;a href=&#34;http://ropengov.org/projects/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov tools&lt;/a&gt; in a modern application with a user-friendly service and a modern data API.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;In your ideal data world, what would be the ultimate dataset, or datasets that you would like to see in the Music Data Observatory?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Late spring and early summer time is, at least for me, defined by the Eurovision Song Contest. Every year watching the contest makes me ponder the state of the music industry in my home country Finland as well as in Europe. Was the song produced by homegrown talent or was it imported? Was it better received by the professional jury or the public? How well does the domestic appeal of an artist translate to the international stage? Many interesting phenomena are difficult to quantify in a meaningful way and writing a catchy song with international appeal is probably more an art than a science. Nevertheless that should not deter us from trying as music, too, is bound by certain rules and regularities that can be researched.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-music-too-is-bound-by-certain-rules-and-regularities-that-can-be-researched-our-digital-music-observatory-and-its-listen-localhttpslistenlocalcommunity-experimental-app-does-this-exactly-and-we-would-love-to-create-eurovision-musicology-datasets-photo-eurovision-song-contest-2021-press-photo-by-jordy-brada&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Music, too, is bound by certain rules and regularities that can be researched. Our Digital Music Observatory and its [Listen Local](https://listenlocal.community/) experimental App does this exactly, and we would love to create Eurovision musicology datasets. Photo: Eurovision Song Contest 2021 press photo by Jordy Brada&#34; srcset=&#34;
+               /media/img/developers/eurovision_2021_huf9815e7cf4b1c9b3f684b59f4bffe562_174893_128e4603e1cc31d89be889f39db80a2b.webp 400w,
+               /media/img/developers/eurovision_2021_huf9815e7cf4b1c9b3f684b59f4bffe562_174893_2a432aace03316af1742caebd211be99.webp 760w,
+               /media/img/developers/eurovision_2021_huf9815e7cf4b1c9b3f684b59f4bffe562_174893_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/developers/eurovision_2021_huf9815e7cf4b1c9b3f684b59f4bffe562_174893_128e4603e1cc31d89be889f39db80a2b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;505&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Music, too, is bound by certain rules and regularities that can be researched. Our Digital Music Observatory and its &lt;a href=&#34;https://listenlocal.community/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Listen Local&lt;/a&gt; experimental App does this exactly, and we would love to create Eurovision musicology datasets. Photo: Eurovision Song Contest 2021 press photo by Jordy Brada
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;Why did you decide to join the EU Datathon challenge team and why do you think that this would be a game changer for researchers and policymakers?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The challenge has, in my opinion, great potential in leading by example when it comes to open data access and reproducible research. Comparing data to oil is a common phrase but fitting in the sense that crude oil has to go through a number of steps and pipes before it becomes useful. Most users and especially policymakers appreciate ease-of-use of the finished product, but the quality of the product and the process must also be guaranteed somehow. Openness and peer-review practices are the best guarantors in the field of data, just as industrial standards and regulations are in the oil industry.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-provide-many-layers-of-fully-transparent-quality-control-about-the-data-we-are-placing-in-our-data-apis-and-provide-for-our-end-users&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;We provide many layers of fully transparent quality control about the data we are placing in our data APIs and provide for our end-users.&#34; srcset=&#34;
+               /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp 400w,
+               /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_5807feecbd17bee02fd8c68fad87b1d7.webp 760w,
+               /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      We provide many layers of fully transparent quality control about the data we are placing in our data APIs and provide for our end-users.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;join-us&#34;&gt;Join us&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Join our open collaboration Music Data Observatory team as a &lt;a href=&#34;https://surveyharmonies.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://surveyharmonies.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://surveyharmonies.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in antitrust, innovation policy or economic impact analysis? Try our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data Observatory&lt;/a&gt; team! Or your interest lies more in climate change, mitigation or climate action? Check out our &lt;a href=&#34;https://greendeal.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating Algorithmic Tools to Interpret and Communicate Open Data Efficiently</title>
+      <link>https://surveyharmonies.eu/post/2021-06-04-developer-leo-lahti/</link>
+      <pubDate>Fri, 04 Jun 2021 10:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/post/2021-06-04-developer-leo-lahti/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;As a developer at rOpenGov, what type of data do you usually use in your work?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As an academic data scientist whose research focuses on the development of general-purpose algorithmic methods, I work with a range of applications from life sciences to humanities. Population studies play a big role in our research, and often the information that we can draw from public sources - geospatial, demographic, environmental - provides invaluable support. We typically use open data in combination with sensitive research data but some of the research questions can be readily addressed based on open data from statistical authorities such as Statistics Finland or Eurostat.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp 400w,
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_3250accecb68b0ec9716afed72d0f77e.webp 760w,
+               /media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/partners/rOpenGov-intro_hubd4fef93bdda18dae35145b86090eaef_399543_15755b0682ab231bcd4f2ccab28e7c33.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;In your ideal data world, what would be the ultimate dataset, or datasets that you would like to see in the Music Data Observatory?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;One line of our research analyses the historical trends and spread of knowledge production, in particular book printing based on large-scale metadata collections. It would be interesting to extend this research to music, to understand the contemporary trends as well as the broader historical developments. Gaining access to a large systematic collection of music and composition data from different countries across long periods of time would make this possible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why did you decide to join the challenge and why do you think that this would be a game changer for researchers and policymakers?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Joining the challenge was a natural development based on our overall activities in this area; &lt;a href=&#34;http://ropengov.org/community/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the rOpenGov project&lt;/a&gt; has been around for a decade now, since the early days of the broader open data movement. This has also created an active international developer network and we felt well equipped for picking up the challenge. The game changer for researchers is that the project highlights the importance of data quality, even when dealing with official statistics, and provides new methods to solve these issues efficiently through the open collaboration model. For policymakers, this provides access to new high-quality curated data and case studies that can support evidence-based decision-making.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Do you have a favorite, or most used open governmental or open science data source? What do you think about it?  Could it be improved?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Regarding open government data, one of my favorites is not a single data source but a data representation standard. The &lt;a href=&#34;https://www.scb.se/en/services/statistical-programs-for-px-files/#:~:text=PX%20is%20a%20standard%20format,and%20data.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;px format&lt;/a&gt; is widely used by statistical authorities in various countries, and this has allowed us to create R tools that allow the retrieval and analysis of official statistics from many countries across Europe, spanning dozens of statistical institutions. Standardization of open data formats allows us to build robust algorithmic tools for downstream data analysis and visualization.  Open government data is still too often shared in obscure, non-standard or closed-source file formats and this is creating significant bottlenecks for the development of scalable and interoperable AI and machine learning methods that can harness the full potential of open data.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-regarding-open-government-data-one-of-my-favorites-is-not-a-single-data-source-but-a-data-representation-standard-the-px-format&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Regarding open government data, one of my favorites is not a single data source but a data representation standard, the Px format.&#34; srcset=&#34;
+               /media/img/developers/PxWeb_hu1855a7f442346dd4157ad8b8bb51b6dc_124293_ee6a50b05be5954c8a175be0348fba8c.webp 400w,
+               /media/img/developers/PxWeb_hu1855a7f442346dd4157ad8b8bb51b6dc_124293_dc404336590b3bc74e63f364832e2877.webp 760w,
+               /media/img/developers/PxWeb_hu1855a7f442346dd4157ad8b8bb51b6dc_124293_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/developers/PxWeb_hu1855a7f442346dd4157ad8b8bb51b6dc_124293_ee6a50b05be5954c8a175be0348fba8c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Regarding open government data, one of my favorites is not a single data source but a data representation standard, the Px format.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;From your perspective, what do you see being the greatest problem with open data in 2021?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Although there are a variety of open data sources available (and the numbers continue to increase), the availability of open algorithmic tools to interpret and communicate open data efficiently is lagging behind. One of the greatest challenges for open data in 2021 is to demonstrate how we can maximize the potential of open data by designing smart tools for open data analytics.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What can our automated data observatories do to make open data more credible in the European economic policy community and be accepted as verified information?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The role of the professional network backing up the project, and the possibility of getting critical feedback and later adoption by the academic communities will support the efforts. Transparency of the data harmonization operations is the key to credibility, and will be further supported by concrete benchmarks that highlight the critical differences in drawing conclusions based on original sources versus the harmonized high-quality data sets.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-need-to-get-critical-feedback-and-later-adoption-by-the-academic-communities&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;We need to get critical feedback and later adoption by the academic communities.&#34; srcset=&#34;
+               /media/img/observatory_screenshots/greendeal_and_zenodo_huddcd7485e56cb33c97d3e664ae383275_281994_debfc54dcf2193c7c800dab0f36de429.webp 400w,
+               /media/img/observatory_screenshots/greendeal_and_zenodo_huddcd7485e56cb33c97d3e664ae383275_281994_3b536090581f2795373e801d65371e20.webp 760w,
+               /media/img/observatory_screenshots/greendeal_and_zenodo_huddcd7485e56cb33c97d3e664ae383275_281994_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/observatory_screenshots/greendeal_and_zenodo_huddcd7485e56cb33c97d3e664ae383275_281994_debfc54dcf2193c7c800dab0f36de429.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      We need to get critical feedback and later adoption by the academic communities.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;How we can ensure the long-term sustainability of the efforts?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The extent of open data space is such that no single individual or institution can address all the emerging needs in this area. The open developer networks play a huge role in the development of algorithmic methods, and strong communities have developed around specific open data analytical environments such as R, Python, and Julia. These communities support networked collaboration and provide services such as software peer review. The long-term sustainability will depend on the support that such developer communities can receive, both from individual contributors as well as from institutions and governments.&lt;/p&gt;
+&lt;h2 id=&#34;join-us&#34;&gt;Join us&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Join our open collaboration Green Deal Data Observatory team as a &lt;a href=&#34;https://surveyharmonies.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://surveyharmonies.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://surveyharmonies.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in antitrust, innovation policy or economic impact analysis? Try our &lt;a href=&#34;https://economy.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

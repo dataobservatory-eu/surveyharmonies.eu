@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>W3C | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/w3c/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/w3c/index.xml" rel="self" type="application/rss+xml" />
+    <description>W3C</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>W3C</title>
+      <link>https://surveyharmonies.eu/tag/w3c/</link>
+    </image>
+    
+    <item>
+      <title>dataset: Create Interoperable FAIR Datasets</title>
+      <link>https://surveyharmonies.eu/software/dataset/</link>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/software/dataset/</guid>
+      <description>&lt;h2 id=&#34;interoperable-fair-datasets&#34;&gt;Interoperable, FAIR datasets&lt;/h2&gt;
+&lt;p&gt;The primary aim of dataset is create well-referenced, well-described,
+interoperable datasets from data.frames, tibbles or data.tables that
+translate well into the W3C DataSet definition within the &lt;a href=&#34;https://www.w3.org/TR/vocab-data-cube/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data Cube
+Vocabulary&lt;/a&gt; in a reproducible
+manner. The data cube model in itself is is originated in the
+&lt;a href=&#34;https://sdmx.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Statistical Data and Metadata eXchange&lt;/a&gt;, and it is
+almost fully harmonzied with the Resource Description Framework (RDF),
+the standard model for data interchange on the web[^1].&lt;/p&gt;
+&lt;p&gt;A mapping of R objects into these models has numerous advantages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Makes data importing easier and less error-prone;&lt;/li&gt;
+&lt;li&gt;Leaves plenty of room for documentation automation, resulting in far
+better reusability and reproducability;&lt;/li&gt;
+&lt;li&gt;The publication of results from R following the
+&lt;a href=&#34;https://www.go-fair.org/fair-principles/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR&lt;/a&gt; principles is far
+easier, making the work of the R user more findable, more
+accessible, more interoperable and more reusable by other users;&lt;/li&gt;
+&lt;li&gt;Makes the placement into relational databases, semantic web
+applications, archives, repositories possible without time-consuming
+and costly data wrangling (See &lt;a href=&#34;https://dataset.dataobservatory.eu/articles/RDF.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;From dataset To
+RDF&lt;/a&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Our package functions work with any structured R objects (data.fame,
+data.table, tibble, or well-structured lists like json), however, the
+best functionality is achieved by the (See &lt;a href=&#34;https://dataset.dataobservatory.eu/articles/dataset.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The dataset S3
+Class&lt;/a&gt;), which
+is inherited from &lt;code&gt;data.frame()&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;contact&#34;&gt;Contact&lt;/h3&gt;
+&lt;p&gt;For contact information, contributors, see the
+&lt;a href=&#34;https://dataset.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;package&lt;/a&gt; homepage.&lt;/p&gt;
+&lt;h3 id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h3&gt;
+&lt;p&gt;Please note that the &lt;code&gt;dataset&lt;/code&gt; project is released with a
+&lt;a href=&#34;https://www.contributor-covenant.org/version/2/0/code_of_conduct/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Code of Conduct&lt;/a&gt;.
+By contributing to this project, you agree to abide by its terms.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

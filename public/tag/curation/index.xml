@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>curation | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/curation/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/curation/index.xml" rel="self" type="application/rss+xml" />
+    <description>curation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>curation</title>
+      <link>https://surveyharmonies.eu/tag/curation/</link>
+    </image>
+    
+    <item>
+      <title>Data Curation</title>
+      <link>https://surveyharmonies.eu/services/data-curation/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/services/data-curation/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;If you cannot find the right data for your policy evaluation, your consulting project, your PhD thesis, your market research, or your scientific research project, it does not mean that the data does not exist, or that it is not available for free. In our experience, up to 95% of available open data is never used, because potential users do not realize it exists or do not know how to access it.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Every day, thousands of new datasets become available via the EU open data regime, freedom of information legislation in the United States and other jurisdictions, or open science and scientific reproducibility requirements — but as these datasets have been packaged or processed for different primary, original uses, they often require open data experts to locate them and adapt them to a usable form for reuse in business, scientific, or policy research.&lt;/p&gt;
+&lt;p&gt;The creative and cultural industries often do not participate in government statistics programs because these industries are typically comprised of microenterprises that are exempted from statistical reporting and that file only simplified financial statements and tax returns. This means that finding the appropriate private or public data sources for creative and cultural industry uses requires particularly good data maps.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Data curation&lt;/code&gt; means that we are continuously mapping potential data sources and sending requests to download and quality test the most current data sources. Our CEEMID project has produced several thousand indicators, of which a few dozen are available in our &lt;a href=&#34;https://surveyharmonies.eu/project/music-observatory/&#34;&gt;Demo Music Observatory&lt;/a&gt;.If you have specific data needs for a scientific research, policy evaluation, or business project, we can find and provide the most suitable, most current, and best value data for analysis or for &lt;a href=&#34;https://surveyharmonies.eu/service/trustworthy-ai/&#34;&gt;ethical AI applications&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

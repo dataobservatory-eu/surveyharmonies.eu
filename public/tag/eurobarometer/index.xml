@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eurobarometer | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/eurobarometer/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/eurobarometer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eurobarometer</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Eurobarometer</title>
+      <link>https://surveyharmonies.eu/tag/eurobarometer/</link>
+    </image>
+    
+    <item>
+      <title>Eurobarometer Surveys Used In Our Project</title>
+      <link>https://surveyharmonies.eu/post/2021-03-04-eurobarometer_data/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/post/2021-03-04-eurobarometer_data/</guid>
+      <description>&lt;p&gt;In our &lt;a href=&#34;http://netzero.dataobservatory.eu/post/2021-03-04_retroharmonize_intro/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial
+series&lt;/a&gt;,
+we are going to harmonize the following questionnaire items from five
+Eurobarometer harmonized survey files. The Eurobarometer survey files
+are harmonized across countries, but they are only partially harmonized
+in time.&lt;/p&gt;
+&lt;p&gt;All data must be downloaded from the
+&lt;a href=&#34;https://www.gesis.org/en/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GESIS&lt;/a&gt; Data Archive in Cologne. We are
+not affiliated with GESIS and you must read and accept their terms to
+use the data.&lt;/p&gt;
+&lt;h2 id=&#34;eurobarometer-802-2013&#34;&gt;Eurobarometer 80.2 (2013)&lt;/h2&gt;
+&lt;p&gt;GESIS Data Archive, Cologne. ZA5877 Data file Version 2.0.0,
+&lt;a href=&#34;https://doi.org/10.4232/1.12792&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.12792&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data file: &lt;a href=&#34;https://search.gesis.org/research_data/ZA5877&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6595&lt;/a&gt;
+data file (European Commission 2017).&lt;/li&gt;
+&lt;li&gt;Questionnaire: &lt;a href=&#34;https://dbk.gesis.org/dbksearch/download.asp?id=54036&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer 83.4 Basic Bilingual
+Questionnaire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Citation: &lt;a href=&#34;https://search.gesis.org/ajax/bibtex.php?type=research_data&amp;amp;docid=ZA5877&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6595
+Bibtex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;QA1a Which of the following do you consider to be the single most serious problem facing the world as a whole?&lt;/code&gt;
+(single choice)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QA1b Which others do you consider to be serious problems?&lt;/code&gt; (multiple
+choice)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QA2 And how serious a problem do you think climate change is at this moment? Please use a scale from 1 to 10, with &#39;1&#39; meaning it is &amp;quot;not at all a serious problem&lt;/code&gt;
+(scale 1-10)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QA4 To what extent do you agree or disagree with each of the following statements? - Fighting climate change and using energy more efficiently can boost the economy and jobs in the EU&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QA4 To what extent do you agree or disagree with each of the following statements? - Reducing fossil fuel imports from outside the EU could benefit the EU economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QA5 Have   you personally  taken   any action  to  fight   climate change  over    the past    six months?&lt;/code&gt;
+(binary)&lt;/p&gt;
+&lt;h2 id=&#34;eurobarometer-834-2015&#34;&gt;Eurobarometer 83.4 (2015)&lt;/h2&gt;
+&lt;p&gt;European Commission, Brussels; Directorate General Communication
+COMM.A.1 ´Strategy, Corporate Communication Actions and
+Eurobarometer´GESIS Data Archive, Cologne. ZA6595 Data file Version
+3.0.0, &lt;a href=&#34;https://doi.org/10.4232/1.13146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13146&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data file: &lt;a href=&#34;https://search.gesis.org/research_data/ZA6595&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6595&lt;/a&gt;
+data file (European Commission 2018).&lt;/li&gt;
+&lt;li&gt;Questionnaire: &lt;a href=&#34;https://dbk.gesis.org/dbksearch/download.asp?id=57940&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer 83.4 Basic Bilingual
+Questionnaire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Citation: &lt;a href=&#34;https://search.gesis.org/ajax/bibtex.php?type=research_data&amp;amp;docid=ZA6595&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6595
+Bibtex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;eurobarometer-871-2017&#34;&gt;Eurobarometer 87.1 (2017)&lt;/h2&gt;
+&lt;p&gt;European Commission, Brussels; Directorate General Communication,
+COMM.A.1 ‘Strategic Communication’; European Parliament,
+Directorate-General for Communication, Public Opinion Monitoring Unit
+GESIS Data Archive, Cologne. ZA6861 Data file Version 1.2.0,
+&lt;a href=&#34;https://doi.org/10.4232/1.12922&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.12922&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data file: &lt;a href=&#34;https://search.gesis.org/research_data/ZA6861&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6861&lt;/a&gt;
+data file.&lt;/li&gt;
+&lt;li&gt;Questionnaire: &lt;a href=&#34;https://dbk.gesis.org/dbksearch/download.asp?id=65967&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer 90.2 Basic Bilingual
+Questionnaire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Citation: &lt;a href=&#34;https://search.gesis.org/ajax/bibtex.php?type=research_data&amp;amp;docid=ZA6861&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA6861
+Bibtex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;QC1a Which of the following do you consider to be the single most serious problem facing the world as a whole?&lt;/code&gt;
+(single choice)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QC1b Which others do you consider to be serious problems?&lt;/code&gt; (multiple
+choice)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QC2 And how serious a problem do you think climate change is at this moment? Please use a scale from 1 to 10, with &#39;1&#39; meaning it is &amp;quot;not at all a serious problem&lt;/code&gt;
+(scale 1-10)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc4 To what extent do you agree or disagree with each of the following statements? - Fighting  climate change  and using   energy  more    efficiently can boost   the economy and jobs in the EU&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc4 To what extent do you agree or disagree with each of the following statements? - Promoting EU  expertise   in  new clean   technologies    to countries    outside the EU  can benefit the  EU economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc4 To what extent do you agree or disagree with each of the following statements? - Reducing  fossil  fuel    imports from    outside the EU  can benefit the EU  economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc4 To what extent do you agree or disagree with each of the following statements? - Reducing  fossil  fuel    imports from    outside the EU  can increase    the security    of  EU  energy  supplies&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc4 To what extent do you agree or disagree with each of the following statements? - More  public  financial   support should  be  given   to  the transition to   clean   energies    even    if  it  means   subsidies   to  fossil  fuels   should  be  reduced.&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Qc5 Have   you personally  taken   any action  to  fight   climate change  over    the past    six months?&lt;/code&gt;
+(binary)&lt;/p&gt;
+&lt;h2 id=&#34;eurobarometer-902-2018&#34;&gt;Eurobarometer 90.2 (2018)&lt;/h2&gt;
+&lt;p&gt;European Commission, Brussels; Directorate General Communication,
+COMM.A.3 ‘Media Monitoring and Eurobarometer’ GESIS Data Archive,
+Cologne. ZA7488 Data file Version 1.0.0,
+&lt;a href=&#34;https://doi.org/10.4232/1.13289&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13289&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data file:
+&lt;a href=&#34;https://dbk.gesis.org/dbksearch/sdesc2.asp?db=e&amp;amp;no=7488&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA7488&lt;/a&gt;
+data file (European Commission 2019a)&lt;/li&gt;
+&lt;li&gt;Questionnaire: &lt;a href=&#34;https://dbk.gesis.org/dbksearch/download.asp?id=65967&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer 90.2 Basic Bilingual
+Questionnaire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Citation: &lt;a href=&#34;https://search.gesis.org/ajax/bibtex.php?type=research_data&amp;amp;docid=ZA7488&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA7488
+Bibtex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;QB5 To what extent do you agree or disagree with each of the following statements? - Fighting  climate change  and using   energy  more    efficiently can boost   the economy and jobs in the EU&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB5 To what extent do you agree or disagree with each of the following statements? - Promoting EU  expertise   in  new clean   technologies    to countries    outside the EU  can benefit the  EU economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB5 To what extent do you agree or disagree with each of the following statements? - Reducing  fossil  fuel    imports from    outside the EU  can benefit the EU  economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB5 To what extent do you agree or disagree with each of the following statements? - Reducing  fossil  fuel    imports from    outside the EU  can increase    the security    of  EU  energy  supplies&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB5 To what extent do you agree or disagree with each of the following statements? - More  public  financial   support should  be  given   to  the transition to   clean   energies    even    if  it  means   subsidies   to  fossil  fuels   should  be  reduced.&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;h2 id=&#34;eurobarometer-913-2019&#34;&gt;Eurobarometer 91.3 (2019)&lt;/h2&gt;
+&lt;p&gt;European Commission, Brussels; Directorate General Communication,
+COMM.A.3 ‘Media Monitoring and Eurobarometer’ GESIS Data Archive,
+Cologne. ZA7572 Data file Version 1.0.0,
+&lt;a href=&#34;https://doi.org/10.4232/1.13372&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13372&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data file:
+&lt;a href=&#34;https://dbk.gesis.org/dbksearch/sdesc2.asp?db=e&amp;amp;no=7572&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA7572&lt;/a&gt;
+data file (European Commission 2019b).&lt;/li&gt;
+&lt;li&gt;Questionnaire: &lt;a href=&#34;https://dbk.gesis.org/dbksearch/download.asp?id=66774&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer 91.3 Basic Bilingual
+Questionnaire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Citation: &lt;a href=&#34;https://search.gesis.org/ajax/bibtex.php?type=research_data&amp;amp;docid=ZA7572&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZA7572
+Bibtex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;QB4 To what extent do you agree or disagree with each of the following statements? - Taking action on climate change will lead to innovation that will make EU companies more competitive (N)&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB4 To what extent do you agree or disagree with each of the following statements? - Promoting EU  expertise   in  new clean   technologies    to countries    outside the EU  can benefit the  EU economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB4 To what extent do you agree or disagree with each of the following statements? - Reducing  fossil  fuel    imports from    outside the EU  can benefit the EU  economically&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB4 To what extent do you agree or disagree with each of the following statements? - Adapting to the adverse impacts of climate change can have positive outcomes for citizens in the EU&lt;/code&gt;
+(agreement-disagreement 4-scale)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;QB5 Have   you personally  taken   any action  to  fight   climate change  over    the past    six months?&lt;/code&gt;
+(binary)&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;European Commission, Brussels. 2017. “Eurobarometer 80.2 (2013).” GESIS
+Data Archive, Cologne. ZA5877 Data file Version 2.0.0,
+&lt;a href=&#34;https://doi.org/10.4232/1.12792&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.12792&lt;/a&gt;. &lt;a href=&#34;https://doi.org/10.4232/1.12792&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.12792&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;———. 2018. “Eurobarometer 83.4 (2015).” GESIS Data Archive, Cologne.
+ZA6595 Data file Version 3.0.0, &lt;a href=&#34;https://doi.org/10.4232/1.13146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13146&lt;/a&gt;.
+&lt;a href=&#34;https://doi.org/10.4232/1.13146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13146&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;———. 2019a. “Eurobarometer 90.2 (2018).” GESIS Data Archive, Cologne.
+ZA7488 Data file Version 1.0.0, &lt;a href=&#34;https://doi.org/10.4232/1.13289&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13289&lt;/a&gt;.
+&lt;a href=&#34;https://doi.org/10.4232/1.13289&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13289&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;———. 2019b. “Eurobarometer 91.3 (2019).” GESIS Data Archive, Cologne.
+ZA7572 Data file Version 1.0.0, &lt;a href=&#34;https://doi.org/10.4232/1.13372&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13372&lt;/a&gt;.
+&lt;a href=&#34;https://doi.org/10.4232/1.13372&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.4232/1.13372&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

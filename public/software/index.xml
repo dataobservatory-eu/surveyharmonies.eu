@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/software/</link>
+      <atom:link href="https://surveyharmonies.eu/software/index.xml" rel="self" type="application/rss+xml" />
+    <description>Software</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Software</title>
+      <link>https://surveyharmonies.eu/software/</link>
+    </image>
+    
+    <item>
+      <title>dataset: Create Interoperable FAIR Datasets</title>
+      <link>https://surveyharmonies.eu/software/dataset/</link>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/software/dataset/</guid>
+      <description>&lt;h2 id=&#34;interoperable-fair-datasets&#34;&gt;Interoperable, FAIR datasets&lt;/h2&gt;
+&lt;p&gt;The primary aim of dataset is create well-referenced, well-described,
+interoperable datasets from data.frames, tibbles or data.tables that
+translate well into the W3C DataSet definition within the &lt;a href=&#34;https://www.w3.org/TR/vocab-data-cube/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data Cube
+Vocabulary&lt;/a&gt; in a reproducible
+manner. The data cube model in itself is is originated in the
+&lt;a href=&#34;https://sdmx.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Statistical Data and Metadata eXchange&lt;/a&gt;, and it is
+almost fully harmonzied with the Resource Description Framework (RDF),
+the standard model for data interchange on the web[^1].&lt;/p&gt;
+&lt;p&gt;A mapping of R objects into these models has numerous advantages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Makes data importing easier and less error-prone;&lt;/li&gt;
+&lt;li&gt;Leaves plenty of room for documentation automation, resulting in far
+better reusability and reproducability;&lt;/li&gt;
+&lt;li&gt;The publication of results from R following the
+&lt;a href=&#34;https://www.go-fair.org/fair-principles/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR&lt;/a&gt; principles is far
+easier, making the work of the R user more findable, more
+accessible, more interoperable and more reusable by other users;&lt;/li&gt;
+&lt;li&gt;Makes the placement into relational databases, semantic web
+applications, archives, repositories possible without time-consuming
+and costly data wrangling (See &lt;a href=&#34;https://dataset.dataobservatory.eu/articles/RDF.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;From dataset To
+RDF&lt;/a&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Our package functions work with any structured R objects (data.fame,
+data.table, tibble, or well-structured lists like json), however, the
+best functionality is achieved by the (See &lt;a href=&#34;https://dataset.dataobservatory.eu/articles/dataset.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The dataset S3
+Class&lt;/a&gt;), which
+is inherited from &lt;code&gt;data.frame()&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;contact&#34;&gt;Contact&lt;/h3&gt;
+&lt;p&gt;For contact information, contributors, see the
+&lt;a href=&#34;https://dataset.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;package&lt;/a&gt; homepage.&lt;/p&gt;
+&lt;h3 id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h3&gt;
+&lt;p&gt;Please note that the &lt;code&gt;dataset&lt;/code&gt; project is released with a
+&lt;a href=&#34;https://www.contributor-covenant.org/version/2/0/code_of_conduct/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Code of Conduct&lt;/a&gt;.
+By contributing to this project, you agree to abide by its terms.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>statcodelists: Use Standardized Statistical Codelists</title>
+      <link>https://surveyharmonies.eu/software/statcodelists/</link>
+      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/software/statcodelists/</guid>
+      <description>&lt;h2 id=&#34;retrospective-data-harmonization&#34;&gt;Retrospective data harmonization&lt;/h2&gt;
+&lt;p&gt;The aim of &lt;code&gt;retroharmonize&lt;/code&gt; is to provide tools for reproducible
+retrospective (ex-post) harmonization of datasets that contain variables
+measuring the same concepts but coded in different ways. Ex-post data
+harmonization enables better use of existing data and creates new
+research opportunities. For example, harmonizing data from different
+countries enables cross-national comparisons, while merging data from
+different time points makes it possible to track changes over time.&lt;/p&gt;
+&lt;p&gt;Retrospective data harmonization is associated with challenges including
+conceptual issues with establishing equivalence and comparability,
+practical complications of having to standardize the naming and coding
+of variables, technical difficulties with merging data stored in
+different formats, and the need to document a large number of data
+transformations. The &lt;code&gt;retroharmonize&lt;/code&gt; package assists with the latter
+three components, freeing up the capacity of researchers to focus on the
+first.&lt;/p&gt;
+&lt;p&gt;Specifically, the &lt;code&gt;retroharmonize&lt;/code&gt; package proposes a reproducible
+workflow, including a new class for storing data together with the
+harmonized and original metadata, as well as functions for importing
+data from different formats, harmonizing data and metadata, documenting
+the harmonization process, and converting between data types. See
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/reference/retrohamonize.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
+for an overview of the functionalities.&lt;/p&gt;
+&lt;p&gt;The new &lt;code&gt;labelled_spss_survey()&lt;/code&gt; class is an extension of &lt;a href=&#34;https://haven.tidyverse.org/reference/labelled_spss.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;haven’s labelled_spss class&lt;/a&gt;. It not
+only preserves variable and value labels and the user-defined missing
+range, but also gives an identifier, for example, the filename or the
+wave number, to the vector. Additionally, it enables the preservation –
+as metadata attributes – of the original variable names, labels, and
+value codes and labels, from the source data, in addition to the
+harmonized variable names, labels, and value codes and labels. This way,
+the harmonized data also contain the pre-harmonization record. The
+stored original metadata can be used for validation and documentation
+purposes.&lt;/p&gt;
+&lt;p&gt;The vignette &lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/labelled_spss_survey.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Working With The labelled_spss_survey Class&lt;/a&gt;
+provides more information about the &lt;code&gt;labelled_spss_survey()&lt;/code&gt; class.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/harmonize_labels.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harmonize Value Labels&lt;/a&gt;
+we discuss the characteristics of the &lt;code&gt;labelled_spss_survey()&lt;/code&gt; class and
+demonstrates the problems that using this class solves.&lt;/p&gt;
+&lt;p&gt;We also provide three extensive case studies illustrating how the
+&lt;code&gt;retroharmonize&lt;/code&gt; package can be used for ex-post harmonization of data
+from cross-national surveys:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/afrobarometer.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Afrobarometer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/arabbarometer.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arab
+Barometer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/eurobarometer.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The creators of &lt;code&gt;retroharmonize&lt;/code&gt; are not affiliated with either
+Afrobarometer, Arab Barometer, Eurobarometer, or the organizations that
+designs, produces or archives their surveys.&lt;/p&gt;
+&lt;p&gt;We started building an experimental APIs data is running retroharmonize
+regularly and improving known statistical data sources. See: &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt;, &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt;, &lt;a href=&#34;https://economy.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data Observatory&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;citations-and-related-work&#34;&gt;Citations and related work&lt;/h2&gt;
+&lt;h3 id=&#34;citing-the-data-sources&#34;&gt;Citing the data sources&lt;/h3&gt;
+&lt;p&gt;Our package has been tested on three harmonized survey’s microdata.
+Because &lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; is
+not affiliated with any of these data sources, to replicate our
+tutorials or work with the data, you have download the data files from
+these sources, and you have to cite those sources in your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Afrobarometer&lt;/strong&gt; data: Cite
+&lt;a href=&#34;https://afrobarometer.org/data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Afrobarometer&lt;/a&gt; &lt;strong&gt;Arab Barometer&lt;/strong&gt;
+data: cite &lt;a href=&#34;https://www.arabbarometer.org/survey-data/data-downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arab
+Barometer&lt;/a&gt;.
+&lt;strong&gt;Eurobarometer&lt;/strong&gt; data: The
+&lt;a href=&#34;https://ec.europa.eu/commfrontoffice/publicopinion/index.cfm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer&lt;/a&gt;
+data
+&lt;a href=&#34;https://ec.europa.eu/commfrontoffice/publicopinion/index.cfm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer&lt;/a&gt;
+raw data and related documentation (questionnaires, codebooks, etc.) are
+made available by &lt;em&gt;GESIS&lt;/em&gt;, &lt;em&gt;ICPSR&lt;/em&gt; and through the &lt;em&gt;Social Science Data
+Archive&lt;/em&gt; networks. You should cite your source, in our examples, we rely
+on the
+&lt;a href=&#34;https://www.gesis.org/en/eurobarometer-data-service/search-data-access/data-access&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GESIS&lt;/a&gt;
+data files.&lt;/p&gt;
+&lt;h3 id=&#34;citing-the-retroharmonize-r-package&#34;&gt;Citing the retroharmonize R package&lt;/h3&gt;
+&lt;p&gt;For main developer and contributors, see the
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;package&lt;/a&gt; homepage.&lt;/p&gt;
+&lt;p&gt;This work can be freely used, modified and distributed under the GPL-3
+license:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;citation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;retroharmonize&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; To cite package &amp;#39;retroharmonize&amp;#39; in publications use:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;   Daniel Antal (2021). retroharmonize: Ex Post Survey Data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;   Harmonization. R package version 0.1.17.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;   https://retroharmonize.dataobservatory.eu/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; A BibTeX entry for LaTeX users is&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;   @Manual{,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     title = {retroharmonize: Ex Post Survey Data Harmonization},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     author = {Daniel Antal},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     year = {2021},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     doi = {10.5281/zenodo.5006056},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     note = {R package version 0.1.17},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     url = {https://retroharmonize.dataobservatory.eu/},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;   }&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;contact&#34;&gt;Contact&lt;/h3&gt;
+&lt;p&gt;For contact information, contributors, see the
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;package&lt;/a&gt; homepage.&lt;/p&gt;
+&lt;h3 id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h3&gt;
+&lt;p&gt;Please note that the &lt;code&gt;retroharmonize&lt;/code&gt; project is released with a
+&lt;a href=&#34;https://www.contributor-covenant.org/version/2/0/code_of_conduct/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Code of Conduct&lt;/a&gt;.
+By contributing to this project, you agree to abide by its terms.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>retroharmonize R package for survey harmonization</title>
+      <link>https://surveyharmonies.eu/software/retroharmonize/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/software/retroharmonize/</guid>
+      <description>&lt;h2 id=&#34;retrospective-data-harmonization&#34;&gt;Retrospective data harmonization&lt;/h2&gt;
+&lt;p&gt;The aim of &lt;code&gt;retroharmonize&lt;/code&gt; is to provide tools for reproducible
+retrospective (ex-post) harmonization of datasets that contain variables
+measuring the same concepts but coded in different ways. Ex-post data
+harmonization enables better use of existing data and creates new
+research opportunities. For example, harmonizing data from different
+countries enables cross-national comparisons, while merging data from
+different time points makes it possible to track changes over time.&lt;/p&gt;
+&lt;p&gt;Retrospective data harmonization is associated with challenges including
+conceptual issues with establishing equivalence and comparability,
+practical complications of having to standardize the naming and coding
+of variables, technical difficulties with merging data stored in
+different formats, and the need to document a large number of data
+transformations. The &lt;code&gt;retroharmonize&lt;/code&gt; package assists with the latter
+three components, freeing up the capacity of researchers to focus on the
+first.&lt;/p&gt;
+&lt;p&gt;Specifically, the &lt;code&gt;retroharmonize&lt;/code&gt; package proposes a reproducible
+workflow, including a new class for storing data together with the
+harmonized and original metadata, as well as functions for importing
+data from different formats, harmonizing data and metadata, documenting
+the harmonization process, and converting between data types. See
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/reference/retrohamonize.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
+for an overview of the functionalities.&lt;/p&gt;
+&lt;p&gt;The new &lt;code&gt;labelled_spss_survey()&lt;/code&gt; class is an extension of &lt;a href=&#34;https://haven.tidyverse.org/reference/labelled_spss.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;haven’s labelled_spss class&lt;/a&gt;. It not
+only preserves variable and value labels and the user-defined missing
+range, but also gives an identifier, for example, the filename or the
+wave number, to the vector. Additionally, it enables the preservation –
+as metadata attributes – of the original variable names, labels, and
+value codes and labels, from the source data, in addition to the
+harmonized variable names, labels, and value codes and labels. This way,
+the harmonized data also contain the pre-harmonization record. The
+stored original metadata can be used for validation and documentation
+purposes.&lt;/p&gt;
+&lt;p&gt;The vignette &lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/labelled_spss_survey.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Working With The labelled_spss_survey Class&lt;/a&gt;
+provides more information about the &lt;code&gt;labelled_spss_survey()&lt;/code&gt; class.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/harmonize_labels.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harmonize Value Labels&lt;/a&gt;
+we discuss the characteristics of the &lt;code&gt;labelled_spss_survey()&lt;/code&gt; class and
+demonstrates the problems that using this class solves.&lt;/p&gt;
+&lt;p&gt;We also provide three extensive case studies illustrating how the
+&lt;code&gt;retroharmonize&lt;/code&gt; package can be used for ex-post harmonization of data
+from cross-national surveys:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/afrobarometer.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Afrobarometer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/arabbarometer.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arab
+Barometer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/articles/eurobarometer.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The creators of &lt;code&gt;retroharmonize&lt;/code&gt; are not affiliated with either
+Afrobarometer, Arab Barometer, Eurobarometer, or the organizations that
+designs, produces or archives their surveys.&lt;/p&gt;
+&lt;p&gt;We started building an experimental APIs data is running retroharmonize
+regularly and improving known statistical data sources. See: &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt;, &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt;, &lt;a href=&#34;https://economy.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data Observatory&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;citations-and-related-work&#34;&gt;Citations and related work&lt;/h2&gt;
+&lt;h3 id=&#34;citing-the-data-sources&#34;&gt;Citing the data sources&lt;/h3&gt;
+&lt;p&gt;Our package has been tested on three harmonized survey’s microdata.
+Because &lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; is
+not affiliated with any of these data sources, to replicate our
+tutorials or work with the data, you have download the data files from
+these sources, and you have to cite those sources in your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Afrobarometer&lt;/strong&gt; data: Cite
+&lt;a href=&#34;https://afrobarometer.org/data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Afrobarometer&lt;/a&gt; &lt;strong&gt;Arab Barometer&lt;/strong&gt;
+data: cite &lt;a href=&#34;https://www.arabbarometer.org/survey-data/data-downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arab
+Barometer&lt;/a&gt;.
+&lt;strong&gt;Eurobarometer&lt;/strong&gt; data: The
+&lt;a href=&#34;https://ec.europa.eu/commfrontoffice/publicopinion/index.cfm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer&lt;/a&gt;
+data
+&lt;a href=&#34;https://ec.europa.eu/commfrontoffice/publicopinion/index.cfm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurobarometer&lt;/a&gt;
+raw data and related documentation (questionnaires, codebooks, etc.) are
+made available by &lt;em&gt;GESIS&lt;/em&gt;, &lt;em&gt;ICPSR&lt;/em&gt; and through the &lt;em&gt;Social Science Data
+Archive&lt;/em&gt; networks. You should cite your source, in our examples, we rely
+on the
+&lt;a href=&#34;https://www.gesis.org/en/eurobarometer-data-service/search-data-access/data-access&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GESIS&lt;/a&gt;
+data files.&lt;/p&gt;
+&lt;h3 id=&#34;citing-the-retroharmonize-r-package&#34;&gt;Citing the retroharmonize R package&lt;/h3&gt;
+&lt;p&gt;For main developer and contributors, see the
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;package&lt;/a&gt; homepage.&lt;/p&gt;
+&lt;p&gt;This work can be freely used, modified and distributed under the GPL-3
+license:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;citation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;retroharmonize&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; To cite package &amp;#39;retroharmonize&amp;#39; in publications use:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;   Daniel Antal (2021). retroharmonize: Ex Post Survey Data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;   Harmonization. R package version 0.1.17.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;   https://retroharmonize.dataobservatory.eu/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; A BibTeX entry for LaTeX users is&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;   @Manual{,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     title = {retroharmonize: Ex Post Survey Data Harmonization},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     author = {Daniel Antal},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     year = {2021},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     doi = {10.5281/zenodo.5006056},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     note = {R package version 0.1.17},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;     url = {https://retroharmonize.dataobservatory.eu/},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt;   }&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;contact&#34;&gt;Contact&lt;/h3&gt;
+&lt;p&gt;For contact information, contributors, see the
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;package&lt;/a&gt; homepage.&lt;/p&gt;
+&lt;h3 id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h3&gt;
+&lt;p&gt;Please note that the &lt;code&gt;retroharmonize&lt;/code&gt; project is released with a
+&lt;a href=&#34;https://www.contributor-covenant.org/version/2/0/code_of_conduct/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Code of Conduct&lt;/a&gt;.
+By contributing to this project, you agree to abide by its terms.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>iotables R package for working with symmetric input-output tables</title>
+      <link>https://surveyharmonies.eu/software/iotables/</link>
+      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/software/iotables/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iotables.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; processes all the symmetric input-output tables of the EU member states, and calculates direct, indirect and induced effects, multipliers for GVA, employment, taxation. These are important inputs into policy evaluation, business forecasting, or granting/development indicator design. iotables is used by about 800 experts around the world.&lt;/p&gt;
+&lt;h2 id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h2&gt;
+&lt;p&gt;Please note that the &lt;code&gt;iotables&lt;/code&gt; project is released with a
+&lt;a href=&#34;https://www.contributor-covenant.org/version/2/0/code_of_conduct/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Code of
+Conduct&lt;/a&gt;.
+By contributing to this project, you agree to abide by its terms.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>regions R package to create sub-national statistical indicators</title>
+      <link>https://surveyharmonies.eu/software/regions/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/software/regions/</guid>
+      <description>&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;You can install the development version from
+&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;devtools&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;install_github&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;rOpenGov/regions&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or the released version from CRAN:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;install.packages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;devtools&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; currently takes care of 20,000 sub-divisional boundary changes in Europe since 1999. Comparing departments of France in 2013, with 2007 vojvodinas of Poland and 2018 megyék in Hungary? This extremely errorprone work is automated, as a result, you can compare 110-260 regions for far better analysis. regions was downloaded about 600 researchers in the first month after release.&lt;/p&gt;
+&lt;p&gt;You can review the complete package documentation on
+&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions.dataobservatory.eu&lt;/a&gt;. If you find
+any problems with the code, please raise an issue on
+&lt;a href=&#34;https://github.com/antaldaniel/regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;. Pull requests are
+welcome if you agree with the &lt;a href=&#34;https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Code of
+Conduct&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you use &lt;code&gt;regions&lt;/code&gt; in your work, please &lt;a href=&#34;https://doi.org/10.5281/zenodo.3825696&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cite the
+package&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Working with sub-national statistics has many benefits. In policymaking or in social sciences, it is a common practice to compare national statistics, which can be hugely misleading. The United States of America, the Federal Republic of Germany, Slovakia and Luxembourg are all countries, but they differ vastly in size and social homogeneity. Comparing Slovakia and Luxembourg to the federal states or even regions within Germany, or the states of Germany and the United States can provide more adequate insights. Statistically, the similarity of the aggregation level and high number of observations can allow more precise control of model parameters and errors.&lt;/p&gt;
+&lt;p&gt;The advantages of switching from a national level of the analysis to a
+sub-national level comes with a huge price in data processing,
+validation and imputation. The package Regions aims to help this
+process.&lt;/p&gt;
+&lt;p&gt;This package is an offspring of the
+&lt;a href=&#34;http://ropengov.github.io/eurostat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurostat&lt;/a&gt; package on
+&lt;a href=&#34;http://ropengov.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt;. It started as a tool to validate and re-code regional Eurostat statistics, but it aims to be a general solution for all sub-national statistics. It will be developed parallel with other rOpenGov packages.&lt;/p&gt;
+&lt;h2 id=&#34;sub-national-statistics-have-many-challenges&#34;&gt;Sub-national Statistics Have Many Challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Frequent boundary changes&lt;/strong&gt;: as opposed to national boundaries,
+the territorial units, typologies are often change, and this makes
+the validation and recoding of observation necessary across time.
+For example, in the European Union, sub-national typologies change
+about every three years and you have to make sure that you compare
+the right French region in time, or, if you can make the time-wise
+comparison at all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hierarchical aggregation and special imputation&lt;/strong&gt;: missingness is
+very frequent in sub-national statistics, because they are created
+with a serious time-lag compared to national ones, and because they
+are often not back-casted after boundary changes. You cannot use
+standard imputation algorithms because the observations are not
+similarly aggregated or averaged. Often, the information is
+seemingly missing, and it is present with an obsolete typology code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;package-functionality&#34;&gt;Package functionality&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Generic vocabulary translation and joining functions for
+geographically coded data&lt;/li&gt;
+&lt;li&gt;Keeping track of the boundary changes within the European Union
+between 1999-2021&lt;/li&gt;
+&lt;li&gt;Vocabulary translation and joining functions for standardized
+European Union statistics&lt;/li&gt;
+&lt;li&gt;Vocabulary translation for the &lt;code&gt;ISO-3166-2&lt;/code&gt; based Google data and
+the European Union&lt;/li&gt;
+&lt;li&gt;Imputation functions from higher aggregation hierarchy levels to
+lower ones, for example from &lt;code&gt;NUTS1&lt;/code&gt; to &lt;code&gt;NUTS2&lt;/code&gt; or from &lt;code&gt;ISO-3166-1&lt;/code&gt;
+to &lt;code&gt;ISO-3166-2&lt;/code&gt; (impute down)&lt;/li&gt;
+&lt;li&gt;Imputation functions from lower hierarchy levels to higher ones
+(impute up)&lt;/li&gt;
+&lt;li&gt;Aggregation function from lower hierarchy levels to higher ones, for
+example from NUTS3 to &lt;code&gt;NUTS1&lt;/code&gt; or from &lt;code&gt;ISO-3166-2&lt;/code&gt; to &lt;code&gt;ISO-3166-1&lt;/code&gt;
+(aggregate; under development)&lt;/li&gt;
+&lt;li&gt;Disaggregation functions from higher hierarchy levels to lower ones,
+again, for example from &lt;code&gt;NUTS1&lt;/code&gt; to &lt;code&gt;NUTS2&lt;/code&gt; or from &lt;code&gt;ISO-3166-1&lt;/code&gt; to
+&lt;code&gt;ISO-3166-2&lt;/code&gt; (disaggregate; under development)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vignettes--articles&#34;&gt;Vignettes / Articles&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://regions.danielantal.eu/articles/Regional_stats.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Working With Regional, Sub-National Statistical
+Products&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://regions.danielantal.eu/articles/validation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Validating Your
+Typology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://regions.danielantal.eu/articles/recode.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Recoding And
+Relabelling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://regions.danielantal.eu/articles/google_mobility_report.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Typology Of The Google Mobility Reports
+(COVID-19)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;feedback&#34;&gt;Feedback?&lt;/h2&gt;
+&lt;p&gt;Raise and &lt;a href=&#34;https://github.com/antaldaniel/eurobarometer/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue&lt;/a&gt; on Github or &lt;a href=&#34;https://danielantal.eu/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;get in touch&lt;/a&gt;. Downloaders from CRAN:
+&lt;a href=&#34;https://cran.r-project.org/package=regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/regions&#34; alt=&#34;metacran
+downloads&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

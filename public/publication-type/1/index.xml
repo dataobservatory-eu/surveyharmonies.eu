@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/publication-type/1/</link>
+      <atom:link href="https://surveyharmonies.eu/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>1</title>
+      <link>https://surveyharmonies.eu/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>regions R package to create sub-national statistical indicators</title>
+      <link>https://surveyharmonies.eu/software/regions/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/software/regions/</guid>
+      <description>&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;You can install the development version from
+&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;devtools&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;install_github&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;rOpenGov/regions&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or the released version from CRAN:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;install.packages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;devtools&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; currently takes care of 20,000 sub-divisional boundary changes in Europe since 1999. Comparing departments of France in 2013, with 2007 vojvodinas of Poland and 2018 megyék in Hungary? This extremely errorprone work is automated, as a result, you can compare 110-260 regions for far better analysis. regions was downloaded about 600 researchers in the first month after release.&lt;/p&gt;
+&lt;p&gt;You can review the complete package documentation on
+&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions.dataobservatory.eu&lt;/a&gt;. If you find
+any problems with the code, please raise an issue on
+&lt;a href=&#34;https://github.com/antaldaniel/regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;. Pull requests are
+welcome if you agree with the &lt;a href=&#34;https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Code of
+Conduct&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you use &lt;code&gt;regions&lt;/code&gt; in your work, please &lt;a href=&#34;https://doi.org/10.5281/zenodo.3825696&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cite the
+package&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Working with sub-national statistics has many benefits. In policymaking or in social sciences, it is a common practice to compare national statistics, which can be hugely misleading. The United States of America, the Federal Republic of Germany, Slovakia and Luxembourg are all countries, but they differ vastly in size and social homogeneity. Comparing Slovakia and Luxembourg to the federal states or even regions within Germany, or the states of Germany and the United States can provide more adequate insights. Statistically, the similarity of the aggregation level and high number of observations can allow more precise control of model parameters and errors.&lt;/p&gt;
+&lt;p&gt;The advantages of switching from a national level of the analysis to a
+sub-national level comes with a huge price in data processing,
+validation and imputation. The package Regions aims to help this
+process.&lt;/p&gt;
+&lt;p&gt;This package is an offspring of the
+&lt;a href=&#34;http://ropengov.github.io/eurostat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurostat&lt;/a&gt; package on
+&lt;a href=&#34;http://ropengov.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt;. It started as a tool to validate and re-code regional Eurostat statistics, but it aims to be a general solution for all sub-national statistics. It will be developed parallel with other rOpenGov packages.&lt;/p&gt;
+&lt;h2 id=&#34;sub-national-statistics-have-many-challenges&#34;&gt;Sub-national Statistics Have Many Challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Frequent boundary changes&lt;/strong&gt;: as opposed to national boundaries,
+the territorial units, typologies are often change, and this makes
+the validation and recoding of observation necessary across time.
+For example, in the European Union, sub-national typologies change
+about every three years and you have to make sure that you compare
+the right French region in time, or, if you can make the time-wise
+comparison at all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hierarchical aggregation and special imputation&lt;/strong&gt;: missingness is
+very frequent in sub-national statistics, because they are created
+with a serious time-lag compared to national ones, and because they
+are often not back-casted after boundary changes. You cannot use
+standard imputation algorithms because the observations are not
+similarly aggregated or averaged. Often, the information is
+seemingly missing, and it is present with an obsolete typology code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;package-functionality&#34;&gt;Package functionality&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Generic vocabulary translation and joining functions for
+geographically coded data&lt;/li&gt;
+&lt;li&gt;Keeping track of the boundary changes within the European Union
+between 1999-2021&lt;/li&gt;
+&lt;li&gt;Vocabulary translation and joining functions for standardized
+European Union statistics&lt;/li&gt;
+&lt;li&gt;Vocabulary translation for the &lt;code&gt;ISO-3166-2&lt;/code&gt; based Google data and
+the European Union&lt;/li&gt;
+&lt;li&gt;Imputation functions from higher aggregation hierarchy levels to
+lower ones, for example from &lt;code&gt;NUTS1&lt;/code&gt; to &lt;code&gt;NUTS2&lt;/code&gt; or from &lt;code&gt;ISO-3166-1&lt;/code&gt;
+to &lt;code&gt;ISO-3166-2&lt;/code&gt; (impute down)&lt;/li&gt;
+&lt;li&gt;Imputation functions from lower hierarchy levels to higher ones
+(impute up)&lt;/li&gt;
+&lt;li&gt;Aggregation function from lower hierarchy levels to higher ones, for
+example from NUTS3 to &lt;code&gt;NUTS1&lt;/code&gt; or from &lt;code&gt;ISO-3166-2&lt;/code&gt; to &lt;code&gt;ISO-3166-1&lt;/code&gt;
+(aggregate; under development)&lt;/li&gt;
+&lt;li&gt;Disaggregation functions from higher hierarchy levels to lower ones,
+again, for example from &lt;code&gt;NUTS1&lt;/code&gt; to &lt;code&gt;NUTS2&lt;/code&gt; or from &lt;code&gt;ISO-3166-1&lt;/code&gt; to
+&lt;code&gt;ISO-3166-2&lt;/code&gt; (disaggregate; under development)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vignettes--articles&#34;&gt;Vignettes / Articles&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://regions.danielantal.eu/articles/Regional_stats.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Working With Regional, Sub-National Statistical
+Products&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://regions.danielantal.eu/articles/validation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Validating Your
+Typology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://regions.danielantal.eu/articles/recode.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Recoding And
+Relabelling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://regions.danielantal.eu/articles/google_mobility_report.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Typology Of The Google Mobility Reports
+(COVID-19)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;feedback&#34;&gt;Feedback?&lt;/h2&gt;
+&lt;p&gt;Raise and &lt;a href=&#34;https://github.com/antaldaniel/eurobarometer/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue&lt;/a&gt; on Github or &lt;a href=&#34;https://danielantal.eu/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;get in touch&lt;/a&gt;. Downloaders from CRAN:
+&lt;a href=&#34;https://cran.r-project.org/package=regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/regions&#34; alt=&#34;metacran
+downloads&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

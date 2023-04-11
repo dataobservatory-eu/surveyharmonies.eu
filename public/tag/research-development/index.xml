@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research &amp; development | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/research-development/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/research-development/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research &amp; development</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Nov 2021 09:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Research &amp; development</title>
+      <link>https://surveyharmonies.eu/tag/research-development/</link>
+    </image>
+    
+    <item>
+      <title>How We Add Value to Public Data With Better Curation And Documentation?</title>
+      <link>https://surveyharmonies.eu/post/2021-11-08-indicator_findable/</link>
+      <pubDate>Mon, 08 Nov 2021 09:00:00 +0100</pubDate>
+      <guid>https://surveyharmonies.eu/post/2021-11-08-indicator_findable/</guid>
+      <description>&lt;p&gt;In this example, we show a simple indicator: the &lt;em&gt;Government Budget Allocations for R&amp;amp;D in Environment&lt;/em&gt; in many European countries. (In our &lt;em&gt;Digital Music Observatory&lt;/em&gt; we give a more relevant &lt;a href=&#34;https://music.dataobservatory.eu/post/2021-11-08-indicator_findable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;example&lt;/a&gt; about the turnover of the radio industry in Europe.)&lt;/p&gt;
+&lt;p&gt;This dataset comes from a public datasource, the data warehouse of the
+European statistical agency, Eurostat. Yet it is not trivial to use:
+unless you are familiar with the &lt;em&gt;nomenclature for the analysis and comparison of scientific programmes and budgets&lt;/em&gt; or the &lt;a href=&#34;https://www.oecd.org/sti/frascati-manual-2015-9789264239012-en.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Frascati Manual&lt;/a&gt;, you will probably not find &lt;a href=&#34;http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=gba_nabsfin07&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this dataset&lt;/a&gt; on the Eurostat website.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-raw-data-can-be-retrieved-gbard-by-socioeconomic-objectives-nabs-2007gba_nabsfin07-eurostat-folder-if-you-find-it&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The raw data can be retrieved GBARD by socioeconomic objectives (NABS 2007)[gba_nabsfin07] Eurostat folder (if you find it.)&#34; srcset=&#34;
+               /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp 400w,
+               /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_99b295653ecf8ec6dbf89153a188c1fa.webp 760w,
+               /media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/gbard_environment_expenditure_plot_hu092519695c5c8c0c293bf2a5eeefe580_292114_a4f175ef26eb4fd64901b7fec564a2d4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The raw data can be retrieved GBARD by socioeconomic objectives (NABS 2007)[gba_nabsfin07] Eurostat folder (if you find it.)
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;Our version of this statistical indicator is documented following the &lt;a href=&#34;https://www.go-fair.org/fair-principles/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR principles&lt;/a&gt;: our data assets
+are findable, accessible, interoperable, and reusable. While the
+Eurostat data warehouse partly fulfills these important data quality
+expectations, we can improve them significantly. And we can also
+improve the dataset, too, as we will show in the &lt;a href=&#34;https://surveyharmonies.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;findable-data&#34;&gt;Findable Data&lt;/h2&gt;
+&lt;p&gt;Our data observatories add value by curating the data&amp;ndash;we bring this
+indicator to light with a more descriptive name, and we place it in
+context with our &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt;.
+While many people may need this dataset in the environmental policy organizations, NGOs, scientific journalists, or researchers, most of them has no training in the nomenclatures of scientific and R&amp;amp;D spending or public budget accounts. Our curated data observatories bring together many
+available data around important domains. Our &lt;em&gt;Green Deal Data Observatory&lt;/em&gt;, for example, aims to form an ecosystem of climate policy and climate change mitigation data users and producers.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-added-descriptive-metadatahttpszenodoorgrecord5658849yyqicwdmliu-that-help-you-find-our-data-and-match-it-with-other-relevant-data-sources&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;We [added descriptive metadata](https://zenodo.org/record/5658849#.YYqicWDMLIU) that help you find our data and match it with other relevant data sources.&#34; srcset=&#34;
+               /media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_94393f82400c1139d76477a52a1af13a.webp 400w,
+               /media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_2b0d6d8f077aaaeca31f7fc768a35e03.webp 760w,
+               /media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/zenodo_gbard_environment_expenditure_metadata_hu466af5eda667e61c992cbc3770f1c27b_194619_94393f82400c1139d76477a52a1af13a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We &lt;a href=&#34;https://zenodo.org/record/5658849#.YYqicWDMLIU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;added descriptive metadata&lt;/a&gt; that help you find our data and match it with other relevant data sources.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;We added descriptive metadata that help you find our data and match it
+with other relevant data sources. For example, we add keywords and
+standardized metadata identifiers from the Library of Congress Linked
+Data Services, probably the world’s largest standardized knowledge
+library description. This makes sure that you can find relevant data
+about the same concept (&lt;a href=&#34;https://id.loc.gov/authorities/subjects/sh85044203.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;environmental protection&lt;/a&gt;)
+besides our turnover data. This help unambigously connect our dataset
+with other information source that use the same concept, but maybe
+different keywords, such as &lt;em&gt;Protection of environment&lt;/em&gt;, or maybe &lt;em&gt;Umweltschutz&lt;/em&gt; in German, or &lt;em&gt;Ochrana životného prostredia&lt;/em&gt; in Slovak. Or avoid confusion with &lt;em&gt;Human environment&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;accessible-data&#34;&gt;Accessible Data&lt;/h2&gt;
+&lt;p&gt;Our data is accessible in two forms: in &lt;code&gt;csv&lt;/code&gt; tabular format (which can be
+read with Excel, OpenOffice, Numbers, SPSS and many similar spreadsheet
+or statistical applications) and in &lt;code&gt;JSON&lt;/code&gt; for automated importing into
+your databases. We can also provide our users with SQLite databases,
+which are fully functional, single user relational databases.&lt;/p&gt;
+&lt;p&gt;Tidy datasets are easy to manipulate, model and visualize, and have a
+specific structure: each variable is a column, each observation is a
+row, and each type of observational unit is a table. This makes the data
+easier to clean, and far more easier to use in a much wider range of
+applications than the original data we used. In theory, this is a simple objective,
+yet we find that even governmental statistical agencies&amp;ndash;and even scientific
+publications&amp;ndash;often publish untidy data. This poses a significant problem that implies
+productivity loses: tidying data will require long hours of investment, and if
+a reproducible workflow is not used, data integrity can also be compromised:
+chances are that the process of tidying will overwrite, delete, or omit a data or a label.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-tidy-datasetshttpsr4dshadconztidy-datahtml-are-easy-to-manipulate-model-and-visualize-and-have-a-specific-structure-each-variable-is-a-column-each-observation-is-a-row-and-each-type-of-observational-unit-is-a-table&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;[Tidy datasets](https://r4ds.had.co.nz/tidy-data.html) are easy to manipulate, model and visualize, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table.&#34; srcset=&#34;
+               /media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_840d5597bab1e4d7c2b314453bf83608.webp 400w,
+               /media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_f01845e0e6967cc9a3a2b53cf12edd0a.webp 760w,
+               /media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/blogposts_2021/tidy-8_hub5468e0441f3c23e1be9aa13622e5d1a_299553_840d5597bab1e4d7c2b314453bf83608.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;355&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;a href=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tidy datasets&lt;/a&gt; are easy to manipulate, model and visualize, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;While the original data source, the Eurostat data warehouse is
+accessible, too, we added value with bringing the data into a &lt;a href=&#34;https://www.jstatsoft.org/article/view/v059i10&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidy
+format&lt;/a&gt;. Tidy data can
+immediately be imported into a statistical application like SPSS or
+STATA, or into your own database. It is immediately available for
+plotting in Excel, OpenOffice or Numbers.&lt;/p&gt;
+&lt;h2 id=&#34;interoperability&#34;&gt;Interoperability&lt;/h2&gt;
+&lt;p&gt;Our data can be easily imported with, or joined with data from other internal or external sources.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-all-our-indicators-come-with-standardized-descriptive-metadata-and-statistical-processing-metadata-see-our-apihttpsapigreendealdataobservatoryeudatabasemetadata&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;All our indicators come with standardized descriptive metadata, and statistical (processing) metadata. See our [API](https://api.greendeal.dataobservatory.eu/database/metadata/) &#34; srcset=&#34;
+               /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp 400w,
+               /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_5807feecbd17bee02fd8c68fad87b1d7.webp 760w,
+               /media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/observatory_screenshots/GDO_API_metadata_table_hu31b494a33d5ae09272643545372dbd1d_100491_225afcd2a785db051b89c7c36fdc28b9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      All our indicators come with standardized descriptive metadata, and statistical (processing) metadata. See our &lt;a href=&#34;https://api.greendeal.dataobservatory.eu/database/metadata/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;API&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;All our indicators come with standardized descriptive metadata,
+following two important standards, the &lt;a href=&#34;https://dublincore.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dublin Core&lt;/a&gt; and
+&lt;a href=&#34;https://datacite.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DataCite&lt;/a&gt;–implementing not only the mandatory,
+but the recommended descriptions, too. This will make it far easier to
+connect the data with other data sources, e.g. turnover with the number of radio broadcasting enterprises or radio stations within specific territories.&lt;/p&gt;
+&lt;p&gt;Our passion for documentation standards and best practices goes much further: our data uses &lt;a href=&#34;https://sdmx.org/?page_id=3215/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Statistical Data and Metadata eXchange&lt;/a&gt; standardized codebooks, unit descriptions and other statistical and administrative metadata.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-participate-in-scientific-workhttpsreprexnlpublicationeuropean_visibilitiy_2021-related-to-data-interoperability&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;We participate in [scientific work](https://reprex.nl/publication/european_visibilitiy_2021/) related to data interoperability.&#34; srcset=&#34;
+               /media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_25232c9bd0c86814e3e3337261110ea4.webp 400w,
+               /media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_93fa43b83c3a299d78a1afed7bc4f820.webp 760w,
+               /media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://surveyharmonies.eu/media/img/reports/european_visbility_publication_hu9fd9bf0ebbda97354d76a2e1b9589f6b_264884_25232c9bd0c86814e3e3337261110ea4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;506&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We participate in &lt;a href=&#34;https://reprex.nl/publication/european_visibilitiy_2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scientific work&lt;/a&gt; related to data interoperability.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;h2 id=&#34;reuse&#34;&gt;Reuse&lt;/h2&gt;
+&lt;p&gt;All our datasets come with standardized information about reusabililty.
+We add citation, attribution data, and licensing terms. Most of our
+datasets can be used without commercial restriction after acknowledging
+the source, but we sometimes work with less permissible data licenses.&lt;/p&gt;
+&lt;p&gt;In the case presented here, we added further value to encourage re-use. In addition to tidying, we
+significantly increased the usability of public data by handling
+missing cases. This is the subject of our &lt;a href=&#34;https://surveyharmonies.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Are you a data user? Give us some feedback! Shall we do some further
+automatic data enhancements with our datasets? Document with different
+metadata? Link more information for business, policy, or academic use? Please
+give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;feedback&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

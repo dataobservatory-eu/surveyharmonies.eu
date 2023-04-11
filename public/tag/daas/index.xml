@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>daas | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/tag/daas/</link>
+      <atom:link href="https://surveyharmonies.eu/tag/daas/index.xml" rel="self" type="application/rss+xml" />
+    <description>daas</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://surveyharmonies.eu/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>daas</title>
+      <link>https://surveyharmonies.eu/tag/daas/</link>
+    </image>
+    
+    <item>
+      <title>Data-as-Service</title>
+      <link>https://surveyharmonies.eu/services/data-as-service/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://surveyharmonies.eu/services/data-as-service/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;We want to ensure that individual researchers, artists, and professionals, as well as NGOs and small and large organizations can benefit equally from big data in the age of artificial intelligence.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Big data creates inequality and injustice because it is only the big corporations, big government agencies, and the biggest, best endowed universities that can finance long-lasting, comprehensive data collection programs. Big data, and large, well-processed, tidy, and accurately imputed datasets allow them to unleash the power of machine learning and AI. These large entities are able to create algorithms that decide the commercial success of your product and your artwork, giving them a competitive edge against smaller competitors while helping them evade regulations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Check out our &lt;a href=&#34;https:/iotables.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; software that helps the use of national accounts data from all EU members states to create economic direct, indirect and induced economic impact calculation, such as employment multipliers or GVA affects of various cultural and creative economy policies.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Check out our &lt;a href=&#34;https:/regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; software that helps the harmonization of various European and African standardized surveys.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Check out our &lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; software that helps the harmonization of various European and African standardized surveys.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thermowatt | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/authors/thermowatt/</link>
+      <atom:link href="https://surveyharmonies.eu/authors/thermowatt/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thermowatt</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://surveyharmonies.eu/authors/thermowatt/avatar_hu8b6596ed934758ac2c422bbbcba1a455_17350_270x270_fill_lanczos_center_3.png</url>
+      <title>Thermowatt</title>
+      <link>https://surveyharmonies.eu/authors/thermowatt/</link>
+    </image>
+    
+  </channel>
+</rss>
