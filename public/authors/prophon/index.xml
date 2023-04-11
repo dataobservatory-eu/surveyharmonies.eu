@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PROPHON | SurveyHarmonies</title>
+    <link>https://surveyharmonies.eu/authors/prophon/</link>
+      <atom:link href="https://surveyharmonies.eu/authors/prophon/index.xml" rel="self" type="application/rss+xml" />
+    <description>PROPHON</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://surveyharmonies.eu/authors/prophon/avatar_hufe2bdcdabc05683866b2dff6bb5698e5_41914_270x270_fill_lanczos_center_3.png</url>
+      <title>PROPHON</title>
+      <link>https://surveyharmonies.eu/authors/prophon/</link>
+    </image>
+    
+  </channel>
+</rss>
