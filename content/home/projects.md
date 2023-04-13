@@ -27,10 +27,10 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Eviota
-      tag: Eviota
-    - name: Data Observatory Labs
-      tag: Data Observatory Labs
+    - name: CEEMID
+      tag: CEEMID
+    - name: MusicAIRE
+      tag: MusicAIRE
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
