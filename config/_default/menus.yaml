@@ -55,10 +55,6 @@ main:
     url: '#sectors'
     weight: 40
     identifier: Sector
-  - name: Banking
-    url: ../sector/banking
-    weight: 42
-    parent: Sector
   - name: Music
     url: ../sector/music
     weight: 43
