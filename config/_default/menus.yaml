@@ -64,7 +64,7 @@ main:
     weight: 44
     parent: Sector
   - name: "Cultural Access & Participation"
-    url:  ../sector/sme
+    url:  ../sector/cap
     weight: 45
     parent: Sector
   - name: Projects
@@ -75,17 +75,13 @@ main:
     url: '#projects'
     weight: 51
     parent: Projects
-  - name: Open Music Europe
-    url: '/project/eviota'
+  - name: CEEMID
+    url: '/project/ceemid'
     weight: 52
     parent: Projects
   - name: MusicAIRE
-    url: '/project/coal-mining'
+    url: '/project/musicaire'
     weight: 53
-    parent: Projects
-  - name: Open Innovation Lab
-    url: '/project/greenwashing'
-    weight: 54
     parent: Projects
 #  - name: Publications
 #    url: '#featured'

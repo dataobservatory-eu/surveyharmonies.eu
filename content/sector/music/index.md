@@ -24,14 +24,14 @@ slides: ""
 authors: ["admin", "musicaire"]
 
 links:
-- icon: mastodon
-  icon_pack: fab
-  name: "@reprex@mastodon.nl"
-  url: https://mastodon.nl/web/@reprex/
 - icon: linkedin
   icon_pack: fab
   name: Reprex
   url: https://www.linkedin.com/company/68855596/
+- icon: linkedin
+  name: Sinus
+  icon_pack: fab
+  link: https://www.linkedin.com/company/sinusinstitut/
 
 # Links (optional).
 url_pdf: ""

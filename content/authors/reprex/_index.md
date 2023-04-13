@@ -11,7 +11,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Reprex is managing the Green Deal Data Observatory open knowlege platform prototype, develops its software and creates high-quality datasets.
+role: ""
 
 # Organizations/Affiliations
 organizations:
@@ -43,6 +43,9 @@ social:
 - icon: github 
   icon_pack: github
   link: https://github.com/dataobservatory-eu/
+- icon: fingerprint
+  icon_pack: fas
+  url: https://isni.org/isni/000000050973936X
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
